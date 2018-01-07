@@ -1,0 +1,159 @@
+
+
+%		Introduce superfluids and their properties
+%		* Frictionless capillary flow (no viscosity)
+%		* Creeping up the walls seemingly defying gravity
+%		* capillary fountain
+%		* second sound: heat propagating in waves with a constant speed of "second sound" instead of diffusion
+%		* Fluid is irrotational
+%		* Vorticity is quantised
+	 
+
+%%		E, 1908, July 10:		Kamerlingh Onnes, Liquefaction of helium-4,\\
+%%		E, 1932, July:			John C. McLennan, Observed liquid helium stops boiling
+%below 2.2 K. \\
+%%		E, 1932:				W.H. Keesom, A.P. Keesom, observed a singularity in the specific
+%heat at T=2.2 K and called it the lambda-temperature, because of the shape of
+%the temperature dependence of the specific heat resembling the greek letter
+%lambda.\\
+%%		E, 1935, February 16:	E.F. Burton, measured sharply decreasing viscosity
+%below 2.2 K\\
+%%		T, 1935, August 16:		F. London, found that the magnitude of the zero-point
+%energy of helium-4 is comparable to the Van der Waals interaction. This
+%explains why helium doesn't freeze at T=0 at normal atmospheric pressure.\\
+%%		E, 1936, May:			W.H. Keesom, A.P. Keesom, Observed abnormally thermal
+%conductance, calling it 'supra-heat-conducting'\\
+%%		E, 1937, July 10:		J.F. Allen,R. Peierls, M. Zaki Uddin, also observed
+%abnormally high heat conductance. This was the reason for the liquid not
+%boiling below 2.2 K\\
+%%		E, 1937, December 3:	Kapitza, observed that below lambda-point viscosity of
+%helium II is roughly 1500 smaller than helium I at normal pressure. In analogy
+%with superconductors he concluded that helium below lambda enters a special
+%state which he called superfluid.	This was the first mention of the word
+%superfluid.\\
+%%		E, 1937, December 22:	Allen and Misener (1938) discovered that helium-ii is
+%not just a liquid with a very low viscosity, but that its hydrodynamics
+%required a completely new interpretation.\\
+%%		E, 1938, 05 February: 	J.F. Allen, discovery of fountain effect\\
+%%		T, 1938, April 9:		F. London, connects behaviour of helium-II to BEC (ideal
+%BE-gas). calculated Tc=3.09 K and Cv(t) for ideal BE-gas and they were very
+%close to helium-II. He concluded that it was difficult not to imagine a
+%connection to BEC\\
+%%		T, 1938, May 21:		L. Tisza, birth of the 2-fluid model\\
+%
+%					which leads to 
+%
+%	Explanation of superfluidity by 
+%		* Fritz London (April 1938, London, F., Nature, 141, 643 (1938))
+%l-transition in liquid helium is analogous to Bose-Einstein condensation
+%%		* Laszlo Tisza (May 1938, L. Tisza, Nature, 141, 913 (1938)) extended
+%London's proposal by invoking a two-fluid model for helium II, which could
+%qualitatively explain the observed transport phenomena, including the fountain
+%effect.
+%%		* Lev Landau (1941) if the spectrum of elementary excitations satisfies
+%suitable criteria, the flow of of the fluid cannot dissipate energy. Postulated
+%"phonons" and "rotons" and the famous Landau criterion for superfluidity
+%%		* Nikolay Nikolayevich Bogolyubov (Oct. 12, 1946. Publ. 1947): Derivation of
+%the elementary excitation spectrum from a molecular theory, making no
+%assumptions about the structure of the energy spectrum.
+
+
+%	\section{Random stuff about BEC}
+%	Most general (time-independent) many-body Hamiltonian
+%	\begin{align}
+%		H(\vec{r}_1,\ldots,\vec{r}_N, \vec{p}_1,\ldots,\vec{p}_N) =
+%\sum_{i=1}^N
+%\qty(-\frac{\hbar^2}{2m_i}\nabla_{\vec{r}_i}^2)+V(\vec{r}_i,\ldots,\vec{r}_N)
+%	\end{align}
+%	And accompanying Schrödinger equation to solve
+%	\begin{align}
+%		i\hbar\frac{\partial}{\partial t}\Psi(\vec{r}_1,\ldots,\vec{r}_N,t) =
+%\qty[\sum_{i=1}^N
+%\qty(-\frac{\hbar^2}{2m_i}\nabla_{\vec{r}_i}^2)+V(\vec{r}_i,\ldots,\vec{r}_N)
+%]\Psi(\vec{r}_1,\ldots,\vec{r}_N,t)
+%	\end{align}
+%For a 2-body system and a potential that only depends on the relative
+%coordinate $\vec{r}_1-\vec{r}_2$ the Hamiltonian reduces reduces to
+%	\begin{align}
+%		H(\vec{r}_1,\vec{r}_2) =
+%-\qty(\frac{\hbar^2}{2m_1}\nabla_{\vec{r}_1}^2+\frac{\hbar^2}{2m_2}\nabla_{\vec
+%{r}_2}^2)+V(\vec{r}_1-\vec{r}_2)
+%	\end{align}
+%By either introducing the relative coordinate $\vec{r}$ and the center-of-mass
+%(CM) coordinate $\vec{R}$, or the relative momentum
+%$\vec{p}$ and the total momentum $\vec{P}$, we can consider the motion of the
+%CM itself ($\vec{R}$) and the motion relative to the CM
+%	($\vec{r}$):
+%	\begin{align}
+%		H(\vec{R},\vec{r}) =
+%-\qty(\frac{\hbar^2}{2M}\nabla_{\vec{R}}^2+\frac{\hbar^2}{2\mu}\nabla_{\vec{r}}
+%^2)+V(\vec{r}),
+%	\end{align}
+%with $M=m_1+m_2$ and $\mu=\frac{m_1m_2}{m_1+m_2}$ (reduced mass of the system).
+%	Schrödinger equation to solve
+%	\begin{align}
+%i\hbar\frac{\partial}{\partial t}\Psi(\vec{R},\vec{r},t) &=
+%H(\vec{R},\vec{r})\Psi(\vec{R},\vec{r},t) \\
+%&=
+%\qty[-\qty(\frac{\hbar^2}{2M}\nabla_{\vec{R}}^2+\frac{\hbar^2}{2\mu}\nabla_
+%{\vec{r}}^2)+V(\vec{r})]
+%		\Psi(\vec{R},\vec{r},t) \label{eq:2b-se}
+%	\end{align}
+%	Assuming a separable solution and the given time-independence of the potential
+%	\begin{align}
+%\Psi(\vec{R},\vec{r},t) =
+%\Phi(\vec{R})\psi(\vec{r})\mathrm{e}^{-i(E_{CM}+E)t/\hbar}
+%	\end{align}
+%and the 2-body Schrödinger equation (\ref{eq:2b-se}) separates into two
+%mutually time-independent ODEs
+%	\begin{align}
+%-\frac{\hbar^2}{2M}\nabla_{\vec{R}}^2\Phi(\vec{R}) &= E_{CM}\Phi(\vec{R})
+%\label{eq:se-fp}\\
+%\qty[-\frac{\hbar^2}{2\mu}\nabla_{\vec{r}}^2 + V(\vec{r})]\psi(\vec{r}) &=
+%E\psi(\vec{r}). \label{eq:se-muv}
+%	\end{align}
+%ODE (\ref{eq:se-fp}) describes the center of mass motion for a free particle
+%with mass $M$ and energy
+%$E_{CM}$. In one dimension the time-\emph{dependent normalizable} solution for
+%such a particle,
+%initially localized between $-a$ and $a$ is an integral over plane waves over
+%all frequencies
+%	\begin{align}
+%\Phi(X,t) =
+%\frac{1}{\pi}\sqrt{\frac{a}{2}}\int_{-\infty}^{+\infty}\!\mathrm{sinc}(ka)\,
+%		\exp[i\qty(kX-\frac{\hbar k^2}{2M}t)]\,\mathrm{d}k.
+%	\end{align}
+%ODE (\ref{eq:se-muv}) describes the motion relative to the CM of a particle of
+%reduced mass $\mu$ in a potential $V(\vec{r})$.
+%	For hydrogen this is the Coulomb potential. Explicitly
+%	\begin{align}
+%\qty[-\frac{\hbar^2}{2\mu}\nabla_{\vec{r}}^2 -
+%\frac{e^2}{(4\pi\varepsilon_0)r}]\psi(\vec{r}) &= E\psi(\vec{r}),
+%	\end{align}
+%where it is customary to switch to spherical polar coordinates and separate the
+%solutions again
+%	\begin{align}
+%\psi(\vec{r}) \rightarrow \psi_{E,l,m}(r,\theta,\phi) =
+%R_{E,l}(r)Y_{ml}(\theta,\phi),
+%	\end{align}
+%where $R_{E,l}$ is the radial wave function, fully determined by the energy $E$
+%and the orbital angular momentum quantum
+%number $l$ and $Y_{ml}$ are the spherical harmonics, fully determined by $l$
+%and the magnetic quantum number $m$.
+%	
+%	\section{Helium-4, a 3-body system with 2 electrons}
+%The unperturbed (omit electron-electron repulsion) ground state (as obtained by
+%the `single particle model')
+%	\begin{align}
+%\psi_0^{(0)}(r_1,r_2) &= \psi_{1\mathrm{s}(r_1)}\psi_{1\mathrm{s}(r_2)} \otimes
+%		\frac{1}{\sqrt{2}}\qty(\ket{\uparrow\downarrow}-\ket{\downarrow\uparrow}) \\ 
+%&= \frac{8}{\pi}\exp[-2(r_1+r_2)] \otimes
+%\frac{1}{\sqrt{2}}\qty(\ket{\uparrow\downarrow}-\ket{\downarrow\uparrow})
+%	\end{align}
+%Or in the `central field approximation' with effective nuclear charge
+%$Z_e=1.70$
+%	\begin{align}
+%\psi_0(r_1,r_2) =
+%\frac{4.913}{\pi}\exp[-1.70(r_1+r_2)]\otimes\frac{1}{\sqrt{2}}\qty(\ket
+%{\uparrow\downarrow}-\ket{\downarrow\uparrow})
+%	\end{align}
