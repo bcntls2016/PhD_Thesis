@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  7 JAN 2018 18:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  9 JAN 2018 12:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1538,65 +1538,160 @@ File: specific-heat.png Graphic file (type png)
  <use specific-heat.png>
 Package pdftex.def Info: specific-heat.png used on input line 20.
 (pdftex.def)             Requested size: 161.9989pt x 129.28758pt.
- [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./specific-heat.png>] <phonon-roton-landau-first.png, id=16, 1084.55188pt x 841.1425pt>
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+ <./specific-heat.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+[2] <phonon-roton-landau-first.png, id=20, 1084.55188pt x 841.1425pt>
 File: phonon-roton-landau-first.png Graphic file (type png)
  <use phonon-roton-landau-first.png>
-Package pdftex.def Info: phonon-roton-landau-first.png used on input line 34.
+Package pdftex.def Info: phonon-roton-landau-first.png used on input line 41.
 (pdftex.def)             Requested size: 161.9989pt x 125.6397pt.
- <phonon-roton-bogoliubov.png, id=17, 1246.6575pt x 840.13875pt>
+ <phonon-roton-bogoliubov.png, id=21, 1246.6575pt x 840.13875pt>
 File: phonon-roton-bogoliubov.png Graphic file (type png)
  <use phonon-roton-bogoliubov.png>
-Package pdftex.def Info: phonon-roton-bogoliubov.png used on input line 35.
+Package pdftex.def Info: phonon-roton-bogoliubov.png used on input line 42.
 (pdftex.def)             Requested size: 161.9989pt x 109.1706pt.
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./phonon-roton-landau-first.png> <./phonon-roton-bogoliubov.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-[3 <./phonon-roton-landau-first.png> <./phonon-roton-bogoliubov.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 51.
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+<silver-filament.pdf, id=29, 123.04329pt x 93.15392pt>
+File: silver-filament.pdf Graphic file (type pdf)
+ <use silver-filament.pdf>
+Package pdftex.def Info: silver-filament.pdf used on input line 59.
+(pdftex.def)             Requested size: 161.9989pt x 122.65791pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+[4] <vortex-array.png, id=33, 442.2924pt x 133.4586pt>
+File: vortex-array.png Graphic file (type png)
+ <use vortex-array.png>
+Package pdftex.def Info: vortex-array.png used on input line 69.
+(pdftex.def)             Requested size: 323.9978pt x 97.76607pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `Kro02' on page 5 undefined on input line 75.
+
+
+LaTeX Warning: Citation `deL06' on page 5 undefined on input line 75.
+
+
+LaTeX Warning: Citation `deL10' on page 5 undefined on input line 75.
+
+
+LaTeX Warning: Citation `Agu13' on page 5 undefined on input line 75.
+
+
+LaTeX Warning: Citation `Str87a' on page 5 undefined on input line 75.
+
+
+LaTeX Warning: Citation `Str87b' on page 5 undefined on input line 75.
+
+
+LaTeX Warning: Citation `Dal95' on page 5 undefined on input line 75.
+
+
+Underfull \vbox (badness 3713) has occurred while \output is active []
+
+ [5 <./silver-filament.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 81.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
 
-Overfull \hbox (10.4792pt too wide) in paragraph at lines 53--54
+Overfull \hbox (10.4792pt too wide) in paragraph at lines 83--84
 []\OT1/cmr/m/n/10.95 Weakly-interacting Bose gas: Bo-golyubov's fa-mous dis-per-sion law $\OML/cmm/m/it/10.95 ^^O\OT1/cmr/m/n/10.95 ([]) =
  []
 
-[4]
-Overfull \hbox (2.82347pt too wide) in paragraph at lines 71--71
+[6 <./vortex-array.png>]
+Overfull \hbox (2.82347pt too wide) in paragraph at lines 101--101
 [] 
  []
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 83.
+LaTeX Warning: Command \r invalid in math mode on input line 113.
 
-[5] [6] [7]
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+
+ []
+
+[9] [10]
 \openout2 = `commented_stuff.aux'.
 
- (./commented_stuff.tex) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.aux (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/commented_stuff.aux)) ) 
+ (./commented_stuff.tex) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.aux (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/commented_stuff.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 11238 strings out of 492995
- 201369 string characters out of 6132704
- 244446 words of memory out of 5000000
- 14693 multiletter control sequences out of 15000+600000
+ 11257 strings out of 492995
+ 201672 string characters out of 6132704
+ 244463 words of memory out of 5000000
+ 14710 multiletter control sequences out of 15000+600000
  12614 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,16n,45p,10403b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.pdf (7 pages, 859946 bytes).
+Output written on /Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.pdf (10 pages, 6074081 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 152 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
