@@ -17,9 +17,9 @@
 	
 	\begin{figure}[t]
 		\begin{center}
-			\includegraphics[width=0.45\textwidth]{specific-heat}
+			\includegraphics[width=0.75\textwidth]{specific-heat}
 		\end{center}
-		\caption{The specific heat of $^4$He as a function of the temperature.}
+		\caption{The specific heat of $^4$He as a function of the temperature. There is a clearly visible singularity around $2.2\unit{K}$ and the graph itself has the distinct $\lambda$-like shape that inspired Willem and Anna Keesom to call the temperature at which the singularity occurs the ``$\lambda$-point''.}
 		\label{fig:specific-heat}
 	\end{figure}	
 	
@@ -38,14 +38,14 @@
 
 		\begin{figure}[t]
 			\begin{center}
-				\includegraphics[width=0.45\textwidth]{phonon-roton-landau-first}
-				\includegraphics[width=0.45\textwidth]{phonon-roton-bogoliubov}
+				\includegraphics[width=0.495\textwidth]{phonon-roton-landau-first}
+				\includegraphics[width=0.495\textwidth]{phonon-roton-bogoliubov}
 			\end{center}
 			\caption{Left: Lev Landau's 1941 energy dispersion curve for the excitations in liquid helium below $T_\lambda$. It exhibits a phonon- and a roton branch. The slope of the linear phonon branch corresponds to the velocity of sound. Right: Lev Landau's (Bogoliubov's) 1947 corrected dispersion curve. The roton-branch is no longer a separate excitation branch but rather an extension of the phonon-branch.}
 			\label{fig:phonon-roton}
 		\end{figure}
 
-		A theoretical demonstration that phonons and rotons are collective excitations of the liquid came in the form of a 1947 paper by Nikolay Bogolyubov[ref]. The intimate relationship between superfluidity and Bose-Einstein condensation was not universally accepted until 1995 when Cornell and Wienman in Colorado and Ketterle at MIT discovered BEC in rubidium quantum gases[ref].
+		A theoretical demonstration, explicitly showing that phonons and rotons are collective excitations of the liquid, came in the form of a 1947 paper by Nikolay Bogolyubov[ref]. The intimate relationship between superfluidity and Bose-Einstein condensation was not universally accepted until 1995 when Cornell and Wienman in Colorado and Ketterle at MIT discovered BEC in rubidium quantum gases[ref].
 	
 	\section{Helium droplets}
 		Until the 1980, most experimental and theoretical work was done on bulk systems, i.e. systems of the order of $N_A$ number of atoms. It was only in the last couple of decades that advancements in technology enabled experimentalists to create nanoscale sized superfluid helium droplets. From the early 1990's onwards, superfluid helium nano-droplets became an active field of study, both experimentally and theoretically. Surely, the finite size of these droplets would impose some interesting properties as compared to bulk liquid helium.\\
@@ -56,7 +56,7 @@
 		
 		\begin{figure}[t]
 			\begin{center}
-				\includegraphics[width=0.45\textwidth]{silver-filament}
+				\includegraphics[width=0.75\textwidth]{silver-filament}
 			\end{center}
 			\caption{Electron-microscope image of and elongated track-shaped Ag-cluster after it is surface-deposited.}
 			\label{fig:silver-filament}
@@ -64,44 +64,124 @@
 				
 		One of the most intriguing properties of superfluid helium droplets is the fact that they can host vortices. Because of their ultra low temperature they are true quantum liquids and thus their vorticity and angular momentum are quantised. The existence of quantised vortices was anticipated because they have been created and observed in Bose-Einstein condensates made of dilute gases. However. the detection of quantised vortices is still experimentally challenging. Recently, Gomez, Loginov and Vilesov performed experiments[PRL 108, 155302 (2012)] where vortices inside superfluid $^4$He droplets, produced by the expansion of liquid helium, were traced by introducing Ag atoms which clustered along the vortex lines, into the droplets. The Ag clusters were subsequently surface-deposited and imaged via electron microscopy. The prevalence of elongated track-shaped deposits (see Figure \ref{fig:vortex-array}) shows that vortices are present in droplets larger than about $300\unit{nm}$ and that their lifetime exceeds a few milliseconds. Two years later Gomez reported[Science 345, 906 (2014)] on the formation of quantum vortex lattices inside droplets. He used single-shot femtosecond x-ray coherent diffractive imaging to investigate the rotation of single, isolated superfluid helium-4 droplets containing $\sim\!10^8$ to $10^{11}$ atoms. The formation of quantum vortex lattices inside the droplets was confirmed by observing the characteristic Bragg patterns from xenon clusters trapped in the vortex cores (see Figure \ref{fig:vortex-array}).\\
 
-		\begin{figure}[h]
+		\begin{figure}[t]
 			\begin{center}
-				\includegraphics[width=0.9\textwidth]{vortex-array}
+				\includegraphics[width=\textwidth]{vortex-array}
 			\end{center}
 			\caption{He droplets doped with Xe atoms. (A and B) X-ray diffraction images of doped droplets, displayed in a logarithmic intensity scale. (C) Droplet and embedded Xe clusters. Images in (A) and (B) correspond to tilted and parallel alignments of the vortex axes with respect to the incident x-ray beam, respectively.}
 			\label{fig:vortex-array}
 		\end{figure}
 		
-		From the theoretical point of view, superfluid helium must be considered as a high dimensional quantum system. Quantum Monte Carlo (QMC) \cite{Kro02} and direct quantum mechanical \cite{deL06,deL10,Agu13} calculations are the most accurate methods, but their computational demand quickly exceeds currently available computer resources when the number of helium atoms increases. Furthermore, QMC cannot describe dynamic evolution of superfluid helium in real time. To address these limitations, approximate methods based on  density functional theory (DFT) formalism have been introduced \cite{Str87a,Str87b,Dal95}. DFT can be applied to much larger systems than QMC and allows for time-dependent formulation. As such, it offers a good compromise between accuracy and computational feasibility. The main drawback of DFT is that the exact energy functional is not known and must therefore be constructed in a semi-empirical manner. Nevertheless, DFT is the only method to date that can successfully reproduce results from a wide range of time-resolved experiments in superfluid helium on the atomic scale.
+		From the theoretical point of view, superfluid helium must be considered as a high dimensional quantum system. Quantum Monte Carlo (QMC) \cite{Kro02} and direct quantum mechanical \cite{deL06,deL10,Agu13} calculations are the most accurate methods, but their computational demand quickly exceeds currently available computer resources when the number of helium atoms increases. Furthermore, QMC cannot describe dynamic evolution of superfluid helium in real time. To address these limitations, approximate methods based on  density functional theory (DFT) formalism have been introduced \cite{Str87a,Str87b,Dal95}. DFT can be applied to much larger systems than QMC and allows for time-dependent formulation. As such, it offers a good compromise between accuracy and computational feasibility. The main drawback of DFT is that the exact energy functional is not known and must therefore be constructed in a semi-empirical manner. Nevertheless, DFT is the only method to date that can successfully reproduce results from a wide range of time-resolved experiments in superfluid helium on the atomic scale.\\
+		
+	A lot of of work has been done on helium droplets the last, both experimentally and theoretically. From the absorption spectra of alkali metal doped helium droplets, the study of doped mixed $^3$He--$^4$He droplets, electrons in liquid helium, to the investigation of the critical Landau velocity inside small $^4$He droplet. For a comprehensive overview of work done in the last two decades I would like to refer you to some review papers[JLTP.Vol142.Nos.1/2(2006), IRPC.Vol36No4.621-707(2017), IRPC.Vol33No3.301-339(2014)].
 	
 	\section{Some key concepts}
-	I will quickly introduce some key concepts that used throughout the thesis and that are needed to fully appreciate the discussed material. 
-		\subsection{Bose-Einstein condensation and superfluidity}		
+	I will introduce briefly some key concepts that are used throughout the thesis and that are needed to fully appreciate the discussed material. Also references to more complete and more in-depth treatments will be provided for the interested reader.
+		
+		\subsection{Bose-Einstein condensation and long-range order}
+			The essential concept of Bose-Einstein condensation is the fact that at low temperatures, multiple bosons, unlike fermions, can occupy the same quantum state. In theory there is no upper bound of how many bosons can occupy a single quantum state. It is then said that, with ever decreasing temperature, a macroscopic part of the total number of bosons will ``condense'' into the quantum state with the lowest energy.\\
+			
+			\begin{align}
+				n^{(1)}(\vec{r},\vec{r'}) := \expectationvalue{\hat{\Psi}^\dagger(\vec{r})\,\hat{\Psi}(\vec{r'})}\label{eq:def-obd-matrix}
+			\end{align}
+			
+			Another important concept in BEC is the idea of long-range order. Once it is accepted that a macroscopic part of the total number of bosons can occupy a single quantum state it can be demonstrated that, while considering a uniform isotropic sytem of $N$ bosons, the one-body density matrix (Eq. \ref{eq:def-obd-matrix}) tends to a constant value when the distance between $\vec{r}$ and $\vec{r}'$ goes to infinity. In the thermodynamic limit where $N,V\rightarrow\infty$ such that $n=N/V$ kept fixed, the one-body density only depends on the modulus of the relative variable $\vec{s}:=\vec{r}-\vec{r}'$ so that we can write it as the Fourier transform of the momentum distribution like so
+			\begin{align}
+				n^{(1)}(s) = \frac{1}{V}\int \! n^{(1)}\qty(\vec{p})\exp(i\vec{p}\cdot\vec{s}/\hbar)\,\mathrm{d}\vec{p}
+			\end{align}
+			For a Bose-Einstein condensed system, the momentum distribution at small momenta is not smooth but rather has a form not unlike
+			\begin{align}
+				n(\vec{p})=N_0\delta(\vec{p})+\tilde{n}(\vec{p})
+			\end{align}
+			so that in the limit where $s$ goes to infinity
+			\begin{align}
+				\lim_{s\rightarrow\infty}n^{(1)}(s)=\frac{N_0}{V},
+			\end{align}
+			where $N_0/V:=n_0\leq 1$ is called the condensate fraction. It is called long-range order since it involves the off-diagonal elements of the one-body density matrix; the elements that are usually associated with the coherences.\\
+			
+			A set of eigenvalues \{$n_i$\} of the one-body density matrix can be defined through the following eigenvalue equation
+			\begin{align}
+				\int \! n^{(1)}(\vec{r},\vec{r'})\varphi_i(\vec{r'}) \,\mathrm{d}\vec{r'} = n_i\varphi_i(\vec{r})
+			\end{align}
+			and its solutions \{$\varphi_i$\} form a natural orthonormal basis set of single boson wave functions $\int\!\varphi_i^*\varphi_j\,\mathrm{d}\vec{r}=\delta_{ij}$, with normalisation condition $\sum_i n_i=N$. This permits writing the on-body density matrix in a useful diagonalised form and recalling that Bose-Einstein condensation occurs when a single particle state $\varphi_i$ is occupied in a macroscopic way, say when $n_{i=0}=N_0$, a number of order $N$, we separate the condensate part from the rest
+			\begin{align}
+				n^{(1)}(\vec{r},\vec{r'}) = N_0\varphi_0^*(\vec{r})\varphi_0(\vec{r'})+\sum_{i\neq0}n_i\varphi_i^*(\vec{r})\varphi_i(\vec{r'}) \label{eq:obdm-diag}
+			\end{align}
+
+		\subsection{Bogolyubov's approximation and the order parameter}
+			It is customary, given the importance of the condensate fraction $N_0$ in a BEC, to write, just as the one-body density matrix, the field operator of a $N$-body boson system as the sum of the condensate part and the rest
+			\begin{align}
+				\hat{\Psi}(\vec{r})=\varphi_0(\vec{r})\hat{a}_0 + \sum_i \varphi_i(\vec{r})\hat{a}_i \label{eq:field-operator}
+			\end{align}
+			where the $\hat{a}_i$ and $\hat{a}_i^\dagger$ are annihilation and creation operator of a particle in state $\varphi_i$ and obey the usual bosonic commutation relations
+			\begin{align}
+				\commutator{\hat{a}_i}{\hat{a}_j^\dagger}=\delta_{ij},\quad 	\commutator{\hat{a}_i}{\hat{a}_j}=0=\commutator{\hat{a}_i^\dagger}{\hat{a}_j^\dagger}
+			\end{align}
+			Using Eq. (\ref{eq:field-operator}) in Eq. (\ref{eq:def-obd-matrix}) and comparing it to Eq. (\ref{eq:obdm-diag}) one finds the expectation value of $\expectationvalue{\hat{a}_j^\dagger\,\hat{a}_i}=\delta_{ij}n_i$. Now, the Bogolyubov approximation consists of replacing the operators $\hat{a}_0$ and $\hat{a}_0^\dagger$ with the $c$-number $\sqrt{N_0}$. This is equivalent to ignoring the non-commutative nature of the operators due to the macroscopic occupation of the state $\varphi_0$ where $N_0=\expectationvalue{\hat{a}_0^\dagger\,\hat{a}_0}\gg 1$. We then rewrite the field operator as the sum of a classical field for the condensed component and quantum field for the non-condensed component
+			\begin{align}
+				\hat{\Psi}(\vec{r})=\Psi_0(\vec{r})+\delta\hat{\Psi}(\vec{r}),
+			\end{align}
+			where $\hat{\Psi}(\vec{r})=\sum_{i\neq 0}\varphi_i\hat{a}_i$ and $\Psi_0(\vec{r})=\sqrt{N_0}\varphi_0$. At $T=0\unit{K}$ the whole system is condensed and one can ignore $\delta\hat{\Psi}(\vec{r})$; the field operator coincides with the classical field $\Psi_0$ thus behaving like a classical object.\\
+			
+			The classical field $\Psi_0$ is called the wave function of the condensate and behaves like an order parameter. It is a complex quantity characterised by a real-valued modulus and phase $S$:
+			\begin{align}
+				\Psi_0(\vec{r}) = \absolutevalue{\sqrt{N_0}\varphi_0}\,\mathrm{e}^{iS(\vec{r})}
+			\end{align}
+			The modulus determines the number-density of the condensate, while the phase $S$ plays an important role in the coherence and properties of the superfluid. As we will see later it plays the role of a velocity potential.\\
+			
+			One way to see why this wave function plays the role of an order parameter is to look at its time dependence. For normal wave functions the time dependence is determined by the eigenvalues $E_i$ of the Hamiltonian of the system
+			\begin{align}
+				\Psi(\vec{r},t)=\psi(\vec{r})\,\mathrm{e}^{-iE_it/\hbar}.
+			\end{align}
+			But in this case, the time dependence is determined by the chemical potential $\mu=E(N)-E(N-1)\approx \partial E/\partial N$
+			\begin{align}
+				\Psi_0(\vec{r},t)=\Psi_0(\vec{r})\,\mathrm{e}^{-i\mu t/\hbar}.
+			\end{align}
+
+		\begin{figure}[t]
+			\begin{center}
+				\includegraphics[width=0.9\textwidth]{dispersion-relation}
+			\end{center}
+			\caption{Dispersion relation for elementary excitations in liquid $^4$He calculated as in  \cite{Mat10a}. `Basic' indicates the OT-DFT without the non-local kinetic energy correlation (KC) nor the back-flow (BF) terms; KC OT-DFT adds  to the basic OT-DFT the KC term; BF OT-DFT adds to the basic OT-DFT the BF term. The dots are the experimental data from \cite{Don81}. The Landau velocity $v_L = E(q)/(\hbar\,q)|_{min}$ obtained for each functional is  60.3 m/s (OT-DFT); 75.1 m/s (BF OT-DFT); 94.4 m/s (KC OT-DFT); 118 m/s (basic OT-DFT); and 57.5 (experiment).}
+			\label{fig:dispersion-relation}
+		\end{figure}
+			
+		\subsection{Landau's criterion for superfluidity}
+			For a gas or liquid to be able to become superfluid Landau postulated that the energy dispersion relation needs to fulfil certain requirements. Specifically for a fluid to flow  without dissipation, i.e. a superflow, the velocity field needs to fulfil the following inequality:
+			\begin{align}
+				v<v_c = \min_{\vec{p}}\frac{\epsilon(\vec{p})}{p}
+			\end{align}
+			
+			For an ideal Bose gas $\epsilon(\vec{p})= \frac{p^2}{2m}$. In this case 
+			\begin{align}
+				v_c &= \min_{\vec{p}}\frac{\epsilon(\vec{p})}{p} \\
+					&= \min_{\vec{p}}\frac{p}{2m} \\
+					&= 0
+			\end{align}
+			Apparently ideal Bose-gases cannot become superfluid.\\
+			
+			But if we allow for some weak interactions between the bosons the energy dispersion relation becomes
+			\begin{align}
+				\epsilon(\vec{p})=\sqrt{\frac{gn}{m}p^2+\qty(\frac{p^2}{2m})^2},
+			\end{align}
+			Bogolyubov's dispersion law for elementary excitations, 1947. And thus
+			\begin{align}
+				v_c &=\min_{\vec{p}}\sqrt{\frac{gn}{m}+\frac{p^2}{4m^2}} \\
+					&= \sqrt{\frac{gn}{m}} \\
+					&= c,
+			\end{align}
+			the speed of sound. Here $g=\frac{4\pi\hbar^2a}{m}$, and $a$ the $s$-wave scattering length. The weakly interacting Bose gases can become superfluid.\\			
+
+			Liquid helium below the $\lambda$-point has a similar energy dispersion relation (see Figure \ref{fig:dispersion-relation}) hence reinforcing the notion that superfluids and BEC's are intimately related. The experimental value of the speed of sound is $\sim\!57.5\unit{m/s}$.
+			
+		\subsection{Rotation in superfluids and quantised vortices}
 			\begin{itemize}
-				\item Long-range order: diagonal density, Bogolyubov approximation, order parameter
-				\item Ideal Bose-gas in a box: thermal wavelength $\lambda_T$ (3.14), critical temperature $T_c$ (3.28), condensate fraction $N_0$ (3.31), $\epsilon(p)=p^2/2m$
-				\item Weakly-interacting Bose gas: Bogolyubov's famous dispersion law $\epsilon(\vec{p})=\qty[\frac{gn}{m}p^2+\qty(\frac{p^2}{2m})^2]^{1/2}$. Small $p$, $\epsilon(p)=cp$, phonons.
-				\item Non-uniform Bose-gases at T=0: Gross-Pitaevskii, irrotational velocity flow, vortex lines, rings and solitons
-				\item remind order parameter
-				\item explain difference between wave function and order parameter.
+				\item super fluid flow is irrotational
+				\item Angular momentum and vorticity are quantised.
 			\end{itemize}
 
-		\subsection{Long-range order}
-			One-body density matrix:
-			\begin{align}
-				n^{(1)}(\vec{r},\vec{r}') \vcentcolon=\expval{\hat{\Psi}^\dagger(\vec{r})\hat{\Psi}(\vec{r}')}
-			\end{align}
-			Diagonal density:
-			\begin{align}
-				n(\vec{r})\vcentcolon  = n^{(1)}(\vec{r},\vec{r})
-			\end{align}
-			Momentum distribution
-			\begin{align}
-				n(\vec{p}) = \expval{\hat{\Psi}^\dagger(\vec{p})\hat{\Psi}(\vec{p})} = \frac{1}{(2\pi\hbar)^3}\int \! n^{(1)}\qty(\vec{R}+\frac{\vec{s}}{2},\vec{R}-\frac{\vec{s}}{2})\exp(-i\vec{p}\cdot\vec{s}/\hbar)\,\mathrm{d}\vec{R}\mathrm{d}\vec{s},
-			\end{align}
-			where $\vec{R}\vcentcolon=(\vec{r}+\vec{r}')/2$ and $\vec{s}\vcentcolon=\vec{r}-\vec{r}'$.
-
-		\subsection{BEC}
+		\subsection{Some numbers concerning BEC}
 			Condensate fraction
 			\begin{align}
 				\frac{N_0}{N} = 1-\qty(\frac{T}{T_0})^{3/2},
@@ -115,48 +195,17 @@
 				\rho\lambda_{\mathrm{Th}}^3>14.546(2s+1),
 			\end{align}
 			where $\lambda_{\mathrm{Th}} \vcentcolon= h/\sqrt{2mk_\mathrm{B}T}$ the \emph{thermal de Broglie wavelength}. For $^4$He at $T=0.4\,\mathrm{K}$, $\lambda_{\mathrm{Th}}\approx 24.5$\,\AA. Comparing this to superfluid $^4$He's mean inter-particle distance $\langle r_4 \rangle \sim \qty(V/N)^{1/3}=2.22\sqrt[3]{4\pi/3}\approx 3.58$\,\AA, we see that $\lambda_{\mathrm{Th}}\approx 7\times\langle r_4 \rangle $; the system is very quantum-like.
-		
-		\subsection{Bogolubov ansatz}
-			\begin{align}
-				\hat{\Psi}(\vec{r})=\Psi_0(\vec{r})+\delta\hat{\Psi}(\vec{r}),
-			\end{align}
-			where $\hat{\Psi}(\vec{r})=\sum_{i\neq 0}\varphi_i\hat{a}_i$ and $\Psi_0(\vec{r})=\sqrt{N_0}\varphi_0$ is called the ``wave function of the condensate''. It is a complex quantity characterised by a real-valued modulus $\Phi$ and phase $S$:
-			\begin{align}
-				\Psi_0(\vec{r}) = \Phi(\vec{r})\mathrm{e}^{iS(\vec{r})}
-			\end{align}
-		
-		\subsection{Landau's criterion}
-			\begin{align}
-				v<v_c = \min_{\vec{p}}\frac{\epsilon(\vec{p})}{p}
-			\end{align}
-			
-			For an ideal Bose gas $\epsilon(\vec{p})=p^2/2m$, so 
-			\begin{align}
-				v_c &= \min_{\vec{p}}\frac{\epsilon(\vec{p})}{p} \\
-					&= \min_{\vec{p}}\frac{p}{2m} \\
-					&= 0
-			\end{align}
-			It is not a superfluid. But for a weakly interacting Bose gas, $\epsilon(\vec{p})=\sqrt{\frac{gn}{m}p^2+\qty(\frac{p^2}{2m})^2}$ (Bogoliubov's dispersion law for elementary excitations, 1947), so
-			\begin{align}
-				v_c &=\min_{\vec{p}}\sqrt{\frac{gn}{m}+\frac{p^2}{4m^2}} \\
-					&= \sqrt{\frac{gn}{m}} \\
-					&= c,
-			\end{align}
-			the speed of sound. Here $g=\frac{4\pi\hbar^2a}{m}$, and $a$ the $s$-wave scattering length. The weakly interacting Bose gas is a superfluid.	
-			
-		\subsection{Rotation in superfluids}
+
 			\begin{itemize}
-				\item super fluid flow is irrotational
-				\item Angular momentum and vorticity are quantised.
+				\item Long-range order: diagonal density, Bogolyubov approximation, order parameter
+				\item Ideal Bose-gas in a box: thermal wavelength $\lambda_T$ (3.14), critical temperature $T_c$ (3.28), condensate fraction $N_0$ (3.31), $\epsilon(p)=p^2/2m$
+				\item Weakly-interacting Bose gas: Bogolyubov's famous dispersion law $\epsilon(\vec{p})=\qty[\frac{gn}{m}p^2+\qty(\frac{p^2}{2m})^2]^{1/2}$. Small $p$, $\epsilon(p)=cp$, phonons.
+				\item Non-uniform Bose-gases at T=0: Gross-Pitaevskii, irrotational velocity flow, vortex lines, rings and solitons
+				\item remind order parameter
+				\item explain difference between wave function and order parameter.
 			\end{itemize}
 			
-	\section{State of the art}
-		* What has been done in the last two decades
-			- Manuel's review paper from 2006
-			- Manuel's review paper from 2017
-		* droplets as and ideal medium for chemistry
-			- characterisation of the photo-excitation dynamics of Alkalis
-		* droplets as a medium to study atomic cluster formation and dynamics
+		\subsection{DFT and Time-dependent DFT}
 		
 	\section{Structure of the thesis}
 		The thesis will consist of two parts, since the presented work focusses on two distinct areas of interest with no mutual overlap. Each part will have its own short introduction to motivate the performed research and put in a broader context. The final chapter contains a more general discussion about the presented material and will conclude with some work in progress and future prospects.
