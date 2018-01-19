@@ -1,0 +1,15 @@
+\contentsline {chapter}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {1.1}A brief history of superfluidity}{3}
+\contentsline {section}{\numberline {1.2}Some key concepts}{6}
+\contentsline {subsection}{\numberline {1.2.1}Bose-Einstein condensation and long-range order}{6}
+\contentsline {subsection}{\numberline {1.2.2}Bogolyubov's approximation and the order parameter}{8}
+\contentsline {subsection}{\numberline {1.2.3}Landau's criterion for superfluidity}{9}
+\contentsline {subsection}{\numberline {1.2.4}Rotation and vorticity in superfluids}{11}
+\contentsline {section}{\numberline {1.3}Helium droplets}{14}
+\contentsline {section}{\numberline {1.4}Structure of the thesis}{17}
+\contentsline {subsection}{\numberline {1.4.1}Part I: Excited state dynamics}{17}
+\contentsline {subsection}{\numberline {1.4.2}Part II: Collisions and capture by quantised vortices}{18}
+\contentsline {chapter}{\numberline {2}The Density Functional method}{19}
+\contentsline {section}{\numberline {2.1}The Orsay--Trento Functional}{21}
+\contentsline {section}{\numberline {2.2}Static calculations with heavy atomic impurities}{23}
+\contentsline {section}{\numberline {2.3}Dynamic calculations}{23}
