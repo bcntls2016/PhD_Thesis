@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  19 JAN 2018 17:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  29 JAN 2018 18:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1484,6 +1484,110 @@ Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
 \afterepigraphskip=\skip57
 \epigraphwidth=\skip58
 \epigraphrule=\skip59
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen181
+\Hy@linkcounter=\count153
+\Hy@pagecounter=\count154
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count155
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count156
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen182
+\Fld@menulength=\count157
+\Field@Width=\dimen183
+\Fld@charsize=\dimen184
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count158
+\c@Item=\count159
+\c@Hfootnote=\count160
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count161
+\c@bookmark@seq@number=\count162
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip60
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/morehype/hypertoc.sty
+Package: hypertoc 2011/01/23 v0.1 pretty TOC links (UL)
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
@@ -1496,78 +1600,71 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
- (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count153
+\Gread@gobject=\count163
 ))
-\Gin@req@height=\dimen181
-\Gin@req@width=\dimen182
+\Gin@req@height=\dimen185
+\Gin@req@width=\dimen186
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/type1cm/type1cm.sty
 Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, patched RF)
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/cfr-initials/Zallman.sty
-Package: Zallman 2007/11/24 v1.01 Zallman CFR
- (/usr/local/texlive/2017/texmf-dist/tex/latex/initials/Zallman.fd
-File: Zallman.fd 2003/04/02 Font definition file for U/Zallman
-)) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.aux (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/commented_stuff.aux))
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/cfr-initials/GoudyIn.sty
+Package: GoudyIn 2007/11/24 v1.01 GoudyIn CFR
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/initials/GoudyIn.fd
+File: GoudyIn.fd 2003/04/02 Font definition file for U/GoudyIn
+)) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.aux
+
+LaTeX Warning: Label `eq:el-static-hi' multiply defined.
+
+(/Users/fmgjcoppens/Developer/Notes/.texpadtmp/commented_stuff.aux))
 \openout1 = `notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+\AtBeginShipoutBox=\box46
+Package hyperref Info: Link coloring OFF on input line 24.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count164
+)
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
+ (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.out) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.out)
+\@outlinefile=\write3
+\openout3 = `notes.out'.
+
  (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count154
-\scratchdimen=\dimen183
-\scratchbox=\box46
-\nofMPsegments=\count155
-\nofMParguments=\count156
+\scratchcounter=\count165
+\scratchdimen=\dimen187
+\scratchbox=\box47
+\nofMPsegments=\count166
+\nofMParguments=\count167
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count157
-\MPscratchDim=\dimen184
-\MPnumerator=\count158
-\makeMPintoPDFobject=\count159
+\MPscratchCnt=\count168
+\MPscratchDim=\dimen188
+\MPnumerator=\count169
+\makeMPintoPDFobject=\count170
 \everyMPtoPDFconversion=\toks23
-) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
- (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
- (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
@@ -1575,8 +1672,8 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.toc)
-\tf@toc=\write3
-\openout3 = `notes.toc'.
+\tf@toc=\write4
+\openout4 = `notes.toc'.
 
  [1
 
@@ -1600,7 +1697,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-<specific-heat.png, id=12, 1019.30812pt x 813.53937pt>
+<specific-heat.png, id=102, 1019.30812pt x 813.53937pt>
 File: specific-heat.png Graphic file (type png)
  <use specific-heat.png>
 Package pdftex.def Info: specific-heat.png used on input line 31.
@@ -1628,39 +1725,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-[5] <phonon-roton-landau-first.png, id=33, 1084.55188pt x 841.1425pt>
+[5] <phonon-roton-landau-first.png, id=130, 1084.55188pt x 841.1425pt>
 File: phonon-roton-landau-first.png Graphic file (type png)
  <use phonon-roton-landau-first.png>
 Package pdftex.def Info: phonon-roton-landau-first.png used on input line 52.
 (pdftex.def)             Requested size: 193.0481pt x 149.71776pt.
- <phonon-roton-bogoliubov.png, id=34, 1246.6575pt x 840.13875pt>
+ <phonon-roton-bogoliubov.png, id=131, 1246.6575pt x 840.13875pt>
 File: phonon-roton-bogoliubov.png Graphic file (type png)
  <use phonon-roton-bogoliubov.png>
 Package pdftex.def Info: phonon-roton-bogoliubov.png used on input line 53.
 (pdftex.def)             Requested size: 193.0481pt x 130.09196pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+ [6 <./phonon-roton-landau-first.png> <./phonon-roton-bogoliubov.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-[6 <./phonon-roton-landau-first.png> <./phonon-roton-bogoliubov.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 82--84
 
  []
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
-[7]
+[7
+
+] [8]
 Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 112--114
 
  []
 
-<dispersion-relation.pdf, id=53, 701.62125pt x 516.93124pt>
+<dispersion-relation.pdf, id=171, 701.62125pt x 516.93124pt>
 File: dispersion-relation.pdf Graphic file (type pdf)
  <use dispersion-relation.pdf>
 Package pdftex.def Info: dispersion-relation.pdf used on input line 135.
@@ -1679,222 +1778,259 @@ LaTeX Warning: Citation `Mat10a' on page 9 undefined on input line 137.
 LaTeX Warning: Citation `Don81' on page 9 undefined on input line 137.
 
 [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./dispersion-relation.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 151--153
 
  []
 
-[10 <./dispersion-relation.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
-<vortex-xy.png, id=69, 240.9pt x 240.9pt>
+<vortex-xy.png, id=197, 240.9pt x 240.9pt>
 File: vortex-xy.png Graphic file (type png)
  <use vortex-xy.png>
 Package pdftex.def Info: vortex-xy.png used on input line 171.
-(pdftex.def)             Requested size: 292.5pt x 292.52647pt.
-
-
-LaTeX Warning: Reference `eq:order-parameter' on page 11 undefined on input line 181.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--190
+(pdftex.def)             Requested size: 195.0pt x 195.00662pt.
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
 
  []
 
-[11] [12 <./vortex-xy.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 214--216
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
+
+ []
+
+[12 <./vortex-xy.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 221--223
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 224--226
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
-
- []
-
-[14] <silver-filament.pdf, id=85, 123.04329pt x 93.15392pt>
+<silver-filament.pdf, id=247, 123.04329pt x 93.15392pt>
 File: silver-filament.pdf Graphic file (type pdf)
  <use silver-filament.pdf>
-Package pdftex.def Info: silver-filament.pdf used on input line 236.
+Package pdftex.def Info: silver-filament.pdf used on input line 244.
 (pdftex.def)             Requested size: 292.5pt x 221.46739pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
+[15
 
-Underfull \vbox (badness 2435) has occurred while \output is active []
-
- [15 <./silver-filament.pdf>] <vortex-array.png, id=137, 442.2924pt x 133.4586pt>
+] <vortex-array.png, id=254, 442.2924pt x 133.4586pt>
 File: vortex-array.png Graphic file (type png)
  <use vortex-array.png>
-Package pdftex.def Info: vortex-array.png used on input line 246.
+Package pdftex.def Info: vortex-array.png used on input line 254.
 (pdftex.def)             Requested size: 390.0pt x 117.68217pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Citation `Kro02' on page 16 undefined on input line 252.
-
-
-LaTeX Warning: Citation `deL06' on page 16 undefined on input line 252.
-
-
-LaTeX Warning: Citation `deL10' on page 16 undefined on input line 252.
-
-
-LaTeX Warning: Citation `Agu13' on page 16 undefined on input line 252.
-
-
-LaTeX Warning: Citation `Str87a' on page 16 undefined on input line 252.
-
-
-LaTeX Warning: Citation `Str87b' on page 16 undefined on input line 252.
-
-
-LaTeX Warning: Citation `Dal95' on page 16 undefined on input line 252.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
-
- []
-
-
-Underfull \vbox (badness 4899) has occurred while \output is active []
-
- [16 <./vortex-array.png>]
-Overfull \hbox (72.30504pt too wide) in paragraph at lines 254--255
+ [16 <./silver-filament.pdf>]
+Overfull \hbox (72.30504pt too wide) in paragraph at lines 260--261
 \OT1/cmr/m/n/12 last two decades I would like to re-fer you to some re-view pa-pers[JLTP.Vol142.Nos.1/2(2006),
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
-
- []
-
-
+[17 <./vortex-array.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
-[17]
+
 Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
-[18]
-Chapter 2.
 
-LaTeX Warning: Citation `Hoh64' on page 19 undefined on input line 279.
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
-
-Overfull \hbox (9.55415pt too wide) in paragraph at lines 279--280
-[][] \OT1/cmr/m/n/12 start-ing point for the den-sity func-tional method are the Hohenberg-
  []
 
-[19
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+[18
+
+] [19] [20
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 294--296
+Chapter 2.
+
+LaTeX Warning: Citation `Kro02' on page 21 undefined on input line 287.
+
+
+LaTeX Warning: Citation `deL06' on page 21 undefined on input line 287.
+
+
+LaTeX Warning: Citation `deL10' on page 21 undefined on input line 287.
+
+
+LaTeX Warning: Citation `Agu13' on page 21 undefined on input line 287.
+
+
+LaTeX Warning: Citation `Str87a' on page 21 undefined on input line 287.
+
+
+LaTeX Warning: Citation `Str87b' on page 21 undefined on input line 287.
+
+
+LaTeX Warning: Citation `Dal95' on page 21 undefined on input line 287.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
+LaTeX Warning: Citation `Hoh64' on page 21 undefined on input line 289.
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 304--306
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 317--319
 
  []
 
 
-Overfull \hbox (9.13138pt too wide) in paragraph at lines 310--311
+Overfull \hbox (9.13138pt too wide) in paragraph at lines 320--321
 []\OT1/cmr/m/n/12 Considering only eigen-states $	([]\OML/cmm/m/it/12 ; t\OT1/cmr/m/n/12 ) = 	[]([]) e[]$ of the time-independent
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 314--316
-
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 319--336
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 330--347
 []\OT1/cmr/m/n/12 Model pa-ram-e-ters for the OT-DFT and solid func-tion-als.
  []
 
 
-Overfull \hbox (24.63464pt too wide) in paragraph at lines 319--336
+Overfull \hbox (24.63464pt too wide) in paragraph at lines 330--347
 []
  []
 
-[21] [22]
+<static-response-function.png, id=354, 981.16562pt x 880.28876pt>
+File: static-response-function.png Graphic file (type png)
+ <use static-response-function.png>
+Package pdftex.def Info: static-response-function.png used on input line 351.
+(pdftex.def)             Requested size: 292.5pt x 262.42308pt.
+ [24
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 391--393
+
+ []
+
+[25 <./static-response-function.png>] [26]
+
+LaTeX Warning: Command \r invalid in math mode on input line 415.
+
+[27
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 425--427
+
+ []
+
+
+Overfull \hbox (9.75696pt too wide) in paragraph at lines 431--433
+\OT1/cmr/m/n/12 such that for a suit-able choice of $
+$ the vortex-array so-lu-tion be-comes favourable
+ []
+
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 411.
+(amsmath)                 on input line 435.
+
+[28]
+
+LaTeX Warning: Citation `Ell63' on page 29 undefined on input line 473.
 
 
-LaTeX Warning: Citation `Ell63' on page 23 undefined on input line 451.
+LaTeX Warning: Citation `Jak97' on page 29 undefined on input line 513.
 
-[23]
+[29
 
-LaTeX Warning: Citation `Jak97' on page 24 undefined on input line 491.
+]
 
-
-LaTeX Warning: Citation `Nak01' on page 24 undefined on input line 495.
-
-
-LaTeX Warning: Citation `Lea16' on page 24 undefined on input line 498.
+LaTeX Warning: Citation `Nak01' on page 30 undefined on input line 517.
 
 
-LaTeX Warning: Citation `Mel14' on page 24 undefined on input line 498.
+LaTeX Warning: Citation `Lea16' on page 30 undefined on input line 520.
 
 
-Overfull \hbox (12.25699pt too wide) detected at line 527
-\OML/cmm/m/it/12 E\OT1/cmr/m/n/12 [	\OML/cmm/m/it/12 ; \OT1/cmr/bx/n/12 r[]\OML/cmm/m/it/12 ; ^^U\OT1/cmr/m/n/12 ] = [] \OML/cmm/m/it/12 d\OT1/cmr/bx/n/12 r []\OMS/cmsy/m/n/12 jr\OT1/cmr/m/n/12 	\OMS/cmsy/m/n/12 j[] \OT1/cmr/m/n/12 + [] + [] \OML/cmm/m/it/12 d\OT1/cmr/bx/n/12 r \OMS/cmsy/m/n/12 E[]\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 ^^Z\OT1/cmr/m/n/12 ] + \OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 ^^U\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 V[]\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 ^^U\OMS/cmsy/m/n/12 i \OT1/cmr/m/n/12 + [] \OML/cmm/m/it/12 d\OT1/cmr/bx/n/12 r \OML/cmm/m/it/12 ^^Z\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 r\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 V[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 r \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/bx/n/12 r[]\OT1/cmr/m/n/12 )
+LaTeX Warning: Citation `Mel14' on page 30 undefined on input line 520.
+
+
+Overfull \hbox (12.25699pt too wide) detected at line 549
+[][]\OML/cmm/m/it/12 E\OT1/cmr/m/n/12 [	\OML/cmm/m/it/12 ; \OT1/cmr/bx/n/12 r[]\OML/cmm/m/it/12 ; ^^U\OT1/cmr/m/n/12 ] = [] \OML/cmm/m/it/12 d\OT1/cmr/bx/n/12 r []\OMS/cmsy/m/n/12 jr\OT1/cmr/m/n/12 	\OMS/cmsy/m/n/12 j[] \OT1/cmr/m/n/12 + [] + [] \OML/cmm/m/it/12 d\OT1/cmr/bx/n/12 r \OMS/cmsy/m/n/12 E[]\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 ^^Z\OT1/cmr/m/n/12 ] + \OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 ^^U\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 V[]\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 ^^U\OMS/cmsy/m/n/12 i \OT1/cmr/m/n/12 + [] \OML/cmm/m/it/12 d\OT1/cmr/bx/n/12 r \OML/cmm/m/it/12 ^^Z\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 r\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 V[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 r \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/bx/n/12 r[]\OT1/cmr/m/n/12 )
  []
 
-[24]
-Overfull \hbox (16.54088pt too wide) detected at line 552
-\OMS/cmsy/m/n/12 A\OT1/cmr/m/n/12 [	\OML/cmm/m/it/12 ; \OT1/cmr/bx/n/12 r[]\OML/cmm/m/it/12 ; ^^U\OT1/cmr/m/n/12 ] = [] \OML/cmm/m/it/12 dt [] 
+
+Overfull \hbox (16.54088pt too wide) detected at line 574
+[][]\OMS/cmsy/m/n/12 A\OT1/cmr/m/n/12 [	\OML/cmm/m/it/12 ; \OT1/cmr/bx/n/12 r[]\OML/cmm/m/it/12 ; ^^U\OT1/cmr/m/n/12 ] = [] \OML/cmm/m/it/12 dt [] 
  []
 
-[25]
+[30] [31]
 \openout2 = `commented_stuff.aux'.
 
- (./commented_stuff.tex) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.aux (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/commented_stuff.aux))
+ (./commented_stuff.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 614.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 614.
+ (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.aux (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/commented_stuff.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 614.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 614.
+Package rerunfilecheck Info: File `notes.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 614.
  ) 
 Here is how much of TeX's memory you used:
- 11690 strings out of 492995
- 208324 string characters out of 6132704
- 250919 words of memory out of 5000000
- 15111 multiletter control sequences out of 15000+600000
- 21529 words of font info for 80 fonts, out of 8000000 for 9000
+ 15392 strings out of 492995
+ 264498 string characters out of 6132704
+ 333920 words of memory out of 5000000
+ 18659 multiletter control sequences out of 15000+600000
+ 21448 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,16n,45p,10403b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/initials/Zallman.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on /Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.pdf (25 pages, 7263186 bytes).
+ 39i,19n,58p,10403b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/initials/GoudyIn.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on /Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.pdf (31 pages, 7575352 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 172 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 539 PDF objects out of 1000 (max. 8388607)
+ 448 compressed objects within 5 object streams
+ 131 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
