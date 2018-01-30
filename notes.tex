@@ -415,7 +415,7 @@
 			This equation is then solved in a self-consistent way by the Imaginary Time Method[ref 69] (ITM) in cartesian coordinates upon convergence. The calculations are performed in three dimensions without imposing any symmetries that are present in the external potential. All the quantities are discretised on evenly spaced cartesian grid with a grid constant that is typically of the order of $0.4\unit{\AA}$. The differential operators are evaluated using a $k$-point finite difference method where most of the time $k=13$ is sufficiently accurate. The integrals in the density-functional can be expressed as convolutions and can therefore be evaluated in momentum-space by exploiting the convolution theorem, using proprietary highly optimised parallel Fast Fourier Transform algorithms. 
 			
 			\subsection{Producing vortical states}	
-				The helium density that minimises the energy of the vortical states $\Psi_s$ (Eq. \ref{eq:line-vortex}), introduced in Section \ref{sec:rot-vort} can be obtained by solving the same EL-equation as for a vortex-free droplet. This becomes more clear when we write Eq. (\ref{eq:el-equation}) in cylindrical coordinates and then substitute $\Psi_s$ for $\Psi_0$:
+				The helium density that minimises the energy of the vortical states $\Psi_s$ (Eq. \ref{eq:line-vortex}), introduced in Section \ref{sec:rot-vort} can be obtained by solving the same EL-equation as for a vortex-free droplet. This becomes more clear when we write Eq. (\ref{eq:el-equation}) in cylindrical coordinates and then substitute $\Psi_0$ by $\Psi_s$:
 				\begin{align}
 					\qty{-\frac{\hbar^2}{2m}\qty[\frac{1}{r}\pdv{r}\qty(r\pdv{r})-\frac{s^2}{r^2}]+\fdv{\mathcal{E}_c}{\rho}}\Psi_s(\vec{r}) = \mu\Psi_s(\vec{r}) \label{eq:el-cyl}
 				\end{align}
@@ -423,7 +423,7 @@
 				\begin{align}
 					\Psi(\mathbf{r}) = \sqrt{\rho_0(\vec{r})} \,\times \frac{x + iy}{\sqrt{x^2 + y^2}} \label{eq28}
 				\end{align}
-				where $\rho_0$ is the ground state density of the vortex-droplet.  In cylindrical coordinates this factor is equivalent to the one in Eq. \ref{eq:line-vortex} for $s=1$.\\ 
+				where $\rho_0$ is the ground state density of the vortex-droplet.  In cylindrical coordinates this factor is equivalent to the one in Eq. (\ref{eq:line-vortex}) for $s=1$.\\ 
 				
 				This changes for droplets with two or more vortices, where the cylindrical symmetry is broken and the solutions are no longer solutions of Eq. (\ref{eq:el-cyl}) nor eigenfunctions of the angular momentum operator. In this case the time-independent EL-equation has to be modified to include a rotational constraint
 				\begin{align}
@@ -434,33 +434,21 @@
 					\Psi(\mathbf{r})=\sqrt{\rho_0(\vec{r})} \times \prod _{j=1}^{n_v}\left[ {(x-x_j)+i(y-y_j) \over \sqrt{(x-x_j)^2+(y-y_j)^2}}  \right] \label{eq32}
 				\end{align}
 				where $\rho_0$ is again the ground state density of the vortex-free droplet and $(x_j,y_j)$ is the initial position of the $j$-th vortex-line parallel to the $z$-axis.
+				
 		\clearpage
-		\section{Dynamic calculations}
-			\begin{equation}
-			E[\rho] \rightarrow E[\rho] + \frac{p^2_I}{2 m_I} + \int d \mathbf{r} \, \rho(\mathbf{r}) \,  V_{X^*}(|\mathbf{r}- \mathbf{r}_I|) 
-			\label{eq33}
-			\end{equation}
-			
-			\begin{eqnarray}
-			i\hbar\frac{\partial}{\partial t} \Psi
-			&=&
-			\left[
-			-\frac{\hbar^2}{2m_4} \nabla^2 +
-			\frac{\delta {\cal E}_c}{\delta \rho}
-			+
-			V_{X^*}(|\mathbf{r}- \mathbf{r}_I|)
-			\right]
-			\Psi
-			\nonumber
-			\\
-			m_I \ddot{\mathbf{r}}_I
-			&=&
-			- \nabla_{\mathbf{r}_I}
-			\left[  \int d \mathbf{r} \,\rho(\mathbf{r}) V_{X^*}(|\mathbf{r}- \mathbf{r}_I|)  \right]  =
-			-  \int d \mathbf{r} \, V_{X^*}(|\mathbf{r}- \mathbf{r}_I|)  \, \nabla \rho(\mathbf{r})  
-			\;
-			\label{eq34}
-			\end{eqnarray}
+		\section{Dynamic calculations with heavy atomic impurities}
+			In the dynamics, as in the statics, the impurity is treated classically. In this case we describe  the time evolution of the centre of mass of the impurity in the Newtonian way. To obtain the correct energy for the whole droplet-impurity system the energy functional needs to be extended to include the impurities centre of mass motion and the impurity-helium interaction
+			\begin{align}
+				E[\rho] \rightarrow E[\rho] + \frac{p^2_I}{2 m_I} + \int \! \rho(\mathbf{r}) \, V_{X^{\!*}}\qty(\abs{\vec{r}-\vec{r}_I})\diff{r} \label{eq33}
+			\end{align}
+			where $p^2_I$ is the classical momentum of the impurity, $m_I$ is the impurity mass and $V_{X^{\!*}}$ is the X-$^4$He pair potential for a ground-, excited- or ionised state. The equations of motion for the time evolution of the order parameter $\Psi\qty(\vec{r},t)$ and the centre of mass of the impurity $\ddot{\vec{r}}_I$ are  
+			\begin{align}
+				i\hbar\frac{\partial}{\partial t} \Psi &= \qty[-\frac{\hbar^2}{2m_4} \laplacian +\frac{\delta {\cal E}_c}{\delta \rho} + V_{X^*}(|\mathbf{r}- \mathbf{r}_I|)]\Psi\nonumber\\
+				m_I \ddot{\mathbf{r}}_I &=
+				- \grad_{\vec{r}_I}
+				\left[  \int \!\rho(\mathbf{r}) V_{X^*}(|\mathbf{r}- \mathbf{r}_I|)\diff{r}  \right] \\
+				 &= -\int \! V_{X^*}(|\mathbf{r}- \mathbf{r}_I|)  \, \grad \rho(\mathbf{r})\diff{r} \label{eq34}
+			\end{align}
 			
 			\begin{equation}
 			U(r_n)= 
