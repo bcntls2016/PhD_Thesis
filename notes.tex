@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{book}
+\documentclass[12pt,a4paper,twosides]{book}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -12,19 +12,21 @@
 \usepackage{epigraph}
 \usepackage{hyperref}
 \usepackage{hypertoc}
-\usepackage{graphicx,type1cm,GoudyIn,lettrine}
-%\usepackage{graphicx,type1cm,Zallman,lettrine}
-\renewcommand\LettrineFontHook{\GoudyInfamily}
-%\renewcommand\LettrineFontHook{\Zallmanfamily}
+%\usepackage{graphicx,type1cm,GoudyIn,lettrine}
+\usepackage{graphicx,type1cm,Zallman,lettrine}
+%\renewcommand\LettrineFontHook{\GoudyInfamily}
+\renewcommand\LettrineFontHook{\Zallmanfamily}
 \author{Fran\c{c}ois Coppens}
 \title{Notes}
 \renewcommand{\vec}[1]{\bm{\mathrm{#1}}}
 \newcommand{\unit}[1]{\,\mathrm{#1}}
 \newcommand{\diff}[1]{\,\mathrm{d}{\vec{#1}}}
 \begin{document}
+
 \tableofcontents
+
 \chapter{Introduction}
-	Superfluids are liquids and gasses with remarkable properties. In particular, superfluid helium can flow through a capillary without friction[\emph{ref}] due to its extremely low viscosity[https://doi.org/10.1016/j.crhy.2017.10.016]($\approx\!1500$ times lower than normal liquid helium), or creep up the wallof a container, seemingly defying the force of gravity (``Rollin creeping'')[\emph{ref}]. Its thermal conductivity is about $3\times10^6$ times higher[\emph{ref}] than that of typical liquids and about 200 times higher[\emph{ref}] than that of copper at room temperature[https://doi.org/10.1016/S0031-8914(36)80312-7,https://doi.org/10.1038/140062a0]. It therefore earned the title of ``best heat conducting substance we know'' by Willian and his daughter Anna Keesom and dubbed `\emph{supra-heat-conducting}'[\emph{ref}]. Later it was understood why[\emph{ref}] and it turns out that heat doesn't diffuse through the medium as in normal liquids, but rather it travels through the medium in waves (second sound). This makes it an ideal coolant e.g. to stabilise the superconducting magnets in CERN's Large Hadron Collider[ref]. Helium is also the only known substance that stays liquid at zero temperature and low pressures and both it's angular momentum and vorticity are quantised, making it the first observed macroscopic quantum substance. Helium-4 becomes superfluid below the$\lambda$-point, named so by William H. Keesom in 1936 who measured a singularity in the specific heat at $T_\lambda=2.2\unit{K}$.[https://doi.org/10.1016/j.crhy.2017.10.016]\\
+	\lettrine[lines=3,findent=3pt,nindent=0pt]{S}{uperfluids} are liquids and gases with remarkable properties. In particular, superfluid helium can flow through a capillary without friction[\emph{ref}] due to its extremely low viscosity[https://doi.org/10.1016/j.crhy.2017.10.016]($\approx\!1500$ times lower than normal liquid helium), or creep up the wall of a container, seemingly defying the force of gravity (``Rollin creeping'')[\emph{ref}]. Its thermal conductivity is about $3\times10^6$ times higher[\emph{ref}] than that of typical liquids and about 200 times higher[\emph{ref}] than that of copper at room temperature[https://doi.org/10.1016/S0031-8914(36)80312-7,https://doi.org/10.1038/140062a0]. It therefore earned the title of ``best heat conducting substance we know'' by Willem and his daughter Anna Keesom and dubbed `\emph{supra-heat-conducting}'[\emph{ref}]. Later it was understood why[\emph{ref}] and it turns out that heat doesn't diffuse through the medium as in normal liquids, but rather it travels through the medium in waves (second sound). This makes it an ideal coolant e.g. to stabilise the superconducting magnets in CERN's Large Hadron Collider[ref]. Helium is also the only known substance that stays liquid at zero temperature and low pressures and both its angular momentum and vorticity are quantised, making it the first observed macroscopic quantum substance. Helium-4 becomes superfluid below the $\lambda$-point, named so by William H. Keesom in 1936 who measured a singularity in the specific heat at $T_\lambda=2.2\unit{K}$.[https://doi.org/10.1016/j.crhy.2017.10.016]\\
 	
 	\begin{figure}[t]
 		\begin{center}
@@ -33,19 +35,18 @@
 		\caption{The specific heat of $^4$He as a function of the temperature. There is a clearly visible singularity around $2.2\unit{K}$ and the graph itself has the distinct $\lambda$-like shape that inspired Willem and Anna Keesom to call the temperature at which the singularity occurs the ``$\lambda$-point''.}
 		\label{fig:specific-heat}
 	\end{figure}	
-	
+
+	\clearpage			
 	\section{A brief history of superfluidity}
-		\lettrine[lines=3,findent=3pt,nindent=0pt]{H}{elium} was the last gas to be liquefied and was done so by Kamerlingh Onnes in 1908[\emph{ref}]. In 1932 John McLennan saw[\emph{ref}] that liquid helium stopped boiling below $\approx\!2.2\unit{K}$ and later that year Willem Keesom and his daughter Anna observed[\emph{ref}], while measuring  the temperature dependence of the specific heat, a singularity around the same temperature. They called it the ``$\lambda$-temperature'',  $T_\lambda$, because of the shape of the temperature dependence of the specific heat resembling the Greek letter $\lambda$ (see Figure \ref{fig:specific-heat}). A few years later in 1935 Burton measured a sharp decrease in the viscosity of liquid helium below $T_\lambda$. Around the same time Fritz London was already thinking about macroscopic wave functions and why helium does not freeze at $T=0\unit{K}$ under atmospheric pressure. He concluded that it was caused by the zero point motion of the helium atoms and of their associated kinetic energy that was comparable to their Van der Waals energy, effectively preventing liquid helium to solidify. The year after, in 1936, Willem and Anna Keesom measured an abnormally high heat conductance below $T_\lambda$. This was confirmed roughly one year later by J.F. Allen \emph{et al.} and it was understood that the high thermal conductance was the reason for the helium to stop boiling whenever the temperature drops below $T_\lambda$. It was in 1937 when Kapitza tried to determine the viscosity of the laminar flow that he measured a viscosity that was about $10^4$ times smaller than that of hydrogen gas. It was then that Kaptiza who, by analogy with superconductors, first coined the word ``superfluid'' to describe the special state that helium enters below the $\lambda$-point where it can flow, seemingly without friction. Allen and Misner realised that superfluid helium is not just a liquid with a very low viscosity, but that its hydrodynamics was completely different from that of ordinary liquids and therefore required a completely new interpretation.\\
+		\lettrine[lines=3,findent=3pt,nindent=0pt]{H}{elium} was the last gas to be liquefied and was done so by Kamerlingh Onnes in 1908[\emph{ref}]. In 1932 John McLennan saw[\emph{ref}] that liquid helium stopped boiling below $\approx\!2.2\unit{K}$ and later that year Willem Keesom and his daughter Anna observed[\emph{ref}], while measuring  the temperature dependence of the specific heat, a singularity around the same temperature. They called it the ``$\lambda$-temperature'',  $T_\lambda$, because of the shape of the temperature dependence of the specific heat resembling the Greek letter $\lambda$ (see Figure \ref{fig:specific-heat}). A few years later in 1935 Burton measured a sharp decrease in the viscosity of liquid helium below $T_\lambda$. Around the same time Fritz London was already thinking about macroscopic wave functions and why helium does not freeze at $T=0\unit{K}$ under atmospheric pressure. He concluded that it was caused by the zero point motion of the helium atoms and their associated kinetic energy that is comparable to their Van der Waals energy, effectively preventing liquid helium to solidify. The year after, in 1936, Willem and Anna Keesom measured an abnormally high heat conductance below $T_\lambda$. This was confirmed roughly one year later by J.F. Allen \emph{et al.} and it was understood that the high thermal conductance was the reason for the helium to stop boiling whenever the temperature drops below $T_\lambda$. It was in 1937 when Kapitza tried to determine the viscosity of the laminar flow that he measured a viscosity that was about $10^4$ times smaller than that of hydrogen gas. It was then that Kaptiza who, by analogy with superconductors, first coined the word ``superfluid'' to describe the special state that helium enters below the $\lambda$-point where it can flow, seemingly without friction. Allen and Misner realised that superfluid helium is not just a liquid with a very low viscosity, but that its hydrodynamics was completely different from that of ordinary liquids and therefore required a completely new interpretation.\\
 		
-		The start of this new interpretation was made by London in 1938 when he made a connection between the behaviour of superfluid helium to that of an ideal Bose-Einstein gas. Both his calculated value for $T_c=3.09\unit{K}$ and the behaviour of the temperature dependence of the heat capacity for the ideal Bose-gas were very similar to the measured ones for liquid helium below $T_\lambda$. He wrote to Nature that ``it was difficult not to imagine a connection with Bose-Einstein condensation''. Laszlo Tisza expanded upon London's ideas and considered a Helium II system of total $N$ atoms to consist of two parts; a macroscopic ``condensed'' part $n_0$, the superfluid component, in the ground state, and the remaining part $n=N-n_0$, the normal component, where the helium atoms are distributed over the excited states. Assuming this was correct the fraction $n_0/N$ should decrease with temperature according to the equation\\
-
+		The start of this new interpretation was made by London in 1938 when he made a connection between the behaviour of superfluid helium and that of an ideal Bose-Einstein (BE) gas. Both his calculated value for $T_c=3.09\unit{K}$ and the behaviour of the temperature dependence of the heat capacity for the ideal BE-gas were very similar to the measured ones for liquid helium below $T_\lambda$. He wrote to Nature that ``it was difficult not to imagine a connection with Bose-Einstein condensation'' (BEC). Laszlo Tisza expanded upon London's ideas and considered a Helium II system of total $N$ atoms to consist of two parts; a macroscopic ``condensed'' part $n_0$, the superfluid component, in the ground state, and the remaining part $n=N-n_0$, the normal component, where the helium atoms are distributed over the excited states. Assuming this was correct the fraction $n_0/N$ should decrease with increasing temperature according to the equation\\
 		\begin{align}
-			\frac{n}{N} = \qty(\frac{T}{T_0})^s \quad \text{for} \quad T<T_0
+			\frac{n_0}{N} = 1-\qty(\frac{T}{T_0})^s \quad \text{for} \quad T<T_0
 		\end{align}
-
 		where $s=3/2$ for an ideal gas and should be taken larger, e.g. $s=5$, for a real liquid with stronger interactions between the atoms.\\
 		
-		This was the birth of the ``two-fluid'' model. With this model he derived two hydrodynamic equations for liquid helium below $T_\lambda$ and discovered that within it, heat propagates in waves, contrary to diffusing, and calculated their velocity. He also explained why the viscosity is disappearing at low temperatures [\emph{this is explained in the french paper I still have to read}] contrary to classical liquids where the viscosity increases. In 1941 Lev Landau reformulated Tisza's theory on a more rigorous footing. He assumed, contrary to Tisza, that the normal component of the liquid was made-up of collective excitations instead of excited single atoms. He postulated that the liquid could exhibit two states of motion which he called ``potential motion''and ``vortex motion'' corresponding to the cases $\curl{\vec{v}}=0$ and $\curl{\vec{v}} \neq 0$ respectively, and that the corresponding energies are discontinuously separated by an energy gap $\Delta$. In case of potential internal motion  the excitations are quanta of longitudinal (sounds) waves, i.e., phonons. The excitations of the vortex-spectrum could be called ``rotons''(see Figure \ref{fig:phonon-roton}).\\
+		This was the birth of the ``two-fluid'' model. With this model he derived two hydrodynamic equations for liquid helium below $T_\lambda$ and discovered that within it, heat propagates in waves instead of diffusing through the medium, and calculated the velocity of these waves. He also explained why the viscosity is disappearing at low temperatures [\emph{this is explained in the french paper I still have to read}] contrary to classical liquids where the viscosity increases. In 1941 Lev Landau reformulated Tisza's theory on a more rigorous footing. He assumed, contrary to Tisza, that the normal component of the liquid was made-up of collective excitations instead of excited single atoms. He postulated that the liquid could exhibit two states of motion which he called ``potential motion'' that is irrotational ($\curl{\vec{v}}=0$), and ``vortex motion'' that is rotational ($\curl{\vec{v}} \neq 0$). The corresponding energies of these two motions are discontinuously separated by an energy gap $\Delta$. In case of potential internal motion  the excitations are quanta of longitudinal (sound) waves, i.e., phonons. The excitations of the vortex-spectrum could be called ``rotons''(see Figure \ref{fig:phonon-roton}).\\
 
 		\begin{figure}[t]
 			\begin{center}
@@ -56,27 +57,27 @@
 			\label{fig:phonon-roton}
 		\end{figure}
 
-		A theoretical demonstration, explicitly showing that phonons and rotons are collective excitations of the liquid, came in the form of a 1947 paper by Nikolay Bogolyubov[ref]. The intimate relationship between superfluidity and Bose-Einstein condensation was not universally accepted until 1995 when Cornell and Wienman in Colorado and Ketterle at MIT discovered BEC in rubidium quantum gases[ref].
+		A theoretical demonstration, explicitly showing that phonons and rotons are collective excitations of the liquid, came in the form of a 1947 paper by Nikolay Bogolyubov[ref]. The intimate relationship between superfluidity and BEC was not universally accepted until 1995 when Cornell and Wienman in Colorado and Ketterle at MIT discovered BEC in rubidium quantum gases[ref].
 
-	\clearpage		
+	\clearpage
 	\section{Some key concepts}
 	\lettrine[lines=3,findent=3pt,nindent=0pt]{I}{n} this section I will briefly introduce some key ideas that are used throughout the thesis and that are needed to fully appreciate the discussed material. Also references to more complete and more in-depth treatments will be provided for the interested reader.
 		
 		\subsection{Bose-Einstein condensation and long-range order}
-			The essential concept of Bose-Einstein condensation is the fact that at low temperatures, multiple bosons, unlike fermions, can occupy the same quantum state. In theory there is no upper bound of how many bosons can occupy such a single state. It is then said that, with ever decreasing temperature, a macroscopic part of the total number of bosons will ``condense'' into the quantum state with the lowest energy.\\			
+			The essential concept of Bose-Einstein condensation is the fact that at low temperatures, multiple bosons, unlike fermions, will occupy the same quantum state. In theory there is no upper bound of how many bosons can occupy such a single state. It is then said that, with ever decreasing temperature, a macroscopic part of the total number of bosons will ``condense'' into the quantum state with the lowest energy.\\			
 			\begin{align}
 				n^{(1)}(\vec{r},\vec{r'}) \vcentcolon= \expectationvalue{\hat{\Psi}^\dagger(\vec{r})\,\hat{\Psi}(\vec{r'})}\label{eq:def-obd-matrix}
 			\end{align}
 			
-			Another important concept in BEC is the idea of long-range order. Once it is accepted that a macroscopic part of the total number of bosons can occupy a single quantum state it can be demonstrated that, while considering a uniform isotropic sytem of $N$ bosons, the one-body density matrix (Eq. \ref{eq:def-obd-matrix}) tends to a constant value when the distance between $\vec{r}$ and $\vec{r}'$ goes to infinity. In the thermodynamic limit where $N,V\rightarrow\infty$ such that $n=N/V$ kept fixed, the one-body density only depends on the modulus of the relative variable $\vec{s}:=\vec{r}-\vec{r}'$ so that we can write it as the Fourier transform of the momentum distribution like so
+			Another important concept in BEC is the idea of long-range order. Once it is accepted that a macroscopic part of the total number of bosons can occupy a single quantum state it can be demonstrated that, while considering a uniform isotropic sytem of $N$ bosons, the one-body density matrix (Eq. \ref{eq:def-obd-matrix}) tends to a constant value when the distance between $\vec{r}$ and $\vec{r}'$ goes to infinity. In the thermodynamic limit where $N,V\rightarrow\infty$ such that $n=N/V$ is kept fixed, the one-body density only depends on the modulus of the relative variable $\vec{s}:=\vec{r}-\vec{r}'$ so that we can write it as the Fourier transform of the momentum distribution as
 			\begin{align}
-				n^{(1)}(s) = \frac{1}{V}\int \! n^{(1)}\qty(\vec{p})\exp(i\vec{p}\cdot\vec{s}/\hbar)\,\mathrm{d}\vec{p}
+				n^{(1)}(s) = \frac{1}{V}\int \! n^{(1)}\qty(\vec{p})\exp(i\vec{p}\cdot\vec{s}/\hbar)\,\mathrm{d}\vec{p} \label{eq:one-body-den-mom}
 			\end{align}
-			For a Bose-Einstein condensed system, the momentum distribution at small momenta is not smooth but rather has a form not unlike
+			For a Bose-Einstein condensed system, the momentum distribution at small momenta is not smooth but has a sharp peak around $p=0$ for the bosons that are in the ground state, while the remaining bosons are smoothly distributed over the remaining states
 			\begin{align}
 				n(\vec{p})=N_0\delta(\vec{p})+\tilde{n}(\vec{p})
 			\end{align}
-			so that in the limit where $s$ goes to infinity
+			where $\tilde{n}$ is a smoothly varying function of $\vec{p}$. When this expression is plugged into Eq. (\ref{eq:one-body-den-mom}) and taking the limit where $s$ goes to infinity
 			\begin{align}
 				\lim_{s\rightarrow\infty}n^{(1)}(s)=\frac{N_0}{V},
 			\end{align}
@@ -92,21 +93,21 @@
 			\end{align}
 
 		\subsection{Bogolyubov's approximation and the order parameter}\label{sec:bogol-order}
-			It is customary, given the importance of the condensate fraction $N_0$ in a BEC, to write, just as the one-body density matrix, the field operator of a $N$-body boson system as the sum of the condensate part and the rest
+			It is customary, given the importance of the condensate fraction $N_0$ in a BEC, to write the field operator of a $N$-body boson system as the sum of the condensate part and the rest, just as the one-body density matrix
 			\begin{align}
-				\hat{\Psi}(\vec{r})=\varphi_0(\vec{r})\hat{a}_0 + \sum_i \varphi_i(\vec{r})\hat{a}_i \label{eq:field-operator}
+				\hat{\Psi}(\vec{r})=\varphi_0(\vec{r})\hat{a}_0 + \sum_{i\neq 0} \varphi_i(\vec{r})\hat{a}_i \label{eq:field-operator}
 			\end{align}
 			where the $\hat{a}_i$ and $\hat{a}_i^\dagger$ are annihilation and creation operator of a particle in state $\varphi_i$ and obey the usual bosonic commutation relations
 			\begin{align}
 				\commutator{\hat{a}_i}{\hat{a}_j^\dagger}=\delta_{ij},\quad 	\commutator{\hat{a}_i}{\hat{a}_j}=0=\commutator{\hat{a}_i^\dagger}{\hat{a}_j^\dagger}
 			\end{align}
-			Using Eq. (\ref{eq:field-operator}) in Eq. (\ref{eq:def-obd-matrix}) and comparing it to Eq. (\ref{eq:obdm-diag}) one finds the expectation value of $\expectationvalue{\hat{a}_j^\dagger\,\hat{a}_i}=\delta_{ij}n_i$. Now, the Bogolyubov approximation consists of replacing the operators $\hat{a}_0$ and $\hat{a}_0^\dagger$ with the $c$-number\footnote{The term $c$-number is old nomenclature for a classical number, which can be real or complex, to distinguish them from quantum numbers, or $q$-numbers, that are represented by operators.} $\sqrt{N_0}$. This is equivalent to ignoring the non-commutative nature of the operators due to the macroscopic occupation of the state $\varphi_0$, when $N_0=\expectationvalue{\hat{a}_0^\dagger\,\hat{a}_0}\gg 1$. We then rewrite the field operator as the sum of a classical field for the condensed component and quantum field for the non-condensed component
+			Using Eq. (\ref{eq:field-operator}) in Eq. (\ref{eq:def-obd-matrix}) and comparing it to Eq. (\ref{eq:obdm-diag}) one finds the expectation value of $\expectationvalue{\hat{a}_j^\dagger\,\hat{a}_i}=\delta_{ij}n_i$. Now, the Bogolyubov approximation essentially replaces the operators $\hat{a}_0$ and $\hat{a}_0^\dagger$ with the $c$-number\footnote{The term $c$-number is old nomenclature for a classical number, which can be real or complex, to distinguish them from quantum numbers, or $q$-numbers, that are represented by operators.} $\sqrt{N_0}$. This is equivalent to ignoring the non-commutative nature of the operators due to the macroscopic occupation of the state $\varphi_0$, when $N_0=\expectationvalue{\hat{a}_0^\dagger\,\hat{a}_0}\gg 1$. We then rewrite the field operator as the sum of a classical field for the condensed component and quantum field for the non-condensed component
 			\begin{align}
 				\hat{\Psi}(\vec{r})=\Psi_0(\vec{r})+\delta\hat{\Psi}(\vec{r}),\label{eq:order-param-real}
 			\end{align}
 			where $\delta\hat{\Psi}(\vec{r})=\sum_{i\neq 0}\varphi_i(\vec{r})\hat{a}_i$ and $\Psi_0(\vec{r})=\sqrt{N_0}\varphi_0(\vec{r})$. At $T=0\unit{K}$ the whole system is condensed and one can ignore $\delta\hat{\Psi}$ altogether; the field operator coincides with the classical field $\Psi_0$ and thus behaves like a classical object.\\
 			
-			The classical field $\Psi_0$ is called the macroscopic wave function of the condensate and behaves like an order parameter. It is a complex quantity characterised by a real-valued modulus and phase $S$:
+			The classical field $\Psi_0$ is called the \emph{effective}- or \emph{macroscopic} wave function of the condensate and it behaves like an order parameter. It is a complex quantity characterised by a real-valued modulus and phase $S$:
 			\begin{align}
 				\Psi_0(\vec{r}) = \absolutevalue{\sqrt{N_0}\varphi_0(\vec{r)}}\,\mathrm{e}^{iS(\vec{r})}\label{eq:order-param-complex}
 			\end{align}
@@ -187,7 +188,7 @@
 				\vec{j}(\vec{r},t) \vcentcolon=& -\frac{i\hbar}{2m}\qty\Big[\Psi^*(\vec{r},t)\grad{\Psi}(\vec{r},t) - \Psi(\vec{r},t)\grad{\Psi^*}(\vec{r},t)] \\
 					=&\,\rho(\vec{r},t)\frac{\hbar}{m}\grad{S(\vec{r},t)}
 			\end{align}
-			From Eq. \ref{eq:continuity-eq} it follows that the atomic number density is a conserved quantity (\textbf{HOW DOES THIS CORRELATE WITH EVAPORATION ?}).\\
+			From Eq. (\ref{eq:continuity-eq}) it follows that the atomic number density is a conserved quantity (\textbf{HOW DOES THIS CORRELATE WITH EVAPORATION ?}).\\
 			
 			We can identify the collective velocity $\vec{v}_s$ of the superfluid through the relation
 			\begin{align}
@@ -195,11 +196,11 @@
 			\end{align}
 			and we see that the rotation of the velocity field of the superfluid $\curl{\vec{v}_s}=0$, i.e. the fluid is said to be \emph{irrotational}; a typical property of superfluids. Conversely, taking the curl $\curl{\vec{j}}=\frac{\hbar}{m}\grad{\rho}\times\grad{S}$ we see that this is merely a restatement of the fact that one needs a gas or liquid with a non-uniform density and a non-zero phase for it to be able to support vortices.\\
 			
-			Let us consider the illustrative example of a line vortex through the origin along the $z$-axis. Such a vortex solution has the form
+			Let us consider the illustrative example of a line vortex through the origin along the $z$-axis. As will be demonstrated in Section \ref{sec:vortical-states}, this is a stationary state of the droplet Hamiltonian and therefore independent of time. In cylindrical coordinates $(r,\varphi,z)$ such a vortex solution has the form
 			\begin{align}
 				\Psi_s(\vec{r}) = \sqrt{\rho(r)}\unit{e}^{is\varphi}, \label{eq:line-vortex}
 			\end{align}
-			in cylinder coordinates with $s$ an integer. This is an eigenfunction of the angular momentum operator $\hat{L}_z$ with eigenvalue
+			with $s$ an integer. This is an eigenfunction of the angular momentum operator $\hat{L}_z$ with eigenvalue
 			\begin{align}
 				\hat{L}_z \Psi_s(\vec{r}) &= \frac{\hbar}{i}\frac{\partial}{\partial\varphi}\Psi_s(\vec{r}) = \hbar s\Psi_s(\vec{r})
 			\end{align}
@@ -209,17 +210,17 @@
 					&= \hbar s \braket{\sqrt{N_0}\varphi_0} \\
 					&= N_0\hbar s
 			\end{align}
-			The angular momentum is quantised and proportional to the number of bosons in the BEC fraction/superfluid. We can calculate the velocity field and the circulation, like so
+			The angular momentum is quantised and proportional to the number of bosons in the BEC fraction/superfluid. We can calculate the velocity field
 			\begin{align}
 				\vec{v}_s = \frac{\hbar}{m}\grad{S} = \frac{\hbar}{m}\frac{s}{r}\,\vu*{\varphi}
 			\end{align}
 			The streamlines of $\vec{v}_s$ are concentric circles, centred around the z-axis, lying in the $xy$-plane (see Figure \ref{fig:vortex-xy}). Contrary to rigid rotation fields which increase proportional to the distance from the $z$-axis $r$, the superfluid rotation field decreases proportional to distance from the $z$-axis $1/r$ and is singular in the origin. Calculating the circulation of the velocity field $\vec{v}_s$ along a closed contour including the $z$-axis gives
 			\begin{align}
 				\oint_{\partial\Sigma}\!\vec{v}_s\cdot\unit{d}\vec{l} &=
-				\int\displaylimits_{0}^{2\pi}\!\!\int\displaylimits_{0}^{R}\!\frac{\hbar}{m}\frac{s}{r}\,\vu*{\varphi}\cdot r\unit{d}r\unit{d}\varphi\,\vu*{\varphi} \\
+				\int_{0}^{2\pi}\!\frac{\hbar}{m}\frac{s}{r}\,\vu*{\varphi}\cdot r\unit{d}\varphi\,\vu*{\varphi} \\
 					&= 2\pi s\frac{\hbar}{m}
 			\end{align}
-			There a two things to note here. Firstly, the circulation around a closed loop that encompasses the $z$-axis is quantised in units of $\hbar/m$ for $s\in\mathbb{N}_{>0}$. Secondly, the value of the circulation of the velocity field does not depend on the chosen contour as long as it includes the location of the vortex. This means that all the vorticity is contained at the location where the velocity field is singular (the ``core'' of the vortex), at $r=0$ along the $z$-axis.\\
+			There are two things to note here. Firstly, the circulation around a closed loop that encompasses the $z$-axis is quantised in units of $\hbar/m$ for $s\in\mathbb{N}_{>0}$. Secondly, the value of the circulation of the velocity field does not depend on the chosen contour as long as it includes the location of the vortex. This means that all the vorticity is contained at the location where the velocity field is singular (the ``core'' of the vortex), at $r=0$ along the $z$-axis.\\
 			
 			Because of the pole in the velocity field, Stokes theorem will lead to the following contradiction
 			\begin{align}
@@ -231,13 +232,13 @@
 			\end{align}
 			where $\delta^{(2)}$ is 2-dimensional Dirac-delta function and $\vec{r}_\perp$ a vector in a plane perpendicular to the vortex line.\\
 
-	\clearpage	
+	\clearpage
 	\section{Helium droplets}
 		\lettrine[lines=3,findent=3pt,nindent=0pt]{U}{ntil} the 1980, most experimental and theoretical work was done on bulk systems, i.e. systems of the order of $N_A$ number of atoms. It was only in the last couple of decades that advancements in technology enabled experimentalists to create nanoscale sized superfluid helium droplets. From the early 1990's onwards, superfluid helium nano-droplets became an active field of study, both experimentally and theoretically. Surely, the finite size of these droplets would impose some interesting properties as compared to bulk liquid helium.\\
 		
-		The helium-helium interaction is already weak in bulk liquid helium and in finite self-bound systems such as droplets it is even weaker, e.g. the binding energy per atom is $<\!7.17\unit{K}$. Because of this, helium droplets cool down very rapidly, reaching their limiting temperature of about $0.38\unit{K}$ in microseconds. Pure helium droplets are neutral systems and its properties like their size, binding energy and excitation spectra, are not easy to determine experimentally and are usually obtained by indirect methods. This didn't stop the theoreticians describe doped $^4$He$_N$ droplets using a wide variety of approaches depending on the size and character of the droplets ranging from Quantum Monte Carlo, Hypernetted-Chain/Euler-Lagrange, Variational Monte Carlo and many others.\\
+		The helium-helium interaction is already weak in bulk liquid helium and in finite self-bound systems such as droplets it is even weaker, e.g. the binding energy per atom is $<\!7.17\unit{K}$. Because of this, helium droplets cool down very rapidly due to evaporation, reaching their limiting temperature of about $0.38\unit{K}$ in microseconds. Pure helium droplets are neutral systems and their properties like their size, binding energy and excitation spectra, are not easy to determine experimentally and are usually obtained by indirect methods. This didn't stop the theoreticians describe doped $^4$He$_N$ droplets using a wide variety of approaches depending on the size and character of the droplets ranging from Quantum Monte Carlo, Hypernetted-Chain/Euler-Lagrange, Variational Monte Carlo and many others.\\
 	
-		A key property of helium droplets is their ability to pickup any kind of dopants with which they collide, binding them, depending on the relative strength of the He-dopant interaction compared to the He-He interaction, either to their surface (e.g. the alkalies) or absorb them into their interior. They can therefore be doped with almost any kind of atomic or molecular species where they can form new complexes. This enables a broad spectrum of possible experimental study. Due to the fact that helium droplet are ultra cold superfluid liquids, and therefore provide high mobility of any picked-up dopants, one can do high resolution spectroscopy studies. Having a fine control over the number of picked-up dopants[29] one can use droplets as a matrix for creating self-organising structures of polar molecules, or very cold metal clusters and study their Coulomb explosion. From the perspective of the droplet it's possible to use the dopants as gentle probes to determine the superfluid properties of helium droplets that would be inaccessible with other methods. For two examples of this see [37-39], where a dopant is used to probe the superfluid character of small $^4$He droplets and [16,17] to see their limiting temperatures.\\
+		A key property of helium droplets, in contrast to bulk helium, is their ability to pickup any kind of dopants with which they collide. Depending on the relative strength of the He-dopant interaction compared to the He-He interaction, impurities either get bound to the surface of the droplet (e.g. the alkalies) or get absorbed into their interior. They can therefore be doped with almost any kind of atomic or molecular species where they can form new complexes. This enables a broad spectrum of possible experimental study. Due to the fact that helium droplet are ultra cold superfluid liquids, and therefore provide high mobility of any picked-up dopants, one can do high resolution spectroscopy studies. Having a fine control over the number of picked-up dopants[29] one can use droplets as a matrix for creating self-organising structures of polar molecules, or very cold metal clusters and study their Coulomb explosion. From the perspective of the droplet it's possible to use the dopants as gentle probes to determine the superfluid properties of helium droplets that would be inaccessible with other methods. For two examples of this see [37-39], where a dopant is used to probe the superfluid character of small $^4$He droplets and [16,17] to see their limiting temperatures.\\
 		
 		\begin{figure}[t]
 			\begin{center}
@@ -247,7 +248,7 @@
 			\label{fig:silver-filament}
 		\end{figure}	
 				
-		One of the most intriguing properties of superfluid helium droplets is the fact that they can host vortices. Because of their ultra low temperature they are true quantum liquids and thus their vorticity and angular momentum are quantised. The existence of quantised vortices was anticipated because they have been created and observed in Bose-Einstein condensates made of dilute gases. However. the detection of quantised vortices is still experimentally challenging. Recently, Gomez, Loginov and Vilesov performed experiments[PRL 108, 155302 (2012)] where vortices inside superfluid $^4$He droplets, produced by the expansion of liquid helium, were traced by introducing Ag atoms which clustered along the vortex lines, into the droplets. The Ag clusters were subsequently surface-deposited and imaged via electron microscopy. The prevalence of elongated track-shaped deposits (see Figure \ref{fig:vortex-array}) shows that vortices are present in droplets larger than about $300\unit{nm}$ and that their lifetime exceeds a few milliseconds. Two years later Gomez reported[Science 345, 906 (2014)] on the formation of quantum vortex lattices inside droplets. He used single-shot femtosecond x-ray coherent diffractive imaging to investigate the rotation of single, isolated superfluid helium-4 droplets containing $\sim\!10^8$ to $10^{11}$ atoms. The formation of quantum vortex lattices inside the droplets was confirmed by observing the characteristic Bragg patterns from xenon clusters trapped in the vortex cores (see Figure \ref{fig:vortex-array}).\\
+		One of the most intriguing properties of superfluid helium droplets is the fact that they can host quantised vortices. Because of their ultra low temperature they are true quantum liquids and thus their vorticity and angular momentum are quantised. The existence of quantised vortices was anticipated because they have been created and observed in Bose-Einstein condensates made of dilute gases. However, the detection of quantised vortices is still experimentally challenging. Recently, Gomez, Loginov and Vilesov performed experiments[PRL 108, 155302 (2012)] where vortices inside superfluid $^4$He droplets, produced by the expansion of liquid helium, were traced by introducing Ag atoms which clustered along the vortex lines, into the droplets. The Ag clusters were subsequently surface-deposited and imaged via electron microscopy. The prevalence of elongated track-shaped deposits (see Figure \ref{fig:vortex-array}) shows that vortices are present in droplets larger than about $300\unit{nm}$ and that their lifetime exceeds a few milliseconds. Two years later Gomez reported[Science 345, 906 (2014)] on the formation of quantum vortex lattices inside droplets. He used single-shot femtosecond x-ray coherent diffractive imaging to investigate the rotation of single, isolated superfluid helium-4 droplets containing $\sim\!10^8$ to $10^{11}$ atoms. The formation of quantum vortex lattices inside the droplets was confirmed by observing the characteristic Bragg patterns from xenon clusters trapped in the vortex cores (see Figure \ref{fig:vortex-array}).\\
 
 		\begin{figure}[t]
 			\begin{center}
@@ -259,7 +260,7 @@
 				
 	A lot of of work has been done on helium droplets the last few decades, both experimentally and theoretically. From the absorption spectra of alkali metal doped helium droplets, the study of doped mixed $^3$He--$^4$He droplets, electrons in liquid helium, to the investigation of the critical Landau velocity inside small $^4$He droplet. For a comprehensive overview of work done in the last two decades I would like to refer you to some review papers[JLTP.Vol142.Nos.1/2(2006), IRPC.Vol36No4.621-707(2017), IRPC.Vol33No3.301-339(2014)].
 
-	\clearpage	
+	\clearpage
 	\section{Structure of the thesis}
 		\lettrine[lines=3,findent=3pt,nindent=0pt]{T}{his} thesis will consist of two parts, since the presented work focusses on two distinct areas of interest with no mutual overlap. Each part will have its own short introduction to motivate the performed research and put in a broader context. The final chapter contains a more general discussion about the presented material and will conclude with some work in progress and future prospects.
 
@@ -284,7 +285,7 @@
 		and in a droplet bind them
 		in the Realm of Physics where Reason lies.}{\textit{some guy from LCAR}}
 
-		\lettrine[lines=3,findent=3pt,nindent=0pt]{F}{rom} the theoretical point of view, superfluid helium must be considered as a high dimensional quantum system. Quantum Monte Carlo (QMC) \cite{Kro02} and direct quantum mechanical \cite{deL06,deL10,Agu13} calculations are the most accurate methods, but their computational demand quickly exceeds currently available computer resources when the number of helium atoms increases. Furthermore, QMC cannot describe dynamic evolution of superfluid helium in real time. To address these limitations, approximate methods based on  density functional theory (DFT) formalism have been introduced \cite{Str87a,Str87b,Dal95}. DFT can be applied to much larger systems than QMC and allows for time-dependent formulation. As such, it offers a good compromise between accuracy and computational feasibility. The main drawback of DFT is that the exact energy functional is not known and must therefore be constructed in a semi-empirical manner. Nevertheless, DFT is the only method to date that can successfully reproduce results from a wide range of time-resolved experiments in superfluid helium on the atomic scale.\\
+		\lettrine[lines=3,findent=3pt,nindent=0pt]{F}{rom} the theoretical point of view, superfluid helium must be considered as a high dimensional quantum system. Quantum Monte Carlo (QMC) \cite{Kro02} and direct quantum mechanical \cite{deL06,deL10,Agu13} calculations are the most accurate methods, but their computational demand quickly exceeds currently available computer resources when the number of helium atoms increases. Furthermore, QMC cannot describe dynamic evolution of superfluid helium in real time. To address these limitations, semi-empirical methods based on  density functional theory (DFT) formalism have been introduced \cite{Str87a,Str87b,Dal95}. DFT can be applied to much larger systems than QMC and allows for time-dependent formulation. As such, it offers a good compromise between accuracy and computational feasibility. The main drawback of DFT is that the exact energy functional is not known and must therefore be constructed in a semi-empirical manner. Moreover, doped helium droplets are limited to a mean-field description of the dopant-helium interaction. Nevertheless, DFT is the only method to date that can successfully reproduce results from a wide range of time-resolved experiments in superfluid helium on the atomic scale.\\
 		
 		The starting point for the density functional method are the Hohenberg-Kohn (H--K) theorems \cite{Hoh64}, which state that the total energy $E$ of a many-body quantum system at $T=0$ is a unique functional of the one-particle density
 		\begin{align}
@@ -324,7 +325,7 @@
 		\end{align}
 		with $\mu$ the chemical potential. Solving this equation by iteration will result in the ground state density $\abs{\Psi_0}^2$ of the system. Within the H--K framework and the variation principle that was used to obtain these EL-equations, the nature of the minimisation is such that it gives the lowest energy for a given symmetry. This means that as long as the input state doesn't break the symmetry of the time-independent EL-equation, it minimises the energy of this state even if it doesn't lead to the ground state. This can be used to obtain a stationary vortex-line solution. With the inclusion of appropriate constraints in the energy functional the same procedure can be used to obtain helium densities with an array of vortex-lines.   
 
-		\clearpage
+	\clearpage
 		\section{The Orsay--Trento Density Functional}
 			\begin{table}[t]
 				Model parameters for the OT-DFT and solid functionals.
@@ -354,7 +355,7 @@
 				\label{fig:static-response-function}
 			\end{figure}
 			
-			The functional that is used in the work presented in this thesis is based on the Orsay-Trento (OT) functional. It uses a finite-range, non-local approach and it is, to date the most accurate model in the sense that it accurately reproduces bulk properties of liquid helium at $T=0=P$, written as		
+			\lettrine[lines=3,findent=3pt,nindent=0pt]{T}{he} functional that is used in the work presented in this thesis is based on the Orsay-Trento (OT) functional. It uses a finite-range, non-local approach and it is, to date the most accurate model in the sense that it accurately reproduces bulk properties of liquid helium at $T=0=P$, written as		
 			\begin{align}
 				{\cal E}_c[\rho ,\mathbf{v}] &=  
 				\frac{1}{2} \left.\int \! \right\{\rho({\bf r}) V_{LJ}(|{\bf r}-{\bf r'}|) \rho({\bf r'}) \nonumber \\
@@ -399,12 +400,16 @@
 			\end{align}
 			All the parameters of the functional are given in Table \ref{table1}.
 
-		\subsection{The Solid-OT Density Functional}
-			Here comes a little section about a specific improvement to the original OT-density functional.
+			\subsection{The Solid-OT Density Functional}
+				In the presence of highly inhomogeneous liquid densities, e.q. atomic impurities with a very strong He-X interaction, the OT-functional Eq. (\ref{eq:otf}) becomes numuerically unstable. To deal with this problem an additional cut-off can be used
+			\begin{align}
+				\mathcal{E}_\mathrm{sol} \vcentcolon= C\rho(\vec{r})\qty{1+\tanh(\beta\qty[\rho(\vec{r})-\rho_\mathrm{m}])}
+			\end{align}
+				where the model parameters $\qty{C,\beta,\rho_\mathrm{m}}$ are specified in Table \ref{table1}. Including this term in the OT-functional prevents excessive density build-up. $\mathcal{E}_\mathrm{sol}$ only starts to deviate from zero whenever the liquid density $\rho$ is comparable to $\rho_\mathrm{m}$ or larger. Therefore, inclusion of this term in the functional does not alter the density distribution. This penalty term was originally developed to account for the liquid-solid phase transition of $^4$He[61,62]. The functional that has been used to obtain the result presented in thus work is what we call the ``Solid-OT-DFT functional''. It consists of the first three terms of the original OT-functional Eq. (\ref{eq:otf}), plus $\mathcal{E}_\mathrm{sol}$.
 
-		\clearpage			
+	\clearpage
 		\section{Static calculations with heavy atomic impurities}
-			In the work presented here all the impurities are heavy compared to the mass of $^4$He, e.g. the mass of Rubidium is about 21 times larger than that of Helium, Xenon roughly 33 times and Argon about 10 times. Therefore we will treat the centre of mass motion of the impurities as classical. In the DFT derived EL-equations this will be modelled as an external field $V_X$
+			\lettrine[lines=3,findent=3pt,nindent=0pt]{I}{n} the work presented here all the impurities are heavy compared to the mass of $^4$He, e.g. the mass of Rubidium is about 21 times larger than that of Helium, Xenon roughly 33 times and Argon about 10 times. Therefore we will treat the centre of mass motion of the impurities as classical. In the DFT derived EL-equations this will be modelled as an external field $V_X$
 			\begin{align}
 				E[\rho] \rightarrow E[\rho] +  \int\!\rho({\mathbf r}) V_X\qty(\abs{{\mathbf r} - {\mathbf r}_I})\diff{r} \label{eq:el-static-hi}
 			\end{align}
@@ -414,7 +419,7 @@
 			\end{align}
 			This equation is then solved in a self-consistent way by the Imaginary Time Method[ref 69] (ITM) in cartesian coordinates upon convergence. The calculations are performed in three dimensions without imposing any symmetries that are present in the external potential. All the quantities are discretised on evenly spaced cartesian grid with a grid constant that is typically of the order of $0.4\unit{\AA}$. The differential operators are evaluated using a $k$-point finite difference method where most of the time $k=13$ is sufficiently accurate. The integrals in the density-functional can be expressed as convolutions and can therefore be evaluated in momentum-space by exploiting the convolution theorem, using proprietary highly optimised parallel Fast Fourier Transform algorithms. 
 			
-			\subsection{Producing vortical states}	
+			\subsection{Producing vortical states}\label{sec:vortical-states}
 				The helium density that minimises the energy of the vortical states $\Psi_s$ (Eq. \ref{eq:line-vortex}), introduced in Section \ref{sec:rot-vort} can be obtained by solving the same EL-equation as for a vortex-free droplet. This becomes more clear when we write Eq. (\ref{eq:el-equation}) in cylindrical coordinates and then substitute $\Psi_0$ by $\Psi_s$:
 				\begin{align}
 					\qty{-\frac{\hbar^2}{2m}\qty[\frac{1}{r}\pdv{r}\qty(r\pdv{r})-\frac{s^2}{r^2}]+\fdv{\mathcal{E}_c}{\rho}}\Psi_s(\vec{r}) = \mu\Psi_s(\vec{r}) \label{eq:el-cyl}
@@ -434,10 +439,10 @@
 					\Psi(\mathbf{r})=\sqrt{\rho_0(\vec{r})} \times \prod _{j=1}^{n_v}\left[ {(x-x_j)+i(y-y_j) \over \sqrt{(x-x_j)^2+(y-y_j)^2}}  \right] \label{eq32}
 				\end{align}
 				where $\rho_0$ is again the ground state density of the vortex-free droplet and $(x_j,y_j)$ is the initial position of the $j$-th vortex-line parallel to the $z$-axis.
-				
-		\clearpage
+
+	\clearpage				
 		\section{Dynamic calculations with heavy atomic impurities}
-			In the dynamics, as in the statics, the impurity is treated classically. In this case we describe  the time evolution of the centre of mass of the impurity in the Newtonian way. To obtain the correct energy for the whole droplet-impurity system the energy functional needs to be extended to include the impurities centre of mass motion and the impurity-helium interaction
+			\lettrine[lines=3,findent=3pt,nindent=0pt]{I}{n} the dynamics, as in the statics, the impurity is treated classically. In this case we describe  the time evolution of the centre of mass of the impurity in the Newtonian way. To obtain the correct energy for the whole droplet-impurity system the energy functional needs to be extended to include the impurities centre of mass motion and the impurity-helium interaction
 			\begin{align}
 				E[\rho] \rightarrow E[\rho] + \frac{p^2_I}{2 m_I} + \int \! \rho(\mathbf{r}) \, V_{X^{\!*}}\qty(\abs{\vec{r}-\vec{r}_I})\diff{r} \label{eq33}
 			\end{align}

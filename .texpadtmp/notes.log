@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  30 JAN 2018 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  1 FEB 2018 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1606,11 +1606,16 @@ File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 \Gin@req@width=\dimen186
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/type1cm/type1cm.sty
 Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, patched RF)
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/cfr-initials/GoudyIn.sty
-Package: GoudyIn 2007/11/24 v1.01 GoudyIn CFR
- (/usr/local/texlive/2017/texmf-dist/tex/latex/initials/GoudyIn.fd
-File: GoudyIn.fd 2003/04/02 Font definition file for U/GoudyIn
-)) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.aux
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/cfr-initials/Zallman.sty
+Package: Zallman 2007/11/24 v1.01 Zallman CFR
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/initials/Zallman.fd
+File: Zallman.fd 2003/04/02 Font definition file for U/Zallman
+))
+
+LaTeX Warning: Unused global option(s):
+    [twosides].
+
+(/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.aux
 
 LaTeX Warning: Label `eq:el-static-hi' multiply defined.
 
@@ -1683,283 +1688,290 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ]
 Chapter 1.
 
-Overfull \hbox (104.60458pt too wide) in paragraph at lines 27--28
+Overfull \hbox (114.88718pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/12 fric-tion[\OT1/cmr/m/it/12 ref\OT1/cmr/m/n/12 ] due to its ex-tremely low viscosity[https://doi.org/10.1016/j.crhy.2017.10.016]($\OMS/cmsy/m/n/12 ^^Y
+ []
+
+
+Overfull \hbox (104.60458pt too wide) in paragraph at lines 29--30
 \OT1/cmr/m/n/12 temperature[https://doi.org/10.1016/S0031-8914(36)80312-7,https://doi.org/10.1038/140062a0].
  []
 
 
-Overfull \hbox (16.28578pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/n/12 Willian and his daugh-ter Anna Kee-som and dubbed `\OT1/cmr/m/it/12 supra-heat-conducting\OT1/cmr/m/n/12 '[\OT1/cmr/m/it/12 ref\OT1/cmr/m/n/12 ].
+Overfull \hbox (15.63301pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/12 Willem and his daugh-ter Anna Kee-som and dubbed `\OT1/cmr/m/it/12 supra-heat-conducting\OT1/cmr/m/n/12 '[\OT1/cmr/m/it/12 ref\OT1/cmr/m/n/12 ].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
 <specific-heat.png, id=102, 1019.30812pt x 813.53937pt>
 File: specific-heat.png Graphic file (type png)
  <use specific-heat.png>
-Package pdftex.def Info: specific-heat.png used on input line 31.
+Package pdftex.def Info: specific-heat.png used on input line 33.
 (pdftex.def)             Requested size: 292.5pt x 233.45006pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-[3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./specific-heat.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+ [3] [4 <./specific-heat.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+[5
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-[5] <phonon-roton-landau-first.png, id=130, 1084.55188pt x 841.1425pt>
+<phonon-roton-landau-first.png, id=127, 1084.55188pt x 841.1425pt>
 File: phonon-roton-landau-first.png Graphic file (type png)
  <use phonon-roton-landau-first.png>
-Package pdftex.def Info: phonon-roton-landau-first.png used on input line 52.
+Package pdftex.def Info: phonon-roton-landau-first.png used on input line 53.
 (pdftex.def)             Requested size: 193.0481pt x 149.71776pt.
- <phonon-roton-bogoliubov.png, id=131, 1246.6575pt x 840.13875pt>
+ <phonon-roton-bogoliubov.png, id=128, 1246.6575pt x 840.13875pt>
 File: phonon-roton-bogoliubov.png Graphic file (type png)
  <use phonon-roton-bogoliubov.png>
-Package pdftex.def Info: phonon-roton-bogoliubov.png used on input line 53.
+Package pdftex.def Info: phonon-roton-bogoliubov.png used on input line 54.
 (pdftex.def)             Requested size: 193.0481pt x 130.09196pt.
- [6 <./phonon-roton-landau-first.png> <./phonon-roton-bogoliubov.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+ [6] [7 <./phonon-roton-landau-first.png> <./phonon-roton-bogoliubov.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--84
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
+[8
+
+]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
-[7
-
-] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
  []
 
-<dispersion-relation.pdf, id=171, 701.62125pt x 516.93124pt>
+[10] <dispersion-relation.pdf, id=188, 701.62125pt x 516.93124pt>
 File: dispersion-relation.pdf Graphic file (type pdf)
  <use dispersion-relation.pdf>
-Package pdftex.def Info: dispersion-relation.pdf used on input line 135.
+Package pdftex.def Info: dispersion-relation.pdf used on input line 136.
 (pdftex.def)             Requested size: 350.99762pt x 258.60696pt.
 
 
-LaTeX Warning: Citation `Mat10a' on page 9 undefined on input line 137.
+LaTeX Warning: Citation `Mat10a' on page 11 undefined on input line 138.
 
 
-LaTeX Warning: Citation `Don81' on page 9 undefined on input line 137.
+LaTeX Warning: Citation `Don81' on page 11 undefined on input line 138.
 
 
-LaTeX Warning: Citation `Mat10a' on page 9 undefined on input line 137.
+LaTeX Warning: Citation `Mat10a' on page 11 undefined on input line 138.
 
 
-LaTeX Warning: Citation `Don81' on page 9 undefined on input line 137.
+LaTeX Warning: Citation `Don81' on page 11 undefined on input line 138.
 
-[9]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10 <./dispersion-relation.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
+[11 <./dispersion-relation.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
 
-<vortex-xy.png, id=197, 240.9pt x 240.9pt>
+<vortex-xy.png, id=201, 240.9pt x 240.9pt>
 File: vortex-xy.png Graphic file (type png)
  <use vortex-xy.png>
-Package pdftex.def Info: vortex-xy.png used on input line 171.
+Package pdftex.def Info: vortex-xy.png used on input line 172.
 (pdftex.def)             Requested size: 195.0pt x 195.00662pt.
- [11]
-Underfull \hbox (badness 10000) in paragraph at lines 189--191
+ [12]
+Overfull \hbox (3.43643pt too wide) in paragraph at lines 190--192
+\OT1/cmr/m/n/12 quan-tity (\OT1/cmr/bx/n/12 HOW DOES THIS COR-RE-LATE WITH EVAP-O-RA-TION
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
+
+ []
+
+[13 <./vortex-xy.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
-
- []
-
-[12 <./vortex-xy.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 221--223
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 231--233
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
-<silver-filament.pdf, id=247, 123.04329pt x 93.15392pt>
+<silver-filament.pdf, id=253, 123.04329pt x 93.15392pt>
 File: silver-filament.pdf Graphic file (type pdf)
  <use silver-filament.pdf>
-Package pdftex.def Info: silver-filament.pdf used on input line 244.
+Package pdftex.def Info: silver-filament.pdf used on input line 245.
 (pdftex.def)             Requested size: 292.5pt x 221.46739pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
-[15
+[16
 
-] <vortex-array.png, id=254, 442.2924pt x 133.4586pt>
-File: vortex-array.png Graphic file (type png)
- <use vortex-array.png>
-Package pdftex.def Info: vortex-array.png used on input line 254.
-(pdftex.def)             Requested size: 390.0pt x 117.68217pt.
-
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16 <./silver-filament.pdf>]
-Overfull \hbox (72.30504pt too wide) in paragraph at lines 260--261
+ [17 <./silver-filament.pdf>] <vortex-array.png, id=315, 442.2924pt x 133.4586pt>
+File: vortex-array.png Graphic file (type png)
+ <use vortex-array.png>
+Package pdftex.def Info: vortex-array.png used on input line 255.
+(pdftex.def)             Requested size: 390.0pt x 117.68217pt.
+
+Overfull \hbox (72.30504pt too wide) in paragraph at lines 261--262
 \OT1/cmr/m/n/12 last two decades I would like to re-fer you to some re-view pa-pers[JLTP.Vol142.Nos.1/2(2006),
  []
 
-[17 <./vortex-array.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+[18 <./vortex-array.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-[18
+[19
 
-] [19] [20
-
-]
+] [20]
 Chapter 2.
 
-LaTeX Warning: Citation `Kro02' on page 21 undefined on input line 287.
+LaTeX Warning: Citation `Kro02' on page 21 undefined on input line 288.
 
 
-LaTeX Warning: Citation `deL06' on page 21 undefined on input line 287.
+LaTeX Warning: Citation `deL06' on page 21 undefined on input line 288.
 
 
-LaTeX Warning: Citation `deL10' on page 21 undefined on input line 287.
+LaTeX Warning: Citation `deL10' on page 21 undefined on input line 288.
 
 
-LaTeX Warning: Citation `Agu13' on page 21 undefined on input line 287.
+LaTeX Warning: Citation `Agu13' on page 21 undefined on input line 288.
 
 
-LaTeX Warning: Citation `Str87a' on page 21 undefined on input line 287.
+LaTeX Warning: Citation `Str87a' on page 21 undefined on input line 288.
 
 
-LaTeX Warning: Citation `Str87b' on page 21 undefined on input line 287.
+LaTeX Warning: Citation `Str87b' on page 21 undefined on input line 288.
 
 
-LaTeX Warning: Citation `Dal95' on page 21 undefined on input line 287.
+LaTeX Warning: Citation `Dal95' on page 21 undefined on input line 288.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
  []
 
 
-LaTeX Warning: Citation `Hoh64' on page 21 undefined on input line 289.
+LaTeX Warning: Citation `Hoh64' on page 21 undefined on input line 290.
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 304--306
+[21
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 305--307
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 317--319
+Underfull \hbox (badness 10000) in paragraph at lines 318--320
 
  []
 
 
-Overfull \hbox (9.13138pt too wide) in paragraph at lines 320--321
+Overfull \hbox (9.13138pt too wide) in paragraph at lines 321--322
 []\OT1/cmr/m/n/12 Considering only eigen-states $	([]\OML/cmm/m/it/12 ; t\OT1/cmr/m/n/12 ) = 	[]([]) e[]$ of the time-independent
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 330--347
+Underfull \hbox (badness 10000) in paragraph at lines 331--348
 []\OT1/cmr/m/n/12 Model pa-ram-e-ters for the OT-DFT and solid func-tion-als.
  []
 
 
-Overfull \hbox (24.63464pt too wide) in paragraph at lines 330--347
+Overfull \hbox (24.63464pt too wide) in paragraph at lines 331--348
 []
  []
 
-<static-response-function.png, id=354, 981.16562pt x 880.28876pt>
+<static-response-function.png, id=356, 981.16562pt x 880.28876pt>
 File: static-response-function.png Graphic file (type png)
  <use static-response-function.png>
-Package pdftex.def Info: static-response-function.png used on input line 351.
+Package pdftex.def Info: static-response-function.png used on input line 352.
 (pdftex.def)             Requested size: 292.5pt x 262.42308pt.
  [24
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 391--393
+Underfull \hbox (badness 10000) in paragraph at lines 392--394
 
  []
 
 [25 <./static-response-function.png>] [26]
 
-LaTeX Warning: Command \r invalid in math mode on input line 415.
+LaTeX Warning: Command \r invalid in math mode on input line 420.
 
 [27
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 425--427
+Underfull \hbox (badness 10000) in paragraph at lines 430--432
 
  []
 
 
-Overfull \hbox (9.75696pt too wide) in paragraph at lines 431--433
+Overfull \hbox (9.75696pt too wide) in paragraph at lines 436--438
 \OT1/cmr/m/n/12 such that for a suit-able choice of $
 $ the vortex-array so-lu-tion be-comes favourable
  []
@@ -1967,11 +1979,11 @@ $ the vortex-array so-lu-tion be-comes favourable
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 435.
+(amsmath)                 on input line 440.
 
 [28]
 
-LaTeX Warning: Citation `Ell63' on page 29 undefined on input line 461.
+LaTeX Warning: Citation `Ell63' on page 29 undefined on input line 466.
 
 
 Overfull \hbox (9.75148pt too wide) has occurred while \output is active
@@ -1982,24 +1994,24 @@ Overfull \hbox (9.75148pt too wide) has occurred while \output is active
 
 ]
 
-LaTeX Warning: Citation `Jak97' on page 30 undefined on input line 501.
+LaTeX Warning: Citation `Jak97' on page 30 undefined on input line 506.
 
 
-LaTeX Warning: Citation `Nak01' on page 30 undefined on input line 505.
+LaTeX Warning: Citation `Nak01' on page 30 undefined on input line 510.
 
 
-LaTeX Warning: Citation `Lea16' on page 30 undefined on input line 508.
+LaTeX Warning: Citation `Lea16' on page 30 undefined on input line 513.
 
 
-LaTeX Warning: Citation `Mel14' on page 30 undefined on input line 508.
+LaTeX Warning: Citation `Mel14' on page 30 undefined on input line 513.
 
 
-Overfull \hbox (12.25699pt too wide) detected at line 537
+Overfull \hbox (12.25699pt too wide) detected at line 542
 [][]\OML/cmm/m/it/12 E\OT1/cmr/m/n/12 [	\OML/cmm/m/it/12 ; \OT1/cmr/bx/n/12 r[]\OML/cmm/m/it/12 ; ^^U\OT1/cmr/m/n/12 ] = [] \OML/cmm/m/it/12 d\OT1/cmr/bx/n/12 r []\OMS/cmsy/m/n/12 jr\OT1/cmr/m/n/12 	\OMS/cmsy/m/n/12 j[] \OT1/cmr/m/n/12 + [] + [] \OML/cmm/m/it/12 d\OT1/cmr/bx/n/12 r \OMS/cmsy/m/n/12 E[]\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 ^^Z\OT1/cmr/m/n/12 ] + \OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 ^^U\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 V[]\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 ^^U\OMS/cmsy/m/n/12 i \OT1/cmr/m/n/12 + [] \OML/cmm/m/it/12 d\OT1/cmr/bx/n/12 r \OML/cmm/m/it/12 ^^Z\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 r\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 V[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 r \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/bx/n/12 r[]\OT1/cmr/m/n/12 )
  []
 
 [30]
-Overfull \hbox (16.54088pt too wide) detected at line 562
+Overfull \hbox (16.54088pt too wide) detected at line 567
 [][]\OMS/cmsy/m/n/12 A\OT1/cmr/m/n/12 [	\OML/cmm/m/it/12 ; \OT1/cmr/bx/n/12 r[]\OML/cmm/m/it/12 ; ^^U\OT1/cmr/m/n/12 ] = [] \OML/cmm/m/it/12 dt [] 
  []
 
@@ -2012,11 +2024,11 @@ Overfull \hbox (9.75148pt too wide) has occurred while \output is active
 \openout2 = `commented_stuff.aux'.
 
  (./commented_stuff.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 602.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 602.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 607.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 607.
  (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.aux (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/commented_stuff.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 602.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 602.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 607.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 607.
 Package rerunfilecheck Info: File `notes.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -2026,21 +2038,21 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 602.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 607.
  ) 
 Here is how much of TeX's memory you used:
- 15393 strings out of 492995
- 264513 string characters out of 6132704
- 334326 words of memory out of 5000000
- 18659 multiletter control sequences out of 15000+600000
- 21448 words of font info for 80 fonts, out of 8000000 for 9000
+ 15399 strings out of 492995
+ 264616 string characters out of 6132704
+ 334492 words of memory out of 5000000
+ 18664 multiletter control sequences out of 15000+600000
+ 21529 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,19n,58p,10403b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/initials/GoudyIn.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on /Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.pdf (31 pages, 7576284 bytes).
+ 39i,19n,58p,10403b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/initials/Zallman.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on /Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.pdf (31 pages, 7510383 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 449 compressed objects within 5 object streams
- 132 named destinations out of 1000 (max. 500000)
+ 547 PDF objects out of 1000 (max. 8388607)
+ 456 compressed objects within 5 object streams
+ 133 named destinations out of 1000 (max. 500000)
  177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
