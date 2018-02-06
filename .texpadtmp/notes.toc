@@ -1,17 +1,19 @@
-\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}A brief history of superfluidity}{5}{section.1.1}
-\contentsline {section}{\numberline {1.2}Some key concepts}{8}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Bose-Einstein condensation and long-range order}{8}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Bogolyubov's approximation and the order parameter}{9}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Landau's criterion for superfluidity}{11}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Rotation and vorticity in superfluids}{12}{subsection.1.2.4}
-\contentsline {section}{\numberline {1.3}Helium droplets}{16}{section.1.3}
-\contentsline {section}{\numberline {1.4}Structure of the thesis}{19}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Part I: Excited state dynamics}{19}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Part II: Collisions and capture by quantised vortices}{19}{subsection.1.4.2}
-\contentsline {chapter}{\numberline {2}The Density Functional method}{21}{chapter.2}
-\contentsline {section}{\numberline {2.1}The Orsay--Trento Density Functional}{24}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}The Solid-OT Density Functional}{26}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Static calculations with heavy atomic impurities}{27}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Producing vortical states}{27}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Dynamic calculations with heavy atomic impurities}{29}{section.2.3}
+\contentsline {chapter}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {1.1}A brief history of superfluidity}{5}
+\contentsline {section}{\numberline {1.2}Some key concepts}{8}
+\contentsline {subsection}{\numberline {1.2.1}Bose-Einstein condensation and long-range order}{8}
+\contentsline {subsection}{\numberline {1.2.2}Bogolyubov's approximation and the order parameter}{10}
+\contentsline {subsection}{\numberline {1.2.3}Landau's criterion for superfluidity}{11}
+\contentsline {subsection}{\numberline {1.2.4}Rotation and vorticity in superfluids}{13}
+\contentsline {section}{\numberline {1.3}Helium droplets}{17}
+\contentsline {section}{\numberline {1.4}Structure of the thesis}{20}
+\contentsline {subsection}{\numberline {1.4.1}Part I: Excited state dynamics}{20}
+\contentsline {subsection}{\numberline {1.4.2}Part II: Collisions and capture by quantised vortices}{20}
+\contentsline {chapter}{\numberline {2}The Density Functional method}{23}
+\contentsline {section}{\numberline {2.1}The Orsay--Trento Density Functional}{26}
+\contentsline {subsection}{\numberline {2.1.1}The Solid-OT Density Functional}{28}
+\contentsline {section}{\numberline {2.2}Static calculations with heavy atomic impurities}{30}
+\contentsline {subsection}{\numberline {2.2.1}Producing vortical states}{30}
+\contentsline {section}{\numberline {2.3}Dynamic calculations with heavy atomic impurities}{32}
+\contentsline {subsection}{\numberline {2.3.1}The DIM model}{32}
+\contentsline {subsection}{\numberline {2.3.2}Including spin-orbit coupling}{34}
