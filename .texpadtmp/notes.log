@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  11 FEB 2018 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  11 FEB 2018 15:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1549,7 +1549,7 @@ LaTeX Warning: Unused global option(s):
 
 LaTeX Warning: Label `eq:el-static-hi' multiply defined.
 
-(/Users/fmgjcoppens/Developer/Notes/.texpadtmp/commented_stuff.aux))
+)
 \openout1 = `notes.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -1612,23 +1612,7 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 456.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.toc
-LaTeX Font Info:    Try loading font information for OT1+anttm on input line 2.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/antt/ot1anttm.fd
-File: ot1anttm.fd 2005/10/05 v1.2 font definition file for OT1/anttm (MW)
-)
-LaTeX Font Info:    Try loading font information for OML+antt on input line 2.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/antt/omlantt.fd
-File: omlantt.fd 2005/10/05 v1.2 font definition file for OML/antt (MW)
-)
-LaTeX Font Info:    Try loading font information for OMS+antt on input line 2.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/antt/omsantt.fd
-File: omsantt.fd 2005/10/05 v1.2 font definition file for OMS/antt (MW)
-)
-LaTeX Font Info:    Try loading font information for OMX+antt on input line 2.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/antt/omxantt.fd
-File: omxantt.fd 2005/10/05 v1.2 font definition file for OMX/antt (MW)
-))
+)) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.toc)
 \tf@toc=\write3
 \openout3 = `notes.toc'.
 
@@ -1644,7 +1628,22 @@ LaTeX Font Warning: Font shape `T1/antt/m/sl' undefined
 
 ]
 Chapter 1.
-
+LaTeX Font Info:    Try loading font information for OT1+anttm on input line 33.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/antt/ot1anttm.fd
+File: ot1anttm.fd 2005/10/05 v1.2 font definition file for OT1/anttm (MW)
+)
+LaTeX Font Info:    Try loading font information for OML+antt on input line 33.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/antt/omlantt.fd
+File: omlantt.fd 2005/10/05 v1.2 font definition file for OML/antt (MW)
+)
+LaTeX Font Info:    Try loading font information for OMS+antt on input line 33.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/antt/omsantt.fd
+File: omsantt.fd 2005/10/05 v1.2 font definition file for OMS/antt (MW)
+)
+LaTeX Font Info:    Try loading font information for OMX+antt on input line 33.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/antt/omxantt.fd
+File: omxantt.fd 2005/10/05 v1.2 font definition file for OMX/antt (MW)
+)
 Overfull \hbox (175.53268pt too wide) in paragraph at lines 33--34
 \T1/antt/m/n/12 with-out fric-tion[\T1/antt/m/it/12 ref\T1/antt/m/n/12 ] due to its ex-tremely low viscosity[https://doi.org/10.1016/j.crhy.2017.10.016]($\OMS/antt/m/n/12 ^^Y
  []
@@ -1918,10 +1917,10 @@ Overfull \hbox (30.63356pt too wide) in paragraph at lines 339--356
 <static-response-function.png, id=153, 981.16562pt x 880.28876pt>
 File: static-response-function.png Graphic file (type png)
  <use static-response-function.png>
-Package pdftex.def Info: static-response-function.png used on input line 360.
+Package pdftex.def Info: static-response-function.png used on input line 361.
 (pdftex.def)             Requested size: 292.5pt x 262.42308pt.
  [23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 400--402
+Underfull \hbox (badness 10000) in paragraph at lines 401--403
 
  []
 
@@ -1930,67 +1929,71 @@ Underfull \vbox (badness 2050) has occurred while \output is active []
 
  [26]
 
-LaTeX Warning: Command \r invalid in math mode on input line 434.
+LaTeX Warning: Command \r invalid in math mode on input line 435.
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 444--446
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
 
  []
 
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 454.
+(amsmath)                 on input line 455.
 
 [28] <pxy-he.png, id=174, 1439.87938pt x 616.80438pt>
 File: pxy-he.png Graphic file (type png)
  <use pxy-he.png>
-Package pdftex.def Info: pxy-he.png used on input line 472.
+Package pdftex.def Info: pxy-he.png used on input line 473.
 (pdftex.def)             Requested size: 175.49881pt x 75.17096pt.
  <pz-he.png, id=175, 1439.87938pt x 616.80438pt>
 File: pz-he.png Graphic file (type png)
  <use pz-he.png>
-Package pdftex.def Info: pz-he.png used on input line 474.
+Package pdftex.def Info: pz-he.png used on input line 475.
 (pdftex.def)             Requested size: 175.49881pt x 75.17096pt.
  [29]
 
-LaTeX Warning: Citation `82' on page 30 undefined on input line 489.
+LaTeX Warning: Citation `82' on page 30 undefined on input line 490.
 
 [30 <./pxy-he.png> <./pz-he.png>] <dim-axes.png, id=184, 1439.3775pt x 811.03pt>
 File: dim-axes.png Graphic file (type png)
  <use dim-axes.png>
-Package pdftex.def Info: dim-axes.png used on input line 517.
+Package pdftex.def Info: dim-axes.png used on input line 518.
 (pdftex.def)             Requested size: 292.5pt x 164.81432pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--525
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
 
-LaTeX Warning: Citation `Jak97' on page 31 undefined on input line 530.
+LaTeX Warning: Citation `Jak97' on page 31 undefined on input line 531.
 
 [31]
 
-LaTeX Warning: Citation `Nak01' on page 32 undefined on input line 538.
+LaTeX Warning: Citation `Nak01' on page 32 undefined on input line 539.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--539
-
- []
-
-[32 <./dim-axes.png>] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 586--587
+Underfull \hbox (badness 10000) in paragraph at lines 538--540
 
  []
 
+[32 <./dim-axes.png>]
 
-LaTeX Warning: Reference `deft-guide' on page 34 undefined on input line 588.
+LaTeX Warning: Reference `eq:dyn-el' on page 33 undefined on input line 576.
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
+
+ []
 
 
-LaTeX Warning: Reference `bcn-tlse-hedft' on page 34 undefined on input line 588.
+LaTeX Warning: Reference `deft-guide' on page 34 undefined on input line 589.
 
 
-LaTeX Warning: Reference `dft-manual' on page 34 undefined on input line 588.
+LaTeX Warning: Reference `bcn-tlse-hedft' on page 34 undefined on input line 589.
+
+
+LaTeX Warning: Reference `dft-manual' on page 34 undefined on input line 589.
 
 [34]
 \openout2 = `commented_stuff.aux'.
@@ -2007,15 +2010,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12123 strings out of 492995
- 214053 string characters out of 6132704
- 252971 words of memory out of 5000000
+ 12121 strings out of 492995
+ 213915 string characters out of 6132704
+ 252633 words of memory out of 5000000
  15520 multiletter control sequences out of 15000+600000
  168176 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,19n,58p,10403b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-mi.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-rm.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-sy.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-ex.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-ec.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/anttcap-ec.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/initials/Zallman.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/antt/anttb.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/antt/anttbi.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/antt/anttr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/antt/anttri.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on /Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.pdf (34 pages, 7938790 bytes).
+Output written on /Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.pdf (34 pages, 7938187 bytes).
 PDF statistics:
  240 PDF objects out of 1000 (max. 8388607)
  160 compressed objects within 2 object streams

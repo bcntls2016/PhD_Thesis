@@ -353,6 +353,7 @@
 				\hline
 			\end{tabular}}
 			\label{table1}
+			
 		\end{table}
 
 		\begin{figure}[t]
@@ -504,11 +505,11 @@
 			\end{align}
 			where
 			\begin{align}
-				V^{DIM}_{ij}(r_m) \vcentcolon= \qty{V_\Pi(r_m)\delta_{ij}+\qty\big[V_\Sigma(r_m)-V_\Pi(r_m)]\frac{r_{im}\,r_{jm}}{\norm{\vec{r}_m}^2}} \label{eq:vdim}
+				V^{DIM}_{ij}(r_m) \vcentcolon= V_\Pi(r_m)\delta_{ij}+\qty\Big[V_\Sigma(r_m)-V_\Pi(r_m)]\frac{r_{im}\,r_{jm}}{\norm{\vec{r}_m}^2} \label{eq:vdim}
 			\end{align}
 			are the matrix elements of $\mathcal{V}^{DIM}$ expressed in the common basis. Since we are working with a continues helium density $\rho(\vec{r})$ and not with discrete atoms the summation over $N$ helium atoms in the previous expression is replaced by an integral over the density $\sum_m\rightarrow\int\!\rho(\vec{r})\diff{r}$ which finally gives for the matrix element $U^{DIM}_{ij}$
 			\begin{align}
-				U^{DIM}_{ij}(\vec{r}_I) = \int\! \rho\qty(\vec{r}+\vec{r}_I)\,V^{DIM}_{ij}(r)\diff{r}
+				U^{DIM}_{ij}(\vec{r}_I) = \int\! \rho\qty(\vec{r}+\vec{r}_I)\,V^{DIM}_{ij}(r)\diff{r} \label{eq:u-dim}
 			\end{align}
 			
 			The eigenvalues $U^{\mathrm{np}}_k(\vec{r}_I)$ of this real symmetric matrix define the potential energy curves (PECs) as a function of the distance between the surrounding helium and the impurity.
@@ -574,15 +575,15 @@
 			\end{align}
 			where the explicit time dependence of the variables is omitted for clarity. The second line of Eq. (\ref{eq:dyn-el}) is a $6\times 6$ matrix equation with the matrix elements of $\mathcal{H}$ given by
 			\begin{align}
-				H^{ijss'} = U^{DIM}_{ijss'}+V^{SO}_{ijss'} = \int\!\rho(\vec{r})\,V^{DIM}_{ijss'}(\vec{r}-\vec{r}_I)\dd{\vec{r}}+V^{SO}_{ijss'}
+				H_{ijss'} = U^{DIM}_{ijss'}+V^{SO}_{ijss'} = \int\!\rho(\vec{r})\,V^{DIM}_{ijss'}(\vec{r}-\vec{r}_I)\dd{\vec{r}}+V^{SO}_{ijss'}
 			\end{align}
 			In the cases that SO-coupling can be neglected the 6-dimensional electronic state vector $\ket{\lambda}$ reduces to the 3-dimensional vector
 			\begin{align}
 				\ket{\lambda(t)} = \sum_{i=\{x,y,z\}} \lambda_{i}(t) \ket{p_i}
 			\end{align}
-			and the $6\times6$ matrix $\mathcal{H}$ reduces to a $3\times 3$ matrix with elements
+			and the $6\times6$ matrix $\mathcal{H}$ reduces to the $3\times 3$ matrix of Eq. (\ref{eq:u-dim}) with elements
 			\begin{align}
-				H^{ij} = U^{DIM}_{ij} = \int\!\rho(\vec{r})\,V^{DIM}_{ij}(\vec{r}-\vec{r}_I)\dd{\vec{r}}
+				H_{ij} = U^{DIM}_{ij} = \int\!\rho(\vec{r})\,V^{DIM}_{ij}(\vec{r}-\vec{r}_I)\dd{\vec{r}}
 			\end{align}\\
 			
 			For the technical details about how this method is implemented the interested reader is directed to [\ref{deft-guide}]. For the collection of Fortran code that has been used to obtain the results presented here see [\ref{bcn-tlse-hedft}]. For the manuel to use the code see [\ref{dft-manual}].
