@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  11 FEB 2018 14:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  11 FEB 2018 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2000,10 +2000,10 @@ Overfull \hbox (30.63356pt too wide) in paragraph at lines 339--356
 File: static-response-function.png Graphic file (type png)
 
 <use static-response-function.png>
-Package pdftex.def Info: static-response-function.png used on input line 360.
+Package pdftex.def Info: static-response-function.png used on input line 361.
 (pdftex.def)             Requested size: 292.5pt x 262.42308pt.
  [23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 400--402
+Underfull \hbox (badness 10000) in paragraph at lines 401--403
 
  []
 
@@ -2012,70 +2012,70 @@ Underfull \vbox (badness 2050) has occurred while \output is active []
 
  [26]
 
-LaTeX Warning: Command \r invalid in math mode on input line 434.
+LaTeX Warning: Command \r invalid in math mode on input line 435.
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 444--446
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
 
  []
 
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 454.
+(amsmath)                 on input line 455.
 
 [28] <pxy-he.png, id=174, 1439.87938pt x 616.80438pt>
 File: pxy-he.png Graphic file (type png)
  <use pxy-he.png>
-Package pdftex.def Info: pxy-he.png used on input line 472.
+Package pdftex.def Info: pxy-he.png used on input line 473.
 (pdftex.def)             Requested size: 175.49881pt x 75.17096pt.
 
 <pz-he.png, id=175, 1439.87938pt x 616.80438pt>
 File: pz-he.png Graphic file (type png)
  <use pz-he.png>
-Package pdftex.def Info: pz-he.png used on input line 474.
+Package pdftex.def Info: pz-he.png used on input line 475.
 (pdftex.def)             Requested size: 175.49881pt x 75.17096pt.
  [29]
 
-LaTeX Warning: Citation `82' on page 30 undefined on input line 489.
+LaTeX Warning: Citation `82' on page 30 undefined on input line 490.
 
 [30 <./pxy-he.png> <./pz-he.png>]
 <dim-axes.png, id=184, 1439.3775pt x 811.03pt>
 File: dim-axes.png Graphic file (type png)
  <use dim-axes.png>
-Package pdftex.def Info: dim-axes.png used on input line 517.
+Package pdftex.def Info: dim-axes.png used on input line 518.
 (pdftex.def)             Requested size: 292.5pt x 164.81432pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--525
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
 
-LaTeX Warning: Citation `Jak97' on page 31 undefined on input line 530.
+LaTeX Warning: Citation `Jak97' on page 31 undefined on input line 531.
 
 [31]
 
-LaTeX Warning: Citation `Nak01' on page 32 undefined on input line 538.
+LaTeX Warning: Citation `Nak01' on page 32 undefined on input line 539.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--539
+Underfull \hbox (badness 10000) in paragraph at lines 538--540
 
  []
 
 [32 <./dim-axes.png>] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 586--587
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
 
  []
 
 
-LaTeX Warning: Reference `deft-guide' on page 34 undefined on input line 588.
+LaTeX Warning: Reference `deft-guide' on page 34 undefined on input line 589.
 
 
 LaTeX Warning: Reference `bcn-tlse-hedft' on page 34 undefined on input line 58
-8.
+9.
 
 
-LaTeX Warning: Reference `dft-manual' on page 34 undefined on input line 588.
+LaTeX Warning: Reference `dft-manual' on page 34 undefined on input line 589.
 
 [34]
 \openout2 = `commented_stuff.aux'.
@@ -2092,10 +2092,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12122 strings out of 492995
- 213465 string characters out of 6132704
- 252971 words of memory out of 5000000
- 15520 multiletter control sequences out of 15000+600000
+ 12123 strings out of 492995
+ 213475 string characters out of 6132704
+ 252983 words of memory out of 5000000
+ 15521 multiletter control sequences out of 15000+600000
  168176 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,19n,58p,10403b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2112,7 +2112,7 @@ pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/antt/anttr.pfb></usr
 exlive/2017/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on notes.pdf (34 pages, 7938790 bytes).
+Output written on notes.pdf (34 pages, 7938758 bytes).
 PDF statistics:
  240 PDF objects out of 1000 (max. 8388607)
  160 compressed objects within 2 object streams
