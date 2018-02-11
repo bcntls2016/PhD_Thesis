@@ -1,4 +1,5 @@
 \documentclass[12pt,a4paper,twosides]{book}
+\usepackage[utf8]{inputenc}
 %\usepackage{baskervald}
 %\usepackage[math]{iwona} % broad
 %\usepackage[light,math]{iwona}
@@ -7,8 +8,7 @@
 %\usepackage{cmbright}
 %\usepackage{newpxtext,newpxmath}
 %\usepackage{antpolt}
-\usepackage[QX]{fontenc}
-\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -25,10 +25,6 @@
 \newcommand{\unit}[1]{\,\mathrm{#1}}
 \newcommand{\diff}[1]{\,\mathrm{d}{\vec{#1}}}
 
-%\usepackage{hyperref}
-%\usepackage{hypertoc}
-%\usepackage{booktabs}
-
 \begin{document}
 
 \tableofcontents
@@ -44,7 +40,6 @@
 		\label{fig:specific-heat}
 	\end{figure}	
 	
-	\clearpage
 	\section{A brief history of superfluidity}
 		\lettrine[lines=3,findent=3pt,nindent=0pt]{H}{elium} was the last gas to be liquefied and was done so by Kamerlingh Onnes in 1908[\emph{ref}]. In 1932 John McLennan saw[\emph{ref}] that liquid helium stopped boiling below $\approx\!2.2\unit{K}$ and later that year Willem Keesom and his daughter Anna observed[\emph{ref}], while measuring  the temperature dependence of the specific heat, a singularity around the same temperature. They called it the ``$\lambda$-temperature'',  $T_\lambda$, because of the shape of the temperature dependence of the specific heat resembling the Greek letter $\lambda$ (see Figure \ref{fig:specific-heat}). A few years later in 1935 Burton measured a sharp decrease in the viscosity of liquid helium below $T_\lambda$. Around the same time Fritz London was already thinking about macroscopic wave functions and why helium does not freeze at $T=0\unit{K}$ under atmospheric pressure. He concluded that it was caused by the zero point motion of the helium atoms and their associated kinetic energy that is comparable to their Van der Waals energy, effectively preventing liquid helium to solidify. The year after, in 1936, Willem and Anna Keesom measured an abnormally high heat conductance below $T_\lambda$. This was confirmed roughly one year later by J.F. Allen \emph{et al.} and it was understood that the high thermal conductance was the reason for the helium to stop boiling whenever the temperature drops below $T_\lambda$. It was in 1937 when Kapitza tried to determine the viscosity of the laminar flow that he measured a viscosity that was about $10^4$ times smaller than that of hydrogen gas. It was then that Kaptiza who, by analogy with superconductors, first coined the word ``superfluid'' to describe the special state that helium enters below the $\lambda$-point where it can flow, seemingly without friction. Allen and Misner realised that superfluid helium is not just a liquid with a very low viscosity, but that its hydrodynamics was completely different from that of ordinary liquids and therefore required a completely new interpretation.\\
 		
@@ -67,7 +62,6 @@
 
 		A theoretical demonstration, explicitly showing that phonons and rotons are collective excitations of the liquid, came in the form of a 1947 paper by Nikolay Bogolyubov[ref]. The intimate relationship between superfluidity and BEC was not universally accepted until 1995 when Cornell and Wienman in Colorado and Ketterle at MIT discovered BEC in rubidium quantum gases[ref].
 
-	\clearpage
 	\section{Some key concepts}
 		\lettrine[lines=3,findent=3pt,nindent=0pt]{I}{n} this section I will briefly introduce some key ideas that are used throughout the thesis and that are needed to fully appreciate the discussed material. Also references to more complete and more in-depth treatments will be provided for the interested reader.
 		
@@ -249,7 +243,6 @@
 			\end{align}
 			where $\delta^{(2)}$ is 2-dimensional Dirac-delta function and $\vec{r}_\perp$ a vector in a plane perpendicular to the vortex line.\\
 
-	\clearpage
 	\section{Helium droplets}
 		\lettrine[lines=3,findent=3pt,nindent=0pt]{U}{ntil} the 1980, most experimental and theoretical work was done on bulk systems, i.e. systems of the order of $N_A$ number of atoms. It was only in the last couple of decades that advancements in technology enabled experimentalists to create nanoscale sized superfluid helium droplets. From the early 1990's onwards, superfluid helium nano-droplets became an active field of study, both experimentally and theoretically. Surely, the finite size of these droplets would impose some interesting properties as compared to bulk liquid helium.\\
 		
@@ -277,7 +270,6 @@
 				
 		A lot of of work has been done on helium droplets the last few decades, both experimentally and theoretically. From the absorption spectra of alkali metal doped helium droplets, the study of doped mixed $^3$He--$^4$He droplets, electrons in liquid helium, to the investigation of the critical Landau velocity inside small $^4$He droplet. For a comprehensive overview of work done in the last two decades, the interested reader is referred to the review papers[JLTP.Vol142.Nos.1/2(2006), IRPC.Vol36No4.621-707(2017), IRPC.Vol33No3.301-339(2014)].
 
-	\clearpage
 	\section{Structure of the thesis}
 		\lettrine[lines=3,findent=3pt,nindent=0pt]{T}{his} thesis will consist of two parts, since the presented work focusses on two distinct areas of interest with no mutual overlap. Each part will have its own short introduction to motivate the performed research and put in a broader context. The final chapter contains a more general discussion about the presented material and will conclude with some work in progress and future prospects.
 
@@ -295,7 +287,7 @@
 		
 			\emph{Capture of Xe and Ar atoms by quantized vortices in $^4\!$He nanodroplets} addresses the capture of xenon and argon atoms at different velocity regimes and impact factors to determine the effective cross section for capture. This investigation then repeated with a dropet hosting one quantised line vortex. Also some preliminary results are presented for a larger droplet hosting an array of 6 line vortices, lined with argon atoms.
 
-\chapter{The Density Functional method}\label{sec:dft-method}
+\chapter{The DFT method for heavy impurities}\label{sec:dft-method}
 	\epigraph{One Functional to rule them all,
 				One Functional to find them,
 				One Functional to bring them all
@@ -342,7 +334,6 @@
 	\end{align}
 	with $\mu$ the chemical potential. Solving this equation by iteration will result in the ground state density $\abs{\Psi_0}^2$ of the system. Within the H--K framework and the variation principle that was used to obtain these EL-equations, the nature of the minimisation is such that it gives the lowest energy for a given symmetry. This means that as long as the input state doesn't break the symmetry of the time-independent EL-equation, it minimises the energy of this state even if it doesn't lead to the ground state. This can be used to obtain a stationary vortex-line solution. With the inclusion of appropriate constraints in the energy functional the same procedure can be used to obtain helium densities with an array of vortex-lines.   
 
-	\clearpage
 	\section{The Orsay--Trento Density Functional}
 		\begin{table}[t]
 			Model parameters for the OT-DFT and solid functionals.
@@ -431,8 +422,7 @@
 				&+ C\rho(\vec{r})\qty\Big{1+\tanh(\beta\qty[\rho(\vec{r})-\rho_\mathrm{m}])} \label{eq:solid-otf}
 			\end{align}
 
-	\clearpage
-	\section{Static calculations with heavy atomic impurities}
+	\section{Static calculations}
 		\lettrine[lines=3,findent=3pt,nindent=0pt]{I}{n} the work presented here all the impurities are heavy compared to the mass of $^4$He, e.g. the mass of Rubidium is about 21 times larger than that of Helium, Xenon roughly 33 times and Argon about 10 times. Therefore we will treat the centre of mass motion of the impurities as classical. In the DFT derived EL-equations this will be modelled as an external field $V_X$
 		\begin{align}
 			E[\rho] \rightarrow E[\rho] +  \int\!\rho({\mathbf r}) V_X\qty(\abs{{\mathbf r} - {\mathbf r}_I})\diff{r} \label{eq:el-static-hi}
@@ -464,8 +454,7 @@
 			\end{align}
 			where $\rho_0$ is again the ground state density of the vortex-free droplet and $(x_j,y_j)$ is the initial position of the $j$-th vortex-line parallel to the $z$-axis.
 
-	\clearpage
-	\section{Dynamic calculations with heavy atomic impurities}
+	\section{Dynamic calculations}
 		\lettrine[lines=3,findent=3pt,nindent=0pt]{F}{or} the dynamic evolution of atomic impurities excited from $ns$-states to $n's$-states, we do not need to keep track of the evolution of the electronic state of the impurity since it keeps its spherically symmetric orbital. In this case we only need to describe the time evolution of the centre of mass coordinate of the impurity. As in the statics, because of the large atomic mass of the impurity compared to helium, the time evolution of the centre of mass coordinate of the impurity is treated classically. To obtain the correct energy for the whole droplet-impurity system the energy functional needs to be extended to include the impurities centre of mass motion and the impurity-helium interaction
 		\begin{align}
 			E[\rho] \rightarrow E[\rho] + \frac{p^2_I}{2 m_I} + \int \! \rho(\mathbf{r}) \, V_{X^{\!*}}\qty(\abs{\vec{r}-\vec{r}_I})\diff{r} \label{eq33}
@@ -477,132 +466,125 @@
 			&= -\int \! V_{X^*}(|\mathbf{r}- \mathbf{r}_I|)  \, \grad \rho(\mathbf{r})\diff{r} \label{eq34}
 		\end{align}
 	
-		\subsection{The DIM model}	
-			The situation becomes slightly more complicated for $n$s-states excited to $n'$p-states (effective one-electron excited $^2$P-states). Since the p-orbital is no longer spherically symmetric, we also need to include a description for the time evolution of the orientation of the p-orbital. To do this we use the diatomic model (DIM). The interaction between a helium atom ($^1$S-state) and the triple degenerate $L=1$ electronic state of the impurity partially lifts the degeneracy so that the interaction can be decomposed into a $\Sigma$-state and a double degenerate $\Pi$-state. In the cylindrical symmetry of the DIM it is customary to use the molecular term symbol $^{2S+1}\Lambda_\Omega$ to label the levels. Here $S$ is the total spin angular momentum (and $2S+1$ the spin multiplicity), $\Lambda$ is the modulus of the total orbital angular momentum and $\Omega$ is the total angular momentum, all projected along the internuclear axis. Following the spectroscopic notation the orbitals corresponding to $\Lambda=0,1,2,3,\ldots$ are labeled $\Sigma,\Pi,\Delta,\Phi,\ldots$. The interaction between a helium atom and the impurity's electronic structure can be expressed in an uncoupled basis $\qty{\ket{p_{xm}}\!,\ket{p_{ym}}\!,\ket{p_{zm}}}$ of real one-electron p-orbitals oriented along the internuclear axis (see Fig. \ref{fig:dim}). The helium-impurity interaction is given by
+		\subsection{The DIM model}
+			\begin{figure}[t]
+				\begin{center}
+					\includegraphics[width=0.45\textwidth]{pxy-he}
+					\hspace{20px}
+					\includegraphics[width=0.45\textwidth]{pz-he}
+				\end{center}
+				\caption{Level splitting of the p-orbitals in the presence of helium, that breaks the spherical symmetry. (A) A double degenerate n'p$_\mathrm{x/y}$-orbital and (B) a single n'p$_\mathrm{z}$-orbital. (Illustration courtesy of M. Martinez)}
+				\label{fig:p-orbitals}
+			\end{figure}				
+			The situation becomes slightly more complicated for $n$s-states excited to $n'$p-states (effective one-electron excited $^2$P-states). Since the p-orbital is no longer spherically symmetric, we also need to include a description for the time evolution of the orientation of the p-orbital. To do this we use the diatomic model (DIM). The interaction between a helium atom ($^1$S$_0$-state) and the triple degenerate $L=1$ electronic state of the impurity partially lifts the degeneracy so that the interaction can be decomposed into a $\Sigma$-state and a double degenerate $\Pi$-state (see Fig. \ref{fig:p-orbitals}). In the cylindrical symmetry of the DIM it is customary to use the molecular term symbol $^{2S+1}\Lambda_\Omega$ to label the levels. Here $S$ is the total spin angular momentum (and $2S+1$ the spin multiplicity), $\Lambda$ is the modulus of the total orbital angular momentum and $\Omega$ is the total angular momentum, all projected along the internuclear axis. Following the spectroscopic notation the orbitals corresponding to $\Lambda=0,1,2,3,\ldots$ are labeled $\Sigma,\Pi,\Delta,\Phi,\ldots$. The interaction between a helium atom and the impurity's electronic structure can be expressed in an uncoupled basis
 			\begin{align}
-				U(r_m)= V_{\Pi}(r_m)\mathbb{1}_3+\qty\big[V_{\Sigma}(r_m)-V_{\Pi}(r_m)]\dyad{p_{zm}} \label{eq37}
+				 \ket{p_{im}}\in\qty\big{\,\ket{p_{xm}}\!,\ket{p_{ym}}\!,\ket{p_{zm}}} \label{eq:dim-basis}
+			\end{align}
+			of real one-electron p-orbitals oriented along the internuclear axis (see Fig. \ref{fig:dim-axes}). The helium-impurity interaction matrix is given by
+			\begin{align}
+				\mathcal{V}^{DIM}(r_m) &= V_{\Pi}(r_m)\qty\big(\dyad{p_{xm}}+\dyad{p_{ym}})+V_{\Sigma}(r_m)\dyad{p_{zm}} \nonumber \\
+					&= V_{\Pi}(r_m)\qty\big(\mathbb{1}_3-\dyad{p_{zm}})+V_{\Sigma}(r_m)\dyad{p_{zm}} \nonumber \\
+					&=V_{\Pi}(r_m)\mathbb{1}_3+\qty\big[V_{\Sigma}(r_m)-V_{\Pi}(r_m)]\dyad{p_{zm}}
 			\end{align}	
-			where $r_m$ is the modulus of the interatomic separation vector and $V_\Pi(r)$, $V_\Sigma(r)$ are the $\Pi$ and $\Sigma$ impurity-He pair potentials in the absence of spin-orbit coupling. For a system consisting of $N$ helium atoms the total potential energy is calculated by summing over all the contributions of the $N$ individual $^4$He--X contributions (DIM \cite{82})
+			where $r_m$ is the modulus of the interatomic separation vector and $V_\Pi$ and $V_\Sigma$ are the $\Pi$ and $\Sigma$ impurity-He pair potentials in the absence of spin-orbit coupling. For a system consisting of $N$ helium atoms the total interaction energy is calculated by summing over all the contributions of the $N$ individual $^4$He--X contributions (DIM \cite{82})
 			\begin{align}
-				U=\sum_{m=1}^{N}\qty\Big{V_\Pi(r_m)\mathbb{1}_3+\qty\big[V_\Sigma(r_m)- V_\Pi(r_m)] \mathcal{R}_m \dyad{p_z} \mathcal{R}^{-1}_m}	\label{eq38}
+				\mathcal{U}^{DIM}(\vec{r}_I)=\sum_{m=1}^{N}\mathcal{V}^{DIM}(r_m)
 			\end{align}
-			where $\mathcal{R}_m$ is a rotation matrix that transforms the common laboratory frame $\ket{p_z}$ to the diatomic frame $\ket{p_{zm}}$ corresponding to the $m^{\rm th}$ $^4$He atom. In cartesian coordinates
+			It is more convenient to express the interaction in a basis common to all impurity-helium pairs, instead of a basis that depends on the particular impurity-helium pair chosen. To do this we apply a rotation $\mathcal{R}_m:\hat{\vec{z}}_m\mapsto\hat{\vec{z}}\propto\vec{r}_I$, so that the matrix corresponding to the $m^{\rm th}$ $^4$He atom expressed in the common basis is given by
+			\begin{align}
+				\dyad{p_{zm}} = \mathcal{R}_m\dyad{p_z}\mathcal{R}_m^{-1}
+			\end{align}
+			It can be shown that the elements of this matrix in cartesian coordinates are of the form
 			\begin{equation}
-				\mel{p_i}{\mathcal{R}_m\dyad{p_z}\mathcal{R}_m^{-1}}{p_j} = \frac{r_{im}\,r_{jm}}{\norm{\vec{r}_m}^2}		\label{eq39}
+				\mel**{p_i}{\mathcal{R}_m\dyad{p_z}\mathcal{R}_m^{-1}}{p_j} = \frac{r_{im}\,r_{jm}}{\norm{\vec{r}_m}^2}		\label{eq39}
 			\end{equation}	
-			where $(i,j)\in\qty{x,y,z}$ for the $m^{\rm th}$ $^4$He atom. With these definitions we can write the matrix elements $U_{ij}$ of the DIM interaction potential $U$
+			where $(i,j)\in\qty{x,y,z}$. With these definitions we can write the matrix elements $U^{DIM}_{ij}$ of the interaction energy $\mathcal{U}^{DIM}$
 			\begin{align}
-				U_{ij}=\mel{p_i}{U}{p_j} = \sum_{m=1}^{N}\qty{V_\Pi(r_m)\delta_{ij}+\qty\big[V_\Sigma(r_m)-V_\Pi(r_m)]\frac{r_{im}\,r_{jm}}{\norm{\vec{r}_m}^2}}  \label{eq40}
+				U^{DIM}_{ij}(\vec{r}_I)=\mel**{p_i}{\mathcal{U}^{DIM}}{p_j} = \sum_{m=1}^{N} V^{DIM}_{ij}(r_m)
 			\end{align}
-			Since we are working with a continues helium density $\rho(\vec{r})$ and not with discrete atoms the summation over $N$ helium atoms in the previous expression is replaced by an integral over the density $\sum_n\rightarrow\int\!\rho(\vec{r})\diff{r}$ which finally gives for the matrix element $U_{ij}$
+			where
 			\begin{align}
-				U_{ij}(\vec{r}) = \int\! \rho\qty(\vec{r'}+\vec{r})\qty{V_\Pi(r')\delta_{ij}+\qty\big[V_\Sigma(r')-V_\Pi(r')]\frac{r'_i\,r'_j}{\norm{\vec{r'}}^2}}\diff{r'} 	\label{eq41}
+				V^{DIM}_{ij}(r_m) \vcentcolon= \qty{V_\Pi(r_m)\delta_{ij}+\qty\big[V_\Sigma(r_m)-V_\Pi(r_m)]\frac{r_{im}\,r_{jm}}{\norm{\vec{r}_m}^2}} \label{eq:vdim}
 			\end{align}
-			%
-			The eigenvalues $V^{\mathrm{ex}}_k(\mathbf{r})$ of this real symmetric matrix define the potential energy curves (PECs) as a function of the distance between the surrounding helium and the impurity.
+			are the matrix elements of $\mathcal{V}^{DIM}$ expressed in the common basis. Since we are working with a continues helium density $\rho(\vec{r})$ and not with discrete atoms the summation over $N$ helium atoms in the previous expression is replaced by an integral over the density $\sum_m\rightarrow\int\!\rho(\vec{r})\diff{r}$ which finally gives for the matrix element $U^{DIM}_{ij}$
+			\begin{align}
+				U^{DIM}_{ij}(\vec{r}_I) = \int\! \rho\qty(\vec{r}+\vec{r}_I)\,V^{DIM}_{ij}(r)\diff{r}
+			\end{align}
+			
+			The eigenvalues $U^{\mathrm{np}}_k(\vec{r}_I)$ of this real symmetric matrix define the potential energy curves (PECs) as a function of the distance between the surrounding helium and the impurity.
+			\begin{figure}[t]
+				\begin{center}
+					\includegraphics[width=0.75\textwidth]{dim-axes}
+				\end{center}
+				\caption{The set of axis defined in the DIM description (illustration courtesy of M. Martinez).}
+				\label{fig:dim-axes}
+			\end{figure}			
 		
 		\subsection{Including spin-orbit coupling}
-			The above model assumes that spin-orbit (SO) coupling is negligible. 
-			However, when it becomes comparable to the helium induced splitting of the p-orbitals, it must be included in the calculation. 
-			The total Hamiltonian is then given by $U_T = U+U_{SO}$ where $U_{SO}$ is the SO hamiltonian matrix, usually approximated by that of the free atom \cite{Jak97}.
-			The previously mentioned minimal DIM basis set can be extended to include the electron spin: $s = \uparrow (m_s = $ $^1\!/_2)$, $s= \downarrow (m_s= -^1\!/_2)$, i.e. 
-			$|i,s \rangle \equiv |p_x, \uparrow \rangle, |p_x, \downarrow \rangle, |p_y, \uparrow \rangle, |p_y, \downarrow \rangle, |p_z, \uparrow \rangle, |p_z, \downarrow \rangle$.
+			For the study of the alkali metal Rb in this work, the spin-orbit (SO) splitting of the energy levels is comparable to the splitting of the orbital angular momentum levels $L=0$ and $L=\pm 1$ due to the interaction with the helium. Therefore the spin-orbit interaction needs to be included in the total interaction Hamiltonian.\\
 			
-			Kramers' theorem states that the two-fold degeneracy of the levels originating from total half-integer spin cannot be broken by electrostatic interactions \cite{Nak01}. 
-			Thus, all the electronic eigenstates of $U_T$ are doubly degenerate. 
-			Diagonalization of $U_T$ yields three doubly degenerate PEC between the impurity and surrounding helium. 
-			This method has also been extended to impurities in D electronic states \cite{Lea16,Mel14}.
+			The total Hamiltonian is given by the sum of the DIM-interaction and the SO-interaction $\mathcal{H} = \mathcal{U}^{DIM}+\mathcal{V}^{SO}$. The SO-matrix is defined
+			\begin{align}
+				\mathcal{V}^{SO}=\frac{1}{2}A_{\ell s}\qty(\vec{J}^2-\vec{L}^2-\vec{S}^2)
+			\end{align}
+			with $\vec{J}=\vec{L}+\vec{S}$. The coupling constant $A_{\ell s}$ is usually approximated by that of the free atom \cite{Jak97}. We can extend the DIM basis Eq. (\ref{eq:dim-basis}) to include the projection of the electron spin $s=\qty{\uparrow,\downarrow}$ corresponding to the quantum numbers $m_s=\qty{\frac{1}{2},-\frac{1}{2}}$:
+			\begin{align}
+				\ket{p_i,s}\in\qty\big{\,\ket{p_x,\uparrow}\!,\ket{p_x,\downarrow}\!,\ket{p_y,\uparrow}\!,\ket{p_y,\downarrow}\!,\ket{p_z,\uparrow}\!,\ket{p_z,\downarrow}}.
+			\end{align}
+			In this basis the $\mathcal{V}^{SO}$ is given by
+			\begin{align}
+				\mathcal{V}^{SO} = \frac{1}{2}A_{\ell s}\mqty*(0&0&-i&0&0&1\\0&0&0&i&-1&0\\i&0&0&0&0&-i\\0&-i&0&0&-i&0\\0&-1&0&i&0&0\\1&0&i&0&0&0)
+			\end{align}
+			Kramers' theorem states that the two-fold degeneracy of the levels originating from total half-integer spin cannot be broken by electrostatic interactions \cite{Nak01}. Therefore all the electronic eigenstates of $\mathcal{H}$ are doubly degenerate. Diagonalisation of $\mathcal{H}$ yields three doubly degenerate PECs between the impurity and surrounding helium.\\
 			
-			The DIM wave function of the impurity, $|\lambda\rangle$, is determined by a six-dimensional state vector
-			%
-			\begin{equation}
-			|\lambda \rangle = \sum_{\mathop{i=x,y,z}\limits_{s=-1/2,1/2}} \lambda_{is} |i,s \rangle \;\; .
-			\label{eq42}
-			\end{equation}
-			%
-			The complete set of variables required to describe the
+			The dynamic evolution of the electronic excited state of the impurity is described by introducing an additional degree of freedom, a 6-component vector $\ket\lambda$, which describes the coefficients of the electronic state in the $\qty{\ket{p_i,s}}$ basis
+			\begin{align}
+				\ket{\lambda(t)} = \!\!\!\!\!\sum_{\substack{i=\{x,y,z\}\\s=\{\uparrow,\downarrow\}}}\!\!\!\!\! \lambda_{is}(t) \ket{p_i,s}
+			\end{align}
+			such that $\norm{\ip{\lambda}}^2=1$. The complete set of variables required to describe the
 			system consists of the complex valued effective wave function for helium $\Psi(\mathbf{r}, t)$ with
 			$\rho(\mathbf{r}, t) = |\Psi(\mathbf{r}, t)|^2$, the impurity position $\mathbf{r}_I(t)$, and the 6-dimensional complex vector to determine 
 			its electronic wave function $|\lambda(t)\rangle$. The total energy of the impurity-$^4$He$_N$ complex after excitation to the $^2$P manifold is
-			%
+
+			\begin{align}
+				E[\Psi, \vec{r}_I, \lambda] &= \frac{\hbar^2}{2m}\int\!\abs{\grad \Psi}^2\diff{r}
+				+ \int\!{\cal E}_c[\rho]\diff{r} \nonumber \\
+				&+ \frac{p^2_I}{2 m_I}
+				+ \int\!\rho(\vec{r})\,V_\lambda(\vec{r}-\vec{r}_I)\diff{r}
+				+ \ev**{\mathcal{V}^{SO}}{\lambda}
+			\end{align}
+			where $V_\lambda$ is defined as
+			\begin{align}
+				V_\lambda(\vec{r}) \vcentcolon= \ev{\mathcal{V}^{DIM}}{\lambda} = \sum_{ijss'}\lambda^*_{is}V^{DIM}_{ijss'}(\vec{r})\lambda_{js'} 
+			\end{align}
+			and the components of the $6\times6$ matrix ${\mathcal V}^{DIM}$ given by
 			\begin{equation}
-			E[\Psi, \mathbf{r}_I, \lambda] =
-			\int d \mathbf{r} \,
-			\frac{\hbar^2}{2m}|\nabla \Psi|^2
-			+
-			\frac{p^2_I}{2 m_I}
-			+
-			\int d \mathbf{r} \,
-			{\cal E}_c[\rho]
-			+
-			\langle \lambda | V_{SO} |\lambda\rangle
-			+ \int d \mathbf{r} \, \rho(\mathbf{r}) \,
-			V_\lambda (\mathbf{r}- \mathbf{r}_I ) 
-			%\; .
-			\label{eq43}
+				V^{DIM}_{ijss'}(\vec{r})=V^{DIM}_{ij}\delta_{ss'}=\qty{V_\Pi(r)\delta_{ij}+\qty\big[V_\Sigma(r)-V_\Pi(r)]\frac{r_i\,r_j}{\norm{\vec{r}_m}^2}}\delta_{ss'}
 			\end{equation}
-			%
-			where $V_{SO}$ is the spin-orbit coupling operator and $V_\lambda$ is defined as
-			%
-			\begin{equation}
-			V_\lambda(\mathbf{r}) \equiv \langle \lambda | {\mathcal V}(\mathbf{r}) | \lambda\rangle = \sum_{ijss'}\lambda^*_{is}{\mathcal V}^{ijss'}(\mathbf{r})\lambda_{js'} 
-			\label{eq44}
-			\end{equation}
-			%
-			with the components of the six-dimensional matrix ${\mathcal V}$ given by
-			%
-			\begin{equation}
-			{\mathcal V}^{ijss'}(\mathbf{r}) =\left[ V_\Pi(r)\delta_{ij} +
-			\left(V_\Sigma(r)-V_\Pi(r)\right)\frac{r_i r_j}{r^2} \right]\delta_{ss'}
-			\label{eq45}
-			\end{equation}
+			Unlike for the static DFT case, the time evolution of the system is obtained by minimising the following action
+			\begin{align}
+				A[\Psi,\vec{r}_I,\lambda] = \int\!\bigg\{&E[\Psi,\vec{r}_I,\lambda] -i\hbar\int \!\Psi^*(\vec{r}) \pdv{t}\Psi(\vec{r})\dd{\vec{r}} \nonumber \\
+				-&i\hbar\ev**{\pdv{t}}{\lambda} - \frac{1}{2} m_I \dot{\vec{r}}^2_I\bigg\}\dd{t}
+			\end{align}
+			Variation of the action $A$ with respect to $\qty\big{\Psi^*\!,\,\bra\lambda\!,\,\vec{r}_I}$ yields the following three coupled EL-equations
+			\begin{align}
+				i\hbar\pdv{t}\Psi &= \qty[-\frac{\hbar^2}{2m}\laplacian +\fdv{\mathcal{E}_c}{\rho(\mathbf{r})} + V_\lambda(\vec{r}-\vec{r}_I)]\Psi \nonumber \\
+				i\hbar\pdv{t}\ket\lambda  &= \mathcal{H}\ket\lambda \nonumber \\
+				m_I\ddot{\vec{r}}_I &= - \grad_{\vec{r}_I}\qty[\int\!\rho(\vec{r})\,V_\lambda(\vec{r}-\vec{r}_I)\dd{\vec{r}}] = -\int\!V_\lambda(\vec{r}-\vec{r}_I)\,\grad\rho(\vec{r})\dd{\vec{r}} \label{eq:dyn-el}
+			\end{align}
+			where the explicit time dependence of the variables is omitted for clarity. The second line of Eq. (\ref{eq:dyn-el}) is a $6\times 6$ matrix equation with the matrix elements of $\mathcal{H}$ given by
+			\begin{align}
+				H^{ijss'} = U^{DIM}_{ijss'}+V^{SO}_{ijss'} = \int\!\rho(\vec{r})\,V^{DIM}_{ijss'}(\vec{r}-\vec{r}_I)\dd{\vec{r}}+V^{SO}_{ijss'}
+			\end{align}
+			In the cases that SO-coupling can be neglected the 6-dimensional electronic state vector $\ket{\lambda}$ reduces to the 3-dimensional vector
+			\begin{align}
+				\ket{\lambda(t)} = \sum_{i=\{x,y,z\}} \lambda_{i}(t) \ket{p_i}
+			\end{align}
+			and the $6\times6$ matrix $\mathcal{H}$ reduces to a $3\times 3$ matrix with elements
+			\begin{align}
+				H^{ij} = U^{DIM}_{ij} = \int\!\rho(\vec{r})\,V^{DIM}_{ij}(\vec{r}-\vec{r}_I)\dd{\vec{r}}
+			\end{align}\\
 			
-			The time evolution of the system is obtained by minimizing the action
-			%
-			\begin{equation}
-			{\cal A}[\Psi, \mathbf{r}_I, \lambda] =
-			\int dt \left\{ E[\Psi, \mathbf{r}_I, \lambda]  -  i \hbar \int d \mathbf{r} \,
-			\Psi^*(\mathbf{r}) \frac{\partial}{\partial t} \Psi(\mathbf{r})  - i \hbar 
-			\langle \lambda | \frac{\partial}{\partial t} | \lambda \rangle - \frac{1}{2} m_I \dot{\mathbf{r}}^2_I \right\} \;
-			\label{eq46}
-			\end{equation}
-			%
-			Variation of $\cal A$ with respect to $\Psi^*$,  $\langle\lambda|$  and $\mathbf{r}_I$ yields
-			%
-			\begin{eqnarray}
-			&&i\hbar\frac{\partial}{\partial t} \Psi =
-			\left[
-			-\frac{\hbar^2}{2m}\nabla^2 +
-			\frac{\delta {\cal E}_c}{\delta \rho(\mathbf{r})}
-			+
-			V_\lambda(\mathbf{r}- \mathbf{r}_I)
-			\right]
-			\Psi
-			\nonumber
-			\\
-			&&i\hbar\frac{\partial}{\partial t} | \lambda \rangle  =
-			{\cal H} \; |\lambda\rangle
-			\nonumber
-			\\
-			&&m_I\ddot{\mathbf{r}}_I
-			=
-			- \nabla_{\mathbf{r}_I}
-			\left[
-			\int d \mathbf{r} \rho(\mathbf{r})
-			V_\lambda(\mathbf{r}- \mathbf{r}_I)
-			\right] =  -   \int d \mathbf{r} \,  V_\lambda(\mathbf{r}- \mathbf{r}_I)  \nabla \rho(\mathbf{r})
-			\label{eq47}
-			\end{eqnarray}
-			%
-			where the explicit time dependence of the variables is omitted for clarity.
-			The second line of Eq. (\ref{eq47}) is a $6\times 6$ matrix equation with the matrix elements given by
-			%
-			\begin{equation}
-			H^{ijss'} = \int d \mathbf{r} \, \rho(\mathbf{r})
-			{\mathcal V}^{ijss'} (\mathbf{r}- \mathbf{r}_I)
-			+ V^{ijss'}_{SO}
-			\label{eq48}
-			\end{equation}
-		
-\include{commented_stuff}
+			For the technical details about how this method is implemented the interested reader is directed to [\ref{deft-guide}]. For the collection of Fortran code that has been used to obtain the results presented here see [\ref{bcn-tlse-hedft}]. For the manuel to use the code see [\ref{dft-manual}].
+	\include{commented_stuff}
 \end{document}

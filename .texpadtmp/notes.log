@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  6 FEB 2018 16:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  11 FEB 2018 14:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,52 +24,7 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/antt/anttor.sty
-Package: anttor 2005/10/03 v.1.2 anttor (Antykwa Torunska) package (MW)
-\c@mv@antt=\count88
-\c@mv@anttbold=\count89
-LaTeX Font Info:    Overwriting symbol font `operators' in version `antt'
-(Font)                  OT1/cmr/m/n --> OT1/anttm/m/n on input line 66.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `antt'
-(Font)                  OML/cmm/m/it --> OML/antt/m/it on input line 67.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `antt'
-(Font)                  OMS/cmsy/m/n --> OMS/antt/m/n on input line 68.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `antt'
-(Font)                  OMX/cmex/m/n --> OMX/antt/m/n on input line 69.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `anttbold'
-(Font)                  OT1/cmr/m/n --> OT1/anttm/b/n on input line 70.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `anttbold'
-(Font)                  OML/cmm/m/it --> OML/antt/b/it on input line 71.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `anttbold'
-(Font)                  OMS/cmsy/m/n --> OMS/antt/b/n on input line 72.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `anttbold'
-(Font)                  OMX/cmex/m/n --> OMX/antt/b/n on input line 73.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `antt'
-(Font)                  OT1/cmr/bx/n --> OT1/antt/bx/n on input line 75.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `antt'
-(Font)                  OT1/cmss/m/n --> OT1/antt/m/n on input line 76.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `antt'
-(Font)                  OT1/cmr/m/it --> OT1/antt/m/it on input line 77.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `antt'
-(Font)                  OT1/cmtt/m/n --> OT1/antt/m/n on input line 78.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `anttbold'
-(Font)                  OT1/cmss/m/n --> OT1/antt/bx/n on input line 79.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `anttbold'
-(Font)                  OT1/cmr/m/it --> OT1/antt/bx/it on input line 80.
-LaTeX Font Info:    Redeclaring math symbol \Rightarrow on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \rightarrow on input line 100.
-LaTeX Font Info:    Redeclaring math symbol \leftarrow on input line 101.
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
- (/usr/local/texlive/2017/texmf-dist/tex/latex/polski/qxenc.def
-File: qxenc.def 2002/01/11 v0.05a QX font encoding definition
-LaTeX Info: Composite with undeclared \. in encoding QX on input line 46.
-LaTeX Info: Composite with undeclared \k in encoding QX on input line 92.
-)
-LaTeX Font Info:    Try loading font information for QX+antt on input line 105.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/antt/qxantt.fd
-File: qxantt.fd 2005/10/05 v1.2 font definition file for QX/antt (MW)
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
@@ -372,8 +327,6 @@ Now handling font encoding OMX ...
 ... no UTF-8 mapping file for font encoding OMX
 Now handling font encoding U ...
 ... no UTF-8 mapping file for font encoding U
-Now handling font encoding QX ...
-... no UTF-8 mapping file for font encoding QX
    defining Unicode char U+00A9 (decimal 169)
    defining Unicode char U+00AA (decimal 170)
    defining Unicode char U+00AE (decimal 174)
@@ -384,6 +337,50 @@ Now handling font encoding QX ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/antt/anttor.sty
+Package: anttor 2005/10/03 v.1.2 anttor (Antykwa Torunska) package (MW)
+\c@mv@antt=\count88
+\c@mv@anttbold=\count89
+LaTeX Font Info:    Overwriting symbol font `operators' in version `antt'
+(Font)                  OT1/cmr/m/n --> OT1/anttm/m/n on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `antt'
+(Font)                  OML/cmm/m/it --> OML/antt/m/it on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `antt'
+(Font)                  OMS/cmsy/m/n --> OMS/antt/m/n on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `antt'
+(Font)                  OMX/cmex/m/n --> OMX/antt/m/n on input line 69.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `anttbold'
+(Font)                  OT1/cmr/m/n --> OT1/anttm/b/n on input line 70.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `anttbold'
+(Font)                  OML/cmm/m/it --> OML/antt/b/it on input line 71.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `anttbold'
+(Font)                  OMS/cmsy/m/n --> OMS/antt/b/n on input line 72.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `anttbold'
+(Font)                  OMX/cmex/m/n --> OMX/antt/b/n on input line 73.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `antt'
+(Font)                  OT1/cmr/bx/n --> OT1/antt/bx/n on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `antt'
+(Font)                  OT1/cmss/m/n --> OT1/antt/m/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `antt'
+(Font)                  OT1/cmr/m/it --> OT1/antt/m/it on input line 77.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `antt'
+(Font)                  OT1/cmtt/m/n --> OT1/antt/m/n on input line 78.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `anttbold'
+(Font)                  OT1/cmss/m/n --> OT1/antt/bx/n on input line 79.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `anttbold'
+(Font)                  OT1/cmr/m/it --> OT1/antt/bx/it on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Rightarrow on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \rightarrow on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \leftarrow on input line 101.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+antt on input line 105.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/antt/t1antt.fd
+File: t1antt.fd 2005/10/05 v1.2 font definition file for T1/antt (MW)
 )) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip43
@@ -1555,24 +1552,18 @@ LaTeX Warning: Label `eq:el-static-hi' multiply defined.
 (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/commented_stuff.aux))
 \openout1 = `notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for QX/qtm/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for QX+qtm on input line 32.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/tex-gyre/qxqtm.fd
-File: qxqtm.fd 2009/09/25 v1.2 font definition file for QX/qtm
-)
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
  (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count152
@@ -1646,354 +1637,362 @@ File: omxantt.fd 2005/10/05 v1.2 font definition file for OMX/antt (MW)
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Font Warning: Font shape `QX/antt/m/sl' undefined
-(Font)              using `QX/antt/m/n' instead on input line 36.
+LaTeX Font Warning: Font shape `T1/antt/m/sl' undefined
+(Font)              using `T1/antt/m/n' instead on input line 32.
 
 [2
 
 ]
 Chapter 1.
 
-Overfull \hbox (175.5755pt too wide) in paragraph at lines 37--38
-\QX/antt/m/n/12 with-out fric-tion[\QX/antt/m/it/12 ref\QX/antt/m/n/12 ] due to its ex-tremely low viscosity[https://doi.org/10.1016/j.crhy.2017.10.016]($\OMS/antt/m/n/12 ^^Y
+Overfull \hbox (175.53268pt too wide) in paragraph at lines 33--34
+\T1/antt/m/n/12 with-out fric-tion[\T1/antt/m/it/12 ref\T1/antt/m/n/12 ] due to its ex-tremely low viscosity[https://doi.org/10.1016/j.crhy.2017.10.016]($\OMS/antt/m/n/12 ^^Y
  []
 
 
-Overfull \hbox (111.05905pt too wide) in paragraph at lines 37--38
-\QX/antt/m/n/12 temperature[https://doi.org/10.1016/S0031-8914(36)80312-7,https://doi.org/10.1038/140062a0].
+Overfull \hbox (111.05905pt too wide) in paragraph at lines 33--34
+\T1/antt/m/n/12 temperature[https://doi.org/10.1016/S0031-8914(36)80312-7,https://doi.org/10.1038/140062a0].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
 <specific-heat.png, id=11, 1019.30812pt x 813.53937pt>
 File: specific-heat.png Graphic file (type png)
  <use specific-heat.png>
-Package pdftex.def Info: specific-heat.png used on input line 41.
+Package pdftex.def Info: specific-heat.png used on input line 37.
 (pdftex.def)             Requested size: 292.5pt x 233.45006pt.
- [3] [4 <./specific-heat.png>]
-Overfull \hbox (7.46568pt too wide) in paragraph at lines 49--50
-\QX/antt/m/sl/12 Kamer-lingh Onnes in 1908[\QX/antt/m/it/12 ref\QX/antt/m/sl/12 ]. In 1932 John McLen-nan saw[\QX/antt/m/it/12 ref\QX/antt/m/sl/12 ]
+
+Overfull \hbox (7.41608pt too wide) in paragraph at lines 44--45
+\T1/antt/m/n/12 Kamer-lingh Onnes in 1908[\T1/antt/m/it/12 ref\T1/antt/m/n/12 ]. In 1932 John McLen-nan saw[\T1/antt/m/it/12 ref\T1/antt/m/n/12 ]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
+[3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-[5
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+ [4 <./specific-heat.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
-<phonon-roton-landau-first.png, id=29, 1084.55188pt x 841.1425pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+[5] <phonon-roton-landau-first.png, id=30, 1084.55188pt x 841.1425pt>
 File: phonon-roton-landau-first.png Graphic file (type png)
  <use phonon-roton-landau-first.png>
-Package pdftex.def Info: phonon-roton-landau-first.png used on input line 61.
+Package pdftex.def Info: phonon-roton-landau-first.png used on input line 56.
 (pdftex.def)             Requested size: 193.0481pt x 149.71776pt.
- <phonon-roton-bogoliubov.png, id=30, 1246.6575pt x 840.13875pt>
+ <phonon-roton-bogoliubov.png, id=31, 1246.6575pt x 840.13875pt>
 File: phonon-roton-bogoliubov.png Graphic file (type png)
  <use phonon-roton-bogoliubov.png>
-Package pdftex.def Info: phonon-roton-bogoliubov.png used on input line 62.
+Package pdftex.def Info: phonon-roton-bogoliubov.png used on input line 57.
 (pdftex.def)             Requested size: 193.0481pt x 130.09196pt.
- [6] [7 <./phonon-roton-landau-first.png> <./phonon-roton-bogoliubov.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+ [6 <./phonon-roton-landau-first.png> <./phonon-roton-bogoliubov.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-[8
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
  []
 
-[9]
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--132
-
+[9]
+Overfull \hbox (31.8173pt too wide) in paragraph at lines 138--140
+\T1/antt/m/sl/12 cal po-ten-tial $\OML/antt/m/it/12 ^^V[]$ \T1/antt/m/sl/12 and $\OML/antt/m/it/12 ^^V[]$ \T1/antt/m/sl/12 are not nec-es-sar-ily or-thog-o-nal, i.e. $\OT1/anttm/m/n/12 0 \OMS/antt/m/n/12 ^^T \OML/antt/m/it/12 N[] []  \OT1/anttm/m/n/12 	[]	[] d[] \OML/antt/m/it/12 <
  []
 
-[10]
-Overfull \hbox (31.8173pt too wide) in paragraph at lines 144--146
-\QX/antt/m/sl/12 cal po-ten-tial $\OML/antt/m/it/12 ^^V[]$ \QX/antt/m/sl/12 and $\OML/antt/m/it/12 ^^V[]$ \QX/antt/m/sl/12 are not nec-es-sar-ily or-thog-o-nal, i.e. $\OT1/anttm/m/n/12 0 \OMS/antt/m/n/12 ^^T \OML/antt/m/it/12 N[] []  \OT1/anttm/m/n/12 	[]	[] d[] \OML/antt/m/it/12 <
- []
-
-<dispersion-relation.pdf, id=53, 701.62125pt x 516.93124pt>
+<dispersion-relation.pdf, id=50, 701.62125pt x 516.93124pt>
 File: dispersion-relation.pdf Graphic file (type pdf)
  <use dispersion-relation.pdf>
-Package pdftex.def Info: dispersion-relation.pdf used on input line 153.
+Package pdftex.def Info: dispersion-relation.pdf used on input line 147.
 (pdftex.def)             Requested size: 350.99762pt x 258.60696pt.
 
 
-LaTeX Warning: Citation `Mat10a' on page 11 undefined on input line 154.
+LaTeX Warning: Citation `Mat10a' on page 10 undefined on input line 148.
 
 
-LaTeX Warning: Citation `Don81' on page 11 undefined on input line 154.
+LaTeX Warning: Citation `Don81' on page 10 undefined on input line 148.
 
 
-LaTeX Warning: Citation `Mat10a' on page 11 undefined on input line 154.
+LaTeX Warning: Citation `Mat10a' on page 10 undefined on input line 148.
 
 
-LaTeX Warning: Citation `Don81' on page 11 undefined on input line 154.
+LaTeX Warning: Citation `Don81' on page 10 undefined on input line 148.
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
-
- []
-
-[12 <./dispersion-relation.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 181--183
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
-<vortex-xy.png, id=66, 240.9pt x 240.9pt>
+[11 <./dispersion-relation.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
+
+ []
+
+<vortex-xy.png, id=63, 240.9pt x 240.9pt>
 File: vortex-xy.png Graphic file (type png)
  <use vortex-xy.png>
-Package pdftex.def Info: vortex-xy.png used on input line 189.
+Package pdftex.def Info: vortex-xy.png used on input line 183.
 (pdftex.def)             Requested size: 195.0pt x 195.00662pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
+
+ []
+
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 213--215
-
- []
-
-[14 <./vortex-xy.png>]
-LaTeX Font Info:    Try loading font information for U+bbold on input line 240.
+[13 <./vortex-xy.png>]
+LaTeX Font Info:    Try loading font information for U+bbold on input line 234.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/bbold/Ubbold.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 239--241
+Underfull \hbox (badness 10000) in paragraph at lines 233--235
 
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
-[17
 
-] <silver-filament.pdf, id=86, 123.04329pt x 93.15392pt>
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+[15] <silver-filament.pdf, id=80, 123.04329pt x 93.15392pt>
 File: silver-filament.pdf Graphic file (type pdf)
  <use silver-filament.pdf>
-Package pdftex.def Info: silver-filament.pdf used on input line 262.
+Package pdftex.def Info: silver-filament.pdf used on input line 255.
 (pdftex.def)             Requested size: 292.5pt x 221.46739pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
 
 Underfull \vbox (badness 2376) has occurred while \output is active []
 
- [18 <./silver-filament.pdf>] <vortex-array.png, id=138, 442.2924pt x 133.4586pt>
+ [16 <./silver-filament.pdf>] <vortex-array.png, id=132, 442.2924pt x 133.4586pt>
 File: vortex-array.png Graphic file (type png)
  <use vortex-array.png>
-Package pdftex.def Info: vortex-array.png used on input line 272.
+Package pdftex.def Info: vortex-array.png used on input line 265.
 (pdftex.def)             Requested size: 390.0pt x 117.68217pt.
 
-Overfull \hbox (24.86562pt too wide) in paragraph at lines 278--279
-\QX/antt/m/sl/12 re-ferred to the re-view pa-pers[JLTP.Vol142.Nos.1/2(2006), IRPC.Vol36No4.621-
- []
-
-[19 <./vortex-array.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
-
+Overfull \hbox (24.86562pt too wide) in paragraph at lines 271--272
+\T1/antt/m/sl/12 re-ferred to the re-view pa-pers[JLTP.Vol142.Nos.1/2(2006), IRPC.Vol36No4.621-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
+Underfull \vbox (badness 4805) has occurred while \output is active []
+
+ [17 <./vortex-array.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
-[20
 
-]
-Overfull \hbox (8.42853pt too wide) in paragraph at lines 294--295
-[]\QX/antt/m/it/12 Head-on Col-li-sions of Xe Atoms Against Su-per-fluid $[] $He Nan-odroplets
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
 
-[21] [22
+
+Underfull \vbox (badness 5533) has occurred while \output is active []
+
+ [18]
+Overfull \hbox (8.42853pt too wide) in paragraph at lines 286--287
+[]\T1/antt/m/it/12 Head-on Col-li-sions of Xe Atoms Against Su-per-fluid $[] $He Nan-odroplets
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+[19] [20
 
 ]
 Chapter 2.
 
-LaTeX Warning: Citation `Kro02' on page 23 undefined on input line 305.
+LaTeX Warning: Citation `Kro02' on page 21 undefined on input line 297.
 
 
-LaTeX Warning: Citation `deL06' on page 23 undefined on input line 305.
+LaTeX Warning: Citation `deL06' on page 21 undefined on input line 297.
 
 
-LaTeX Warning: Citation `deL10' on page 23 undefined on input line 305.
+LaTeX Warning: Citation `deL10' on page 21 undefined on input line 297.
 
 
-LaTeX Warning: Citation `Agu13' on page 23 undefined on input line 305.
+LaTeX Warning: Citation `Agu13' on page 21 undefined on input line 297.
 
 
-LaTeX Warning: Citation `Str87a' on page 23 undefined on input line 305.
+LaTeX Warning: Citation `Str87a' on page 21 undefined on input line 297.
 
 
-LaTeX Warning: Citation `Str87b' on page 23 undefined on input line 305.
+LaTeX Warning: Citation `Str87b' on page 21 undefined on input line 297.
 
 
-LaTeX Warning: Citation `Dal95' on page 23 undefined on input line 305.
+LaTeX Warning: Citation `Dal95' on page 21 undefined on input line 297.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+
+ []
+
+[21]
+
+LaTeX Warning: Citation `Hoh64' on page 22 undefined on input line 299.
+
+
+Overfull \hbox (15.71622pt too wide) in paragraph at lines 299--300
+[]\T1/antt/m/sl/12 The start-ing point for the den-sity func-tional method are the Hohenberg-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--316
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 327--329
 
  []
 
 
-LaTeX Warning: Citation `Hoh64' on page 23 undefined on input line 307.
-
-
-Overfull \hbox (15.71622pt too wide) in paragraph at lines 307--308
-[]\QX/antt/m/sl/12 The start-ing point for the den-sity func-tional method are the Hohenberg-
- []
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 322--324
-
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 335--337
-
+Overfull \hbox (29.90723pt too wide) in paragraph at lines 330--331
+[]\T1/antt/m/sl/12 Considering only eigen-states $\OT1/anttm/m/n/12 	([]\OML/antt/m/it/12 ; t\OT1/anttm/m/n/12 ) = 	[]([]) e[]$ \T1/antt/m/sl/12 of the time-independent
  []
 
 
-Overfull \hbox (29.90723pt too wide) in paragraph at lines 338--339
-[]\QX/antt/m/sl/12 Considering only eigen-states $\OT1/anttm/m/n/12 	([]\OML/antt/m/it/12 ; t\OT1/anttm/m/n/12 ) = 	[]([]) e[]$ \QX/antt/m/sl/12 of the time-independent
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 348--365
-[]\QX/antt/m/sl/12 Model pa-ram-e-ters for the OT-DFT and solid func-tion-als.
+Underfull \hbox (badness 10000) in paragraph at lines 339--356
+[]\T1/antt/m/sl/12 Model pa-ram-e-ters for the OT-DFT and solid func-tion-als.
  []
 
 
-Overfull \hbox (30.63356pt too wide) in paragraph at lines 348--365
+Overfull \hbox (30.63356pt too wide) in paragraph at lines 339--356
 []
  []
 
-<static-response-function.png, id=163, 981.16562pt x 880.28876pt>
+<static-response-function.png, id=153, 981.16562pt x 880.28876pt>
 File: static-response-function.png Graphic file (type png)
  <use static-response-function.png>
-Package pdftex.def Info: static-response-function.png used on input line 369.
+Package pdftex.def Info: static-response-function.png used on input line 360.
 (pdftex.def)             Requested size: 292.5pt x 262.42308pt.
- [26
-
-] [27 <./static-response-function.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 409--411
+ [23] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 400--402
 
  []
 
-[28] [29]
+[25 <./static-response-function.png>]
+Underfull \vbox (badness 2050) has occurred while \output is active []
 
-LaTeX Warning: Command \AA invalid in math mode on input line 444.
+ [26]
 
-[30
+LaTeX Warning: Command \r invalid in math mode on input line 434.
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 454--456
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
 
  []
 
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 464.
+(amsmath)                 on input line 454.
+
+[28] <pxy-he.png, id=174, 1439.87938pt x 616.80438pt>
+File: pxy-he.png Graphic file (type png)
+ <use pxy-he.png>
+Package pdftex.def Info: pxy-he.png used on input line 472.
+(pdftex.def)             Requested size: 175.49881pt x 75.17096pt.
+ <pz-he.png, id=175, 1439.87938pt x 616.80438pt>
+File: pz-he.png Graphic file (type png)
+ <use pz-he.png>
+Package pdftex.def Info: pz-he.png used on input line 474.
+(pdftex.def)             Requested size: 175.49881pt x 75.17096pt.
+ [29]
+
+LaTeX Warning: Citation `82' on page 30 undefined on input line 489.
+
+[30 <./pxy-he.png> <./pz-he.png>] <dim-axes.png, id=184, 1439.3775pt x 811.03pt>
+File: dim-axes.png Graphic file (type png)
+ <use dim-axes.png>
+Package pdftex.def Info: dim-axes.png used on input line 517.
+(pdftex.def)             Requested size: 292.5pt x 164.81432pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--525
+
+ []
+
+
+LaTeX Warning: Citation `Jak97' on page 31 undefined on input line 530.
 
 [31]
 
-LaTeX Warning: Reference `fig:dim' on page 32 undefined on input line 481.
-
-[32
-
-]
-
-LaTeX Warning: Citation `82' on page 33 undefined on input line 485.
+LaTeX Warning: Citation `Nak01' on page 32 undefined on input line 538.
 
 
-LaTeX Warning: Citation `Jak97' on page 33 undefined on input line 507.
+Underfull \hbox (badness 10000) in paragraph at lines 537--539
 
-
-Overfull \hbox (10.96097pt too wide) has occurred while \output is active
-\QX/antt/m/sl/12 2.3.  DYNAMIC CALCULATIONS WITH HEAVY ATOMIC IMPURITIES 33
  []
 
-[33]
+[32 <./dim-axes.png>] [33]
+Underfull \hbox (badness 10000) in paragraph at lines 586--587
 
-LaTeX Warning: Citation `Nak01' on page 34 undefined on input line 511.
-
-
-LaTeX Warning: Citation `Lea16' on page 34 undefined on input line 514.
-
-
-LaTeX Warning: Citation `Mel14' on page 34 undefined on input line 514.
-
-
-Overfull \hbox (23.36758pt too wide) detected at line 543
-\OML/antt/m/it/12 E\OT1/anttm/m/n/12 [	\OML/antt/m/it/12 ; \OT1/anttm/b/n/12 r[]\OML/antt/m/it/12 ; ^^U\OT1/anttm/m/n/12 ] = [] \OML/antt/m/it/12 d\OT1/anttm/b/n/12 r []\OMS/antt/m/n/12 jr\OT1/anttm/m/n/12 	\OMS/antt/m/n/12 j[] \OT1/anttm/m/n/12 + [] + [] \OML/antt/m/it/12 d\OT1/anttm/b/n/12 r \OMS/antt/m/n/12 E[]\OT1/anttm/m/n/12 [\OML/antt/m/it/12 ^^Z\OT1/anttm/m/n/12 ] + \OMS/antt/m/n/12 h\OML/antt/m/it/12 ^^U\OMS/antt/m/n/12 j\OML/antt/m/it/12 V[]\OMS/antt/m/n/12 j\OML/antt/m/it/12 ^^U\OMS/antt/m/n/12 i \OT1/anttm/m/n/12 + [] \OML/antt/m/it/12 d\OT1/anttm/b/n/12 r \OML/antt/m/it/12 ^^Z\OT1/anttm/m/n/12 (\OT1/anttm/b/n/12 r\OT1/anttm/m/n/12 ) \OML/antt/m/it/12 V[]\OT1/anttm/m/n/12 (\OT1/anttm/b/n/12 r \OMS/antt/m/n/12 ^^@ \OT1/anttm/b/n/12 r[]\OT1/anttm/m/n/12 )
  []
 
 
-Overfull \hbox (22.99258pt too wide) detected at line 568
-\OMS/antt/m/n/12 A\OT1/anttm/m/n/12 [	\OML/antt/m/it/12 ; \OT1/anttm/b/n/12 r[]\OML/antt/m/it/12 ; ^^U\OT1/anttm/m/n/12 ] = [] \OML/antt/m/it/12 dt [] 
- []
+LaTeX Warning: Reference `deft-guide' on page 34 undefined on input line 588.
+
+
+LaTeX Warning: Reference `bcn-tlse-hedft' on page 34 undefined on input line 588.
+
+
+LaTeX Warning: Reference `dft-manual' on page 34 undefined on input line 588.
 
 [34]
-Overfull \hbox (10.96097pt too wide) has occurred while \output is active
-\QX/antt/m/sl/12 2.3.  DYNAMIC CALCULATIONS WITH HEAVY ATOMIC IMPURITIES 35
- []
-
-[35]
 \openout2 = `commented_stuff.aux'.
 
  (./commented_stuff.tex) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.aux (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/commented_stuff.aux))
@@ -2008,18 +2007,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12361 strings out of 492995
- 216303 string characters out of 6132704
- 251922 words of memory out of 5000000
- 15755 multiletter control sequences out of 15000+600000
- 145139 words of font info for 110 fonts, out of 8000000 for 9000
+ 12123 strings out of 492995
+ 214053 string characters out of 6132704
+ 252971 words of memory out of 5000000
+ 15520 multiletter control sequences out of 15000+600000
+ 168176 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,20n,58p,10403b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-mi.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-rm.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-sy.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-ex.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-qx.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/anttcap-qx.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/initials/Zallman.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/antt/anttb.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/antt/anttbi.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/antt/anttr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/antt/anttri.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on /Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.pdf (35 pages, 7451193 bytes).
+ 39i,19n,58p,10403b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-mi.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-rm.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-sy.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-ex.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/antt-ec.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/antt/anttcap-ec.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/initials/Zallman.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/antt/anttb.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/antt/anttbi.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/antt/anttr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/antt/anttri.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on /Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.pdf (34 pages, 7938790 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
+ 240 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
