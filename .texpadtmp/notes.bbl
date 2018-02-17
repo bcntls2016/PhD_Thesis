@@ -1,185 +1,285 @@
-\begin{thebibliography}{25}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname bibnamefont\endcsname\relax
-  \def\bibnamefont#1{#1}\fi
-\expandafter\ifx\csname bibfnamefont\endcsname\relax
-  \def\bibfnamefont#1{#1}\fi
-\expandafter\ifx\csname citenamefont\endcsname\relax
-  \def\citenamefont#1{#1}\fi
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\providecommand{\bibinfo}[2]{#2}
-\providecommand{\eprint}[2][]{\url{#2}}
+\providecommand*{\mcitethebibliography}{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+{\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{39}
+\providecommand*{\natexlab}[1]{#1}
+\providecommand*{\mciteSetBstSublistMode}[1]{}
+\providecommand*{\mciteSetBstMaxWidthForm}[2]{}
+\providecommand*{\mciteBstWouldAddEndPuncttrue}
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*{\mciteBstWouldAddEndPunctfalse}
+  {\let\EndOfBibitem\relax}
+\providecommand*{\mciteSetBstMidEndSepPunct}[3]{}
+\providecommand*{\mciteSetBstSublistLabelBeginEnd}[3]{}
+\providecommand*{\EndOfBibitem}{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}
+{(\emph{\alph{mcitesubitemcount}})}
+\mciteSetBstSublistLabelBeginEnd{\mcitemaxwidthsubitemform\space}
+{\relax}{\relax}
 
-\bibitem[{\citenamefont{Balibar}(2017)}]{Balibar2017}
-\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Balibar}},
-  \bibinfo{journal}{Comptes Rendus Physique} \textbf{\bibinfo{volume}{18}},
-  \bibinfo{pages}{586} (\bibinfo{year}{2017}), ISSN \bibinfo{issn}{1631-0705},
-  \bibinfo{note}{science in the making: The Comptes rendus de l'Acad\'{e}mie
-  des sciences throughout history},
-  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S163107051730097X}.
-
-\bibitem[{\citenamefont{Rollin and Simon}(1939)}]{Rollin1939}
-\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Rollin}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Simon}},
-  \bibinfo{journal}{Physica} \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{219}
-  (\bibinfo{year}{1939}), ISSN \bibinfo{issn}{0031-8914},
-  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0031891439800131}.
-
-\bibitem[{\citenamefont{Keesom and Keesom}(1936)}]{Keesom1936}
-\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Keesom}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{M.~A.} \bibnamefont{Keesom}},
-  \bibinfo{journal}{Physica} \textbf{\bibinfo{volume}{3}}, \bibinfo{pages}{359}
-  (\bibinfo{year}{1936}), ISSN \bibinfo{issn}{0031-8914},
-  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0031891436803127}.
-
-\bibitem[{\citenamefont{Allen et~al.}(1937)\citenamefont{Allen, Peierls, and
-  Zaki~Uddin}}]{Allen1937}
-\bibinfo{author}{\bibfnamefont{J.~F.} \bibnamefont{Allen}},
-  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Peierls}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Zaki~Uddin}},
-  \bibinfo{journal}{Nature} \textbf{\bibinfo{volume}{140}}, \bibinfo{pages}{62}
-  (\bibinfo{year}{1937}), \urlprefix\url{http://dx.doi.org/10.1038/140062a0}.
-
-\bibitem[{\citenamefont{Tisza}(1938{\natexlab{a}})}]{Tisza1938-1}
-\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Tisza}},
-  \bibinfo{journal}{Comptes rendus hebdomadaires des s\'{e}ances de
-  l'Acad\'{e}mie des sciences} \textbf{\bibinfo{volume}{207}},
-  \bibinfo{pages}{1035} (\bibinfo{year}{1938}{\natexlab{a}}),
-  \urlprefix\url{http://gallica.bnf.fr/ark:/12148/bpt6k31590/f1035.item}.
-
-\bibitem[{\citenamefont{Tisza}(1938{\natexlab{b}})}]{Tisza1938-2}
-\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Tisza}},
-  \bibinfo{journal}{Comptes rendus hebdomadaires des s\'{e}ances de
-  l'Acad\'{e}mie des sciences} \textbf{\bibinfo{volume}{207}},
-  \bibinfo{pages}{1186} (\bibinfo{year}{1938}{\natexlab{b}}),
-  \urlprefix\url{http://gallica.bnf.fr/ark:/12148/bpt6k31590/f1186.item}.
-
-\bibitem[{\citenamefont{Tisza}(1940{\natexlab{a}})}]{Tisza1940-1}
-\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Tisza}}, \bibinfo{journal}{J.
-  Phys. Radium} \textbf{\bibinfo{volume}{1}}, \bibinfo{pages}{164}
-  (\bibinfo{year}{1940}{\natexlab{a}}),
-  \urlprefix\url{https://doi.org/10.1051/jphysrad:0194000105016400}.
-
-\bibitem[{\citenamefont{Tisza}(1940{\natexlab{b}})}]{Tisza1940-2}
-\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Tisza}}, \bibinfo{journal}{J.
-  Phys. Radium} \textbf{\bibinfo{volume}{1}}, \bibinfo{pages}{350}
-  (\bibinfo{year}{1940}{\natexlab{b}}),
-  \urlprefix\url{https://doi.org/10.1051/jphysrad:0194000108035000}.
-
-\bibitem[{\citenamefont{Donnelly}(2009)}]{Donnelly2009}
-\bibinfo{author}{\bibfnamefont{R.~J.} \bibnamefont{Donnelly}},
-  \bibinfo{journal}{Physics Today} \textbf{\bibinfo{volume}{62}},
-  \bibinfo{pages}{34} (\bibinfo{year}{2009}),
-  \eprint{https://doi.org/10.1063/1.3248499},
-  \urlprefix\url{https://doi.org/10.1063/1.3248499}.
-
-\bibitem[{\citenamefont{Kamerlingh~Onnes}(1908)}]{Onnes1908}
-\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Kamerlingh~Onnes}},
-  \bibinfo{journal}{KNAW, Proceedings} \textbf{\bibinfo{volume}{10}},
-  \bibinfo{pages}{744} (\bibinfo{year}{1908}),
-  \urlprefix\url{http://www.dwc.knaw.nl/toegangen/digital-library-knaw/?pagetype=publDetail&pId=PU00013699}.
-
-\bibitem[{\citenamefont{Kamerlingh~Onnes}(1909)}]{Onnes1909}
-\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Kamerlingh~Onnes}},
-  \bibinfo{journal}{KNAW, Proceedings} \textbf{\bibinfo{volume}{11}},
-  \bibinfo{pages}{168} (\bibinfo{year}{1909}),
-  \urlprefix\url{http://www.dwc.knaw.nl/toegangen/digital-library-knaw/?pagetype=publDetail&pId=PU00013525}.
-
-\bibitem[{\citenamefont{McLennan et~al.}(1932)\citenamefont{McLennan, Smith,
-  and Wilhelm}}]{McLennan1932}
-\bibinfo{author}{\bibfnamefont{P.~J.} \bibnamefont{McLennan}},
-  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Smith}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Wilhelm}},
-  \bibinfo{journal}{The London, Edinburgh, and Dublin Philosophical Magazine
-  and Journal of Science} \textbf{\bibinfo{volume}{14}}, \bibinfo{pages}{161}
-  (\bibinfo{year}{1932}), \eprint{https://doi.org/10.1080/14786443209462044},
-  \urlprefix\url{https://doi.org/10.1080/14786443209462044}.
-
-\bibitem[{\citenamefont{Keesom and Keesom}(1932)}]{Keesom1932}
-\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Keesom}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{M.~A.} \bibnamefont{Keesom}},
-  \bibinfo{journal}{KNAW, Proceedings} \textbf{\bibinfo{volume}{35}},
-  \bibinfo{pages}{736} (\bibinfo{year}{1932}),
-  \urlprefix\url{http://www.dwc.knaw.nl/DL/publications/PU00016277.pdf}.
-
-\bibitem[{\citenamefont{Burton}(1935)}]{Burton1935}
-\bibinfo{author}{\bibfnamefont{E.~F.} \bibnamefont{Burton}},
-  \bibinfo{journal}{Nature} \textbf{\bibinfo{volume}{135}},
-  \bibinfo{pages}{265} (\bibinfo{year}{1935}),
-  \urlprefix\url{http://dx.doi.org/10.1038/135265a0}.
-
-\bibitem[{\citenamefont{Laue et~al.}(1935)\citenamefont{Laue, London, and
-  London}}]{London1935}
-\bibinfo{author}{\bibfnamefont{M.~v.} \bibnamefont{Laue}},
-  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{London}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{London}},
-  \bibinfo{journal}{Zeitschrift f{\"u}r Physik} \textbf{\bibinfo{volume}{96}},
-  \bibinfo{pages}{359} (\bibinfo{year}{1935}), ISSN \bibinfo{issn}{0044-3328},
-  \urlprefix\url{https://doi.org/10.1007/BF01343868}.
-
-\bibitem[{\citenamefont{Simon}(1934)}]{Simon1934}
-\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Simon}},
-  \bibinfo{journal}{Nature} \textbf{\bibinfo{volume}{133}},
-  \bibinfo{pages}{529} (\bibinfo{year}{1934}),
-  \urlprefix\url{http://dx.doi.org/10.1038/133529a0}.
-
-\bibitem[{\citenamefont{London}(1936)}]{London1936}
-\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{London}},
-  \bibinfo{journal}{Proceedings of the Royal Society of London A: Mathematical,
-  Physical and Engineering Sciences} \textbf{\bibinfo{volume}{153}},
-  \bibinfo{pages}{576} (\bibinfo{year}{1936}), ISSN \bibinfo{issn}{0080-4630},
-  \eprint{http://rspa.royalsocietypublishing.org/content/153/880/576.full.pdf},
-  \urlprefix\url{http://rspa.royalsocietypublishing.org/content/153/880/576}.
-
-\bibitem[{\citenamefont{Kapitza}(1938)}]{Kapitza1938}
-\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Kapitza}},
-  \bibinfo{journal}{Nature} \textbf{\bibinfo{volume}{141}}, \bibinfo{pages}{74}
-  (\bibinfo{year}{1938}), \urlprefix\url{http://dx.doi.org/10.1038/141074a0}.
-
-\bibitem[{\citenamefont{Allen and Misener}(1938)}]{Allen1938}
-\bibinfo{author}{\bibfnamefont{J.~F.} \bibnamefont{Allen}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{A.~D.} \bibnamefont{Misener}},
-  \bibinfo{journal}{Nature} \textbf{\bibinfo{volume}{141}}, \bibinfo{pages}{75}
-  (\bibinfo{year}{1938}), \urlprefix\url{http://dx.doi.org/10.1038/141075a0}.
-
-\bibitem[{\citenamefont{London}(1938)}]{London1938}
-\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{London}},
-  \bibinfo{journal}{Nature} \textbf{\bibinfo{volume}{141}},
-  \bibinfo{pages}{643} (\bibinfo{year}{1938}),
-  \urlprefix\url{http://dx.doi.org/10.1038/141643a0}.
-
-\bibitem[{\citenamefont{Tisza}(1938{\natexlab{c}})}]{Tisza1938}
-\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Tisza}},
-  \bibinfo{journal}{Nature} \textbf{\bibinfo{volume}{141}},
-  \bibinfo{pages}{913} (\bibinfo{year}{1938}{\natexlab{c}}),
-  \urlprefix\url{http://dx.doi.org/10.1038/141913a0}.
-
-\bibitem[{\citenamefont{Landau}(1941)}]{Landau1941}
-\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Landau}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{60}},
-  \bibinfo{pages}{356} (\bibinfo{year}{1941}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRev.60.356}.
-
-\bibitem[{\citenamefont{Bogolyubov}(1947)}]{Bogolyubov1947}
-\bibinfo{author}{\bibfnamefont{N.~N.} \bibnamefont{Bogolyubov}},
-  \bibinfo{journal}{J. Phys. (USSR)} \textbf{\bibinfo{volume}{11}},
-  \bibinfo{pages}{23} (\bibinfo{year}{1947}), \bibinfo{note}{[Izv. Akad. Nauk
-  Ser. Fiz.11,77(1947)]},
-  \urlprefix\url{https://ufn.ru/ru/articles/1967/11/o/}.
-
-\bibitem[{\citenamefont{Cornell and Wieman}(2002)}]{Cornell2002}
-\bibinfo{author}{\bibfnamefont{E.~A.} \bibnamefont{Cornell}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{C.~E.} \bibnamefont{Wieman}},
-  \bibinfo{journal}{Rev. Mod. Phys.} \textbf{\bibinfo{volume}{74}},
-  \bibinfo{pages}{875} (\bibinfo{year}{2002}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.74.875}.
-
-\bibitem[{\citenamefont{Ketterle}(2002)}]{Ketterle2002}
-\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Ketterle}},
-  \bibinfo{journal}{Rev. Mod. Phys.} \textbf{\bibinfo{volume}{74}},
-  \bibinfo{pages}{1131} (\bibinfo{year}{2002}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.74.1131}.
-
-\end{thebibliography}
+\bibitem[Kapitza(1938)]{Kapitza1938}
+P.~Kapitza, \emph{Nature}, 1938, \textbf{141}, 74\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Rollin and Simon(1939)]{Rollin1939}
+B.~Rollin and F.~Simon, \emph{Physica}, 1939, \textbf{6}, 219--230\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Keesom and Keesom(1936)]{Keesom1936}
+W.~Keesom and M.~A. Keesom, \emph{Physica}, 1936, \textbf{3}, 359--360\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tisza(1938)]{Tisza1938-1}
+L.~Tisza, \emph{Comptes rendus hebdomadaires des s\'{e}ances de l'Acad\'{e}mie
+  des sciences}, 1938, \textbf{207}, 1035--1037\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tisza(1938)]{Tisza1938-2}
+L.~Tisza, \emph{Comptes rendus hebdomadaires des s\'{e}ances de l'Acad\'{e}mie
+  des sciences}, 1938, \textbf{207}, 1186--1189\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tisza(1940)]{Tisza1940-1}
+L.~Tisza, \emph{J. Phys. Radium}, 1940, \textbf{1}, 164--172\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tisza(1940)]{Tisza1940-2}
+L.~Tisza, \emph{J. Phys. Radium}, 1940, \textbf{1}, 350--358\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lebrun(1994)]{Lebrun1994}
+P.~Lebrun, \emph{Cryogenics}, 1994, \textbf{34}, 1--8\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Keesom and Keesom(1932)]{Keesom1932}
+W.~Keesom and M.~A. Keesom, \emph{KNAW, Proceedings}, 1932, \textbf{35},
+  736--742\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Donnelly(2009)]{Donnelly2009}
+R.~J. Donnelly, \emph{Physics Today}, 2009, \textbf{62}, 34--39\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kamerlingh~Onnes(1908)]{Onnes1908}
+H.~Kamerlingh~Onnes, \emph{KNAW, Proceedings}, 1908, \textbf{10},
+  744--747\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kamerlingh~Onnes(1909)]{Onnes1909}
+H.~Kamerlingh~Onnes, \emph{KNAW, Proceedings}, 1909, \textbf{11},
+  168--185\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[McLennan \emph{et~al.}(1932)McLennan, Smith, and
+  Wilhelm]{McLennan1932}
+P.~J. McLennan, H.~Smith and J.~Wilhelm, \emph{The London, Edinburgh, and
+  Dublin Philosophical Magazine and Journal of Science}, 1932, \textbf{14},
+  161--167\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Burton(1935)]{Burton1935}
+E.~F. Burton, \emph{Nature}, 1935, \textbf{135}, 265\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Laue \emph{et~al.}(1935)Laue, London, and London]{London1935}
+M.~v. Laue, F.~London and H.~London, \emph{Zeitschrift f{\"u}r Physik}, 1935,
+  \textbf{96}, 359--364\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Simon(1934)]{Simon1934}
+F.~Simon, \emph{Nature}, 1934, \textbf{133}, 529\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[London(1936)]{London1936}
+F.~London, \emph{Proceedings of the Royal Society of London A: Mathematical,
+  Physical and Engineering Sciences}, 1936, \textbf{153}, 576--583\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Allen \emph{et~al.}(1937)Allen, Peierls, and Zaki~Uddin]{Allen1937}
+J.~F. Allen, R.~Peierls and M.~Zaki~Uddin, \emph{Nature}, 1937, \textbf{140},
+  62\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Allen and Misener(1938)]{Allen1938}
+J.~F. Allen and A.~D. Misener, \emph{Nature}, 1938, \textbf{141}, 75\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[London(1938)]{London1938}
+F.~London, \emph{Nature}, 1938, \textbf{141}, 643\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tisza(1938)]{Tisza1938}
+L.~Tisza, \emph{Nature}, 1938, \textbf{141}, 913\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Landau(1941)]{Landau1941}
+L.~Landau, \emph{Phys. Rev.}, 1941, \textbf{60}, 356--358\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Landau(1949)]{Landau1949}
+L.~Landau, \emph{Phys. Rev.}, 1949, \textbf{75}, 884--885\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bogolyubov(1947)]{Bogolyubov1947}
+N.~N. Bogolyubov, \emph{J. Phys. (USSR)}, 1947, \textbf{11}, 23--32\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Cornell and Wieman(2002)]{Cornell2002}
+E.~A. Cornell and C.~E. Wieman, \emph{Rev. Mod. Phys.}, 2002, \textbf{74},
+  875--893\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ketterle(2002)]{Ketterle2002}
+W.~Ketterle, \emph{Rev. Mod. Phys.}, 2002, \textbf{74}, 1131--1151\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mateo \emph{et~al.}(2010)Mateo, Barranco, and Navarro]{Mat10a}
+D.~Mateo, M.~Barranco and J.~Navarro, \emph{Phys. Rev. B}, 2010, \textbf{82},
+  134529\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Donnelly \emph{et~al.}(1981)Donnelly, Donnelly, and Hills]{Don81}
+R.~J. Donnelly, J.~A. Donnelly and R.~N. Hills, \emph{J. Low Temp. Phys.},
+  1981, \textbf{44}, 471\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Krotscheck and Navarro(2002)]{Kro02}
+\emph{Microscopic approaches to quantum liquids in confined geometries}, ed.
+  E.~Krotscheck and J.~Navarro, World Scientific, Singapore, 2002, vol.~4\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{de Lara-Castells} \emph{et~al.}(2006){de Lara-Castells},
+  {Delgado-Barrio}, Villarreal, and Mitrushchenkov]{deL06}
+M.~P. {de Lara-Castells}, G.~{Delgado-Barrio}, P.~Villarreal and A.~O.
+  Mitrushchenkov, \emph{J. Chem. Phys.}, 2006, \textbf{125}, 221101\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[de~Lara-Castells \emph{et~al.}(2010)de~Lara-Castells, Aguirre,
+  Villarreal, {Delgado-Barrio}, and Mitrushchenkov]{deL10}
+M.~P. de~Lara-Castells, N.~F. Aguirre, P.~Villarreal, G.~{Delgado-Barrio} and
+  A.~O. Mitrushchenkov, \emph{J. Chem. Phys.}, 2010, \textbf{132}, 194313\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Aguirre \emph{et~al.}(2013)Aguirre, Villarreal, {Delgado-Barrio},
+  Mitrushchenkov, and {de Lara-Castells}]{Agu13}
+N.~F. Aguirre, P.~Villarreal, G.~{Delgado-Barrio}, A.~O. Mitrushchenkov and
+  M.~P. {de Lara-Castells}, \emph{Phys. Chem. Chem. Phys.}, 2013, \textbf{15},
+  10126\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stringari and Treiner(1987)]{Str87a}
+S.~Stringari and J.~Treiner, \emph{Phys. Rev. B}, 1987, \textbf{36}, 8369\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stringari and Treiner(1987)]{Str87b}
+S.~Stringari and J.~Treiner, \emph{J. Chem. Phys.}, 1987, \textbf{87},
+  5021\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dalfovo \emph{et~al.}(1995)Dalfovo, Lastri, Pricaupenko, Stringari,
+  and Treiner]{Dal95}
+F.~Dalfovo, A.~Lastri, L.~Pricaupenko, S.~Stringari and J.~Treiner, \emph{Phys.
+  Rev. B}, 1995, \textbf{52}, 1193\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hohenberg and Kohn(1964)]{Hoh64}
+P.~Hohenberg and W.~Kohn, \emph{Phys. Rev.}, 1964, \textbf{136}, B864\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jakubek \emph{et~al.}(1997)Jakubek, Hui, and Takami]{Jak97}
+Z.~J. Jakubek, Q.~Hui and M.~Takami, \emph{Phys. Rev. Lett.}, 1997,
+  \textbf{79}, 629\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Nakayama and Yamashita(2001)]{Nak01}
+A.~Nakayama and K.~Yamashita, \emph{J. Chem. Phys.}, 2001, \textbf{114},
+  780\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Barranco \emph{et~al.}({(2017),})Barranco, Coppens, Halberstadt,
+  Hernando, Leal, Mateo, Mayol, and Pi]{dft-guide}
+M.~Barranco, F.~Coppens, N.~Halberstadt, A.~Hernando, A.~Leal, D.~Mateo,
+  R.~Mayol and M.~Pi,
+  https://github.com/bcntls2016/DFT-Guide/blob/master/dft-guide.pdf\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

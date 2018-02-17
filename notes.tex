@@ -3,10 +3,10 @@
 %\usepackage{baskervald}
 %\usepackage[math]{iwona} % broad
 %\usepackage[light,math]{iwona}
-\usepackage[math]{anttor} % broadest
+%\usepackage[math]{anttor} % broadest
 %\usepackage{ccfonts} % broader
 %\usepackage{cmbright}
-%\usepackage{newpxtext,newpxmath}
+\usepackage{newpxtext,newpxmath}
 %\usepackage{antpolt}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
@@ -21,7 +21,7 @@
 \usepackage{hyperref,hypertoc,hypernat}
 \usepackage{lettrine}
 \usepackage{epigraph}
-\usepackage{graphicx,type1cm,Zallman,lettrine}
+\usepackage{graphicx,type1cm,Zallman}
 \renewcommand\LettrineFontHook{\Zallmanfamily}
 \renewcommand{\vec}[1]{\bm{\mathrm{#1}}}
 \newcommand{\unit}[1]{\,\mathrm{#1}}
@@ -32,18 +32,18 @@
 \tableofcontents
 
 \chapter{Introduction}
-	\lettrine[lines=3,findent=3pt,nindent=0pt]{S}{uperfluids} are liquids and gases with remarkable properties. In particular, superfluid helium can flow through a capillary without friction[\emph{ref}] due to its extremely low viscosity\citep{Balibar2017} ($\approx\!1500$ times lower than normal liquid helium), or creep up the wall of a container, seemingly defying the force of gravity\citep{Rollin1939} (``Rollin creeping''). Its thermal conductivity is about $3\times10^6$ times higher[\emph{ref}] than that of typical liquids and about 200 times higher[\emph{ref}] than that of copper at room temperature\citep{Keesom1936,Allen1937}. It therefore earned the title of ``best heat conducting substance we know'' by Willem and his daughter Anna Keesom and dubbed `\emph{supra-heat-conducting}'\citep{Keesom1936}. Later it was understood why\citep{Tisza1938-1,Tisza1938-2,Tisza1940-1,Tisza1940-2} and it turns out that heat doesn't diffuse through the medium as in normal liquids, but rather it travels through the medium in waves (second sound). This makes it an ideal coolant e.g. to stabilise the superconducting magnets in CERN's Large Hadron Collider[ref]. Helium is also the only known substance that stays liquid at zero temperature and low pressures and both its angular momentum and vorticity are quantised, making it the first observed macroscopic quantum substance. Helium-4 becomes superfluid below the $\lambda$-point, named so by William H. Keesom in 1936 who measured a singularity in the specific heat at $T_\lambda=2.2\unit{K}$\citep{Keesom1936}.
+	\lettrine[lines=3,findent=3pt,nindent=0pt]{S}{uperfluids} are liquids and gases with remarkable properties. In particular, superfluid helium can flow through a capillary without friction due to its extremely small viscosity (at least 1500 times smaller than normal liquid helium\citep{Kapitza1938}), or creep up the wall of a container, seemingly defying the force of gravity\citep{Rollin1939} (``Rollin creeping''). Its thermal conductivity is about $3\times10^6$ times higher than that of liquid helium I or about 200 times higher than that of copper at room temperature\citep{Keesom1936}. It therefore earned the title of ``best heat conducting substance we know'' by Willem and his daughter Anna Keesom and dubbed ``\emph{supra-heat-conducting}''\citep{Keesom1936}. Later it was understood why\citep{Tisza1938-1,Tisza1938-2,Tisza1940-1,Tisza1940-2} and it turns out that heat doesn't diffuse through the medium as in normal liquids, but rather it travels through the medium in waves (second sound). This makes it an ideal coolant e.g. to stabilise the superconducting magnets in CERN's Large Hadron Collider\citep{Lebrun1994}. Helium is also the only known substance that stays liquid at zero temperature and low pressures and both its angular momentum and vorticity are quantised, making it the first observed macroscopic quantum substance. Helium-4 becomes superfluid below the $\lambda$-point, named so by William H. Keesom in 1936 who measured a singularity in the specific heat at $T_\lambda=2.2\unit{K}$\citep{Keesom1936}.
 	
 	\begin{figure}[t]
 		\begin{center}
 			\includegraphics[width=0.75\textwidth]{specific-heat}
 		\end{center}
-		\caption{The specific heat of $^4$He as a function of the temperature. There is a clearly visible singularity around $2.2\unit{K}$ and the graph itself has the distinct $\lambda$-like shape that inspired Willem and Anna Keesom to call the temperature at which the singularity occurs the ``$\lambda$-point''. (Illustration courtesy of R.J. Donnelly\citep{Donnelly2009})}
+		\caption{The specific heat of $^4$He as a function of the temperature. There is a clearly visible singularity around $2.2\unit{K}$ and the graph itself has the distinct $\lambda$-like shape that inspired\citep{Keesom1932} Willem and Anna Keesom to call the temperature at which the singularity occurs the ``$\lambda$-point''. (Illustration courtesy of R.J. Donnelly\citep{Donnelly2009})}
 		\label{fig:specific-heat}
 	\end{figure}	
 	
 	\section{A brief history of superfluidity}
-		\lettrine[lines=3,findent=3pt,nindent=0pt]{H}{elium} was the last gas to be liquefied and was done so by Kamerlingh Onnes in 1908\citep{Onnes1908,Onnes1909}. In 1932 John McLennan saw that liquid helium stopped boiling below $\approx\!2.2\unit{K}$\citep{McLennan1932} and later that year Willem Keesom and his daughter Anna observed, while measuring the temperature dependence of the specific heat, a singularity around the same temperature\citep{Keesom1932}. They called it the ``$\lambda$-temperature'',  $T_\lambda$, because of the shape of the temperature dependence of the specific heat resembling the Greek letter $\lambda$ (see Figure \ref{fig:specific-heat}). A few years later in 1935 Burton measured a sharp decrease in the viscosity of liquid helium below $T_\lambda$\citep{Burton1935}. Around the same time Fritz London was already thinking about macroscopic wave functions and why helium does not freeze at $T=0\unit{K}$ under atmospheric pressure\citep{London1935}. London and Simon concluded that it was caused by the zero point motion of the helium atoms and their associated kinetic energy that is comparable to their Van der Waals energy, effectively preventing liquid helium to solidify\citep{Simon1934,London1936}. The year after, in 1936, Willem and Anna Keesom measured an abnormally high heat conductance below $T_\lambda$\citep{Keesom1936}. This was confirmed roughly one year later by J.F. Allen \emph{et al.}\citep{Allen1937} and it was understood that the high thermal conductance was the reason for the helium to stop boiling whenever the temperature drops below $T_\lambda$. It was in 1937, when Kapitza tried to determine the viscosity of the laminar flow, that he measured a viscosity that was about $10^4$ times smaller than that of hydrogen gas\citep{Kapitza1938}. It was then that Kaptiza who, by analogy with superconductors, first coined the word ``superfluid''\citep{Kapitza1938} to describe the special state that helium enters below the $\lambda$-point where it can flow, seemingly without friction. Allen and Misener realised that superfluid helium is not just a liquid with a very low viscosity, but that its hydrodynamics was completely different from that of ordinary liquids\citep{Allen1938} and therefore required a completely new interpretation.\\
+		\lettrine[lines=3,findent=3pt,nindent=0pt]{H}{elium} was the last gas to be liquefied and was done so by Heike Kamerlingh Onnes in 1908\citep{Onnes1908,Onnes1909}. In 1932 John McLennan saw that liquid helium stopped boiling below $\approx\!2.2\unit{K}$\citep{McLennan1932} and later that year Willem Keesom and his daughter Anna observed, while measuring the temperature dependence of the specific heat, a singularity around the same temperature\citep{Keesom1932}. They called it the ``$\lambda$-temperature'',  $T_\lambda$, because of the shape of the temperature dependence of the specific heat resembling the Greek letter $\lambda$ (see Figure \ref{fig:specific-heat}). A few years later in 1935 Burton measured a sharp decrease in the viscosity of liquid helium below $T_\lambda$\citep{Burton1935}. Around the same time Fritz London was already thinking about macroscopic wave functions and why helium does not freeze at $T=0\unit{K}$ under atmospheric pressure\citep{London1935}. London and Simon concluded that it was caused by the zero point motion of the helium atoms and their associated kinetic energy that is comparable to their Van der Waals energy, effectively preventing liquid helium to solidify\citep{Simon1934,London1936}. The year after, in 1936, Willem and Anna Keesom measured an abnormally high heat conductance below $T_\lambda$\citep{Keesom1936}. This was confirmed roughly one year later by J.F. Allen \emph{et al.}\citep{Allen1937} and it was understood that the high thermal conductance was the reason for the helium to stop boiling whenever the temperature drops below $T_\lambda$. It was in 1937, when Kapitza tried to determine the viscosity of the laminar flow, that he measured a viscosity that was about $10^4$ times smaller than that of hydrogen gas\citep{Kapitza1938}. It was then that Kaptiza who, by analogy with superconductors, first coined the word ``superfluid''\citep{Kapitza1938} to describe the special state that helium enters below the $\lambda$-point where it can flow, seemingly without friction. Allen and Misener realised that superfluid helium is not just a liquid with a very low viscosity, but that its hydrodynamics was completely different from that of ordinary liquids\citep{Allen1938} and therefore required a completely new interpretation.\\
 		
 		The start of this new interpretation was made by London\citep{London1938} in 1938 when he made a connection between the behaviour of superfluid helium and that of an ideal ``Bose--Einstein'' (BE) gas. Both his calculated value for $T_c=3.09\unit{K}$ and the behaviour of the temperature dependence of the heat capacity for the ideal BE-gas were very similar to the measured ones for liquid helium below $T_\lambda$. He wrote to Nature that ``it was difficult not to imagine a connection with ``Bose--Einstein condensation'' (BEC). Tisza expanded upon London's ideas\citep{Tisza1938} and considered a Helium II system of total $N$ atoms to consist of two parts; a macroscopic ``condensed'' part $n_0$, the superfluid component, in the ground state, and the remaining part $n=N-n_0$, the normal component, where the helium atoms are distributed over the excited states. Assuming this was correct the fraction $n_0/N$ should decrease with increasing temperature according to the equation\\
 		\begin{align}
@@ -51,14 +51,14 @@
 		\end{align}
 		where $s=3/2$ for an ideal gas and should be taken larger, e.g. $s=5$, for a real liquid with stronger interactions between the atoms.\\
 		
-		This was the birth of the ``two-fluid'' model. With this model he derived two hydrodynamic equations for liquid helium below $T_\lambda$ and discovered that within it, heat propagates in waves instead of diffusing through the medium, and calculated the velocity of these waves. He also explained why the viscosity is disappearing at low temperatures contrary to classical liquids where the viscosity increases\citep{Tisza1938-1,Tisza1938-2,Tisza1940-1,Tisza1940-2}. In 1941 Lev Landau reformulated Tisza's theory on a more rigorous footing\citep{Landau1941}. He assumed, contrary to Tisza, that the normal component of the liquid was made-up of collective excitations instead of excited single atoms. He postulated that the liquid could exhibit two states of motion which he called ``potential motion'' that is irrotational ($\curl{\vec{v}}=0$), and ``vortex motion'' that is rotational ($\curl{\vec{v}} \neq 0$). The corresponding energies of these two motions are discontinuously separated by an energy gap $\Delta$. In case of potential internal motion  the excitations are quanta of longitudinal (sound) waves, i.e., phonons. The excitations of the vortex-spectrum could be called ``rotons''(see Figure \ref{fig:phonon-roton}).\\
+		This was the birth of the ``two-fluid'' model. With this model he derived two hydrodynamic equations for liquid helium below $T_\lambda$ and discovered that within it, heat propagates in waves instead of diffusing through the medium, and calculated the velocity of these waves. He also explained why the viscosity is disappearing at low temperatures contrary to classical liquids where the viscosity increases\citep{Tisza1938-1,Tisza1938-2,Tisza1940-1,Tisza1940-2}. In 1941 Lev Landau reformulated Tisza's theory on a more rigorous footing\citep{Landau1941,Landau1949}. He assumed, contrary to Tisza, that the normal component of the liquid was made-up of collective excitations instead of excited single atoms. He postulated that the liquid could exhibit two states of motion which he called ``potential motion'' that is irrotational ($\curl{\vec{v}}=0$), and ``vortex motion'' that is rotational ($\curl{\vec{v}} \neq 0$). The corresponding energies of these two motions are discontinuously separated by an energy gap $\Delta$. In case of potential internal motion  the excitations are quanta of longitudinal (sound) waves, i.e., phonons. The excitations of the vortex-spectrum could be called ``rotons''(see Figure \ref{fig:phonon-roton}).\\
 
 		\begin{figure}[t]
 			\begin{center}
 				\includegraphics[width=0.495\textwidth]{phonon-roton-landau-first}
 				\includegraphics[width=0.495\textwidth]{phonon-roton-bogoliubov}
 			\end{center}
-			\caption{Left: Lev Landau's 1941 energy dispersion curve for the excitations in liquid helium below $T_\lambda$. It exhibits a phonon- and a roton branch. The slope of the linear phonon branch corresponds to the velocity of sound. Right: Lev Landau's (Bogoliubov's) 1947 corrected dispersion curve. The roton-branch is no longer a separate excitation branch but rather an extension of the phonon-branch.}
+			\caption{Left: Lev Landau's 1941 energy dispersion curve\citep{Landau1941} for the excitations in liquid helium below $T_\lambda$. It exhibits a phonon- and a roton branch. The slope of the linear phonon branch corresponds to the velocity of sound. Right: Lev Landau's 1947 modified dispersion curve. The roton-branch is no longer a separate excitation branch but rather an extension of the phonon-branch. (Illustration courtesy of R.J. Donnelly\citep{Donnelly2009})}
 			\label{fig:phonon-roton}
 		\end{figure}
 
@@ -588,11 +588,19 @@
 				H_{ij} = U^{DIM}_{ij} = \int\!\rho(\vec{r})\,V^{DIM}_{ij}(\vec{r}-\vec{r}_I)\dd{\vec{r}}
 			\end{align}\\
 			
-			For the technical details about how this method is implemented the interested reader is directed to [\ref{deft-guide}]. For the collection of Fortran code that has been used to obtain the results presented here see [\ref{bcn-tlse-hedft}]. For the manuel to use the code see [\ref{dft-manual}].
+			For the technical details about how this method is implemented the interested reader is directed to\citep{dft-guide}. For the collection of Fortran code that has been used to obtain the results presented here see [\ref{bcn-tlse-hedft}]. For the manuel to use the code see\citep{dft-guide}.
+
+\chapter{Introduction Part 1}
+	\section{Paper 1}
+		
+
+\chapter{Introduction Part 2}
+
 
 \addcontentsline{toc}{chapter}{Bibliography}
-\bibliographystyle{apsrev}
-\bibliography{references}
+%\bibliographystyle{apsrev}
+\bibliographystyle{rsc}
+\bibliography{references,review}
 
 \include{commented_stuff}
 \end{document}
