@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  17 FEB 2018 19:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  19 FEB 2018 18:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -337,6 +337,11 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )) (/usr/local/texlive/2017/texmf-dist/tex/latex/newpx/newpxtext.sty
 Package: newpxtext 2017/03/11 v1.318
  `newpxtext' v1.318, 2017/03/11 Text macros taking advantage of TeXGyre Pagella and its extensions (msharpe) (/usr/local/texlive/2017/texmf-dist/tex/latex/fontaxes/fontaxes.sty
@@ -674,12 +679,7 @@ LaTeX Font Info:    Redeclaring math delimiter \rvert on input line 301.
 LaTeX Font Info:    Redeclaring math delimiter \lVert on input line 302.
 LaTeX Font Info:    Redeclaring math delimiter \rVert on input line 303.
 LaTeX Info: Redefining \not on input line 1753.
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
- (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup8
 \symAMSb=\mathgroup9
@@ -1923,12 +1923,70 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/bbold/bbold.sty
 Package: bbold 1994/04/06 Bbold symbol package
 LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 42.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+\Gread@gobject=\count148
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+)
+\AM@pagewidth=\dimen154
+\AM@pageheight=\dimen155
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box44
+\AM@global@opts=\toks23
+\AM@toc@title=\toks24
+\c@AM@survey=\count149
+\AM@templatesizebox=\box45
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip56
 \bibsep=\skip57
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count148
+\c@NAT@ctr=\count150
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
  (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -1936,14 +1994,14 @@ Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
  (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -1966,7 +2024,7 @@ Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
@@ -1976,15 +2034,15 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen152
-\Hy@linkcounter=\count149
-\Hy@pagecounter=\count150
+\@linkdim=\dimen156
+\Hy@linkcounter=\count151
+\Hy@pagecounter=\count152
  (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count151
+\Hy@SavedSpaceFactor=\count153
  (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
@@ -1995,16 +2053,16 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count152
+\c@Hy@tempcnt=\count154
  (/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
-\XeTeXLinkMargin=\dimen153
-\Fld@menulength=\count153
-\Field@Width=\dimen154
-\Fld@charsize=\dimen155
+\XeTeXLinkMargin=\dimen157
+\Fld@menulength=\count155
+\Field@Width=\dimen158
+\Fld@charsize=\dimen159
 Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
@@ -2014,17 +2072,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count154
-\c@Item=\count155
-\c@Hfootnote=\count156
+\Hy@abspage=\count156
+\c@Item=\count157
+\c@Hfootnote=\count158
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count157
-\c@bookmark@seq@number=\count158
+\Fld@listcount=\count159
+\c@bookmark@seq@number=\count160
  (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
@@ -2036,28 +2094,28 @@ Package: hypertoc 2011/01/23 v0.1 pretty TOC links (UL)
 Package: hypernat 2001/07/09 v1.0b hyperref and natbib compatibility (jb)
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
-\c@DefaultLines=\count159
-\c@DefaultDepth=\count160
-\DefaultFindent=\dimen156
-\DefaultNindent=\dimen157
-\DefaultSlope=\dimen158
-\DiscardVskip=\dimen159
-\L@lbox=\box44
-\L@tbox=\box45
-\c@L@lines=\count161
-\c@L@depth=\count162
-\L@Pindent=\dimen160
-\L@Findent=\dimen161
-\L@Nindent=\dimen162
-\L@lraise=\dimen163
-\L@first=\dimen164
-\L@next=\dimen165
-\L@slope=\dimen166
-\L@height=\dimen167
-\L@novskip=\dimen168
-\LettrineWidth=\dimen169
-\LettrineHeight=\dimen170
-\LettrineDepth=\dimen171
+\c@DefaultLines=\count161
+\c@DefaultDepth=\count162
+\DefaultFindent=\dimen160
+\DefaultNindent=\dimen161
+\DefaultSlope=\dimen162
+\DiscardVskip=\dimen163
+\L@lbox=\box46
+\L@tbox=\box47
+\c@L@lines=\count163
+\c@L@depth=\count164
+\L@Pindent=\dimen164
+\L@Findent=\dimen165
+\L@Nindent=\dimen166
+\L@lraise=\dimen167
+\L@first=\dimen168
+\L@next=\dimen169
+\L@slope=\dimen170
+\L@height=\dimen171
+\L@novskip=\dimen172
+\LettrineWidth=\dimen173
+\LettrineHeight=\dimen174
+\LettrineDepth=\dimen175
 
 Loading lettrine.cfg
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lettrine/lettrine.cfg)) (/usr/local/texlive/2017/texmf-dist/tex/latex/epigraph/epigraph.sty
@@ -2066,22 +2124,6 @@ Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
 \afterepigraphskip=\skip60
 \epigraphwidth=\skip61
 \epigraphrule=\skip62
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count163
-))
-\Gin@req@height=\dimen172
-\Gin@req@width=\dimen173
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/type1cm/type1cm.sty
 Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, patched RF)
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/cfr-initials/Zallman.sty
@@ -2089,12 +2131,12 @@ Package: Zallman 2007/11/24 v1.01 Zallman CFR
  (/usr/local/texlive/2017/texmf-dist/tex/latex/initials/Zallman.fd
 File: Zallman.fd 2003/04/02 Font definition file for U/Zallman
 ))
-LaTeX Font Info:    Try loading font information for T1+zpltlf on input line 30.
+LaTeX Font Info:    Try loading font information for T1+zpltlf on input line 28.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/newpx/t1zpltlf.fd
 File: t1zpltlf.fd 2015/01/17 v1.0 font definition file for T1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 30.
+(Font)              scaled to size 12.0pt on input line 28.
 
 
 LaTeX Warning: Unused global option(s):
@@ -2107,77 +2149,62 @@ LaTeX Warning: Label `eq:el-static-hi' multiply defined.
 (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/commented_stuff.aux))
 \openout1 = `notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 30.
-LaTeX Font Info:    Try loading font information for OML+npxmi on input line 30.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 28.
+LaTeX Font Info:    Try loading font information for OML+npxmi on input line 28.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for U+npxexa on input line 30.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for U+npxexa on input line 28.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 30.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 28.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for LMS+npxsy on input line 30.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for LMS+npxsy on input line 28.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/08/13 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for LMX+npxexx on input line 30.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for LMX+npxexx on input line 28.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/08/13 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-\c@mv@tabular=\count164
-\c@mv@boldtabular=\count165
-\AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring OFF on input line 30.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
- (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
-)
-\c@section@level=\count166
-)
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
- (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.out) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.out)
-\@outlinefile=\write3
-\openout3 = `notes.out'.
-
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+\c@mv@tabular=\count165
+\c@mv@boldtabular=\count166
+\AtBeginShipoutBox=\box48
  (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count167
-\scratchdimen=\dimen174
-\scratchbox=\box47
+\scratchdimen=\dimen176
+\scratchbox=\box49
 \nofMPsegments=\count168
 \nofMParguments=\count169
-\everyMPshowfont=\toks23
+\everyMPshowfont=\toks25
 \MPscratchCnt=\count170
-\MPscratchDim=\dimen175
+\MPscratchDim=\dimen177
 \MPnumerator=\count171
 \makeMPintoPDFobject=\count172
-\everyMPtoPDFconversion=\toks24
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -2189,13 +2216,34 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 456.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package hyperref Info: Link coloring OFF on input line 28.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count173
+)
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
+ (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.out) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.out)
+\@outlinefile=\write3
+\openout3 = `notes.out'.
+
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 32.
+(Font)              scaled to size 24.88pt on input line 30.
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 32.
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 32.
+(Font)              scaled to size 24.88pt on input line 30.
  (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.toc
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <12> not available
 (Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 1.
@@ -2229,80 +2277,84 @@ LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 8.8pt on input line 2.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 6.6pt on input line 2.
-)
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 14.4pt on input line 20.
+LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
+(Font)              scaled to size 14.4pt on input line 20.
+
+Overfull \hbox (16.49951pt too wide) in paragraph at lines 27--27
+ [][] [][][][]\T1/zpltlf/m/n/12 Supervised work: Dy-nam-ics of su-per-fluid he-lium nan-odroplets 
+ []
+
+[1
+
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write4
 \openout4 = `notes.toc'.
 
- [1
-
-
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/zpltlf/m/sl' will be
-(Font)              scaled to size 12.0pt on input line 34.
- [2
-
-]
+(Font)              scaled to size 12.0pt on input line 32.
+ [2]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 35.
+(Font)              scaled to size 12.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 35.
+(Font)              scaled to size 8.8pt on input line 33.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 35.
-<specific-heat.png, id=139, 1019.30812pt x 813.53937pt>
+(Font)              scaled to size 12.0pt on input line 33.
+<specific-heat.png, id=206, 1019.30812pt x 813.53937pt>
 File: specific-heat.png Graphic file (type png)
  <use specific-heat.png>
-Package pdftex.def Info: specific-heat.png used on input line 39.
+Package pdftex.def Info: specific-heat.png used on input line 37.
 (pdftex.def)             Requested size: 292.5pt x 233.45006pt.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 45.
+(Font)              scaled to size 17.28pt on input line 43.
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 45.
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 45.
+(Font)              scaled to size 17.28pt on input line 43.
 
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+[3
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./specific-heat.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
-[3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./specific-heat.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 51.
+(Font)              scaled to size 6.6pt on input line 49.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
-[5] <phonon-roton-landau-first.png, id=216, 1084.55188pt x 841.1425pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+[5] <phonon-roton-landau-first.png, id=282, 1084.55188pt x 841.1425pt>
 File: phonon-roton-landau-first.png Graphic file (type png)
  <use phonon-roton-landau-first.png>
-Package pdftex.def Info: phonon-roton-landau-first.png used on input line 58.
+Package pdftex.def Info: phonon-roton-landau-first.png used on input line 56.
 (pdftex.def)             Requested size: 193.0481pt x 149.71776pt.
- <phonon-roton-bogoliubov.png, id=217, 1246.6575pt x 840.13875pt>
+ <phonon-roton-bogoliubov.png, id=283, 1246.6575pt x 840.13875pt>
 File: phonon-roton-bogoliubov.png Graphic file (type png)
  <use phonon-roton-bogoliubov.png>
-Package pdftex.def Info: phonon-roton-bogoliubov.png used on input line 59.
+Package pdftex.def Info: phonon-roton-bogoliubov.png used on input line 57.
 (pdftex.def)             Requested size: 193.0481pt x 130.09196pt.
-LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 70.
-LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 70.
-LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 70.
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
@@ -2310,49 +2362,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./phonon-roton-landau-first.png> <./phonon-roton-bogoliubov.png>] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+zplsups on input line 117.
+LaTeX Font Info:    Try loading font information for T1+zplsups on input line 115.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newpx/t1zplsups.fd
 File: t1zplsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
-(Font)              scaled to size 12.0pt on input line 117.
+(Font)              scaled to size 12.0pt on input line 115.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 117.
+(Font)              scaled to size 10.0pt on input line 115.
 LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
-(Font)              scaled to size 10.0pt on input line 117.
+(Font)              scaled to size 10.0pt on input line 115.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 117.
+(Font)              scaled to size 10.0pt on input line 115.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 117.
+(Font)              scaled to size 7.3pt on input line 115.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 117.
+(Font)              scaled to size 5.5pt on input line 115.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 117.
+(Font)              scaled to size 10.0pt on input line 115.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 7.3pt on input line 117.
+(Font)              scaled to size 7.3pt on input line 115.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 5.5pt on input line 117.
+(Font)              scaled to size 5.5pt on input line 115.
  [8]
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
-[9] <dispersion-relation.pdf, id=272, 701.62125pt x 516.93124pt>
+[9] <dispersion-relation.pdf, id=339, 701.62125pt x 516.93124pt>
 File: dispersion-relation.pdf Graphic file (type pdf)
  <use dispersion-relation.pdf>
-Package pdftex.def Info: dispersion-relation.pdf used on input line 149.
+Package pdftex.def Info: dispersion-relation.pdf used on input line 147.
 (pdftex.def)             Requested size: 350.99762pt x 258.60696pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
@@ -2360,37 +2412,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--167
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11 <./dispersion-relation.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
 
  []
 
-<vortex-xy.png, id=303, 240.9pt x 240.9pt>
+<vortex-xy.png, id=370, 240.9pt x 240.9pt>
 File: vortex-xy.png Graphic file (type png)
  <use vortex-xy.png>
-Package pdftex.def Info: vortex-xy.png used on input line 185.
+Package pdftex.def Info: vortex-xy.png used on input line 183.
 (pdftex.def)             Requested size: 195.0pt x 195.00662pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12 <./vortex-xy.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
 
 [13]
-LaTeX Font Info:    Try loading font information for U+bbold on input line 236.
+LaTeX Font Info:    Try loading font information for U+bbold on input line 234.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/bbold/Ubbold.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 235--237
+Underfull \hbox (badness 10000) in paragraph at lines 233--235
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
@@ -2404,39 +2461,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
-
- []
-
-[15] <silver-filament.pdf, id=351, 123.04329pt x 93.15392pt>
+[15] <silver-filament.pdf, id=417, 123.04329pt x 93.15392pt>
 File: silver-filament.pdf Graphic file (type pdf)
  <use silver-filament.pdf>
-Package pdftex.def Info: silver-filament.pdf used on input line 257.
+Package pdftex.def Info: silver-filament.pdf used on input line 255.
 (pdftex.def)             Requested size: 292.5pt x 221.46739pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
 
 Underfull \vbox (badness 1655) has occurred while \output is active []
 
- [16 <./silver-filament.pdf>] <vortex-array.png, id=407, 442.2924pt x 133.4586pt>
+ [16 <./silver-filament.pdf>] <vortex-array.png, id=474, 442.2924pt x 133.4586pt>
 File: vortex-array.png Graphic file (type png)
  <use vortex-array.png>
-Package pdftex.def Info: vortex-array.png used on input line 267.
+Package pdftex.def Info: vortex-array.png used on input line 265.
 (pdftex.def)             Requested size: 390.0pt x 117.68217pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17 <./vortex-array.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
 
@@ -2445,145 +2502,898 @@ Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-
- []
-
 [18] [19] [20
 
 ]
 Chapter 2.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 297.
+(Font)              scaled to size 10.95pt on input line 295.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 297.
+(Font)              scaled to size 10.95pt on input line 295.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 297.
+(Font)              scaled to size 8.0pt on input line 295.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 297.
+(Font)              scaled to size 6.1pt on input line 295.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 297.
+(Font)              scaled to size 10.95pt on input line 295.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 297.
+(Font)              scaled to size 8.0pt on input line 295.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 6.1pt on input line 297.
+(Font)              scaled to size 6.1pt on input line 295.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 297.
+(Font)              scaled to size 10.95pt on input line 295.
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 316--318
+Underfull \hbox (badness 10000) in paragraph at lines 314--316
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 329--331
+Underfull \hbox (badness 10000) in paragraph at lines 327--329
 
  []
 
 
-Overfull \hbox (21.51256pt too wide) in paragraph at lines 332--333
+Overfull \hbox (21.51256pt too wide) in paragraph at lines 330--331
 []\T1/zpltlf/m/n/12 Considering only eigen-states $\U/npxmia/m/it/12 	\LMS/npxsy/m/n/12 ¹[]\OML/npxmi/m/it/12 ; t\LMS/npxsy/m/n/12 º \U/npxmia/m/it/12 5 	[]\LMS/npxsy/m/n/12 ¹[]º \OT1/zpltlf/m/n/12 e[]$ \T1/zpltlf/m/n/12 of the time-independent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--358
+Underfull \hbox (badness 10000) in paragraph at lines 339--356
 []\T1/zpltlf/m/n/12 Model pa-ram-e-ters for the OT-DFT and solid func-tion-als.
  []
 
 
-Overfull \hbox (17.12947pt too wide) in paragraph at lines 341--358
+Overfull \hbox (17.12947pt too wide) in paragraph at lines 339--356
 []
  []
 
-<static-response-function.png, id=459, 981.16562pt x 880.28876pt>
+<static-response-function.png, id=525, 981.16562pt x 880.28876pt>
 File: static-response-function.png Graphic file (type png)
  <use static-response-function.png>
-Package pdftex.def Info: static-response-function.png used on input line 363.
+Package pdftex.def Info: static-response-function.png used on input line 361.
 (pdftex.def)             Requested size: 292.5pt x 262.42308pt.
  [23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 403--405
+Underfull \hbox (badness 10000) in paragraph at lines 401--403
 
  []
 
 [25 <./static-response-function.png>] [26]
 
-LaTeX Warning: Command \r invalid in math mode on input line 437.
+LaTeX Warning: Command \r invalid in math mode on input line 434.
 
 Missing character: There is no Å in font zpl-Regular-tlf-ot1!
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
 
  []
 
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 457.
+(amsmath)                 on input line 454.
 
-[28] <pxy-he.png, id=517, 1439.87938pt x 616.80438pt>
+[28] <pxy-he.png, id=583, 1439.87938pt x 616.80438pt>
 File: pxy-he.png Graphic file (type png)
  <use pxy-he.png>
-Package pdftex.def Info: pxy-he.png used on input line 475.
+Package pdftex.def Info: pxy-he.png used on input line 472.
 (pdftex.def)             Requested size: 175.49881pt x 75.17096pt.
- <pz-he.png, id=518, 1439.87938pt x 616.80438pt>
+ <pz-he.png, id=584, 1439.87938pt x 616.80438pt>
 File: pz-he.png Graphic file (type png)
  <use pz-he.png>
-Package pdftex.def Info: pz-he.png used on input line 477.
+Package pdftex.def Info: pz-he.png used on input line 474.
 (pdftex.def)             Requested size: 175.49881pt x 75.17096pt.
  [29 <./pxy-he.png> <./pz-he.png>]
 
-Package natbib Warning: Citation `82' on page 30 undefined on input line 492.
+Package natbib Warning: Citation `82' on page 30 undefined on input line 489.
 
-[30] <dim-axes.png, id=540, 1439.3775pt x 811.03pt>
+[30] <dim-axes.png, id=606, 1439.3775pt x 811.03pt>
 File: dim-axes.png Graphic file (type png)
  <use dim-axes.png>
-Package pdftex.def Info: dim-axes.png used on input line 520.
+Package pdftex.def Info: dim-axes.png used on input line 517.
 (pdftex.def)             Requested size: 292.5pt x 164.81432pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--528
+Underfull \hbox (badness 10000) in paragraph at lines 524--525
 
  []
 
 [31 <./dim-axes.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 540--542
+Underfull \hbox (badness 10000) in paragraph at lines 537--539
 
  []
 
 [32] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 589--590
+Underfull \hbox (badness 10000) in paragraph at lines 586--587
 
  []
 
 
-LaTeX Warning: Reference `bcn-tlse-hedft' on page 34 undefined on input line 591.
+LaTeX Warning: Reference `bcn-tlse-hedft' on page 34 undefined on input line 588.
 
-[34]
+[34] [35
+
+] [36]
 Chapter 3.
-[35
 
-] [36
+Underfull \hbox (badness 10000) in paragraph at lines 593--594
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--599
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
+
+ []
+
+[38] [39] [40
 
 ]
 Chapter 4.
-(/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.bbl [37] [38
+<jpcl_vol8_no1_pp307-312.pdf, id=675, 627.78136pt x 821.43086pt>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf used on input line 608.
+(pdftex.def)             Requested size: 627.77982pt x 821.42886pt.
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf used on input line 608.
+(pdftex.def)             Requested size: 627.77982pt x 821.42886pt.
+ <jpcl_vol8_no1_pp307-312.pdf, id=678, page=1, 627.78136pt x 821.43086pt>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 1>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page1 used on input line 608.
+(pdftex.def)             Requested size: 627.77982pt x 821.42886pt.
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 1>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page1 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+ [41]
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 1>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page1 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 1>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page1 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 1>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page1 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+ [42 <./jpcl_vol8_no1_pp307-312.pdf>] <jpcl_vol8_no1_pp307-312.pdf, id=758, page=2, 627.78136pt x 821.43086pt>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 2>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page2 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 2>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page2 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 2>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page2 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+ [43 <./jpcl_vol8_no1_pp307-312.pdf>] <jpcl_vol8_no1_pp307-312.pdf, id=773, page=3, 627.78136pt x 821.43086pt>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 3>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page3 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 3>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page3 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 3>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page3 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+ [44 <./jpcl_vol8_no1_pp307-312.pdf>] <jpcl_vol8_no1_pp307-312.pdf, id=779, page=4, 627.78136pt x 821.43086pt>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 4>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page4 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 4>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page4 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 4>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page4 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+ [45 <./jpcl_vol8_no1_pp307-312.pdf>] <jpcl_vol8_no1_pp307-312.pdf, id=790, page=5, 627.78136pt x 821.43086pt>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 5>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page5 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 5>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page5 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 5>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page5 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+ [46 <./jpcl_vol8_no1_pp307-312.pdf>] <jpcl_vol8_no1_pp307-312.pdf, id=804, page=6, 627.78136pt x 821.43086pt>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 6>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page6 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 6>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page6 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+ <use jpcl_vol8_no1_pp307-312.pdf, page 6>
+Package pdftex.def Info: jpcl_vol8_no1_pp307-312.pdf, page6 used on input line 608.
+(pdftex.def)             Requested size: 549.30733pt x 718.75024pt.
+ [47 <./jpcl_vol8_no1_pp307-312.pdf>] <RbHe-dynamics.pdf, id=809, 614.295pt x 794.97pt>
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf>
+Package pdftex.def Info: RbHe-dynamics.pdf used on input line 611.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf>
+Package pdftex.def Info: RbHe-dynamics.pdf used on input line 611.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ <RbHe-dynamics.pdf, id=812, page=1, 614.295pt x 794.97pt>
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 1>
+Package pdftex.def Info: RbHe-dynamics.pdf, page1 used on input line 611.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 1>
+Package pdftex.def Info: RbHe-dynamics.pdf, page1 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [48]
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 1>
+Package pdftex.def Info: RbHe-dynamics.pdf, page1 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 1>
+Package pdftex.def Info: RbHe-dynamics.pdf, page1 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 1>
+Package pdftex.def Info: RbHe-dynamics.pdf, page1 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [49 <./RbHe-dynamics.pdf>] <RbHe-dynamics.pdf, id=941, page=2, 614.295pt x 794.97pt>
+File: RbHe-dynamics.pdf Graphic file (type pdf)
 
-] [39] [40]) [41]
+<use RbHe-dynamics.pdf, page 2>
+Package pdftex.def Info: RbHe-dynamics.pdf, page2 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 2>
+Package pdftex.def Info: RbHe-dynamics.pdf, page2 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 2>
+Package pdftex.def Info: RbHe-dynamics.pdf, page2 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [50 <./RbHe-dynamics.pdf>] <RbHe-dynamics.pdf, id=986, page=3, 614.295pt x 794.97pt>
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 3>
+Package pdftex.def Info: RbHe-dynamics.pdf, page3 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 3>
+Package pdftex.def Info: RbHe-dynamics.pdf, page3 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 3>
+Package pdftex.def Info: RbHe-dynamics.pdf, page3 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [51 <./RbHe-dynamics.pdf>] <RbHe-dynamics.pdf, id=1048, page=4, 614.295pt x 794.97pt>
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 4>
+Package pdftex.def Info: RbHe-dynamics.pdf, page4 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 4>
+Package pdftex.def Info: RbHe-dynamics.pdf, page4 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 4>
+Package pdftex.def Info: RbHe-dynamics.pdf, page4 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [52 <./RbHe-dynamics.pdf>] <RbHe-dynamics.pdf, id=1053, page=5, 614.295pt x 794.97pt>
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 5>
+Package pdftex.def Info: RbHe-dynamics.pdf, page5 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 5>
+Package pdftex.def Info: RbHe-dynamics.pdf, page5 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 5>
+Package pdftex.def Info: RbHe-dynamics.pdf, page5 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [53 <./RbHe-dynamics.pdf>] <RbHe-dynamics.pdf, id=1101, page=6, 614.295pt x 794.97pt>
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 6>
+Package pdftex.def Info: RbHe-dynamics.pdf, page6 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 6>
+Package pdftex.def Info: RbHe-dynamics.pdf, page6 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 6>
+Package pdftex.def Info: RbHe-dynamics.pdf, page6 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [54 <./RbHe-dynamics.pdf>] <RbHe-dynamics.pdf, id=1112, page=7, 614.295pt x 794.97pt>
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 7>
+Package pdftex.def Info: RbHe-dynamics.pdf, page7 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 7>
+Package pdftex.def Info: RbHe-dynamics.pdf, page7 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 7>
+Package pdftex.def Info: RbHe-dynamics.pdf, page7 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [55 <./RbHe-dynamics.pdf>] <RbHe-dynamics.pdf, id=1152, page=8, 614.295pt x 794.97pt>
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 8>
+Package pdftex.def Info: RbHe-dynamics.pdf, page8 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 8>
+Package pdftex.def Info: RbHe-dynamics.pdf, page8 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 8>
+Package pdftex.def Info: RbHe-dynamics.pdf, page8 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [56 <./RbHe-dynamics.pdf>] <RbHe-dynamics.pdf, id=1176, page=9, 614.295pt x 794.97pt>
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 9>
+Package pdftex.def Info: RbHe-dynamics.pdf, page9 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 9>
+Package pdftex.def Info: RbHe-dynamics.pdf, page9 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 9>
+Package pdftex.def Info: RbHe-dynamics.pdf, page9 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [57 <./RbHe-dynamics.pdf>] <RbHe-dynamics.pdf, id=1234, page=10, 614.295pt x 794.97pt>
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 10>
+Package pdftex.def Info: RbHe-dynamics.pdf, page10 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 10>
+Package pdftex.def Info: RbHe-dynamics.pdf, page10 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 10>
+Package pdftex.def Info: RbHe-dynamics.pdf, page10 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [58 <./RbHe-dynamics.pdf>] <RbHe-dynamics.pdf, id=1239, page=11, 614.295pt x 794.97pt>
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 11>
+Package pdftex.def Info: RbHe-dynamics.pdf, page11 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 11>
+Package pdftex.def Info: RbHe-dynamics.pdf, page11 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 11>
+Package pdftex.def Info: RbHe-dynamics.pdf, page11 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [59 <./RbHe-dynamics.pdf>] <RbHe-dynamics.pdf, id=1244, page=12, 614.295pt x 794.97pt>
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 12>
+Package pdftex.def Info: RbHe-dynamics.pdf, page12 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 12>
+Package pdftex.def Info: RbHe-dynamics.pdf, page12 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: RbHe-dynamics.pdf Graphic file (type pdf)
+ <use RbHe-dynamics.pdf, page 12>
+Package pdftex.def Info: RbHe-dynamics.pdf, page12 used on input line 611.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [60 <./RbHe-dynamics.pdf>]
+Overfull \hbox (220.7976pt too wide) has occurred while \output is active
+\T1/zpltlf/m/sl/12 4.3.  SUPERVISED WORK: DYNAMICS OF SUPERFLUID HELIUM NANODROPLETS DOPED WITH POTASSIUM \T1/zpltlf/m/n/12 61
+ []
+
+[61] [62
+
+] [63] [64]
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
+
+ []
+
+
+Overfull \hbox (5.4029pt too wide) in paragraph at lines 621--622
+\T1/zpltlf/m/n/12 been used to ad-dress the cap-ture of Cs or Ne atoms by $[]$He nan-odroplets[8,9].
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--622
+
+ []
+
+[65
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 628--629
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--631
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--633
+
+ []
+
+[66]
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 636--637
+
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+zpltlf on input line 640.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
+File: ts1zpltlf.fd 2015/01/18 v1.0 fd file for TS1/zpltlf
+)
+LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 640.
+ [67] [68]
+Chapter 6.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./jltp_vol187_no5-6_pp439-445.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<jltp_vol187_no5-6_pp439-445.pdf, id=1284, 597.51233pt x 845.0471pt>
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf used on input line 653.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./jltp_vol187_no5-6_pp439-445.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+<use jltp_vol187_no5-6_pp439-445.pdf>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf used on input line 653.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./jltp_vol187_no5-6_pp439-445.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./jltp_vol187_no5-6_pp439-445.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<jltp_vol187_no5-6_pp439-445.pdf, id=1287, page=3, 441.01764pt x 668.64006pt>
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 3>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page3 used on input line 653.
+(pdftex.def)             Requested size: 441.01656pt x 668.63843pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 3>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page3 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+ [69
+
+]
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 3>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page3 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 3>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page3 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 3>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page3 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+ [70 <./jltp_vol187_no5-6_pp439-445.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./jltp_vol187_no5-6_pp439-445.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<jltp_vol187_no5-6_pp439-445.pdf, id=2040, page=4, 441.01764pt x 668.64006pt>
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 4>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page4 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 4>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page4 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 4>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page4 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+ [71 <./jltp_vol187_no5-6_pp439-445.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./jltp_vol187_no5-6_pp439-445.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<jltp_vol187_no5-6_pp439-445.pdf, id=2061, page=5, 441.01764pt x 668.64006pt>
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 5>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page5 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 5>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page5 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 5>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page5 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+ [72 <./jltp_vol187_no5-6_pp439-445.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./jltp_vol187_no5-6_pp439-445.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<jltp_vol187_no5-6_pp439-445.pdf, id=2071, page=6, 441.01764pt x 668.64006pt>
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 6>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page6 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 6>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page6 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 6>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page6 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+ [73 <./jltp_vol187_no5-6_pp439-445.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./jltp_vol187_no5-6_pp439-445.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<jltp_vol187_no5-6_pp439-445.pdf, id=2082, page=7, 441.01764pt x 668.64006pt>
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 7>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page7 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 7>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page7 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 7>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page7 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+ [74 <./jltp_vol187_no5-6_pp439-445.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./jltp_vol187_no5-6_pp439-445.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<jltp_vol187_no5-6_pp439-445.pdf, id=2092, page=8, 441.01764pt x 668.64006pt>
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 8>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page8 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 8>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page8 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 8>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page8 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+ [75 <./jltp_vol187_no5-6_pp439-445.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./jltp_vol187_no5-6_pp439-445.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<jltp_vol187_no5-6_pp439-445.pdf, id=2110, page=9, 441.01764pt x 668.64006pt>
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 9>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page9 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 9>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page9 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+File: jltp_vol187_no5-6_pp439-445.pdf Graphic file (type pdf)
+ <use jltp_vol187_no5-6_pp439-445.pdf, page 9>
+Package pdftex.def Info: jltp_vol187_no5-6_pp439-445.pdf, page9 used on input line 653.
+(pdftex.def)             Requested size: 352.81459pt x 534.91278pt.
+ [76 <./jltp_vol187_no5-6_pp439-445.pdf>] <pccp_vol19_no36_p24805-24818.pdf, id=2115, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf used on input line 656.
+(pdftex.def)             Requested size: 597.50682pt x 782.44934pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf used on input line 656.
+(pdftex.def)             Requested size: 597.50682pt x 782.44934pt.
+ <pccp_vol19_no36_p24805-24818.pdf, id=2118, page=1, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 1>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page1 used on input line 656.
+(pdftex.def)             Requested size: 597.50682pt x 782.44934pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 1>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page1 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [77]
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 1>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page1 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 1>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page1 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 1>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page1 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [78 <./pccp_vol19_no36_p24805-24818.pdf>] <pccp_vol19_no36_p24805-24818.pdf, id=2218, page=2, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 2>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page2 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 2>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page2 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 2>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page2 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [79 <./pccp_vol19_no36_p24805-24818.pdf>] <pccp_vol19_no36_p24805-24818.pdf, id=2279, page=3, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 3>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page3 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 3>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page3 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 3>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page3 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [80 <./pccp_vol19_no36_p24805-24818.pdf>] <pccp_vol19_no36_p24805-24818.pdf, id=2299, page=4, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 4>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page4 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 4>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page4 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 4>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page4 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [81 <./pccp_vol19_no36_p24805-24818.pdf>] <pccp_vol19_no36_p24805-24818.pdf, id=2319, page=5, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 5>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page5 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 5>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page5 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 5>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page5 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [82 <./pccp_vol19_no36_p24805-24818.pdf>] <pccp_vol19_no36_p24805-24818.pdf, id=2339, page=6, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 6>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page6 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 6>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page6 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 6>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page6 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [83 <./pccp_vol19_no36_p24805-24818.pdf>] <pccp_vol19_no36_p24805-24818.pdf, id=2354, page=7, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 7>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page7 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 7>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page7 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 7>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page7 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [84 <./pccp_vol19_no36_p24805-24818.pdf>] <pccp_vol19_no36_p24805-24818.pdf, id=2377, page=8, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 8>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page8 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 8>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page8 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 8>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page8 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [85 <./pccp_vol19_no36_p24805-24818.pdf>] <pccp_vol19_no36_p24805-24818.pdf, id=2393, page=9, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 9>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page9 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 9>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page9 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 9>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page9 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [86 <./pccp_vol19_no36_p24805-24818.pdf>] <pccp_vol19_no36_p24805-24818.pdf, id=2413, page=10, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 10>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page10 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 10>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page10 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 10>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page10 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [87 <./pccp_vol19_no36_p24805-24818.pdf>] <pccp_vol19_no36_p24805-24818.pdf, id=2429, page=11, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 11>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page11 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 11>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page11 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 11>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page11 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [88 <./pccp_vol19_no36_p24805-24818.pdf>] <pccp_vol19_no36_p24805-24818.pdf, id=2444, page=12, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 12>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page12 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 12>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page12 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 12>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page12 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [89 <./pccp_vol19_no36_p24805-24818.pdf>] <pccp_vol19_no36_p24805-24818.pdf, id=2454, page=13, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 13>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page13 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 13>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page13 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 13>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page13 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [90 <./pccp_vol19_no36_p24805-24818.pdf>] <pccp_vol19_no36_p24805-24818.pdf, id=2464, page=14, 597.50829pt x 782.45125pt>
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 14>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page14 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+
+<use pccp_vol19_no36_p24805-24818.pdf, page 14>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page14 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+File: pccp_vol19_no36_p24805-24818.pdf Graphic file (type pdf)
+ <use pccp_vol19_no36_p24805-24818.pdf, page 14>
+Package pdftex.def Info: pccp_vol19_no36_p24805-24818.pdf, page14 used on input line 656.
+(pdftex.def)             Requested size: 492.9413pt x 645.51831pt.
+ [91 <./pccp_vol19_no36_p24805-24818.pdf>] [92
+
+]
+Chapter 7.
+(/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.bbl [93] [94
+
+]
+LaTeX Font Info:    Try loading font information for T1+npxtt on input line 18.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/newpx/t1npxtt.fd
+File: t1npxtt.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 12.0pt on input line 18.
+
+Underfull \hbox (badness 1902) in paragraph at lines 21--26
+[]\T1/zpltlf/m/n/12 B. Rollin and F. Si-mon, Phys-ica \T1/zpltlf/b/n/12 6\T1/zpltlf/m/n/12 , 219 (1939), ISSN 0031-
+ []
+
+
+Underfull \hbox (badness 7667) in paragraph at lines 21--26
+\T1/zpltlf/m/n/12 8914, URL []$\T1/npxtt/m/n/12 http : / / www . sciencedirect . com / science / article /
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 28--33
+[]\T1/zpltlf/m/n/12 W. Kee-som and M. A. Kee-som, Phys-ica \T1/zpltlf/b/n/12 3\T1/zpltlf/m/n/12 , 359 (1936),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--86
+[]$\T1/npxtt/m/n/12 http : / / www . dwc . knaw . nl / toegangen / digital-[]library-[]knaw /
+ []
+
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 88--92
+[]$\T1/npxtt/m/n/12 http : / / www . dwc . knaw . nl / toegangen / digital-[]library-[]knaw /
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 125--131
+\T1/zpltlf/m/n/12 4630, []$\T1/npxtt/m/n/12 http : / / rspa . royalsocietypublishing . org / content / 153 /
+ []
+
+[96]
+Underfull \hbox (badness 5622) in paragraph at lines 290--300
+[]\T1/zpltlf/m/n/12 M. Bar-ranco, F. Cop-pens, N. Hal-ber-stadt, A. Her-nando,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--300
+\T1/zpltlf/m/n/12 A. Leal, D. Ma-teo, R. Mayol, and M. Pi ((2017),),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--300
+\T1/zpltlf/m/n/12 https://github.com/bcntls2016/DFT-Guide/blob/master/dft-
+ []
+
+) [97]
 \openout2 = `commented_stuff.aux'.
 
  (./commented_stuff.tex)
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 606.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 606.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 665.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 665.
 (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.aux (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/commented_stuff.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 606.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 606.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 665.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 665.
 Package rerunfilecheck Info: File `notes.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -2595,18 +3405,19 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18372 strings out of 492995
- 305149 string characters out of 6132704
- 364826 words of memory out of 5000000
- 21415 multiletter control sequences out of 15000+600000
- 142149 words of font info for 234 fonts, out of 8000000 for 9000
+ 19763 strings out of 492995
+ 327941 string characters out of 6132704
+ 388621 words of memory out of 5000000
+ 22683 multiletter control sequences out of 15000+600000
+ 142848 words of font info for 236 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,19n,58p,10403b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newpx/ecsups.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ecth-tlf.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/initials/Zallman.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/pxbsys.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/pxfonts/pxmia.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/pxfonts/rpxbmi.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplri.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplx-regular.pfb>
-Output written on /Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.pdf (41 pages, 7931446 bytes).
+ 42i,19n,58p,10403b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newpx/ecsups.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ecth-tlf.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/initials/Zallman.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/pxbsys.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/pxfonts/pxmia.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/pxfonts/rpxbmi.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplri.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplx-regular.pfb>
+Output written on /Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.pdf (97 pages, 23738263 bytes).
 PDF statistics:
- 729 PDF objects out of 1000 (max. 8388607)
- 623 compressed objects within 7 object streams
- 200 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2706 PDF objects out of 2984 (max. 8388607)
+ 2168 compressed objects within 22 object streams
+ 268 named destinations out of 1000 (max. 500000)
+ 599 words of extra memory for PDF output out of 10000 (max. 10000000)
 

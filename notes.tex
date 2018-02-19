@@ -1,14 +1,10 @@
 \documentclass[12pt,a4paper,twosides]{book}
 \usepackage[utf8]{inputenc}
-%\usepackage{baskervald}
-%\usepackage[math]{iwona} % broad
-%\usepackage[light,math]{iwona}
-%\usepackage[math]{anttor} % broadest
-%\usepackage{ccfonts} % broader
-%\usepackage{cmbright}
-\usepackage{newpxtext,newpxmath}
-%\usepackage{antpolt}
 \usepackage[T1]{fontenc}
+%\usepackage{baskervald}% Quite nice, math is the default math font.
+%\usepackage{cmbright}	% sans-serif font, modernised clear math, rather broad
+\usepackage{newpxtext,newpxmath} % quite nice, math is clear too
+%\usepackage{antpolt} 	% quite nice, but rather compact
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -17,11 +13,13 @@
 \usepackage{bm}
 \usepackage{bbm}
 \usepackage{bbold}
+\usepackage{pdfpages}
 \usepackage[square,comma,numbers,super]{natbib}
 \usepackage{hyperref,hypertoc,hypernat}
 \usepackage{lettrine}
 \usepackage{epigraph}
 \usepackage{graphicx,type1cm,Zallman}
+
 \renewcommand\LettrineFontHook{\Zallmanfamily}
 \renewcommand{\vec}[1]{\bm{\mathrm{#1}}}
 \newcommand{\unit}[1]{\,\mathrm{#1}}
@@ -405,9 +403,8 @@
 			
 		Finally, in the last line in Eq. \ref{eq:otf} is called the \emph{back-flow} term and influences the dynamic response of the system. It plays the role of a non-local kinetic energy. Since the back-flow contains the factor $\vec{v}-\vec{v'}$, as defined in Eq. \ref{eq:velocity-field} the contribution will only be non-zero whenever the order parameter $\Psi$ is complex-valued. Which means that in the time-independent case this will only affect the vortex states. The phenomenological effective current-current interaction $V_J(r)$ is calibrated so that it reproduces the experimental phonon-roton spectrum (see Fig. \ref{fig:dispersion-relation}):
 		\begin{align}
-			V_J(r) =\,&(\gamma_{11} +\gamma_{12} \, r^2) e^{-\alpha_1 r^2}\\
+			V_J(r) =\,&(\gamma_{11} +\gamma_{12} \, r^2) e^{-\alpha_1 r^2} \nonumber \\
 				+\,&(\gamma_{21} +\gamma_{22} \, r^2) e^{-\alpha_2 r^2}
-			\label{eq15}
 		\end{align}
 		All the parameters of the functional are given in Table \ref{table1}.
 
@@ -462,7 +459,7 @@
 		\begin{align}
 			E[\rho] \rightarrow E[\rho] + \frac{p^2_I}{2 m_I} + \int \! \rho(\mathbf{r}) \, V_{X^{\!*}}\qty(\abs{\vec{r}-\vec{r}_I})\diff{r} \label{eq33}
 		\end{align}
-		where $p^2_I$ is the classical momentum of the impurity, $m_I$ is the impurity mass and $V_{X^{\!*}}$ is the X-$^4$He pair potential for a ground-, excited- or ionised state. The equations of motion for the time evolution of the order parameter $\Psi\qty(\vec{r},t)$ and the centre of mass of the impurity $\ddot{\vec{r}}_I$ are  
+		where $p_I$ is the classical momentum of the impurity, $m_I$ is the impurity mass and $V_{X^{\!*}}$ is the X-$^4$He pair potential for a ground-, excited- or ionised state. The equations of motion for the time evolution of the order parameter $\Psi\qty(\vec{r},t)$ and the centre of mass of the impurity $\ddot{\vec{r}}_I$ are  
 		\begin{align}
 			i\hbar\frac{\partial}{\partial t} \Psi &= \qty[-\frac{\hbar^2}{2m_4} \laplacian +\frac{\delta {\cal E}_c}{\delta \rho} + V_{X^*}(|\mathbf{r}- \mathbf{r}_I|)]\Psi\nonumber\\
 			m_I \ddot{\mathbf{r}}_I &= - \grad_{\vec{r}_I} \left[  \int \!\rho(\mathbf{r}) V_{X^*}(|\mathbf{r}- \mathbf{r}_I|)\diff{r}  \right] \nonumber \\
@@ -590,16 +587,78 @@
 			
 			For the technical details about how this method is implemented the interested reader is directed to\citep{dft-guide}. For the collection of Fortran code that has been used to obtain the results presented here see [\ref{bcn-tlse-hedft}]. For the manuel to use the code see\citep{dft-guide}.
 
-\chapter{Introduction Part 1}
-	\section{Paper 1}
+\part{Photo-excitation dynamics of alkalis}
+	\chapter{Introduction}
+		\section{Imaging Excited-State Dynamics}
+			As mentioned in the introduction He nanodroplets capable of efficiently capturing and cooling atoms, molecules, and clusters for spectroscopy and dynamics studies[1,2]. So far, time-resolved experiments on He droplets doped with alkali (Ak) metal atoms were mostly focused on the formation of AkHe exciplexes induced by laser excitation[15-18,22,23]. The concurrent desorption of these excited species was estimated to proceed on a picosecond time scale[9,10,13,24-26]. This estimate, sufficient for studies employing nanosecond laser pulses, clearly lacks precision for experiments with sub-picosecond time resolution. Thus in the previous measurements as well as in experiments focusing on electronic and vibrational coherences of Ak atoms and molecules[17,19,22,23,27] the exact location of the dopants, attached to the droplets or in the vacuum, has remained somewhat uncertain.\\
+
+			Here we report a combined experimental and theoretical investigation of the excited-state dynamics of doped He nanodroplets in real time. The combination of fs pump-probe spectroscopy with velocity map imaging (VMI)[28] allows us to clearly disentangle complex formation, desorption, and ion solvation. As a model system, we investigate He droplets doped with single rubidium (Rb) atoms. Ground-state Rb atoms and small molecules are weakly bound to the He droplet surface in a dimple structure[29-31]. Therefore, the ejection dynamics of the excited Rb atom (Rb*) is not affected by processes such as the interaction of Rb* with density waves traveling in the bulk of the droplet, as for Ag*[11].
+	
+		\section{Desorption dynamics of RbHe-exciplexes}
+			Understanding the photochemistry of condensed phase systems and surfaces is essential in many research areas, such as atmospheric sciences[1] and photocatalysis[2]. However, complex diabatic couplings of electronic and motional degrees of freedom of various subunits of the system often present a major challenge. Moreover, the heterogeneity of multi-component solid or liquid systems and experimental difficulties in precisely preparing the sample and reproducing measurements tend to make it hard to unravel specific elementary reactions. In this respect, He nanodroplets doped with single atoms or well-defined complexes are ideal model systems for studying photodynamical processes in the condensed phase, both experimentally and theoretically. Due to their ultra-low temperature (0.37 K) and their quantum fluid nature, He nanodroplets have a homogeneous density distribution and dopant particles aggregate into cold clusters mostly inside the droplets[3,4]. Only alkali metal atoms and small clusters are attached to He droplets in losely bound dimple-like states at the droplet surface[5-12].\\
+
+			While He nanodroplets are extremely inert and weakly-perturbing matrices for spectroscopy of embedded atoms and molecules in their electronic ground state, a rich photochemical dynamics is initiated upon electronic excitation or ionisation[13,14], involving electronic relaxation[15-18], the ejection of the dopant out of the droplet[19-26], chemical reactions within the dopant complex[27-29], and even among the dopant and the surrounding He[20,30-39].\\
+
+			As a general trend, electronically excited dopant atoms and small molecules tend to be ejected out of He droplets either as bare particles or with a few He atoms attached to them[15,40-42]. In particular, all atomic alkali species promptly desorb off the droplet surface, the only exceptions being Rb and Cs atoms in their lowest excited states[43,44]. The dynamics of the desorption process has recently been studied at an increasing level of detail[16,21,23,45], including time-resolved experiments and simulations[24,26]. The focus was on the competing processes of desorption of the dopant induced by laser excitation, and the dopant falling back into the He droplet upon photoionisation. The latter occurred at short pump-probe delay times when the distance between the photoion and the droplet was short enough for ion-He attraction to be effective.\\
+
+			The purpose of this work is to extend our joint experimental and theoretical study of the photodynamics of Rb-doped He nanodroplets to RbHe exciplexes[23,26]. The simultaneous effect of pairwise Rb-He attraction and repulsion of Rb from the He droplet as a whole results in an intricate dynamics, and interpretations have remained somewhat ambiguous with respect to the exciplex formation mechanism and time scale, as well as the origin of free exciplexes detached from the He droplets[16,26,30,33,34]. In particular the role of relaxation of internal degrees of freedom of the RbHe exciplex in the desorption process has not been explicitly addressed[46,47]. Here, we discuss in detail the interplay of the RbHe formation dynamics, the RbHe desorption off the He droplet surface, and the fall-back of [RbHe]+ created by photoionization in femtosecond pump-probe experiments[24,26,31]. We find that electronic spin-relaxation is the main process driving the desorption of RbHe off the He droplet.
+
+	\chapter{Results}
+		\section{Imaging Excited-State Dynamics}
+			\includepdf[pages=-, scale=0.875, pagecommand={}]{jpcl_vol8_no1_pp307-312.pdf}
+
+		\section{Desorption dynamics of RbHe exciplexes}
+			\includepdf[pages={-}, scale=0.8, pagecommand={}]{RbHe-dynamics.pdf}
 		
+		\section{Supervised work: Dynamics of superfluid helium nanodroplets doped with potassium}
 
-\chapter{Introduction Part 2}
+\part{Head-on collisions and capture by quantised vortices}
 
+	\chapter{Introduction}
+		\section{Head-on collisions}
+			It is well known that helium drops readily capture foreign atoms and molecules[1], and this ability has had a considerable influence on the chemistry and physics of these systems[2]. Among the studies carried out in the past on atom-drop collisions, let us mention those aiming at experimentally determining the density profiles of large $^4$He and $^3$He droplets from the scattering of Ar and Kr atoms off helium droplets, which have been analysed within density functional theory (DFT)[3,4]; the microscopic simulation of the scattering of 3He and 4He atoms from inhomogeneous liquid helium systems[5,6]; and an earlier theoretical work on the scattering of 4He atoms from 4He droplets within a liquid drop plus optical model approach[7].\\
+
+			Very recently, time-dependent density functional theory (TDDFT) has been used to address the capture of Cs or Ne atoms by $^4$He nanodroplets[8,9]. The Cs capture was treated fully three dimensionally with the Cs atom described as a classical particle, whereas for the Ne capture study the Ne atom was described quantum mechanically, but the description was strictly one dimension.\\
+
+			Motivated by recent experiments that use Xe atoms to visualize vortex arrays in very large helium droplets[10,11], we present here a first step toward the description of the capture of Xe atoms by helium droplets, namely head-on collisions of Xe atoms against a $^4$He$_{1000}$ droplet. A discussion on the dynamic capture of Xe atoms by droplets hosting vortex lines and vortex arrays will be provided by a forthcoming study combining DFT simulation of vortex arrays as in Refs.[12,13] for helium nanocylinders and nanodroplets and collision with Xe atoms as in this work. Whenever possible, the results for Xe, a heliophilic atom, are contrasted with results for Cs, a heliophobic atom with similar mass.
+
+		\section{Capture by quantised vortices}
+			It is well established that helium droplets can readily capture in their interior almost any atom or molecule interacting with them, as first shown for the case of Ne atoms[1], with the notable exception of alkali[2] and some alkaline-earth[3] atoms. This property, together with the extremely low temperature (T) achieved in helium droplets -- of the order of 0.4 K -- makes them the perfect ultracold and inert environment for hosting and studying isolated atoms and molecules, which is at the basis of current applications of helium droplets for spectroscopic studies of atoms and molecules. Besides, the superfluid nature of helium facilitates binary encounters of atoms/molecules in the bulk of the droplet while absorbing the energy released upon recombination, making possible chemical reactions which would not otherwise occur in the gas phase. These unique properties of helium droplets have had a huge impact on their study[4-8].\\
+
+			The pickup of Ar, Kr and Xe atoms in the gas phase by $^4$He$_N$ droplets with $N>10^3$ atoms produced by nozzle beam expansions was described about twenty years ago by Toennies and coworkers[9]. In these experiments, the droplets in the helium beam were deflected by impacting with a secondary beam made of rare gas atoms.\\
+
+			Recently, a technique has been introduced to determine the size of large He droplets ($N>10^5$). It is based on the attenuation of a continuous droplet beam through collisions with Ar atoms at room temperature[10]. The pickup chamber of the droplet beam apparatus is filled with argon gas and the helium droplets experience multiple, isotropic collisions with the Ar atoms on their way towards the detection chamber. Large helium droplets could also be doped in this way. This method, using Xe atoms, has been instrumental for detecting and imaging quantised vortex arrays in helium droplets[11,12]. Xe atoms were used in these experiments because of their large sensitivity to the X-ray coherent diffractive imaging employed to detect them within the helium droplets. Experiments with large superfluid helium droplets are reviewed in a recent publication[14].\\
+
+			The impurity-droplet interaction in the presence of vortices is also relevant as the first stage of a more complex process leading to the formation of nanowires, see e.g. ref. 15-18. Long filaments made of micrometer-sized solid hydrogen particles trapped on quantised vortex cores were used to directly image the vortex reconnection between quantised vortices in superfluid helium[19].\\
+
+			The impact and capture of impurities interacting with pure helium droplets have been addressed recently within time-dependent density functional theory (TDDFT). Real-time simulations have been carried out for heliophobic[20] (Cs) and heliophilic[21] (Ne) atoms. In addition to the TDDFT equation for $^4$He, heavy impurities are treated as classical particles using Newton's equation of motion, whereas a time-dependent Schr\"{o}dinger equation has been used in the case of light impurities within the mean field model[21,22]. A comparison between the results for head-on collisions of Cs and Xe atoms -- heliophobic and heliophilic atoms of similar mass -- has been presented in ref. 23.\\
+
+			In this work, we present the results obtained within TDDFT for the collision and capture of Xe and Ar atoms by a $^4$He$_{1000}$ droplet at different kinetic energies and impact parameters. Special attention is paid to the time-dependent interaction of Xe and Ar atoms with helium nanodroplets hosting vortex lines, and to the effect of multi-doped vortex arrays in large helium droplets.\\
+
+			Due to the heavy computational cost of the TDDFT simulations presented here, we address only a few facets of the capture process that we consider of experimental relevance rather than carrying out a systematic study of the process. In particular:
+			\begin{itemize}
+				\item We study the capture of Xe atoms by a $^4$He nanodroplet, both for head-on collisions and for different impact parameters, with velocities ranging from thermal values up to several hundred m/s. The results of peripheral collisions with different values of the impact parameter are used to estimate the cross section for the Xe capture.
+				\item We study how a Xe atom dynamically interacts with a droplet hosting a vortex line, under different initial conditions resulting in different velocity regimes of the impurity as it collides with the vortex core: 
+				\begin{enumerate}
+					\item[i)] a Xe atom initially at rest on the droplet surface and sinking under the effect of solvation forces
+					\item[ii)] a head-on collision of a moving Xe or Ar atom against the $^4$He nanodroplet.	
+				\end{enumerate}
+				\item We study the stationary state of a large $^4$He$_{15000}$ droplet hosting a ring of six vortex lines, doped with Ar atoms completely filling all six vortex cores. This is the simplest system that mimics those experimentally described in ref. 11, where doped vortex arrays embedded in rotating $^4$He microdroplets have been imaged.
+			\end{itemize}
+
+			Multimedia materials accompany this paper, showing the real-time dynamics of several impact/capture processes described here. These materials are presented in the ESI document. They constitute an important part of this work, since often it is only by viewing how a complex microscopic process unfolds in real-time that one can catch important physical details which would otherwise escape in a written account.
+
+	\chapter{Results}
+		\section{Head-on collisions}
+			\includepdf[pages=3-9, scale=0.8, pagecommand={}]{jltp_vol187_no5-6_pp439-445.pdf}
+
+		\section{Capture by quantised vortices}
+			\includepdf[pages={-}, scale=0.825, pagecommand={}]{pccp_vol19_no36_p24805-24818.pdf}
+			
+	\chapter{Conclusions \& Outlook}
 
 \addcontentsline{toc}{chapter}{Bibliography}
-%\bibliographystyle{apsrev}
-\bibliographystyle{rsc}
+\bibliographystyle{apsrev}
 \bibliography{references,review}
 
 \include{commented_stuff}
