@@ -1,10 +1,39 @@
-\contentsline {part}{I\hspace {1em}Photo-excitation dynamics of alkalis}{3}{part.1}
-\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}
-\contentsline {section}{\numberline {1.1}Imaging Excited-State Dynamics}{5}{section.1.1}
-\contentsline {section}{\numberline {1.2}Desorption dynamics of RbHe-exciplexes}{6}{section.1.2}
-\contentsline {section}{\numberline {1.3}Supervised work: potassium-doped nanodroplets}{7}{section.1.3}
-\contentsline {part}{II\hspace {1em}Head-on collisions and capture by quantised vortices}{9}{part.2}
-\contentsline {chapter}{\numberline {2}Introduction}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Head-on collisions}{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}Capture by quantised vortices}{12}{section.2.2}
-\contentsline {chapter}{Bibliography}{15}{section.2.2}
+\contentsline {chapter}{Title page}{i}{Doc-Start}
+\contentsline {chapter}{Contents}{ii}{Doc-Start}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}A brief history of superfluidity}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Some key concepts}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Bose-Einstein condensation and long-range order}{5}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Bogolyubov's approximation and the order parameter}{6}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Landau's criterion for superfluidity}{8}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Rotation and vorticity in superfluids}{11}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Helium droplets}{13}{section.1.3}
+\contentsline {section}{\numberline {1.4}Structure of the thesis}{16}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Part I: Excited state dynamics}{16}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Part II: Collisions and capture by quantised vortices}{16}{subsection.1.4.2}
+\contentsline {chapter}{\numberline {2}The DFT method for heavy impurities}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Kohn--Sham approach}{20}{section.2.1}
+\contentsline {section}{\numberline {2.2}The Orsay--Trento Density Functional}{22}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The Solid-OT Density Functional}{24}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Static calculations}{25}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Producing vortical states}{26}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Dynamic calculations}{27}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}The DIM model}{27}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Including spin-orbit coupling}{29}{subsection.2.4.2}
+\contentsline {part}{I\hspace {1em}Photo-excitation dynamics of alkalis}{33}{part.1}
+\contentsline {chapter}{\numberline {3}Introduction}{35}{chapter.3}
+\contentsline {section}{\numberline {3.1}Imaging Excited-State Dynamics}{35}{section.3.1}
+\contentsline {section}{\numberline {3.2}Desorption dynamics of RbHe-exciplexes}{36}{section.3.2}
+\contentsline {section}{\numberline {3.3}Supervised work: potassium-doped\\nanodroplets}{37}{section.3.3}
+\contentsline {chapter}{\numberline {4}Results}{39}{chapter.4}
+\contentsline {section}{\numberline {4.1}Imaging Excited-State Dynamics}{39}{section.4.1}
+\contentsline {section}{\numberline {4.2}Desorption dynamics of RbHe exciplexes}{46}{section.4.2}
+\contentsline {part}{II\hspace {1em}Head-on collisions and capture by quantised vortices}{59}{part.2}
+\contentsline {chapter}{\numberline {5}Introduction}{61}{chapter.5}
+\contentsline {section}{\numberline {5.1}Head-on collisions}{61}{section.5.1}
+\contentsline {section}{\numberline {5.2}Capture by quantised vortices}{62}{section.5.2}
+\contentsline {chapter}{\numberline {6}Results}{65}{chapter.6}
+\contentsline {section}{\numberline {6.1}Head-on collisions}{65}{section.6.1}
+\contentsline {section}{\numberline {6.2}Capture by quantised vortices}{73}{section.6.2}
+\contentsline {chapter}{\numberline {7}Conclusions \& Outlook}{89}{chapter.7}
+\contentsline {chapter}{Bibliography}{91}{chapter.7}

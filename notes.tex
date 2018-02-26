@@ -1,9 +1,9 @@
 \documentclass[12pt,a4paper,twosides]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{newpxtext,newpxmath} % quite nice, math is clear too
 %\usepackage{baskervald}% Quite nice, math is the default math font.
 %\usepackage{cmbright}	% sans-serif font, modernised clear math, rather broad
-\usepackage{newpxtext,newpxmath} % quite nice, math is clear too
 %\usepackage{antpolt} 	% quite nice, but rather compact
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -20,24 +20,35 @@
 \usepackage{epigraph}
 \usepackage{graphicx,type1cm,Zallman}
 
-\renewcommand\LettrineFontHook{\Zallmanfamily}
+%\renewcommand\LettrineFontHook{\Zallmanfamily}
 \renewcommand{\vec}[1]{\bm{\mathrm{#1}}}
 \newcommand{\unit}[1]{\,\mathrm{#1}}
 \newcommand{\diff}[1]{\,\mathrm{d}{\vec{#1}}}
 
 \begin{document}
 
-\tableofcontents
+\frontmatter
+	\addcontentsline{toc}{chapter}{Title page}
+	\title{Ultrafast quantum dynamics of doped superfluid helium nano-droplets}
+	\author{Fran\c{c}ois Coppens}
+	\date{February 2018}
+	\maketitle
+	\addcontentsline{toc}{chapter}{Contents}
+	\renewcommand{\contentsname}{Table of Contents}
+	\tableofcontents
 
-%\include{ch1-introduction}
-%\include{ch2-methods}
-\part{Photo-excitation dynamics of alkalis}
-	\include{ch3-intro-part1}
-	%\include{ch4-results-part1}
-\part{Head-on collisions and capture by quantised vortices}
-	\include{ch5-intro-part2}
-	%\include{ch6-results-part2}
-%\include{ch7-conclusions_outlook}
-\include{biblography}
+\mainmatter
+	\include{ch1-introduction}
+	\include{ch2-methods}
+	\part{Photo-excitation dynamics of alkalis}
+		\include{ch3-intro-part1}
+		\include{ch4-results-part1}
+	\part{Head-on collisions and capture by quantised vortices}
+		\include{ch5-intro-part2}
+		\include{ch6-results-part2}
+	\include{ch7-conclusions_outlook}
+
+\backmatter
+	\include{biblography}
 
 \end{document}
