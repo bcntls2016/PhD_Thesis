@@ -7,44 +7,79 @@
 
 	From the theoretical point of view, superfluid helium must be considered as a high dimensional quantum system. Quantum Monte Carlo (QMC) \cite{Kro02} and direct quantum mechanical \cite{deL06,deL10,Agu13} calculations are the most accurate methods, but their computational demand quickly exceeds currently available computer resources when the number of helium atoms increases. Furthermore, QMC cannot describe dynamic evolution of superfluid helium in real time. To address these limitations, semi-empirical methods based on  density functional theory (DFT) formalism have been introduced \cite{Str87a,Str87b,Dal95}. DFT can be applied to much larger systems than QMC and allows for time-dependent formulation. As such, it offers a good compromise between accuracy and computational feasibility. The main drawback of DFT is that the exact energy functional is not known and must therefore be constructed in a semi-empirical manner. Moreover, doped helium droplets are limited to a mean-field description of the dopant-helium interaction. Nevertheless, DFT is the only method to date that can successfully reproduce results from a wide range of time-resolved experiments in superfluid helium, for realistic sizes compared to experimental conditions.\\
 	
-	\section{The Kohn--Sham approach}	
-	\lettrine[lines=3,findent=3pt,nindent=0pt]{T}{he} starting point for the density functional method is the Hohenberg-Kohn (HK) theorem\cite{Hohenberg1964}, which states that the ground-state energy of an interacting inhomogeneous system in a static potential $v(\vec{r})$ can be written  int the form as a unique functional of the one-particle density
+	\section{The Kohn-Sham approach}	
+	\lettrine[lines=3,findent=3pt,nindent=0pt]{T}{he} starting point for the density functional method is the Hohenberg-Kohn (HK) theorem\cite{Hohenberg1964}, which states that the ground-state energy $E_v$ of an \emph{interacting inhomogeneous} system in a static potential $v$ can be written in as a unique functional of the one-body density $\rho$ like
 	\begin{align}
 		E_v[\rho] = \int\!v(\vec{r})\rho(\vec{r})\diff{r}+F[\rho] \label{eq1}
 	\end{align}
-	with
+	where $F[\rho]$ is a universal functional---valid for \emph{any} number of particles and \emph{any} external potential $v$---of the one-body density, defined as
 	\begin{align}\label{eq:density-operator}
-		\rho({\mathbf r})= \ev**{\hat\rho(\vec{r})}{\Phi} \vcentcolon= \ev**{\sum _{i=1}^{N}\delta({\mathbf r}-{\mathbf r}_i)}{\Phi}
+		\rho(\vec{r}) \vcentcolon= \ev**{\hat\rho(\vec{r})}{\Phi} = \ev**{\sum _{i=1}^{N}\delta(\vec{r}-\vec{r}_i)}{\Phi}
 	\end{align}
-	the atomic density and $\Phi$ the many-body wave function. Here the total energy is split in a kinetic part ${\cal T}[\rho]$ and a potential part encoding the interactions. Furthermore, this unique functional gives the ground state energy if and only if the input density is the true ground state density of the system. Kohn and Sham later reformulated\citep{Kohn1965} the theory such that we can regard the $N$-body ensemble of particles as a fictitious system of non-interacting particles, rewriting the above functional 
-	\begin{equation}
-		E[\rho] = T[\rho] + \int\!{\cal E}_c[\rho]\diff{r} \label{eq:ks-tot-energy}
-	\end{equation}
-	where this time
-	\begin{equation}
-		T= -\frac{\hbar^2}{2m} \sum_i \int\! \varphi_i^*({\mathbf r})\laplacian \varphi_i({\mathbf r})\diff{r} \label{eq:kin-energy}
-	\end{equation}
-	is the kinetic energy of this fictitious system and $\{\varphi_i\}$ are the single particle Kohn-Sham (KS) orbitals corresponding to the non-interacting many-body wave function $\Phi(\vec{r}_1,\vec{r}_2,\ldots,\vec{r}_N)=\prod_i\varphi_i(\vec{r}_i)$. Plugging this into the definition (Eq. \ref{eq:density-operator}) of the density operator it is straightforward to show that the density of this system is $\rho(\vec{r})=\sum_i\absolutevalue{\varphi_i(\vec{r})}^2$. The difference of the true kinetic energy and the fictitious one $\mathcal{T}[\rho]-T[\rho]$ has been included in the ``correlation energy density'' term $\mathcal{E}_c[\rho]$.\\
+	and $\Phi(\vec{r}_1,\vec{r}_2,\ldots,\vec{r}_N)$ is the many-body wave function of such a system. Furthermore, the functional $F[\rho]$ gives the ground state energy \emph{if and only if} the input density is the true ground state density of the system.
 	
-	In our calculations $T=0\unit{K}$ and we therefore assume complete Bose-Einstein condensation. In this case all the helium atoms occupy the single-particle orbital $\varphi_0$ and the density becomes $\rho(\vec{r})=N\absolutevalue{\varphi_0(\vec{r})}^2$. As explained before in Section \ref{sec:bogol-order}, it is customary to define an order parameter $\Psi(\vec{r})\vcentcolon=\sqrt{\rho(\vec{r})}=\sqrt{N}\varphi_0(\vec{r})$ (see Eq. \ref{eq:order-param-real}) for a BEC, which is sometimes called the \emph{effective}- or \emph{macroscopic wave function}. The expression for the kinetic energy (Eq. \ref{eq:kin-energy}) then simplifies to
+	Kohn and Sham (KS) later reformulated\citep{Kohn1965} the theory by introducing an approximation scheme for the functional $F[\rho]$ that is analogues to Hartree's method, but also contains the major part of the correlation effects inherent in interacting many-body systems. The approximation starts by defining
 	\begin{align}
-		T[\rho] =
-		-\frac{\hbar^2}{2m} N \ev**{\laplacian}{\varphi_0} = \frac{\hbar^2}{2m} \int\! \abs{\grad{\Psi}}^2\diff{r} \label{eq5}
+		F[\rho] \vcentcolon= T[\rho] + E_{c}[\rho]
 	\end{align}
+	where $T[\rho]$ is now the kinetic energy of a fictitious system of \emph{non-interacting} particles with density $\rho$ and $E_c[\rho]$ is the correlation energy of an \emph{interacting} system with the same density. For the kinetic part this allows us two write the total kinetic energy $T[\rho]$ as the sum over the individual kinetic energies $T_i$ of the non-interacting particles
+	\begin{align}
+		T = \sum_i T_i = -\frac{\hbar^2}{2m} \sum_i \ev**{\laplacian}{\varphi_i} = -\frac{\hbar^2}{2m} \sum_i \int\! \varphi_i^*({\mathbf r})\laplacian \varphi_i({\mathbf r})\diff{r}\,, \label{eq:kin-energy}
+	\end{align}
+	where the $\{\varphi_i\}$ are the Kohn-Sham single-particle orbitals corresponding to the many-body KS wave function $\Phi_{KS}(\vec{r}_1,\vec{r}_2,\ldots,\vec{r}_N)=\prod_i\varphi_i(\vec{r}_i)$ and leading to the density (using definition Eq. \ref{eq:density-operator}) $\rho(\vec{r})=\sum_i\absolutevalue{\varphi_i(\vec{r})}^2$.
+
+	There is difference between the true kinetic energy of the interacting system and the fictitious one, due to the negligence of the correlations. This difference is being corrected and accounted for in the correlation energy $E_c[\rho]$.\\
 	
-	To describe the time evolution of the system, the Runge-Gross theorem extends DFT in its time-dependent version TDDFT [40]. The minimisation of the total energy (Eq. \ref{eq:ks-tot-energy}) leads to the following time-dependent Euler-Lagrange (EL) equation 
+	Because the functional we used in this work is calibrated to produce the correct behaviour of bulk liquid helium at zero temperature $T=0$ and zero pressure $P=0$, we assume complete Bose-Einstein (BE) condensation of the helium. In this case all the helium atoms occupy the same single-particle KS-orbital $\varphi_0$. Therefore the many-body wave function and the density simplifies further to
+	\begin{align}
+		\Phi_{BEC}(\vec{r}_1,\vec{r}_2,\ldots,\vec{r}_N)=\prod_i\varphi_0(\vec{r}_i)
+	\end{align}
+	 and
+	 \begin{align}
+	 	\rho(\vec{r})=N\absolutevalue{\varphi_0(\vec{r})}^2
+	 \end{align}
+	 respectively. As explained in Section \ref{sec:bogol-order}, it is customary to define an effective wave function
+	\begin{align}
+		\Psi(\vec{r})\vcentcolon=\sqrt{\rho(\vec{r})}=\sqrt{N}\varphi_0(\vec{r}) \label{eq:order-param}	
+	\end{align}
+ 	for the condensate (see Eq. \ref{eq:order-param-real}), which is sometimes called a \emph{macroscopic wave function} or \emph{order parameter}. We can now simplify the expression for the kinetic energy (Eq. \ref{eq:kin-energy})
+%	\begin{align}
+%		T &= -\frac{\hbar^2}{2m} N \ev**{\laplacian}{\varphi_0} \nonumber \\
+%		  &= -\frac{\hbar^2}{2m} N\int\! \varphi_0^*(\vec{r})\laplacian \varphi_0(\vec{r})\diff{r} \nonumber \\
+%		 &= \frac{\hbar^2}{2m} N\int\! \abs{\grad{\varphi_0}}^2\diff{r} \label{eq5}
+%	\end{align}
+	\begin{align}
+		T = -\frac{\hbar^2}{2m} N\int\! \varphi_0^*(\vec{r})\laplacian \varphi_0(\vec{r})\diff{r}
+		 = \frac{\hbar^2}{2m} N\int\! \abs{\grad{\varphi_0}}^2\diff{r}\,, \label{eq5}
+	\end{align}	
+	where we used partial integration to get to the last step and imposed that the orbital $\varphi_0$ vanishes at the boundaries. With our definition Eq. (\ref{eq:order-param}) we can now write the kinetic energy as a functional of the density
+	\begin{align}
+		T[\rho] = \frac{\hbar^2}{2m} \int\! \abs{\grad{\sqrt{\rho}}}^2\diff{r} 
+	\end{align}
+	To summarise, we write the complete energy functional $E_v$ as
+	\begin{align}
+		E_v[\rho] = \int\!v(\vec{r})\rho(\vec{r})\diff{r} + \frac{\hbar^2}{2m} \int\! \abs{\grad{\sqrt{\rho}}}^2\diff{r} + \int\!\mathcal{E}_c[\rho]\diff{r} \label{eq:ks-tot-energy}
+	\end{align}
+	where we defined the correlation energy density functional $\mathcal{E}_c$ through
+	\begin{align}
+		E_c[\rho] \vcentcolon= \int\!\mathcal{E}_c[\rho]\diff{r}\,.
+	\end{align}
+	The job now is to find an $\mathcal{E}_c$ such that the desired physical properties of helium can be recovered. This is far from trivial but several of these density functionals are available now. The one used in this work is discussed in the next section.
+	
+	\subsection{Time-dependent DFT}
+	To describe the time evolution of the system, the Runge-Gross theorem extends DFT to its time-dependent version TDDFT\citep{Run84}. The functional variation of the associated action (see Eq. (\ref{eq:action}) for an example) leads to the following time-dependent Euler-Lagrange (EL) equation 
 	\begin{align}
 		i\hbar\frac{\partial}{\partial t} \Psi({\mathbf r},t) = \left\{-\frac{\hbar^2}{2m}\laplacian + \fdv{\mathcal{E}_c}{\rho}\right\}\Psi(\textbf{r},t) \vcentcolon= {\cal H}\left[\rho\right]\Psi(\textbf{r},t) 
 		\label{eq:td-el-equation}
 	\end{align}
-	As long as we are in the thermodynamic regime the solutions $\Psi(\textbf{r},t)$ can be decomposed into the liquid's density an associated velocity potential field (see Section \ref{sec:bogol-order}, \ref{sec:rot-vort}).\\
+	As long as we are in the thermodynamic regime the solutions $\Psi(\textbf{r},t)$ can be decomposed into the liquid density and associated velocity potential field (see Section \ref{sec:bogol-order}, \ref{sec:rot-vort}).\\
 	
-	Considering only eigenstates $\Psi(\vec{r},t)=\Psi_0(\vec{r})\unit{e}^{-i\mu t/\hbar}$ of the time-independent Hamiltonian ${\cal H}\left[\rho\right]$ the time-dependent EL-equation reduces to a time independent one
+	Considering only eigenstates $\Psi(\vec{r},t)=\Psi_0(\vec{r})\unit{e}^{-i\mu t/\hbar}$ of the time independent Hamiltonian ${\cal H}\left[\rho\right]$ the time-dependent EL-equation reduces to a time independent one
 	\begin{align}
 		\left\{-\frac{\hbar^2}{2m} \laplacian + \fdv{\mathcal{E}_c}{\rho}\right\}\Psi_0(\textbf{r}) = \mu\Psi_0(\textbf{r})
 		\label{eq:el-equation}
 	\end{align}
-	with $\mu$ the chemical potential. Solving this equation by iteration will result in the ground state density $\abs{\Psi_0}^2$ of the system. Within the H--K framework and the variation principle that was used to obtain these EL-equations, the nature of the minimisation is such that it gives the lowest energy for a given symmetry. This means that as long as the input state doesn't break the symmetry of the time-independent EL-equation, it minimises the energy of this state even if it doesn't lead to the ground state. This can be used to obtain a stationary vortex-line solution. With the inclusion of appropriate constraints in the energy functional the same procedure can be used to obtain helium densities with an array of vortex-lines.   
+	with $\mu$ the chemical potential. Solving this equation by iteration will result in the ground state density $\abs{\Psi_0}^2$ of the system. Within the HK-framework and the variation principle that was used to obtain these EL-equations, the nature of the minimisation is such that it gives the lowest energy for a given symmetry. This means that as long as the input state does not break the symmetry of the time-independent EL-equation, it minimises the energy of this state even if it does not lead to the ground state. This can be used to obtain a stationary vortex-line solution. With the inclusion of appropriate constraints in the energy functional the same procedure can be used to obtain helium densities with an array of vortex-lines.   
 
 	\section{The Orsay--Trento Density Functional}
 		\begin{table}[t]
@@ -78,7 +113,7 @@
 			
 		\lettrine[lines=3,findent=3pt,nindent=0pt]{T}{he} functional that is used in the work presented in this thesis is based on the Orsay-Trento (OT) functional\citep{Dalfovo1995}. It uses a finite-range, non-local approach and it is, to date the most accurate model in the sense that it accurately reproduces bulk properties of liquid helium at $T=0=P$, written as		
 		\begin{align}
-			{\cal E}_c[\rho ,\mathbf{v}] &=  
+			\mathcal{E}_c[\rho ,\vec{v}] &=  
 			\frac{1}{2} \left.\int \! \right\{\rho({\bf r}) V_{LJ}(|{\bf r}-{\bf r'}|) \rho({\bf r'}) \nonumber \\
 			&+ \left.\frac{1}{2} c_2\, \rho({\bf r}) \left[{\bar \rho}({\bf r}) \right]^2 
 			+ \frac{1}{3} c_3 \, \rho({\bf r}) \left[ {\bar \rho}({\bf r}) \right]^3\right\}\diff{r'} \nonumber \\
@@ -123,15 +158,15 @@
 		\subsection{The Solid-OT Density Functional}
 			In the presence of highly inhomogeneous liquid densities, e.q. atomic impurities with a very strong He-X interaction, the OT-functional Eq. (\ref{eq:otf}) becomes numuerically unstable. To deal with this problem an additional cut-off can be used
 			\begin{align}
-				\mathcal{E}_\mathrm{sol} \vcentcolon= C\rho(\vec{r})\qty{1+\tanh(\beta\qty[\rho(\vec{r})-\rho_\mathrm{m}])}
+				\mathcal{E}^\mathrm{sol} \vcentcolon= C\rho(\vec{r})\qty{1+\tanh(\beta\qty[\rho(\vec{r})-\rho_\mathrm{m}])}
 			\end{align}
-			where the model parameters $\qty{C,\beta,\rho_\mathrm{m}}$ are specified in Table \ref{table1}. Including this term in the OT-functional prevents excessive density build-up. $\mathcal{E}_\mathrm{sol}$ only starts to deviate from zero whenever the liquid density $\rho$ is comparable to $\rho_\mathrm{m}$ or larger. Therefore, inclusion of this term in the functional does not alter the density distribution. This penalty term was originally developed to account for the liquid-solid phase transition of $^4$He[61,62]. The functional that has been used to obtain the result presented in thus work is what we call the ``Solid-OT-DFT functional''. It consists of the first three terms of the original OT-functional Eq. (\ref{eq:otf}), plus $\mathcal{E}_\mathrm{sol}$
+			where the model parameters $\qty{C,\beta,\rho_\mathrm{m}}$ are specified in Table \ref{table1}. Including this term in the OT-functional prevents excessive density build-up. $\mathcal{E}_\mathrm{sol}$ only starts to deviate from zero whenever the liquid density $\rho$ is comparable to $\rho_\mathrm{m}$ or larger. Therefore, inclusion of this term in the functional does not alter the density distribution. This penalty term was originally developed to account for the liquid-solid phase transition of $^4$He[61,62]. The functional that has been used to obtain the result presented in thus work is what we call the ``Solid-OT-DFT functional''. It consists of the first three terms of the original OT-functional Eq. (\ref{eq:otf}), plus $E^\mathrm{sol}$
 			\begin{align}
-				{\cal E}_c^{sol}[\rho] &=  
-				\frac{1}{2} \left.\int \! \right\{\rho({\bf r}) V_{LJ}(|{\bf r}-{\bf r'}|) \rho({\bf r'}) \nonumber \\
-				&+ \left.\frac{1}{2} c_2\, \rho({\bf r}) \left[{\bar \rho}({\bf r}) \right]^2 
-				+ \frac{1}{3} c_3 \, \rho({\bf r}) \left[ {\bar \rho}({\bf r}) \right]^3\right\}\diff{r'} \nonumber \\
-				&+ C\rho(\vec{r})\qty\Big{1+\tanh(\beta\qty[\rho(\vec{r})-\rho_\mathrm{m}])} \label{eq:solid-otf}
+				\mathcal{E}_c^{sol}[\rho] &=  
+				\frac{1}{2} \left.\int \! \right\{\rho(\vec{r}) V_{LJ}(\abs{\vec{r}-\vec{r'}}) \rho(\vec{r'}) \nonumber \\
+				&+ \left.\frac{1}{2} c_2\, \rho(\vec{r}) \qty[\bar\rho(\vec{r})]^2 
+				+ \frac{1}{3} c_3 \, \rho(\vec{r}) \qty[\bar\rho(\vec{r})]^3\right\}\diff{r'} \nonumber \\
+				&+ C\,\rho(\vec{r})\qty\Big{1+\tanh(\beta\qty[\rho(\vec{r})-\rho_\mathrm{m}])} \label{eq:solid-otf}
 			\end{align}
 
 	\section{Static calculations}
@@ -233,7 +268,7 @@
 			\end{figure}			
 		
 		\subsection{Including spin-orbit coupling}
-			For the study of the alkali metal Rb in this work, the spin-orbit (SO) splitting of the energy levels is comparable to the splitting of the orbital angular momentum levels $L=0$ and $L=\pm 1$ due to the interaction with the helium. Therefore the spin-orbit interaction needs to be included in the total interaction Hamiltonian.\\
+			For the study of the alkali metal Rb in this work, the spin-orbit (SO) splitting of the energy levels is comparable to the splitting of the orbital angular momentum levels $\Lambda=0$ and $\Lambda=\pm 1$ due to the interaction with the helium. Therefore the spin-orbit interaction needs to be included in the total interaction Hamiltonian.\\
 			
 			The total Hamiltonian is given by the sum of the DIM-interaction and the SO-interaction $\mathcal{H} = \mathcal{U}^{DIM}+\mathcal{V}^{SO}$. The SO-matrix is defined
 			\begin{align}
@@ -275,8 +310,8 @@
 			\end{equation}
 			Unlike for the static DFT case, the time evolution of the system is obtained by minimising the following action
 			\begin{align}
-				A[\Psi,\vec{r}_I,\lambda] = \int\!\bigg\{&E[\Psi,\vec{r}_I,\lambda] -i\hbar\int \!\Psi^*(\vec{r}) \pdv{t}\Psi(\vec{r})\dd{\vec{r}} \nonumber \\
-				-&i\hbar\ev**{\pdv{t}}{\lambda} - \frac{1}{2} m_I \dot{\vec{r}}^2_I\bigg\}\dd{t}
+				A[\Psi,\vec{r}_I,\lambda] = \int\!\bigg\{E[\Psi,\vec{r}_I,\lambda] -&i\hbar\int \!\Psi^*(\vec{r}) \pdv{t}\Psi(\vec{r})\dd{\vec{r}} \nonumber \\
+				-&i\hbar\ev**{\pdv{t}}{\lambda} - \frac{1}{2} m_I \dot{\vec{r}}^2_I\bigg\}\dd{t} \label{eq:action}
 			\end{align}
 			Variation of the action $A$ with respect to $\qty\big{\Psi^*\!,\,\bra\lambda\!,\,\vec{r}_I}$ yields the following three coupled EL-equations
 			\begin{align}

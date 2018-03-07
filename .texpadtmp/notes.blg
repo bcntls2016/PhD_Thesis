@@ -1,61 +1,171 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: /Users/fmgjcoppens/Developer/Notes/.texpadtmp/notes.aux
-A level-1 auxiliary file: ch1-introduction.aux
-A level-1 auxiliary file: ch2-methods.aux
 A level-1 auxiliary file: ch3-intro-part1.aux
 A level-1 auxiliary file: ch4-results-part1.aux
-A level-1 auxiliary file: ch5-intro-part2.aux
-A level-1 auxiliary file: ch6-results-part2.aux
-A level-1 auxiliary file: ch7-conclusions_outlook.aux
 A level-1 auxiliary file: biblography.aux
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../references.bib
 Database file #2: ../review.bib
 Database file #3: ../own_publications.bib
-Warning--I didn't find a database entry for "82"
+Database file #4: ../HeDropletPI_Bib.bib
+You're missing a field name---line 361 of file ../HeDropletPI_Bib.bib
+ : 
+ : % doi = {10.1063/1.3009279},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 377 of file ../HeDropletPI_Bib.bib
+ : 
+ : %keywords = {atomic clusters; excited states; helium; Monte Carlo methods; potential energy surfaces; rubidium; superfluid helium-4},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 604 of file ../HeDropletPI_Bib.bib
+ : 
+ : % publisher = {Taylor & Francis},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 622 of file ../HeDropletPI_Bib.bib
+ : 
+ : %doi = {10.1021/jp111157w},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 853 of file ../HeDropletPI_Bib.bib
+ : 
+ : % month = {May},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1753 of file ../HeDropletPI_Bib.bib
+ : collaboration = {},
+ :                    {\tiny }
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1804 of file ../HeDropletPI_Bib.bib
+ : 
+ : % month = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1818 of file ../HeDropletPI_Bib.bib
+ : 
+ : % month = {Jan},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2192 of file ../HeDropletPI_Bib.bib
+ : 
+ : %doi = {10.1021/jp112223k},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2285 of file ../HeDropletPI_Bib.bib
+ : 
+ : % doi = {10.1021/jp501285r},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2355 of file ../HeDropletPI_Bib.bib
+ : 
+ : %doi = {10.1021/jp312336m},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 2373 of file ../HeDropletPI_Bib.bib
+ : @article{Bruehl:2001
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2429 of file ../HeDropletPI_Bib.bib
+ : @article{TheisenJPCL:2011
+ :                          ,
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring Giese:2012's extra "year" field
+--line 2755 of file ../HeDropletPI_Bib.bib
+You're missing a field name---line 2794 of file ../HeDropletPI_Bib.bib
+ : 
+ : %keywords = {photoionisation; Legendre polynomials; image processing; inverse problems; photoelectron spectroscopy},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3356 of file ../HeDropletPI_Bib.bib
+ : 
+ : %doi = {10.1021/jp0716278},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3490 of file ../HeDropletPI_Bib.bib
+ : 
+ : %keywords = {atom-molecule collisions; drops; helium; Monte Carlo methods; organic compounds; photodissociation},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3942 of file ../HeDropletPI_Bib.bib
+ : 
+ : % doi = {10.1063/1.4960401},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3959 of file ../HeDropletPI_Bib.bib
+ : 
+ : % doi = {10.1021/acs.jpclett.6b02598},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 14598 of file ../HeDropletPI_Bib.bib
+ :  
+ :  % month = {May},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 15177 of file ../HeDropletPI_Bib.bib
+ : 
+ : % doi = {10.1021/acs.jpca.6b05732},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 15402 of file ../HeDropletPI_Bib.bib
+ : 
+ : % month={Nov},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 15608 of file ../HeDropletPI_Bib.bib
+ : 
+ : % month = {Sep},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 15658 of file ../HeDropletPI_Bib.bib
+ :  
+ :  YEAR=2017}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 45 entries,
+Warning--empty chapter and pages in Krause:1975
+You've used 36 entries,
             3411 wiz_defined-function locations,
-            1492 strings with 17624 characters,
-and the built_in function-call counts, 28898 in all, are:
-= -- 1720
-> -- 832
-< -- 134
-+ -- 656
-- -- 206
-* -- 3945
-:= -- 3250
-add.period$ -- 45
-call.type$ -- 45
-change.case$ -- 183
-chr.to.int$ -- 39
-cite$ -- 45
-duplicate$ -- 2634
-empty$ -- 2485
-format.name$ -- 531
-if$ -- 5476
-int.to.chr$ -- 7
-int.to.str$ -- 46
-missing$ -- 414
-newline$ -- 150
-num.names$ -- 136
-pop$ -- 651
+            1471 strings with 18815 characters,
+and the built_in function-call counts, 30672 in all, are:
+= -- 1585
+> -- 1325
+< -- 169
++ -- 1156
+- -- 324
+* -- 4423
+:= -- 3111
+add.period$ -- 36
+call.type$ -- 36
+change.case$ -- 144
+chr.to.int$ -- 34
+cite$ -- 37
+duplicate$ -- 2699
+empty$ -- 2433
+format.name$ -- 758
+if$ -- 5707
+int.to.chr$ -- 3
+int.to.str$ -- 37
+missing$ -- 412
+newline$ -- 123
+num.names$ -- 108
+pop$ -- 702
 preamble$ -- 1
-purify$ -- 180
+purify$ -- 144
 quote$ -- 0
-skip$ -- 1022
+skip$ -- 1130
 stack$ -- 0
-substring$ -- 984
-swap$ -- 2069
-text.length$ -- 104
+substring$ -- 869
+swap$ -- 2294
+text.length$ -- 162
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 268
-warning$ -- 0
-while$ -- 132
+type$ -- 214
+warning$ -- 1
+while$ -- 105
 width$ -- 0
-write$ -- 508
-(There was 1 warning)
+write$ -- 390
+(There were 23 error messages)
