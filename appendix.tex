@@ -1,0 +1,153 @@
+\chapter{Angular velocity and angular momentum}
+
+In this Appendix we discuss the relationship between angular velocity and angular momentum of a deformed droplet below the critical angular frequency for vortex 
+nucleation.
+
+Let us consider an ellipsoidal vessel filled with liquid $^4$He uniformly rotating around the $z$ axis, $\omega = \omega\, \hat{\mathbf{k}}$.
+The ellipsoid has the equation
+ %
+$$ F(x,y,z) =\frac{x^2}{R_1^2}+ \frac{y^2}{R_2^2}+  \frac{z^2}{R_3^2} - 1 = 0$$
+%
+If $\mathbf{v}$ is the  irrotational velocity of a point in the laboratory, $\mathbf{v}'$ the velocity of the same point in the vessel (corotating frame),  and 
+$\mathbf{V}= \omega \times \mathbf{r}$, one has
+%
+$$\mathbf{v}'=  \mathbf{v} - \mathbf{V} = \frac{\hbar}{m_4} \, \nabla {\cal S} - \omega \times \mathbf{r}$$
+%
+where ${\cal S}$ is the velocity potential defined here so as  that 
+%
+$$\mathbf{v}= \frac{\hbar}{m_4} \, \nabla {\cal S}(x,y,z)$$
+%
+Its existence is granted by irrotationality;  we also have
+  $\mathbf{V}= \omega \times \mathbf{r} = \omega (-y,\, x, \,0)$.
+A vector  perpendicular to the ellipsoid  surface is 
+%
+$\mathbf{n} = \nabla  F(x,y,z)$.
+%
+From the stationarity condition 
+%
+$( \mathbf{v}'  \cdot  \mathbf{n})|_{surf} =0$
+%
+one obtains
+%
+\begin{eqnarray}
+&&\mathbf{v}'  \cdot  \mathbf{n}= 0 = \left.\left(\frac{\hbar}{m_4} \, \frac{\partial {\cal S}}{\partial x} + \omega y\right) \frac{x}{R_1^2} \right.
+\nonumber
+\\
+\nonumber
+&&
++  \left. \left(\frac{\hbar}{m_4} \,\frac{\partial {\cal S}}{\partial y} - \omega x\right) \frac{y}{R_2^2} 
++  \left(\frac{\hbar}{m_4} \, \frac{\partial {\cal S}}{\partial z} \right) \frac{z}{R_3^2} \right|_{surf}
+\end{eqnarray}
+%
+It can be checked that ${\cal S} = \alpha xy$ is a solution to this equation provided that
+%
+$$\frac{\hbar}{m_4} \,  \left( \frac{1}{R_1^2}  + \frac{1}{R_2^2} \right)  \alpha = \left(\frac{1}{R_2^2}  - \frac{1}{R_1^2} \right)  \omega$$
+%
+Hence,
+%
+$$ \alpha = \frac{m_4}{\hbar}\,\left( \frac{R_2^2-R_1^2}{R_1^2+R_2^2}\right) \, \omega$$
+%
+and
+%
+$$ {\cal S} = \frac{m_4}{\hbar} \, \left( \frac{R_2^2-R_1^2}{R_1^2+R_2^2}\right)  \, \omega \, xy$$
+%
+The velocity in the laboratory is 
+$ \mathbf{v} = (\hbar/m_4)\nabla {\cal S}=  (\hbar/m_4)\alpha (y, x, 0) $,
+and in the vessel (corotating frame) is
+$\mathbf{v}'= \beta (R_1^2 y, \, -R_2 ^2 x, \,0) $, where $\beta \equiv  2 \, \omega/(R_1^2+R_2^2)$.
+ Once they have been determined, their  circulation lines are straightforwardly obtained. 
+In the laboratory frame they are
+$$ x^2 - y^2 = c \quad ,$$
+%
+which is the appearance of the circulation lines displayed in Fig. \ref{fig8}. In the vessel  frame, they are
+%
+$$ \frac{x^2}{(\xi R_1)^2}+ \frac{ y^2}{(\xi R_2)^2} = 1 \quad .$$ 
+%
+These lines are ``parallel'' to the ellipsoidal surface.
+
+We define the deformation parameter $\epsilon$
+%
+$$
+\epsilon =\frac{\langle x^2 \rangle - \langle y^2 \rangle}{\langle x^2 \rangle + \langle y^2 \rangle}
+$$
+%
+where e.g., 
+$$ \langle x^2 \rangle = \frac{1}{N} \int d\mathbf{r} \,  x^2 \,\Psi(\mathbf{r}) $$
+%
+For the sharp surface ellipsoid above,
+%
+\begin{equation}
+ \alpha = \frac{m_4}{\hbar} \, \epsilon \, \omega
+ \label{eps}
+ \end{equation}
+%
+This relationship is not  general but  can be used as a guide for our more general approach.
+Let us  now discuss the angular momentum and moment of inertia of the irrotational fluid droplet. Recalling that
+%
+$$L_z = - \imath \; \hbar \left( x \frac{\partial}{\partial y} -  y \frac{\partial}{\partial x}\right)$$
+%
+if we write 
+%
+$$\Psi(\mathbf{r}) = \Phi(\mathbf{r}) e^{\imath \alpha xy}$$
+%
+with $\Phi(\mathbf{r})$ a real function,
+%
+$$\langle L_z \rangle = \hbar\,  \alpha  \int d\mathbf{r} \,  (x^2-y^2)  \,\Phi^2(\mathbf{r})$$
+%
+If Eq. (\ref{eps}) holds,
+%
+\begin{eqnarray}
+&&\langle L_z \rangle = \epsilon \, m_4 N  [\langle x^2 \rangle - \langle y^2\rangle]\, \omega   
+\nonumber
+\\ 
+&& = m_4  N \left( \frac{[\langle x^2 \rangle - \langle y^2\rangle ]^2}{\langle x^2 \rangle + \langle y^2\rangle} \right)\, \omega  \equiv  {\cal I}_{irr} \, \omega
+ \label{irrot}
+\end{eqnarray}
+%
+where 
+%
+$$ {\cal I}_{irr} = m_4 N \left( \frac{[\langle x^2 \rangle - \langle y^2\rangle ]^2}{\langle x^2 \rangle + \langle y^2\rangle} \right)$$
+%
+is the irrotational moment of inertia. For a rigid solid,
+%
+$$  {\cal I}_{rig} =  m_4  \int d\mathbf{r} \,  (x^2+y^2)  \,\Phi^2(\mathbf{r}) = m_4 N [\langle x^2 \rangle + \langle y^2\rangle] $$
+%
+Hence, 
+%
+$$ \frac{{\cal I}_{irr}}{{\cal I}_{rig}} = \left[ \frac{\langle x^2 \rangle - \langle y^2\rangle }{\langle x^2 \rangle + \langle y^2\rangle} \right]^2 \rightarrow 0 \quad {\rm if} \quad \epsilon \rightarrow 0$$
+%
+Finally, we discuss the kinetic energy of the droplet
+%
+$$ E_{kin} = \frac{\hbar^2}{2 m_4}  \int \, d\mathbf{r} \,|\nabla \Psi(\mathbf{r})|^2$$
+%
+From the above $\Psi(\mathbf{r})$, 
+%
+\begin{eqnarray}
+&&E_{kin}= \frac{\hbar^2}{2 m_4}  \int \, d\mathbf{r} \,|\nabla \Phi(\mathbf{r})|^2
+\nonumber
+\\
+\nonumber
+&+& \frac{\hbar^2}{2 m_4} \alpha^2 \int \, d\mathbf{r} \, (x^2 + y^2) \Phi^2(\mathbf{r})= E_{intr}+E_{coll}
+\end{eqnarray}
+%
+where the first term is the ``intrinsic'' kinetic energy and the second term arises from the irrotational velocity field
+%
+\begin{eqnarray}
+&&E_{coll}= \frac{\hbar^2}{2 m_4} \alpha^2 \int  d\mathbf{r} \, (x^2 + y^2) \Phi^2(\mathbf{r}) =
+\nonumber
+\\
+\nonumber
+&& \frac{1}{2} \left\{ m_4\, \epsilon^2 \int d\mathbf{r} \, (x^2 + y^2) \Phi^2(\mathbf{r})\right\} \omega^2= \frac{1}{2}\, {\cal I}_{irr} \,\omega^2
+ \end{eqnarray}
+% 
+
+ These expressions may be used to obtain some estimates from the actual DFT calculations.
+ For  a $^4$He$_{1000}$ droplet and $\omega$=0.10 K/$\hbar$ 
+ we have obtained $\langle x^2\rangle$= 100.82 \AA$^2$ and  $\langle y^2\rangle$= 101.82 \AA$^2$; hence,
+ $\epsilon \sim -1/200$. Since $\hbar^2/m_4$= 12.12 K \AA$^2$, from Eq. (\ref{eps}) one has $\alpha \sim -4.2 \times 10^{-5}$ \AA$^{-2}$. 
+From Eq. (\ref{irrot}) we obtain  $\langle L_z\rangle \sim 4 \times 10^{-2} \, \hbar$.
+  
+ In a Bose-Einstein condensate  the deformation $\epsilon$ is a control parameter that can be set to a very large value (close to unity). For a self-bound $^4$He droplet deformation comes from
+ ``rotation'' itself and it turns out to be minute
+  even for angular frequencies close to the critical frequency  for one-vortex nucleation; the conclusion is that the droplet ``does not rotate'';
+ in other words, it is unable to store an appreciable amount of angular momentum before vortex  nucleation.

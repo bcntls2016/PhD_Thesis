@@ -18,7 +18,8 @@
 \usepackage{hyperref,hypertoc,hypernat}
 \usepackage{lettrine}
 \usepackage{epigraph}
-\usepackage{graphicx,type1cm,Zallman}
+\usepackage{graphicx,type1cm,Zallman}\graphicspath{{figures/}}
+\usepackage{bibunits}
 
 %\renewcommand\LettrineFontHook{\Zallmanfamily}
 \renewcommand{\vec}[1]{\bm{\mathrm{#1}}}
@@ -28,28 +29,29 @@
 \begin{document}
 
 \frontmatter
-%	\addcontentsline{toc}{chapter}{Title page}
-%	\title{Ultrafast quantum dynamics of doped superfluid helium nano-droplets}
-%	\author{Fran\c{c}ois Coppens}
-%	\date{February 2018}
-%	\maketitle
-%	\cleardoublepage
-	\addcontentsline{toc}{chapter}{Table of Contents}
-	\renewcommand{\contentsname}{Table of Contents}
-	\tableofcontents
+	\include{titlepage}
+	\cleardoublepage
+	\include{acks}
+	\cleardoublepage
+	\include{toc}
+	\cleardoublepage
+	\include{lop}
 	\cleardoublepage
 
 \mainmatter
-%	\include{ch1-introduction}
-%	\include{ch2-methods}
+	\include{ch1-introduction}
+	\include{ch2-methods}
 	\part{Photo-excitation dynamics of alkalis}
 		\include{ch3-intro-part1}
 		\include{ch4-results-part1}
-%	\part{Head-on collisions and capture by quantised vortices}
-%		\include{ch5-intro-part2}
-%		\include{ch6-results-part2}
-%	\include{ch7-conclusions_outlook}
+	\part{Head-on collisions and capture by quantised vortices}
+		\include{ch5-intro-part2}
+		\include{ch6-results-part2}
+	\include{ch7-conclusions_outlook}
 	\cleardoublepage
+
+\appendix
+	\include{appendix}
 
 \backmatter
 	\include{biblography}

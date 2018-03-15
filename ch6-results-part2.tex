@@ -1,28 +1,31 @@
 \chapter{Results}
-	\section{Head-on collisions}
-		 \begin{figure}[!] 
-			\includegraphics[width=1.0\linewidth,clip=true]{fig1}
-			\caption{\label{fig1}Energy of the Xe@$^4$He$_{1000}$ complex as a function of the distance between  the Xe atom and the  COM of the droplet. Several two-dimensional helium densities and density profiles are shown for distances between 0 and 40 \AA{} in 5  \AA{} steps. Connected (dots) and disconnected (triangles) helium configurations are shown \emph{(see text)}. Top left inset: Snapshot of the helium density at the first turning point  during the dynamic evolution of a Xe atom (green dot)  at  $v_0 = 600$ m/s attained  78 ps after it has started. (Color figure online.)}
-		\end{figure}
+	\section{Head-on collisions of Xe and Cs}
+	
+		\subsection{Introduction}\label{introduction}
+
+			It is well known that helium drops readily capture foreign atoms and molecules \cite{Sch90}, and this ability has had a considerable influence on the chemistry and physics of these systems \cite{Toe04}. Among the studies carried out in the past on atom-drop collisions, let us mention those aiming at experimentally determining the density profiles of large $^4$He and $^3$He droplets from the scattering of Ar and Kr atoms off  helium droplets, which have been analyzed within density functional theory  (DFT) \cite{Har98,Har01}; the microscopic simulation of the scattering of $^3$He and $^4$He atoms from inhomogeneous liquid helium systems \cite{Kro07,Kro08}, and an earlier theoretical work on the scattering of $^4$He atoms from $^4$He droplets within a liquid drop plus optical model approach\citep{Eic88}.\\
+ 
+ 			Very recently, time-dependent density functional theory (TDDFT) has been used to address the capture of Cs or Ne atoms by $^4$He nanodroplets \cite{Lea14,Vil16}. The Cs capture was treated fully three dimensionally with the Cs atom described as a classical particle, whereas for the Ne capture study the Ne atom was described quantum-mechanically but the description was strictly one-dimensional.\\
+ 			
+ 			Motivated by recent experiments that use Xe atoms to visualize vortex arrays in very large helium droplets \cite{Gom14,Jon16}, we present here a first step towards the description of the capture  of Xe atoms by helium droplets, namely head-on collisions of Xe atoms against a $^4$He$_{1000}$ droplet. A discussion on the dynamic capture of Xe atoms by droplets hosting vortex lines and vortex arrays will be provided by a forthcoming study combining DFT simulation of vortex arrays as in Refs. \cite{Anc14,Anc15} for helium nanocylinders and nanodroplets  and collision with Xe atoms as in this work. Whenever possible, the results for Xe, a heliophilic atom,  are contrasted with results for Cs, a heliophobic atom with similar mass.
+
+			\begin{figure}[!] 
+				\includegraphics[width=1.0\linewidth,clip=true]{fig1}
+				\caption{ \label{fig1} Energy of the Xe@$^4$He$_{1000}$ complex as a function of the distance between  the Xe atom and the  COM of the droplet. Several two-dimensional helium densities and density profiles are shown for distances between 0 and 40 \AA{} in 5  \AA{} steps. Connected (dots) and disconnected (triangles) helium configurations are shown \emph{(see text)}. Top left inset: Snapshot of the helium density at the first turning point  during the dynamic evolution of a Xe atom (green dot) at $v_0 = 600$ m/s attained  78 ps after it has started. (Color figure online.)}
+			\end{figure}
+
+		\subsection{Results}\label{metho}
 
 		\begin{figure}[!]
 			\centerline{\includegraphics[width=0.50\linewidth,clip]{fig2-Cs} \includegraphics[width=0.50\linewidth,clip]{fig2-Xe}}
-			\caption{\label{fig2} 
-			Right panel: Dynamic evolution of a Xe atom (big dot) approaching the $^4$He$_{1000}$ 
-			droplet from below at $v_0 = 200$ m/s. The corresponding time is indicated in each frame. 
-			Left panel: Same as left figure for a Cs atom.
-			(Color figure online.)
-			}
+			\caption{\label{fig2}Right panel: Dynamic evolution of a Xe atom (big dot) approaching the $^4$He$_{1000}$ droplet from below at $v_0 = 200$ m/s. The corresponding time is indicated in each frame. Left panel: Same as left figure for a Cs atom. (Color figure online.)}
 		\end{figure}
 
-\begin{figure}[!]
-	\centerline{\includegraphics[width=0.90\linewidth,clip]{fig3-Cs-He}} 
-	\centerline{\includegraphics[width=0.90\linewidth,clip]{fig3-Xe-He}}
-	\caption{\label{fig3} 
-	Top figure: Kinetic and total (kinetic plus potential) energy as a function of time  of a Cs atom head-on colliding against a  $^4$He$_{1000}$ droplet at  $v_0 = 200$ m/s. Bottom figure: same as top figure for a Xe atom. The vertical arrows indicate the first two turning points
-at 59 and 145 ps, whose corresponding helium densities are shown in the right Fig. \ref{fig2}. (Color figure online.)
-}
-\end{figure}
+			\begin{figure}[!]
+				\centerline{\includegraphics[width=0.90\linewidth,clip]{fig3-Cs-He}} 
+				\centerline{\includegraphics[width=0.90\linewidth,clip]{fig3-Xe-He}}
+				\caption{\label{fig3}Top figure: Kinetic and total (kinetic plus potential) energy as a function of time  of a Cs atom head-on colliding against a  $^4$He$_{1000}$ droplet at  $v_0 = 200$ m/s. Bottom figure: same as top figure for a Xe atom. The vertical arrows indicate the first two turning points at 59 and 145 ps, whose corresponding helium densities are shown in the right Fig. \ref{fig2}. (Color figure online.)}
+			\end{figure}
 
 We consider a droplet made of $N=1000$ helium atoms. 
 Its ground state structure is obtained using DFT and gives a sharp-density  radius of about 22.2 \AA{}. 
@@ -37,9 +40,8 @@ the solvation energy of a Xe atom at the center of a $^4$He$_{1000}$ droplet,
 $S_{{\rm Xe}} = E({\rm Xe}@^4{\rm He}_{1000}) - E(^4{\rm He}_{1000}) = -316.3$ K.
 For the sake of comparison, the solvation energy of Cs is -5.2 K and its equilibrium position is  in a dimple at the outer droplet surface, 
 about 26.6 \AA{} from its center. 
-%%%%%
+
 Thermal Xe atoms ($v_0 \sim$ 240 m/s) are used in the experiments \cite{Gom14,Jon16}, and the average drop velocity is about 170 m/s \cite{Gom11}.
-%%%%%
 
 Figure \ref{fig1} shows the energy of  the Xe@$^4$He$_{1000}$ complex  referred to that
 of the equilibrium configuration (Xe at the center of the droplet, $-5716.4$ K) 
@@ -58,7 +60,6 @@ In an actual dynamics the number of He atoms in the minicluster  depends on the 
  with the corresponding plots for Cs collisions for the sake of comparison.  It can be seen that for both species
  most of the initial kinetic energy is spent in piercing the droplet surface, after which the impurity moves inside the droplet  
 at a velocity  well below the critical Landau velocity  $v_L$. 
-%(96 m/s for the density functional we are using \cite{Mat14}). 
  
 Figure \ref{fig2} also shows that the collision launches a series of density waves in the droplet 
   that are reflected at the droplet free surface producing  complex interference patterns in
@@ -66,7 +67,6 @@ Figure \ref{fig2} also shows that the collision launches a series of density wav
  200 m/s, 6 ps after the process starts.
  The wave number  associated to this  wave can be estimated from the wavelength $\lambda$  of the 
   oscillations, $q = 2 \pi/\lambda \sim$ 2.7 \AA$^{-1}$.
-%This value is well above that of the roton  minimum,  $q  \sim$ 1.9 \AA$^{-1}${}  \cite{Don81}.
 
 \begin{figure}[!]
 \centerline{\includegraphics[width=0.90\linewidth,clip]{fig4}} 
@@ -88,9 +88,8 @@ early on in the collision and with a significant kinetic energy. The number of H
  emitted during the first 78 ps is about 47. For comparison, about 19 atoms are emitted after 185 ps for $v_0$ = 200 m/s. 
  Eventually, the energy deposited into the droplet should be lost by atom evaporation; however, the time scale for this to happen is 
  beyond the reach of any realistic simulation. 
- %For the same reason, we cannot answer to the question whether Xe will come at rest.  
  
- %
+ 
 \begin{figure}[!]
 \centerline{\includegraphics[width=0.90\linewidth,clip]{fig5}}
 \caption{\label{fig5} 
@@ -98,23 +97,16 @@ Total energy  (left scale) and number of atoms in the droplet (right scale) as a
 Cs@$^4$He$_{1000}$ system at $v_0 = 200$ m/s. (Color figure online.)
 }
 \end{figure}
-%
+
  
  The piercing of the droplet by the Cs atom produces a density wave that travels on its surface and collapses at the surface region opposite to the hitting point.
  This collapse nucleates a 
  vortex ring (the two dark spots in the 76 ps plot of the left panel of Fig. \ref{fig2}) \cite{Lea14}.
-%  correspond to the vortex ring cross section) even though the Cs velocity is below $v_L$  \cite{Lea14}.  
  
  It is worth pointing out that the falloff of the Xe velocity in the $t=20-30$ ps interval observed in Fig. \ref{fig3}  is due to the increase of its inertia
 due to the appearance of a dynamic ``snowball''  --a crust of helium atoms surrounding the Xe bubble indicated by the bright spots in 
 Fig. \ref{fig2}-- that is eventually washed out at larger times.
-%
-%We have checked that the two dark spots in the 30 ps plot of the right panel of Fig. \ref{fig2} for Xe do not correspond to a vortex ring;
-%the velocity of the impurity inside the droplet has to be above $v_L$ for a period of time large enough for a vortex ring to be nucleated in its bulk and this does not 
-%happens for Xe nor Cs at small $v_0$ velocities. This is at variance with our findings for Ba$^+$ \cite{Mat14} and calls for a detailed analysis currently
-%under way.
 At variance with our findings for Ba$^+$ \cite{Mat14}, vortex rings have not been nucleated in the case of Xe; in particular, we have checked that the two dark spots  in the 30 ps plot of the right panel of Fig. \ref{fig2} for Xe do not correspond to a vortex ring. 
-%This calls for a detailed analysis currently under way
 
 The collapse of the Cs bubble at the surface of the droplet some 150 ps after the process 
  gives back to the impurity part of the kinetic energy it has lost  in the 
@@ -122,9 +114,360 @@ The collapse of the Cs bubble at the surface of the droplet some 150 ps after th
 The number of prompt-emitted helium atoms is 5, which is smaller than for Xe at the same collision energy (19 atoms).
 As revealed by Fig. \ref{fig5}, they are  preferentially emitted as a forward  burst  (first sharp drop around 20 ps in the number of atoms) and as a 
 backward burst  (second sharp drop slightly after 100 ps).
+ 
+In conclusion, head-on collisions of xenon, a heliophilic atom, involve a kinetic energy exchange of the same order of magnitude as cesium, a heliophobic atom with similar mass.
+In both cases, this energy is largely dissipated by  producing energetic waves in the droplet or it is carried away by promptly emitted helium atoms.
+The difference is that it takes a much higher velocity for xenon to go through the droplet and escape than for cesium, as could be expected.
+Also, density builds up around the xenon during the dynamics, whereas a bubble is created around cesium.
+
 
 	\section{Capture by quantised vortices}
-		The results presented in this work have been obtained using the  4He-DFT BCN-TLS computing package.\cite{Pi17}
+		\section{Introduction}
+
+It is well established that helium droplets can readily capture in their interior
+almost any atom or molecule interacting with them, 
+as first shown for the case of Ne atoms,\cite{Sch90}
+with the notable exception 
+of alkali\cite{Sti96} and some alkaline-earth\cite{Her07} atoms.
+This property, together with the extremely low temperature $(T)$ achieved in 
+helium droplets -- of the order of 0.4 K -- makes them the perfect ultracold and inert 
+environment for hosting and studying isolated atoms and molecules, which 
+is at the basis of current applications of helium droplets 
+for spectroscopic studies 
+of atoms and molecules.
+Besides, the superfluid nature of helium facilitates binary encounters of atoms/molecules
+in the bulk of the droplet
+while absorbing the energy released upon recombination,
+making possible chemical reactions which would not otherwise 
+occur in the gas phase.
+These unique properties  of helium droplets have had
+a huge impact on their study.\cite{Toe04,Sti06,Tig07,Cal11a,Mud14} 
+%that has drawn the interest of physicists and chemists working on atomic, low temperature condensed 
+%matter and molecular spectroscopy. 
+
+The pickup of Ar, Kr and Xe atoms in the gas phase by $^4$He$_N$ droplets 
+with $N> 10^3$ atoms produced by nozzle beam expansions 
+was described about twenty years ago by Toennies and coworkers.\cite{Lew95} 
+In these experiments the droplets in the helium beam were deflected by 
+impacting with a secondary beam made of rare gas atoms. 
+%This cross beam technique was later 
+%used to characterize the helium  droplet density  by comparing the 
+%measured integral cross section with that predicted by  using droplet density profiles 
+%obtained by density functional theory (DFT) calculations.\cite{Har98,Har01}   
+
+Recently, a technique has been introduced to determine the size of 
+large He droplets ($N> 10^5$). It is based on the attenuation of a continuous  
+droplet beam through collisions with Ar atoms at room temperature.\cite{Gom11} 
+The pickup chamber of the droplet beam apparatus is filled with argon 
+gas and the helium droplets experience multiple, isotropic collisions with the Ar 
+atoms on their way towards the detection chamber. 
+%
+Large helium droplets 
+could also be doped in this way. This method, using Xe atoms,
+has been instrumental for detecting and imaging quantized vortex 
+arrays in helium droplets.\cite{Gom14,Jon16}  Xe 
+atoms were used in these experiments because of their large
+sensitivity to the x-ray coherent diffractive imaging employed 
+to detect them within the helium droplets. Experiments with large superfluid helium droplets 
+are reviewed in a recent publication.\cite{Tan17}
+
+
+The impurity-droplet interaction in the presence of vortices 
+is also relevant as the first stage of a more complex process
+leading to the 
+formation of nanowires, see e.g. refs. \cite{Leb11,Gom12,Lat14,Tha14}.
+%While in normal liquid He the coalescence of the captured impurity atoms  leads to the formation of microparticles,
+%in the superfluid very long filaments are observed
+%due to the trapping of regularly spaced metal clusters along the vortex cores.
+%For instance, laser ablation of metals in liquid helium results in the formation of 
+%both  metal filaments with diameters on the order of 2-10 nanometers 
+%and of spherical nanoparticles. 
+%The filaments survive the transition of helium to its 
+%normal state, allowing for practical applications in the 
+%engineering of nanowires.
+%Similarly, 
+Long filaments made of micrometer-sized solid hydrogen 
+particles trapped on quantized vortex cores
+were used to directly image the vortex reconnection
+between quantized vortices in superfluid helium.\cite{Bew08}
+
+%In spite of the relevance of impurities capture by helium droplets, 
+%the theoretical activities aiming at a microscopic understanding 
+%of the capture process are 
+%scarce. 
+%They are basically limited to a rather old application of 
+%the Nuclear Physics optical model to the 
+%scattering of $^4$He atoms by $^4$He droplets\cite{Eic88} and 
+%to a microscopic approach to the scattering of $^3$He and $^4$He atoms from inhomogeneous 
+%quantum liquids.\cite{Kro07,Kro08} 
+
+The impact and capture of impurities  
+interacting with pure helium droplets has been addressed recently within time-dependent 
+density functional theory (TDDFT).
+Real time simulations have been carried out for 
+heliophobic\cite{Lea14a} (Cs) and heliophilic\cite{Vil16b} (Ne) atoms. In addition to the 
+TDDFT equation for $^4$He, heavy impurities are treated as 
+classical particles using
+Newton's equation of motion, whereas a time-dependent 
+Schr\"odinger equation has been used in the case of  
+light impurities within the mean field model.\cite{Her12a,Vil16b}  
+A comparison between the results for head-on collisions of Cs and Xe 
+atoms --heliophobic and heliofilic atoms of similar mass-- has been presented in ref. \cite{Cop16}.
+
+In this work we present results obtained within TDDFT 
+for the collision and capture of Xe and Ar atoms by a $^4$He$_{1000}$ 
+droplet at different kinetic energies and impact parameters. Special attention is paid 
+to the  time-dependent interaction of Xe and Ar atoms with 
+helium nanodroplets hosting 
+vortex lines, and to the effect of multiply-doped vortex arrays in large helium droplets.
+
+Due to the heavy computational cost 
+of the TDDFT simulations presented here, 
+we  address only a few facets of the capture 
+process that we consider of experimental relevance
+rather than carrying out a systematic study of the process. In particular:
+
+$\bullet$ We study the capture of Xe atoms by a $^4$He nanodroplet, both for head-on 
+collisions and for different impact parameters,
+with velocities ranging from thermal values up to several hundred m/s.
+The results of peripheral collisions  
+with different values of the impact parameter 
+are used to estimate the cross section for the
+Xe capture.
+ 
+$\bullet$ We study how a Xe atom dynamically interacts with a 
+droplet hosting a vortex line, under different initial conditions
+resulting in different velocity regimes of the impurity as it 
+collides with the vortex core:
+%(i) a Xe atom initially located in the interior of
+%the droplet and close to the vortex core;
+i) a Xe atom initially at rest on the droplet surface and
+sinking under the effect of solvation forces;
+(ii) a head-on collision of a moving Xe or Ar atom  against the
+$^4$He nanodroplet.
+
+$\bullet$ We study the stationary state of 
+a large $^4$He$_{15000}$ 
+droplet hosting a ring of six vortex lines, doped with 
+Ar atoms completely filling all six vortex cores. This is the simplest system that mimics those
+experimentally described in ref. \cite{Gom14}, where 
+doped vortex arrays embedded in rotating $^4$He microdroplets have been imaged.
+ 
+%$\bullet$ We address a
+%vortex dipole configuration made of a vortex-antivortex pair in a pure $^4$He$_{1000}$ droplet, and the collision of a Xe atoms against it.
+%Vortex dipole configurations appear  
+%in  Bose-Einstein condensates (BEC) made of cold gases.\cite{Fre10}  
+%At variance with 
+%a configuration made of two vortices with equal rotation direction,
+%in which the vortices turn around  each other in the laboratory frame,
+%a vortex dipole is stationary. 
+
+%In bulk liquid $^4$He the generation of pairs of linear vortices,
+%with either the same or opposite sign, occurs 
+%as a consequence of the motion of, e.g., a rigid wire 
+%inside the liquid\cite{Anc17} in a geometry often employed 
+%experimentally to study  quantum turbulence in 
+%superfluid $^4$He.
+%In helium droplets 
+%the actual generation of vortex dipoles is
+%rather unlikely. Yet it cannot  be discarded 
+%that in the course of vortex array nucleation
+%some antivortices are  also generated, temporarily coexisting with the vortex array. Addressing their stability and time evolution when the droplet captures an 
+%impurity might thus have some interest.
+
+Multimedia materials accompany this paper, 
+showing the real time dynamics of several impact/capture processes 
+described here. These materials  are presented 
+in the electronic supplementary information (ESI$\dag$) document.
+They constitute  an important part of this work, 
+since often it is only by viewing how a complex microscopic process
+unfolds in real time that one can catch important physical details 
+which would otherwise escape in a written account. 
+
+\section{Theoretical approach} 
+
+The DFT model of liquid helium, 
+which describes the nuclear degrees of freedom quantum 
+mechanically, has emerged as the only 
+viable method to address the experimentally studied large 
+helium droplets. Its use constitutes a compromise between 
+the accuracy of ``ab initio'' methods (like Quantum Monte Carlo 
+methods\cite{Kro02}) and numerical feasibility.\cite{Bar06}
+Its essential features are recalled here for the sake of completeness.
+ 
+Within DFT, the total energy $E$ of a $^4$He$_N$ droplet  
+at zero temperature is written as a functional of 
+the $^4$He atom density $\rho ({\mathbf r})$ 
+%
+\begin{equation}
+E[\rho] = T[\rho] + \int d{\mathbf r} \,{\cal E}_c[\rho]
+\label{eq1}
+\end{equation}
+where $T[\rho]$ is the kinetic energy of
+a fictitious system of non-interacting particles 
+(with mass $m_4$) constituting a BEC in the present case.
+
+As in recent applications of the TDDFT 
+approach,\cite{Her12a,Mat14,Van14,Lea14b,Lea16,Van17}  
+we use the correlation energy density functional 
+%{\cal E}_c
+${\cal E}_c$ 
+proposed in ref. \cite{Anc05a}. 
+This functional is finite-range and includes non-local effects.
+Both aspects are needed to describe
+ the response of the liquid at the Angstr\"om-scale.
+ Note that  a  zero-range 
+ %reduction of the OT 
+ density functional has been recently applied to the study of 
+inelastic scattering of xenon atoms by quantized 
+vortices in superfluid liquid $^4$He.\cite{Psh16}
+Particle-vortex collisions in thermal superfluid $^4$He have also been addressed.\cite{Kiv08}
+
+
+It is customary to define an order parameter $\Psi$ 
+(often called effective wave function) as
+$\Psi({\mathbf r}) = \sqrt{\rho ({\mathbf r})}$. The kinetic energy of the
+fictitious system of non-interacting particles is thus
+%
+\begin{equation}
+T[\rho] =
+\frac{\hbar^2}{2m_4} \int d {\mathbf r} |\nabla \Psi|^2
+\label{eq2}
+\end{equation}
+%
+Extension to time-dependent systems leads to 
+the following time-dependent equation
+%
+\begin{eqnarray}
+\imath \; \hbar  {\partial \over \partial t} \Psi({\mathbf r},t)&=& \left\{ -\frac{\hbar^2}{2m_4} \nabla^2 + \frac{\delta {\cal E}_c}{\delta \rho} \right\}\Psi({\mathbf r},t) 
+\nonumber
+\\
+& \equiv&
+{\cal H}[\rho] \,\Psi({\mathbf r},t) 
+\label{eq3}
+\end{eqnarray}
+%
+whose self-consistent solution provides the system density $\rho ({\mathbf r},t)=|\Psi ({\mathbf r},t)|^2$
+and hence its total energy $E$. If the effective wave function is written as
+$\Psi(\mathbf{r}, t)= \Phi(\mathbf{r}, t) \exp[\imath \,{\cal S}(\mathbf{r}, t) ]$, the particle current density is
+%
+\begin{eqnarray}
+{\mathbf j}({\mathbf r},t ) &=& - \frac{ \imath \; \hbar}{2 m_4} [\Psi^*({\mathbf r},t) \nabla \Psi({\mathbf r},t) - \Psi({\mathbf r},t) \nabla \Psi^*({\mathbf r},t)] 
+\nonumber
+\\
+&&= \frac{  \hbar}{ m_4} \rho({\mathbf r},t)  \nabla {\cal S}({\mathbf r},t)
+\end{eqnarray}
+%
+ with $\rho ({\mathbf r},t)=|\Psi ({\mathbf r},t)|^2 = \Phi^2({\mathbf r},t)$. This allows to identify the velocity field 
+ %
+$${\mathbf v}({\mathbf r},t) =   \frac{ \hbar}{m_4} \nabla {\cal S}(\mathbf{r},t) $$ 
+%
+that fulfills  
+%
+$$\nabla  \times {\mathbf v}({\mathbf r},t)  =  \frac{ \hbar}{m_4}  \nabla \times \nabla {\cal S}(\mathbf{r},t)=0$$ 
+%
+but in general 
+%
+$$\nabla  \cdot {\mathbf v}({\mathbf r},t)  =  \frac{ \hbar}{m_4}  \nabla \cdot \nabla {\cal S}(\mathbf{r},t) = \frac{ \hbar}{m_4} \Delta {\cal S}(\mathbf{r},t) \neq 0$$ 
+%
+Thus, in the  zero temperature DFT approach, liquid helium flows  irrotationally.  Liquid helium  is compressible, a property that -- at variance with simpler approaches --
+ is taken into account in the DFT method. 
+
+In the case of stationary states,
+$\Psi({\mathbf r},t)=\Psi_0({\mathbf r})e^{i\mu_4 t/\hbar}$ 
+and Eq. (\ref{eq3})  becomes
+%
+\begin{equation}
+\left\{-\frac{\hbar^2}{2m_4} \nabla^2 + \frac{\delta {\cal E}_c}{\delta \rho}
+\right\}\Psi_0({\mathbf r}) 
+= \mu_4 \Psi_0({\mathbf r})
+\label{eq5}
+\end{equation}
+%
+where $\mu_4$ is the $^4$He chemical potential. 
+
+The effect of heavy impurities like Ar and 
+Xe atoms embedded inside He droplets is incorporated as an external field. 
+The impurity-droplet interaction is 
+described within the pairwise sum approximation  
+%
+\begin{equation}
+E[\rho] \rightarrow E[\rho] +  \int d {\mathbf r} \rho({\mathbf r}) V_X(|{\mathbf r} - {\mathbf r}_I|)  \; ,
+\label{eq6}
+\end{equation}
+%
+$V_X$ being the He-rare gas interaction potential from 
+ref. \cite{Tan86}, and ${\mathbf r}_I$ the location 
+of the impurity. The helium density is obtained  by solving the 
+Euler-Lagrange (EL) equation
+%
+\begin{equation}
+\left\{-\frac{\hbar^2}{2m_4} \nabla^2 + \frac{\delta {\cal E}_c}{\delta \rho}  + V_X(|{\mathbf r} - {\mathbf r}_I|) \right\}\Psi_0({\mathbf r})  
+= \mu_4 \Psi_0({\mathbf r})
+\label{eq7}
+\end{equation}
+
+This static DFT equation is solved by the imaginary time method in cartesian coordinates. 
+The calculation is full 3D with no {\it a priori} imposed symmetry.
+A key tool for the implementation of the method is the use of 
+fast-Fourier techniques (FFT)\cite{Fri05} to calculate the convolutions needed to
+obtain some of the contributions to the total energy of the 
+impurity-droplet complex and the mean field potentials appearing
+in the EL equations.
+Densities, wave functions and differential operators are discretized on a cartesian grid. The 
+spatial grid intervals most often used in the applications are in the $0.3-0.4$~\AA{} range.
+The differential operators (first and second derivatives) are represented by 13-point formulas. 
+
+Once the static configuration has been obtained for a given impurity,  
+the dynamics starts by imparting a velocity 
+$\mathbf{v}_0$ to the impurity, initially 
+placed at a chosen location $\mathbf{r}_{I_0}$.
+ $\Psi(\mathbf{r}, t)$ is thus evolved following the TDDFT 
+prescription and $\mathbf{r}_I(t)$ according to Newton's equation of motion:
+%
+\begin{eqnarray}
+\imath \; \hbar\frac{\partial}{\partial t} \Psi(\mathbf{r}, t)
+&=&
+\left[
+  -\frac{\hbar^2}{2m_4} \nabla^2 +
+  \frac{\delta {\cal E}_c}{\delta \rho}
+  +
+  V_{X}(|\mathbf{r}- \mathbf{r}_I|)
+\right]
+\Psi(\mathbf{r}, t)
+\nonumber
+\\
+m_I \ddot{\mathbf{r}}_I
+&=&
+-  \int d \mathbf{r} \, V_{X}(|\mathbf{r}- \mathbf{r}_I|)  \, \nabla \rho(\mathbf{r},t) 
+ \; .
+\label{eq8}
+\end{eqnarray}
+%
+
+Equations (\ref{eq8}) are solved 
+using Hamming's predictor-modifier-corrector method\cite{Ral60}
+using the same box and grid as for the static problem. 
+In most cases, we have employed a time step of $\sim 0.5$ fs. 
+Hamming's method is not self-starting and requires the evaluation of 
+the solution for a few initial time steps. They were obtained using a 
+fourth-order Runge-Kutta-Gill algorithm.\cite{Ral60}
+
+During the time evolution some helium can be ejected off the droplet,  
+eventually reaching the boundaries of the cell used in the simulations. 
+If no action is taken this material will re-enter the simulation cell
+from the other side (periodic boundary conditions are implied in
+our calculations due to the use of FFT), therefore
+ spoiling the calculation. We have
+handled this problem by including an absorption potential
+into the time-dependent equation for helium.\cite{Mat11a}
+Note that this particle --and thus energy-- leaking is physical: 
+it represents  helium atoms leaving the droplet and carrying away energy,
+although in a continuous way inherent to  the  DFT approach. 
+
+\section{Results}
+
+The results presented in this work have been obtained using the  4He-DFT BCN-TLS computing package.\cite{Pi17}
 
 \subsection{Xe capture by vortex-free droplets}
 
@@ -933,3 +1276,54 @@ of the angular momentum well below the stability
 limit of an undoped droplet.
 A similar behavior has been observed in the experiment (see for instance Fig. 2 in the
 Supplemental Material of ref. \cite{Jon16}).
+
+
+\section{Summary and outlook}
+
+%The issue of atomic or molecular impurities solvated within 
+%$^4$He liquid droplets hosting quantized vortices is relevant  
+%because of the experimental evidence that 
+%quantized vortices in superfluid helium induce coalescence of solvated impurities,
+%which become trapped along their cores. This 
+%eventually results in the formation of nanosized filaments, thus 
+%pointing to a   
+%new potential method for producing nanowires. 
+%Moreover, doping vortices with impurities has emerged as a 
+%valuable practical tool to image the vortex positions and dynamics, especially 
+%in the presence of vortex tangles and vortex reconnections.
+
+%This has been the motivation of the present study, where 
+We have shown
+that Xe and Ar atoms at thermal velocities are readily captured by helium droplets, with a capture cross section similar to
+ the geometric cross section of the droplet. Crucially for the subsequent capture of impurities by vortex lines,
+we have also shown that most of the kinetic energy of the impinging impurity is lost in the capture process during the first tens of picoseconds. This happens either by the ejection of
+ prompt-emitted He atoms, or by  the production of sound waves and large deformations in the droplet. 
+ 
+If the droplet hosts a vortex,
+slowly moving impurities are readily captured by the vortex line. 
+Rather than being trapped inside the vortex core,
+ the impurity is bound 
+to move at a close distance around it.
+Besides the crucial energy loss when the impurity hits the droplet,  the capture by the vortex is favored by a further
+energy transfer  from the impurity to the droplet:  large amplitude 
+displacements of the vortex line -- as shown in the ESI$\dag$ accompanying this work -- 
+take place,  constituting another  source of the kinetic energy loss in the final stages of the capture.
+A related issue is 
+the appearance of Kelvin modes in the vortex line, that is not only bent,  but also twisted
+in the course of the collision.
+
+If the kinematic conditions of the collision (kinetic energy and impact parameter)  lead to the capture of the impurity by the droplet,   the pinball effect
+caused by the droplet surface can induce
+the meeting 
+of the Xe/Ar atom and the vortex line -- and the possible capture of the atom by the vortex -- , since both have a tendency to remain in the inner region of the droplet. 
+We have shown this in the case of Xe at $v_0=200$~m/s:
+Xe is captured during its second transit across the droplet, whereas this could not have happened in bulk liquid helium.\cite{Psh16}  
+
+The capabilities of the  He-DFT approach might help elucidate 
+processes of experimental interest, such
+as the capture of  one or several impurities 
+by large droplets hosting a vortex  array and
+how several atomic impurities, impinging upon a 
+rotating droplet hosting vortices,  react 
+to form small clusters, eventually being trapped within the 
+vortex cores as it appears in the experiments.

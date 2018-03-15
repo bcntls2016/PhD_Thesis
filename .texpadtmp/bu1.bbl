@@ -1,0 +1,93 @@
+\begin{thebibliography}{6}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Martinez}(2017)}]{Martinez2017}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Martinez}}, Master's thesis,
+  \bibinfo{school}{Universit\'{e} Toulouse III Paul Sabatier}
+  (\bibinfo{year}{2017}),
+  \urlprefix\url{https://github.com/bcntls2016/M2Report-M_Martinez/blob/master/report/report.pdf}.
+
+\bibitem[{\citenamefont{Coppens
+  et~al.}(2017{\natexlab{a}})\citenamefont{Coppens, Leal, Barranco,
+  Halberstadt, and Pi}}]{Coppens2017-1}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Coppens}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Leal}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Halberstadt}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}},
+  \bibinfo{journal}{Journal of Low Temperature Physics}
+  \textbf{\bibinfo{volume}{187}}, \bibinfo{pages}{439}
+  (\bibinfo{year}{2017}{\natexlab{a}}), ISSN \bibinfo{issn}{1573-7357},
+  \eprint{https://doi.org/10.1007/s10909-016-1690-x},
+  \urlprefix\url{https://doi.org/10.1007/s10909-016-1690-x}.
+
+\bibitem[{\citenamefont{Coppens
+  et~al.}(2017{\natexlab{b}})\citenamefont{Coppens, Ancilotto, Barranco,
+  Halberstadt, and Pi}}]{Coppens2017-2}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Coppens}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Ancilotto}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Halberstadt}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}},
+  \bibinfo{journal}{Phys. Chem. Chem. Phys.} \textbf{\bibinfo{volume}{19}},
+  \bibinfo{pages}{24805} (\bibinfo{year}{2017}{\natexlab{b}}),
+  \urlprefix\url{http://dx.doi.org/10.1039/C7CP03307A}.
+
+\bibitem[{\citenamefont{von Vangerow et~al.}(2017)\citenamefont{von Vangerow,
+  Coppens, Leal, Pi, Barranco, Halberstadt, Stienkemeier, and
+  Mudrich}}]{Vangerow2017}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{von Vangerow}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Coppens}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Leal}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Halberstadt}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Stienkemeier}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Mudrich}},
+  \bibinfo{journal}{The Journal of Physical Chemistry Letters}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{307} (\bibinfo{year}{2017}),
+  \bibinfo{note}{pMID: 27996261},
+  \eprint{http://dx.doi.org/10.1021/acs.jpclett.6b02598},
+  \urlprefix\url{http://dx.doi.org/10.1021/acs.jpclett.6b02598}.
+
+\bibitem[{\citenamefont{Ancilotto et~al.}(2017)\citenamefont{Ancilotto,
+  Barranco, Coppens, Eloranta, Halberstadt, Hernando, Mateo, and
+  Pi}}]{Ancilotto2017}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Ancilotto}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Coppens}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Eloranta}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Halberstadt}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hernando}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Mateo}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}},
+  \bibinfo{journal}{International Reviews in Physical Chemistry}
+  \textbf{\bibinfo{volume}{36}}, \bibinfo{pages}{621} (\bibinfo{year}{2017}),
+  \eprint{http://dx.doi.org/10.1080/0144235X.2017.1351672},
+  \urlprefix\url{http://dx.doi.org/10.1080/0144235X.2017.1351672}.
+
+\bibitem[{\citenamefont{Coppens et~al.}(2018)\citenamefont{Coppens, von
+  Vangerow, Barranco, Halberstadt, Stienkemeier, Pi, and
+  Mudrich}}]{Coppens2018}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Coppens}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{von Vangerow}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Halberstadt}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Stienkemeier}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Mudrich}},
+  \bibinfo{journal}{Phys. Chem. Chem. Phys.}  (\bibinfo{year}{2018}),
+  \bibinfo{note}{accepted, publication pending}.
+
+\end{thebibliography}
