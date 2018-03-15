@@ -1,0 +1,84 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
+A level-1 auxiliary file: titlepage.aux
+A level-1 auxiliary file: acks.aux
+A level-1 auxiliary file: toc.aux
+A level-1 auxiliary file: list_of_pubs.aux
+A level-1 auxiliary file: ch1-introduction.aux
+A level-1 auxiliary file: ch2-methods.aux
+A level-1 auxiliary file: ch3-intro-alkalies.aux
+A level-1 auxiliary file: ch4-results-alkalies.aux
+A level-1 auxiliary file: ch5-intro-quant_vort.aux
+A level-1 auxiliary file: ch6-results-head_on.aux
+A level-1 auxiliary file: ch7-results-capture.aux
+A level-1 auxiliary file: ch8-conclusions_outlook.aux
+A level-1 auxiliary file: appendix.aux
+A level-1 auxiliary file: biblography.aux
+The style file: apsrev.bst
+A level-1 auxiliary file: bu.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ../list_of_pubs.bib
+Database file #2: ../references.bib
+Database file #3: ../review_refs.bib
+Warning--I didn't find a database entry for "82"
+Warning--I didn't find a database entry for "Lea14"
+Warning--I didn't find a database entry for "Vil16"
+Warning--I didn't find a database entry for "Leb11"
+Warning--I didn't find a database entry for "Bew08"
+Warning--I didn't find a database entry for "Pi17"
+Warning--I didn't find a database entry for "ESI"
+Warning--I didn't find a database entry for "Whi98"
+Warning--I didn't find a database entry for "Tan86"
+Warning--I didn't find a database entry for "Vin61"
+Warning--I didn't find a database entry for "Sei94"
+Warning--I didn't find a database entry for "Boh75"
+Warning--I didn't find a database entry for "Rec01"
+Warning--I didn't find a database entry for "Guy15"
+Warning--I didn't find a database entry for "Cam79"
+Warning--I didn't find a database entry for "note"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--can't use both author and editor fields in Tan17
+You've used 85 entries,
+            3411 wiz_defined-function locations,
+            1746 strings with 23145 characters,
+and the built_in function-call counts, 63296 in all, are:
+= -- 3500
+> -- 2308
+< -- 329
++ -- 1937
+- -- 566
+* -- 8858
+:= -- 6700
+add.period$ -- 85
+call.type$ -- 85
+change.case$ -- 343
+chr.to.int$ -- 78
+cite$ -- 86
+duplicate$ -- 5673
+empty$ -- 5227
+format.name$ -- 1391
+if$ -- 11916
+int.to.chr$ -- 8
+int.to.str$ -- 86
+missing$ -- 881
+newline$ -- 270
+num.names$ -- 257
+pop$ -- 1492
+preamble$ -- 1
+purify$ -- 340
+quote$ -- 0
+skip$ -- 2289
+stack$ -- 0
+substring$ -- 1987
+swap$ -- 4650
+text.length$ -- 287
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 506
+warning$ -- 1
+while$ -- 249
+width$ -- 0
+write$ -- 910
+(There were 17 warnings)

@@ -87,7 +87,7 @@
   \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Stienkemeier}},
   \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}}, \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Mudrich}},
-  \bibinfo{journal}{Phys. Chem. Chem. Phys.}  (\bibinfo{year}{2018}),
-  \bibinfo{note}{accepted, publication pending}.
+  \bibinfo{journal}{Phys. Chem. Chem. Phys.} pp.~\bibinfo{pages}{--}
+  (\bibinfo{year}{2018}), \urlprefix\url{http://dx.doi.org/10.1039/C8CP00482J}.
 
 \end{thebibliography}
