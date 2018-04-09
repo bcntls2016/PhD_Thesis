@@ -1,39 +1,26 @@
-\documentclass[12pt,a4paper,twosides]{book}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{newpxtext,newpxmath} % quite nice, math is clear too
-%\usepackage{baskervald}% Quite nice, math is the default math font.
-%\usepackage{cmbright}	% sans-serif font, modernised clear math, rather broad
-%\usepackage{antpolt} 	% quite nice, but rather compact
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{physics}
-\usepackage{mathtools}
-\usepackage{bm}
-\usepackage{bbm}
-\usepackage{bbold}
-\usepackage{pdfpages}
-\usepackage[square,comma,numbers,super]{natbib}
-\usepackage{hyperref,hypertoc,hypernat}
-\usepackage{lettrine}
-\usepackage{epigraph}
-\usepackage{graphicx,type1cm,Zallman}\graphicspath{{figures/}}
-\usepackage{bibunits}
+\documentclass[11pt,a4paper,twosides]{book}
+\input{packages}
+\input{definitions}
 
-%\renewcommand\LettrineFontHook{\Zallmanfamily}
-\renewcommand{\vec}[1]{\bm{\mathrm{#1}}}
-\newcommand{\unit}[1]{\,\mathrm{#1}}
-\newcommand{\diff}[1]{\,\mathrm{d}{\vec{#1}}}
+
+\includeonly{
+	toc,
+	ch1-introduction,
+	ch3-intro-alkalies,
+	ch5-intro-quant_vort,
+	biblography
+}
+
 
 \begin{document}
 
 \frontmatter
 	\include{titlepage}
 	\include{acks}
-	\cleardoublepage
+	\include{abstract_en}
+	\include{abstract_fr}
 	\include{toc}
-	\include{list_of_pubs}
+	\include{lop/list_of_pubs}
 
 \mainmatter
 	\include{ch1-introduction}
@@ -41,7 +28,7 @@
 	\part{Photo-excitation dynamics of alkalis}
 		\include{ch3-intro-alkalies}
 		\include{ch4-results-alkalies}
-	\part{Head-on collisions and capture by quantised vortices}
+	\part{Capture by quantised vortices}
 		\include{ch5-intro-quant_vort}
 		\include{ch6-results-head_on}
 		\include{ch7-results-capture}

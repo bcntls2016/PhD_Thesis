@@ -1,0 +1,21 @@
+	\hypersetup{
+	colorlinks=true,
+	linkcolor=niceBlue1,
+	filecolor=magenta,      
+	urlcolor=niceBlue1,
+}\urlstyle{same}
+
+\graphicspath{{figures/}{lop/}}
+
+\definecolor{lightgray}{gray}{0.8}
+\definecolor{niceBlue1}{RGB}{0,153,213}
+
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcolumntype{V}{>{\centering\arraybackslash}m{.4\linewidth}}
+
+\newcommand\VRule{\color{lightgray}\vrule width 1pt}
+\renewcommand\cftpartpresnum{\textcolor{niceBlue1}{Part~}}
+\renewcommand{\vec}[1]{\bm{\mathrm{#1}}}
+\newcommand{\unit}[1]{\,\mathrm{#1}}
+\newcommand{\diff}[1]{\,\mathrm{d}{\vec{#1}}}
