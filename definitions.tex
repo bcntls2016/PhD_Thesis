@@ -1,21 +1,90 @@
-	\hypersetup{
+\hypersetup{
 	colorlinks=true,
 	linkcolor=niceBlue1,
 	filecolor=magenta,      
 	urlcolor=niceBlue1,
+	citecolor=niceBlue1,
 }\urlstyle{same}
 
+\setcitestyle{super}
 \graphicspath{{figures/}{lop/}}
 
 \definecolor{lightgray}{gray}{0.8}
-\definecolor{niceBlue1}{RGB}{0,153,213}
+%\definecolor{niceBlue1}{RGB}{0,153,213} %% A nice blue
+\definecolor{niceBlue1}{RGB}{182,32,54} %% Toulouse Red
 
 \newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
 \newcolumntype{R}{p{0.8\textwidth}}
 \newcolumntype{V}{>{\centering\arraybackslash}m{.4\linewidth}}
-
 \newcommand\VRule{\color{lightgray}\vrule width 1pt}
-\renewcommand\cftpartpresnum{\textcolor{niceBlue1}{Part~}}
+
 \renewcommand{\vec}[1]{\bm{\mathrm{#1}}}
 \newcommand{\unit}[1]{\,\mathrm{#1}}
 \newcommand{\diff}[1]{\,\mathrm{d}{\vec{#1}}}
+
+%citen provides the reference number for a citation, not superscripted or bracketed
+\newcommand*{\citen}{}% generate error, if `\citen` is already in use
+\DeclareRobustCommand*{\citen}[1]{%
+	\begingroup
+		\romannumeral-`\x % remove space at the beginning of \setcitestyle
+		\setcitestyle{numbers}%
+		\cite{#1}%
+	\endgroup
+}
+
+\renewcommand{\contentsname}{Table of Contents}
+
+%% Part, Chapter, Section and Subsection doc style definitions
+\titleformat{\part}[display]
+	{\filcenter\bfseries}
+	{\fontsize{50}{60}\selectfont\textsc{\partname\nobreakspace\thepart}}
+	{0mm}
+	{\Huge\color{niceBlue1}\textsc}
+
+\titleformat{\chapter}[display]
+	{\filleft}
+	{\fontsize{50}{60}\selectfont \thechapter}
+	{-20pt}
+	{\fontsize{30}{40}\selectfont\color{niceBlue1}\textsc}
+%	\titlespacing{\chapter}{0pt}{0pt}{30pt}
+
+\titleformat{\section}[hang]
+	{\LARGE}
+	{\bfseries\thesection}
+	{12pt}
+	{\color{niceBlue1}\textsc}
+
+\titleformat{\subsection}[hang]
+	{\Large}
+	{\bfseries\thesubsection}
+	{12pt}
+	{\color{niceBlue1}\textsc}
+	
+%% Part, Chapter, Section and Subsection ToC style definitions
+\titlecontents{part}[0em]
+	{\vspace{2em}\bfseries\Large}
+	{\textsc{\partname\nobreakspace}\hspace{2em}\textcolor{black}{\contentslabel{2em}}\hspace{-0.5em}}
+	{\hspace{2em}}
+	{\titlerule*[0.7em]{ }\rmfamily\upshape\contentspage}
+	[]
+
+\titlecontents{chapter}[0em]
+	{\vspace*{1em}\bfseries}
+	{\hspace*{2em}\textcolor{black}{\contentslabel{2em}}}
+	{\hspace*{2em}\textcolor{black}{\contentslabel{2em}}}
+	{\titlerule*[0.7em]{ }\rmfamily\upshape\contentspage}
+	[]
+
+\titlecontents{section}[2em]
+	{\rmfamily}
+	{\hspace*{2em}\textcolor{black}{\contentslabel{2em}}}
+	{\hspace*{2em}}
+	{\titlerule*[0.7em]{.}\rmfamily\upshape\contentspage}
+	[]
+
+\titlecontents{subsection}[5em]
+	{\rmfamily}
+	{\hspace*{2em}\textcolor{black}{\contentslabel{3em}}}
+	{\hspace*{2em}}
+	{\titlerule*[0.7em]{.}\rmfamily\upshape\contentspage}
+	[]

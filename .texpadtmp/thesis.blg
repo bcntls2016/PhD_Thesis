@@ -1,111 +1,83 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
-I couldn't open auxiliary file titlepage.aux
----line 19 of file /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
- : \@input{titlepage.aux
- :                      }
-I'm skipping whatever remains of this command
-I couldn't open auxiliary file acks.aux
----line 20 of file /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
- : \@input{acks.aux
- :                 }
-I'm skipping whatever remains of this command
-I couldn't open auxiliary file abstract_en.aux
----line 21 of file /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
- : \@input{abstract_en.aux
- :                        }
-I'm skipping whatever remains of this command
-I couldn't open auxiliary file abstract_fr.aux
----line 22 of file /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
- : \@input{abstract_fr.aux
- :                        }
-I'm skipping whatever remains of this command
+A level-1 auxiliary file: titlepage.aux
+A level-1 auxiliary file: acks.aux
+A level-1 auxiliary file: abstract_en.aux
+A level-1 auxiliary file: abstract_fr.aux
 A level-1 auxiliary file: toc.aux
-I couldn't open auxiliary file lop/list_of_pubs.aux
----line 24 of file /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
- : \@input{lop/list_of_pubs.aux
- :                             }
-I'm skipping whatever remains of this command
+A level-1 auxiliary file: lop/list_of_pubs.aux
 A level-1 auxiliary file: ch1-introduction.aux
-I couldn't open auxiliary file ch2-methods.aux
----line 26 of file /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
- : \@input{ch2-methods.aux
- :                        }
-I'm skipping whatever remains of this command
+A level-1 auxiliary file: ch2-methods.aux
 A level-1 auxiliary file: ch3-intro-alkalies.aux
-I couldn't open auxiliary file ch4-results-alkalies.aux
----line 29 of file /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
- : \@input{ch4-results-alkalies.aux
- :                                 }
-I'm skipping whatever remains of this command
+A level-1 auxiliary file: ch4-results-alkalies.aux
 A level-1 auxiliary file: ch5-intro-quant_vort.aux
-I couldn't open auxiliary file ch6-results-head_on.aux
----line 32 of file /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
- : \@input{ch6-results-head_on.aux
- :                                }
-I'm skipping whatever remains of this command
-I couldn't open auxiliary file ch7-results-capture.aux
----line 33 of file /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
- : \@input{ch7-results-capture.aux
- :                                }
-I'm skipping whatever remains of this command
-I couldn't open auxiliary file ch8-conclusions_outlook.aux
----line 34 of file /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
- : \@input{ch8-conclusions_outlook.aux
- :                                    }
-I'm skipping whatever remains of this command
-I couldn't open auxiliary file appendix.aux
----line 35 of file /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
- : \@input{appendix.aux
- :                     }
-I'm skipping whatever remains of this command
+A level-1 auxiliary file: ch6-results-head_on.aux
+A level-1 auxiliary file: ch7-results-capture.aux
+A level-1 auxiliary file: ch8-conclusions_outlook.aux
+A level-1 auxiliary file: appendix.aux
 A level-1 auxiliary file: biblography.aux
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../references.bib
 Database file #2: ../review_refs.bib
+Warning--I didn't find a database entry for "82"
+Warning--I didn't find a database entry for "Ancilotto1995"
+Warning--I didn't find a database entry for "Martinez2017"
+Warning--I didn't find a database entry for "Lea14"
+Warning--I didn't find a database entry for "ESI"
+Warning--I didn't find a database entry for "Whi98"
+Warning--I didn't find a database entry for "Tan86"
+Warning--I didn't find a database entry for "Vin61"
+Warning--I didn't find a database entry for "Sei94"
+Warning--I didn't find a database entry for "Boh75"
+Warning--I didn't find a database entry for "Rec01"
+Warning--I didn't find a database entry for "Guy15"
+Warning--I didn't find a database entry for "Cam79"
+Warning--I didn't find a database entry for "note"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 31 entries,
+Warning--can't use both author and editor fields in Pita2016
+Warning--can't use both author and editor fields in Tan17
+You've used 109 entries,
             3411 wiz_defined-function locations,
-            1411 strings with 15614 characters,
-and the built_in function-call counts, 17841 in all, are:
-= -- 1118
-> -- 386
-< -- 74
-+ -- 277
-- -- 98
-* -- 2350
-:= -- 2106
-add.period$ -- 31
-call.type$ -- 31
-change.case$ -- 126
-chr.to.int$ -- 28
-cite$ -- 31
-duplicate$ -- 1663
-empty$ -- 1605
-format.name$ -- 263
-if$ -- 3412
-int.to.chr$ -- 4
-int.to.str$ -- 32
-missing$ -- 269
-newline$ -- 108
-num.names$ -- 94
-pop$ -- 385
+            1911 strings with 27822 characters,
+and the built_in function-call counts, 83673 in all, are:
+= -- 4579
+> -- 3154
+< -- 440
++ -- 2668
+- -- 772
+* -- 11863
+:= -- 8759
+add.period$ -- 109
+call.type$ -- 109
+change.case$ -- 443
+chr.to.int$ -- 105
+cite$ -- 111
+duplicate$ -- 7473
+empty$ -- 6848
+format.name$ -- 1877
+if$ -- 15718
+int.to.chr$ -- 11
+int.to.str$ -- 110
+missing$ -- 1159
+newline$ -- 342
+num.names$ -- 329
+pop$ -- 1951
 preamble$ -- 1
-purify$ -- 124
+purify$ -- 436
 quote$ -- 0
-skip$ -- 637
+skip$ -- 2987
 stack$ -- 0
-substring$ -- 651
-swap$ -- 1248
-text.length$ -- 49
+substring$ -- 2563
+swap$ -- 6214
+text.length$ -- 391
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 186
-warning$ -- 0
-while$ -- 92
+type$ -- 648
+warning$ -- 2
+while$ -- 321
 width$ -- 0
-write$ -- 362
-(There were 11 error messages)
+write$ -- 1180
+(There were 16 warnings)

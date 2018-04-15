@@ -1,4 +1,4 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{109}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -187,6 +187,17 @@
   \bibinfo{pages}{1131} (\bibinfo{year}{2002}),
   \urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.74.1131}.
 
+\bibitem[{\citenamefont{Pitaevskii and Stringari}(2016)}]{Pita2016}
+\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Pitaevskii}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Stringari}},
+  \emph{\bibinfo{title}{Bose-Einstein Condensation and Superfluidity}}, vol.
+  \bibinfo{volume}{164} of \emph{\bibinfo{series}{International Series of
+  Monographs on Physics}} (\bibinfo{publisher}{Oxford University Press},
+  \bibinfo{address}{Great Clarendon Street, Oxford, OX2 6DP, United Kingdom},
+  \bibinfo{year}{2016}), \bibinfo{edition}{first edition} ed., ISBN
+  \bibinfo{isbn}{978-0-19-875888-4},
+  \urlprefix\url{http://dx.doi.org/10.1093/acprof:oso/9780198758884.001.0001}.
+
 \bibitem[{\citenamefont{Mateo et~al.}(2010)\citenamefont{Mateo, Barranco, and
   Navarro}}]{Mat10a}
 \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Mateo}},
@@ -211,12 +222,217 @@
   \bibinfo{journal}{J. Low Temp. Phys.} \textbf{\bibinfo{volume}{101}},
   \bibinfo{pages}{1123} (\bibinfo{year}{1995}).
 
+\bibitem[{\citenamefont{Krotscheck and Navarro}(2002)}]{Kro02}
+\bibinfo{editor}{\bibfnamefont{E.}~\bibnamefont{Krotscheck}} \bibnamefont{and}
+  \bibinfo{editor}{\bibfnamefont{J.}~\bibnamefont{Navarro}}, eds.,
+  \emph{\bibinfo{title}{Microscopic approaches to quantum liquids in confined
+  geometries}}, vol.~\bibinfo{volume}{4} of \emph{\bibinfo{series}{Series on
+  Advances in Quantum Many-Body Theory}} (\bibinfo{publisher}{World
+  Scientific}, \bibinfo{address}{Singapore}, \bibinfo{year}{2002}).
+
+\bibitem[{\citenamefont{{de Lara-Castells} et~al.}(2006)\citenamefont{{de
+  Lara-Castells}, {Delgado-Barrio}, Villarreal, and Mitrushchenkov}}]{deL06}
+\bibinfo{author}{\bibfnamefont{M.~P.} \bibnamefont{{de Lara-Castells}}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{{Delgado-Barrio}}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Villarreal}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{A.~O.}
+  \bibnamefont{Mitrushchenkov}}, \bibinfo{journal}{J. Chem. Phys.}
+  \textbf{\bibinfo{volume}{125}}, \bibinfo{pages}{221101}
+  (\bibinfo{year}{2006}).
+
+\bibitem[{\citenamefont{de~Lara-Castells
+  et~al.}(2010)\citenamefont{de~Lara-Castells, Aguirre, Villarreal,
+  {Delgado-Barrio}, and Mitrushchenkov}}]{deL10}
+\bibinfo{author}{\bibfnamefont{M.~P.} \bibnamefont{de~Lara-Castells}},
+  \bibinfo{author}{\bibfnamefont{N.~F.} \bibnamefont{Aguirre}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Villarreal}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{{Delgado-Barrio}}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{A.~O.}
+  \bibnamefont{Mitrushchenkov}}, \bibinfo{journal}{J. Chem. Phys.}
+  \textbf{\bibinfo{volume}{132}}, \bibinfo{pages}{194313}
+  (\bibinfo{year}{2010}).
+
+\bibitem[{\citenamefont{Aguirre et~al.}(2013)\citenamefont{Aguirre, Villarreal,
+  {Delgado-Barrio}, Mitrushchenkov, and {de Lara-Castells}}}]{Agu13}
+\bibinfo{author}{\bibfnamefont{N.~F.} \bibnamefont{Aguirre}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Villarreal}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{{Delgado-Barrio}}},
+  \bibinfo{author}{\bibfnamefont{A.~O.} \bibnamefont{Mitrushchenkov}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.~P.} \bibnamefont{{de
+  Lara-Castells}}}, \bibinfo{journal}{Phys. Chem. Chem. Phys.}
+  \textbf{\bibinfo{volume}{15}}, \bibinfo{pages}{10126} (\bibinfo{year}{2013}).
+
+\bibitem[{\citenamefont{Stringari and Treiner}(1987{\natexlab{a}})}]{Str87a}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Stringari}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Treiner}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{36}},
+  \bibinfo{pages}{8369} (\bibinfo{year}{1987}{\natexlab{a}}).
+
+\bibitem[{\citenamefont{Stringari and Treiner}(1987{\natexlab{b}})}]{Str87b}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Stringari}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Treiner}},
+  \bibinfo{journal}{J. Chem. Phys.} \textbf{\bibinfo{volume}{87}},
+  \bibinfo{pages}{5021} (\bibinfo{year}{1987}{\natexlab{b}}).
+
+\bibitem[{\citenamefont{Dalfovo
+  et~al.}(1995{\natexlab{a}})\citenamefont{Dalfovo, Lastri, Pricaupenko,
+  Stringari, and Treiner}}]{Dal95}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Dalfovo}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Lastri}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Pricaupenko}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Stringari}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Treiner}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{52}},
+  \bibinfo{pages}{1193} (\bibinfo{year}{1995}{\natexlab{a}}).
+
+\bibitem[{\citenamefont{Hohenberg and Kohn}(1964)}]{Hohenberg1964}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Hohenberg}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Kohn}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{136}},
+  \bibinfo{pages}{B864} (\bibinfo{year}{1964}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRev.136.B864}.
+
+\bibitem[{\citenamefont{Kohn and Sham}(1965)}]{Kohn1965}
+\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Kohn}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{L.~J.} \bibnamefont{Sham}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{140}},
+  \bibinfo{pages}{A1133} (\bibinfo{year}{1965}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRev.140.A1133}.
+
+\bibitem[{\citenamefont{Runge and Gross}(1984)}]{Run84}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Runge}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{E.~K.~U.} \bibnamefont{Gross}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{52}},
+  \bibinfo{pages}{997} (\bibinfo{year}{1984}).
+
+\bibitem[{\citenamefont{Dalfovo
+  et~al.}(1995{\natexlab{b}})\citenamefont{Dalfovo, Lastri, Pricaupenko,
+  Stringari, and Treiner}}]{Dalfovo1995}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Dalfovo}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Lastri}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Pricaupenko}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Stringari}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Treiner}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{52}},
+  \bibinfo{pages}{1193} (\bibinfo{year}{1995}{\natexlab{b}}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.52.1193}.
+
+\bibitem[{\citenamefont{Jakubek et~al.}(1997)\citenamefont{Jakubek, Hui, and
+  Takami}}]{Jak97}
+\bibinfo{author}{\bibfnamefont{Z.~J.} \bibnamefont{Jakubek}},
+  \bibinfo{author}{\bibfnamefont{Q.}~\bibnamefont{Hui}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Takami}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{79}},
+  \bibinfo{pages}{629} (\bibinfo{year}{1997}).
+
+\bibitem[{\citenamefont{Nakayama and Yamashita}(2001)}]{Nak01}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Nakayama}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Yamashita}},
+  \bibinfo{journal}{J. Chem. Phys.} \textbf{\bibinfo{volume}{114}},
+  \bibinfo{pages}{780} (\bibinfo{year}{2001}).
+
+\bibitem[{\citenamefont{Barranco et~al.}({(2017),})\citenamefont{Barranco,
+  Coppens, Halberstadt, Hernando, Leal, Mateo, Mayol, and Pi}}]{dft-guide}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Coppens}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Halberstadt}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hernando}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Leal}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Mateo}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Mayol}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}}
+  (\bibinfo{year}{{(2017),}}),
+  \bibinfo{note}{https://github.com/bcntls2016/DFT-Guide/blob/master/dft-guide.pdf}.
+
 \bibitem[{\citenamefont{Griffin and Stringari}(1996)}]{Griffin1996}
 \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Griffin}} \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Stringari}},
   \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{76}},
   \bibinfo{pages}{259} (\bibinfo{year}{1996}),
   \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.76.259}.
+
+\bibitem[{\citenamefont{Dalfovo}(1994)}]{Dalfovo1994}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Dalfovo}},
+  \bibinfo{journal}{Zeitschrift f{\"u}r Physik D Atoms, Molecules and Clusters}
+  \textbf{\bibinfo{volume}{29}}, \bibinfo{pages}{61} (\bibinfo{year}{1994}),
+  ISSN \bibinfo{issn}{1431-5866},
+  \urlprefix\url{https://doi.org/10.1007/BF01437166}.
+
+\bibitem[{\citenamefont{Stienkemeier
+  et~al.}(1995{\natexlab{a}})\citenamefont{Stienkemeier, Higgins, Ernst, and
+  Scoles}}]{Stienkemeier1995-1}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Stienkemeier}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Higgins}},
+  \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{Ernst}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Scoles}},
+  \bibinfo{journal}{Zeitschrift f{\"u}r Physik B Condensed Matter}
+  \textbf{\bibinfo{volume}{98}}, \bibinfo{pages}{413}
+  (\bibinfo{year}{1995}{\natexlab{a}}), ISSN \bibinfo{issn}{1431-584X},
+  \urlprefix\url{https://doi.org/10.1007/BF01338416}.
+
+\bibitem[{\citenamefont{Stienkemeier
+  et~al.}(1995{\natexlab{b}})\citenamefont{Stienkemeier, Higgins, Ernst, and
+  Scoles}}]{Stienkemeier1995-2}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Stienkemeier}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Higgins}},
+  \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{Ernst}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Scoles}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{74}},
+  \bibinfo{pages}{3592} (\bibinfo{year}{1995}{\natexlab{b}}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.74.3592}.
+
+\bibitem[{\citenamefont{Patil}(1991)}]{Pat91}
+\bibinfo{author}{\bibfnamefont{S.~H.} \bibnamefont{Patil}},
+  \bibinfo{journal}{J. Chem. Phys.} \textbf{\bibinfo{volume}{94}},
+  \bibinfo{pages}{8089} (\bibinfo{year}{1991}).
+
+\bibitem[{\citenamefont{Kanorsky et~al.}(1994)\citenamefont{Kanorsky, Arndt,
+  Dziewior, Weis, and H\"ansch}}]{Kanorsky1994}
+\bibinfo{author}{\bibfnamefont{S.~I.} \bibnamefont{Kanorsky}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Arndt}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Dziewior}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Weis}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.~W.} \bibnamefont{H\"ansch}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{50}},
+  \bibinfo{pages}{6296} (\bibinfo{year}{1994}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.50.6296}.
+
+\bibitem[{\citenamefont{Tabbert et~al.}(1995)\citenamefont{Tabbert, Beau,
+  Foerste, G{\"u}nther, H{\"o}nninger, Hust, Layer, zu~Putlitz, and
+  Schumacher}}]{Tabbert1995}
+\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Tabbert}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Beau}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Foerste}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{G{\"u}nther}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{H{\"o}nninger}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Hust}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Layer}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{zu~Putlitz}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Schumacher}},
+  \bibinfo{journal}{Zeitschrift f{\"u}r Physik B Condensed Matter}
+  \textbf{\bibinfo{volume}{98}}, \bibinfo{pages}{399} (\bibinfo{year}{1995}),
+  ISSN \bibinfo{issn}{1431-584X},
+  \urlprefix\url{https://doi.org/10.1007/BF01338414}.
+
+\bibitem[{\citenamefont{Takahashi et~al.}(1993)\citenamefont{Takahashi, Sano,
+  Kinoshita, and Yabuzaki}}]{Takahashi1993}
+\bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Takahashi}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Sano}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Kinoshita}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Yabuzaki}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{71}},
+  \bibinfo{pages}{1035} (\bibinfo{year}{1993}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.71.1035}.
+
+\bibitem[{\citenamefont{Beijersbergen et~al.}(1993)\citenamefont{Beijersbergen,
+  Hui, and Takami}}]{Beijersbergen1993}
+\bibinfo{author}{\bibfnamefont{J.~H.} \bibnamefont{Beijersbergen}},
+  \bibinfo{author}{\bibfnamefont{Q.}~\bibnamefont{Hui}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Takami}},
+  \bibinfo{journal}{Physics Letters A} \textbf{\bibinfo{volume}{181}},
+  \bibinfo{pages}{393} (\bibinfo{year}{1993}), ISSN \bibinfo{issn}{0375-9601},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/037596019390394F}.
 
 \bibitem[{\citenamefont{Carrick}(1993)}]{Carrick1993}
 \bibinfo{editor}{\bibfnamefont{P.}~\bibnamefont{Carrick}}, ed.,
@@ -226,5 +442,557 @@
   Contractor's Conference}, \bibinfo{address}{Woods Hole, MA.; Edwards Air
   Force Base, CA}, \bibinfo{year}{1993}),
   \urlprefix\url{http://www.dtic.mil/docs/citations/ADA274452}.
+
+\bibitem[{\citenamefont{Loginov and Drabbels}(2011)}]{Log11b}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Loginov}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Drabbels}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{106}},
+  \bibinfo{pages}{083401} (\bibinfo{year}{2011}).
+
+\bibitem[{\citenamefont{Loginov et~al.}(2011)\citenamefont{Loginov, Callegari,
+  Ancilotto, and Drabbels}}]{Log11a}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Loginov}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Callegari}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Ancilotto}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Drabbels}},
+  \bibinfo{journal}{J. Phys. Chem. A} \textbf{\bibinfo{volume}{115}},
+  \bibinfo{pages}{6779} (\bibinfo{year}{2011}).
+
+\bibitem[{\citenamefont{Lackner et~al.}(2012)\citenamefont{Lackner, Krois,
+  Koch, and Ernst}}]{Lackner2012}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Lackner}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Krois}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Koch}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{Ernst}},
+  \bibinfo{journal}{The Journal of Physical Chemistry Letters}
+  \textbf{\bibinfo{volume}{3}}, \bibinfo{pages}{1404} (\bibinfo{year}{2012}),
+  \bibinfo{note}{pMID: 26286790}, \eprint{https://doi.org/10.1021/jz300381y},
+  \urlprefix\url{https://doi.org/10.1021/jz300381y}.
+
+\bibitem[{\citenamefont{Lackner
+  et~al.}(2013{\natexlab{a}})\citenamefont{Lackner, Krois, and
+  Ernst}}]{Lackner2013}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Lackner}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Krois}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{Ernst}},
+  \bibinfo{journal}{Molecular Physics} \textbf{\bibinfo{volume}{111}},
+  \bibinfo{pages}{2118} (\bibinfo{year}{2013}{\natexlab{a}}),
+  \eprint{https://doi.org/10.1080/00268976.2013.788792},
+  \urlprefix\url{https://doi.org/10.1080/00268976.2013.788792}.
+
+\bibitem[{\citenamefont{Theisen
+  et~al.}(2011{\natexlab{a}})\citenamefont{Theisen, Lackner, and
+  Ernst}}]{The11}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Theisen}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Lackner}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{Ernst}},
+  \bibinfo{journal}{J. Chem. Phys.} \textbf{\bibinfo{volume}{135}},
+  \bibinfo{pages}{074306} (\bibinfo{year}{2011}{\natexlab{a}}).
+
+\bibitem[{\citenamefont{Fechner et~al.}(2012)\citenamefont{Fechner, Gr\"uner,
+  Sieg, Callegari, Ancilotto, Stienkemeier, and Mudrich}}]{Fec12}
+\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Fechner}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Gr\"uner}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Sieg}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Callegari}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Ancilotto}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Stienkemeier}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Mudrich}},
+  \bibinfo{journal}{Phys. Chem. Chem. Phys.} \textbf{\bibinfo{volume}{14}},
+  \bibinfo{pages}{3843} (\bibinfo{year}{2012}).
+
+\bibitem[{\citenamefont{Pifrader et~al.}(2010)\citenamefont{Pifrader, Allard,
+  Aub\"ock, Callegari, Ernst, Hubert, and Ancilotto}}]{Pif10}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Pifrader}},
+  \bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Allard}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Aub\"ock}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Callegari}},
+  \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{Ernst}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Hubert}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Ancilotto}},
+  \bibinfo{journal}{J. Chem. Phys.} \textbf{\bibinfo{volume}{133}},
+  \bibinfo{pages}{164502} (\bibinfo{year}{2010}).
+
+\bibitem[{\citenamefont{Lackner et~al.}(2011)\citenamefont{Lackner, Krois,
+  Theisen, Koch, and Ernst}}]{Lac11}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Lackner}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Krois}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Theisen}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Koch}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{Ernst}},
+  \bibinfo{journal}{Phys. Chem. Chem. Phys.} \textbf{\bibinfo{volume}{13}},
+  \bibinfo{pages}{18781} (\bibinfo{year}{2011}).
+
+\bibitem[{\citenamefont{Theisen
+  et~al.}(2011{\natexlab{b}})\citenamefont{Theisen, Lackner, Ancilotto,
+  Callegari, and Ernst}}]{Theisen2011}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Theisen}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Lackner}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Ancilotto}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Callegari}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{Ernst}},
+  \bibinfo{journal}{The European Physical Journal D}
+  \textbf{\bibinfo{volume}{61}}, \bibinfo{pages}{403}
+  (\bibinfo{year}{2011}{\natexlab{b}}), ISSN \bibinfo{issn}{1434-6079},
+  \urlprefix\url{https://doi.org/10.1140/epjd/e2010-10504-5}.
+
+\bibitem[{\citenamefont{Lackner
+  et~al.}(2013{\natexlab{b}})\citenamefont{Lackner, Poms, Krois, Pototschnig,
+  and Ernst}}]{Lac13}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Lackner}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Poms}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Krois}},
+  \bibinfo{author}{\bibfnamefont{J.~V.} \bibnamefont{Pototschnig}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{Ernst}},
+  \bibinfo{journal}{J. Phys. Chem. A} \textbf{\bibinfo{volume}{117}},
+  \bibinfo{pages}{11866} (\bibinfo{year}{2013}{\natexlab{b}}).
+
+\bibitem[{\citenamefont{Stienkemeier et~al.}(1996)\citenamefont{Stienkemeier,
+  Higgins, Callegari, Kanorsky, Ernst, and Scoles}}]{Sti96}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Stienkemeier}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Higgins}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Callegari}},
+  \bibinfo{author}{\bibfnamefont{S.~I.} \bibnamefont{Kanorsky}},
+  \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{Ernst}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Scoles}},
+  \bibinfo{journal}{Z. Phys. D} \textbf{\bibinfo{volume}{38}},
+  \bibinfo{pages}{253} (\bibinfo{year}{1996}).
+
+\bibitem[{\citenamefont{Bünermann et~al.}(2007)\citenamefont{Bünermann,
+  Droppelmann, Hernando, Mayol, and Stienkemeier}}]{Bunermann2007}
+\bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Bünermann}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Droppelmann}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hernando}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Mayol}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Stienkemeier}},
+  \bibinfo{journal}{The Journal of Physical Chemistry A}
+  \textbf{\bibinfo{volume}{111}}, \bibinfo{pages}{12684}
+  (\bibinfo{year}{2007}), \bibinfo{note}{pMID: 17997536},
+  \eprint{https://doi.org/10.1021/jp0760760},
+  \urlprefix\url{https://doi.org/10.1021/jp0760760}.
+
+\bibitem[{\citenamefont{Eppink and Parker}(1997)}]{Eppink1997}
+\bibinfo{author}{\bibfnamefont{A.~T.} \bibnamefont{Eppink}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{D.~H.} \bibnamefont{Parker}},
+  \bibinfo{journal}{Review of Scientific Instruments}
+  \textbf{\bibinfo{volume}{68}}, \bibinfo{pages}{3477} (\bibinfo{year}{1997}),
+  \eprint{https://doi.org/10.1063/1.1148310},
+  \urlprefix\url{https://doi.org/10.1063/1.1148310}.
+
+\bibitem[{\citenamefont{Pascale}(1983)}]{Pas83}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Pascale}},
+  \bibinfo{journal}{Phys. Rev. A} \textbf{\bibinfo{volume}{28}},
+  \bibinfo{pages}{632} (\bibinfo{year}{1983}).
+
+\bibitem[{\citenamefont{Schulz et~al.}(2001)\citenamefont{Schulz, Claas, and
+  Stienkemeier}}]{Schulz2001}
+\bibinfo{author}{\bibfnamefont{C.~P.} \bibnamefont{Schulz}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Claas}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Stienkemeier}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{87}},
+  \bibinfo{pages}{153401} (\bibinfo{year}{2001}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.87.153401}.
+
+\bibitem[{\citenamefont{Reho et~al.}(2000{\natexlab{a}})\citenamefont{Reho,
+  Higgins, Lehmann, and Scoles}}]{Reho2000-1}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Reho}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Higgins}},
+  \bibinfo{author}{\bibfnamefont{K.~K.} \bibnamefont{Lehmann}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Scoles}},
+  \bibinfo{journal}{The Journal of Chemical Physics}
+  \textbf{\bibinfo{volume}{113}}, \bibinfo{pages}{9694}
+  (\bibinfo{year}{2000}{\natexlab{a}}),
+  \eprint{https://doi.org/10.1063/1.1321034},
+  \urlprefix\url{https://doi.org/10.1063/1.1321034}.
+
+\bibitem[{\citenamefont{Reho et~al.}(2000{\natexlab{b}})\citenamefont{Reho,
+  Higgins, Callegari, Lehmann, and Scoles}}]{Reho2000-2}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Reho}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Higgins}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Callegari}},
+  \bibinfo{author}{\bibfnamefont{K.~K.} \bibnamefont{Lehmann}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Scoles}},
+  \bibinfo{journal}{The Journal of Chemical Physics}
+  \textbf{\bibinfo{volume}{113}}, \bibinfo{pages}{9686}
+  (\bibinfo{year}{2000}{\natexlab{b}}),
+  \eprint{https://doi.org/10.1063/1.1321033},
+  \urlprefix\url{https://doi.org/10.1063/1.1321033}.
+
+\bibitem[{\citenamefont{Scheidemann et~al.}(1990)\citenamefont{Scheidemann,
+  Toennies, and Northby}}]{Sch90}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Scheidemann}},
+  \bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Toennies}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{J.~A.}
+  \bibnamefont{Northby}}, \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{64}}, \bibinfo{pages}{1899} (\bibinfo{year}{1990}).
+
+\bibitem[{\citenamefont{Toennies and Vilesov}(2004)}]{Toe04}
+\bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Toennies}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~F.} \bibnamefont{Vilesov}},
+  \bibinfo{journal}{Angew. Chem. Phys.} \textbf{\bibinfo{volume}{43}},
+  \bibinfo{pages}{2622} (\bibinfo{year}{2004}).
+
+\bibitem[{\citenamefont{Harms et~al.}(1998)\citenamefont{Harms, Toennies, and
+  Dalfovo}}]{Har98}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Harms}},
+  \bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Toennies}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Dalfovo}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{58}},
+  \bibinfo{pages}{3341} (\bibinfo{year}{1998}).
+
+\bibitem[{\citenamefont{Harms et~al.}(2001)\citenamefont{Harms, Toennies,
+  Barranco, and Pi}}]{Har01}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Harms}},
+  \bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Toennies}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}}, \bibinfo{journal}{Phys.
+  Rev. B} \textbf{\bibinfo{volume}{63}}, \bibinfo{pages}{184513}
+  (\bibinfo{year}{2001}).
+
+\bibitem[{\citenamefont{Krotscheck and Zillich}(2007)}]{Kro07}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Krotscheck}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.~E.} \bibnamefont{Zillich}},
+  \bibinfo{journal}{Eur. Phys. J. D} \textbf{\bibinfo{volume}{43}},
+  \bibinfo{pages}{113} (\bibinfo{year}{2007}).
+
+\bibitem[{\citenamefont{Krotscheck and Zillich}(2008)}]{Kro08}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Krotscheck}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.~E.} \bibnamefont{Zillich}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{77}},
+  \bibinfo{pages}{094507} (\bibinfo{year}{2008}).
+
+\bibitem[{\citenamefont{Eichenauer et~al.}(1988)\citenamefont{Eichenauer,
+  Scheidemann, and Toennies}}]{Eic88}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Eichenauer}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Scheidemann}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{J.~P.}
+  \bibnamefont{Toennies}}, \bibinfo{journal}{Z. Phys. D}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{295} (\bibinfo{year}{1988}).
+
+\bibitem[{\citenamefont{Leal et~al.}(2014{\natexlab{a}})\citenamefont{Leal,
+  Mateo, Hernando, Pi, and Barranco}}]{Lea14a}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Leal}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Mateo}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hernando}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{journal}{Phys. Chem. Chem. Phys.} \textbf{\bibinfo{volume}{16}},
+  \bibinfo{pages}{23206} (\bibinfo{year}{2014}{\natexlab{a}}).
+
+\bibitem[{\citenamefont{Vil\`a et~al.}(2016)\citenamefont{Vil\`a, Gonz\'alez,
+  and Mayol}}]{Vil16b}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Vil\`a}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Gonz\'alez}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Mayol}},
+  \bibinfo{journal}{Phys. Chem. Chem. Phys.} \textbf{\bibinfo{volume}{18}},
+  \bibinfo{pages}{2006} (\bibinfo{year}{2016}).
+
+\bibitem[{\citenamefont{Gomez et~al.}(2014)\citenamefont{Gomez, Ferguson,
+  Cryan, Bacellar, Tanyag, Jones, Schorb, Anielski, Belkacem, Bernando
+  et~al.}}]{Gom14}
+\bibinfo{author}{\bibfnamefont{L.~F.} \bibnamefont{Gomez}},
+  \bibinfo{author}{\bibfnamefont{K.~R.} \bibnamefont{Ferguson}},
+  \bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Cryan}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Bacellar}},
+  \bibinfo{author}{\bibfnamefont{R.~M.~P.} \bibnamefont{Tanyag}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Jones}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Schorb}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Anielski}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Belkacem}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Bernando}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{Science}
+  \textbf{\bibinfo{volume}{345}}, \bibinfo{pages}{906} (\bibinfo{year}{2014}).
+
+\bibitem[{\citenamefont{Jones et~al.}(2016)\citenamefont{Jones, Bernando,
+  Tanyag, Bacellar, Ferguson, Gomez, Anielski, Belkacem, Boll, Bozek
+  et~al.}}]{Jon16}
+\bibinfo{author}{\bibfnamefont{C.~F.} \bibnamefont{Jones}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Bernando}},
+  \bibinfo{author}{\bibfnamefont{R.~M.~P.} \bibnamefont{Tanyag}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Bacellar}},
+  \bibinfo{author}{\bibfnamefont{K.~R.} \bibnamefont{Ferguson}},
+  \bibinfo{author}{\bibfnamefont{L.~F.} \bibnamefont{Gomez}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Anielski}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Belkacem}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Boll}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Bozek}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. B}
+  \textbf{\bibinfo{volume}{93}}, \bibinfo{pages}{180510(R)}
+  (\bibinfo{year}{2016}).
+
+\bibitem[{\citenamefont{Ancilotto et~al.}(2014)\citenamefont{Ancilotto, Pi, and
+  Barranco}}]{Anc14}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Ancilotto}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{90}},
+  \bibinfo{pages}{174512} (\bibinfo{year}{2014}).
+
+\bibitem[{\citenamefont{Ancilotto et~al.}(2015)\citenamefont{Ancilotto, Pi, and
+  Barranco}}]{Anc15}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Ancilotto}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{91}},
+  \bibinfo{pages}{100503(R)} (\bibinfo{year}{2015}).
+
+\bibitem[{\citenamefont{Gomez et~al.}(2011)\citenamefont{Gomez, Loginov,
+  Sliter, and Vilesov}}]{Gom11}
+\bibinfo{author}{\bibfnamefont{L.~F.} \bibnamefont{Gomez}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Loginov}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Sliter}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~F.} \bibnamefont{Vilesov}},
+  \bibinfo{journal}{J. Chem. Phys.} \textbf{\bibinfo{volume}{135}},
+  \bibinfo{pages}{154201} (\bibinfo{year}{2011}).
+
+\bibitem[{\citenamefont{Leal et~al.}(2016)\citenamefont{Leal, Zhang, Barranco,
+  Cargnoni, Hernando, Mateo, Mella, Drabbels, and Pi}}]{Lea16}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Leal}},
+  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Zhang}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Cargnoni}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hernando}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Mateo}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Mella}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Drabbels}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}}, \bibinfo{journal}{J.
+  Chem. Phys.} \textbf{\bibinfo{volume}{144}}, \bibinfo{pages}{094302}
+  (\bibinfo{year}{2016}).
+
+\bibitem[{\citenamefont{Mateo et~al.}(2014)\citenamefont{Mateo, Leal, Hernando,
+  Barranco, Pi, Cargnoni, Mella, Zhang, and Drabbels}}]{Mat14}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Mateo}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Leal}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hernando}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Cargnoni}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Mella}},
+  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Zhang}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Drabbels}},
+  \bibinfo{journal}{J. Chem. Phys.} \textbf{\bibinfo{volume}{140}},
+  \bibinfo{pages}{131101} (\bibinfo{year}{2014}).
+
+\bibitem[{\citenamefont{Hernando et~al.}(2007)\citenamefont{Hernando, Mayol,
+  Pi, Barranco, Ancilotto, B\"unermann, and Stienkemeier}}]{Her07}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hernando}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Mayol}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Ancilotto}},
+  \bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{B\"unermann}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Stienkemeier}},
+  \bibinfo{journal}{J. Phys. Chem. A} \textbf{\bibinfo{volume}{111}},
+  \bibinfo{pages}{7303} (\bibinfo{year}{2007}).
+
+\bibitem[{\citenamefont{Stienkemeier and Lehmann}(2006)}]{Sti06}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Stienkemeier}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{K.~K.}
+  \bibnamefont{Lehmann}}, \bibinfo{journal}{J. Phys. B}
+  \textbf{\bibinfo{volume}{39}}, \bibinfo{pages}{R127} (\bibinfo{year}{2006}).
+
+\bibitem[{\citenamefont{Tiggesb\"aumker and Stienkemeier}(2007)}]{Tig07}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Tiggesb\"aumker}}
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Stienkemeier}},
+  \bibinfo{journal}{Phys. Chem. Chem. Phys.} \textbf{\bibinfo{volume}{9}},
+  \bibinfo{pages}{4748} (\bibinfo{year}{2007}).
+
+\bibitem[{\citenamefont{Callegari and Ernst}(2011)}]{Cal11a}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Callegari}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{Ernst}}, in
+  \emph{\bibinfo{booktitle}{Handbook of High Resolution Spectroscopy}}
+  (\bibinfo{publisher}{Whiley}, \bibinfo{address}{New York},
+  \bibinfo{year}{2011}), vol.~\bibinfo{volume}{3}, p. \bibinfo{pages}{1551}.
+
+\bibitem[{\citenamefont{Mudrich and Stienkemeier}(2014)}]{Mud14}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Mudrich}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Stienkemeier}},
+  \bibinfo{journal}{Int. Rev. Phys. Chem.} \textbf{\bibinfo{volume}{33}},
+  \bibinfo{pages}{301} (\bibinfo{year}{2014}).
+
+\bibitem[{\citenamefont{Lewerenz et~al.}(1995)\citenamefont{Lewerenz,
+  Schilling, and Toennies}}]{Lew95}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Lewerenz}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Schilling}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{J.~P.}
+  \bibnamefont{Toennies}}, \bibinfo{journal}{J. Chem. Phys.}
+  \textbf{\bibinfo{volume}{102}}, \bibinfo{pages}{8191} (\bibinfo{year}{1995}).
+
+\bibitem[{\citenamefont{Tanyag et~al.}(2017)\citenamefont{Tanyag, Jones,
+  Bernando, {O'Connell}, Verma, and Vilesov}}]{Tan17}
+\bibinfo{author}{\bibfnamefont{R.~M.~P.} \bibnamefont{Tanyag}},
+  \bibinfo{author}{\bibfnamefont{C.~F.} \bibnamefont{Jones}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Bernando}},
+  \bibinfo{author}{\bibfnamefont{S.~M.~O.} \bibnamefont{{O'Connell}}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Verma}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~F.} \bibnamefont{Vilesov}},
+  \emph{\bibinfo{title}{Experiments with large superfluid helium nanodroplets}}
+  (\bibinfo{publisher}{Royal Society of Chemistry},
+  \bibinfo{address}{Cambridge, UK}, \bibinfo{year}{2017}), chap.
+  \bibinfo{chapter}{8, (to be published)}.
+
+\bibitem[{\citenamefont{Lebedev et~al.}(2011)\citenamefont{Lebedev, Moroshkin,
+  Grobety, Gordon, and Weis}}]{Lebedev2011}
+\bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Lebedev}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Moroshkin}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Grobety}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Gordon}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Weis}},
+  \bibinfo{journal}{Journal of Low Temperature Physics}
+  \textbf{\bibinfo{volume}{165}}, \bibinfo{pages}{166} (\bibinfo{year}{2011}),
+  ISSN \bibinfo{issn}{1573-7357},
+  \urlprefix\url{https://doi.org/10.1007/s10909-011-0384-7}.
+
+\bibitem[{\citenamefont{Gomez et~al.}(2012)\citenamefont{Gomez, Loginov, and
+  Vilesov}}]{Gom12}
+\bibinfo{author}{\bibfnamefont{L.~F.} \bibnamefont{Gomez}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Loginov}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~F.} \bibnamefont{Vilesov}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{108}},
+  \bibinfo{pages}{155302} (\bibinfo{year}{2012}).
+
+\bibitem[{\citenamefont{Latimer et~al.}(2014)\citenamefont{Latimer, Spence,
+  Feng, Boatwright, Ellis, and Yang}}]{Lat14}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Latimer}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Spence}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Feng}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Boatwright}},
+  \bibinfo{author}{\bibfnamefont{A.~M.} \bibnamefont{Ellis}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Yang}},
+  \bibinfo{journal}{Nano Lett.} \textbf{\bibinfo{volume}{14}},
+  \bibinfo{pages}{2902} (\bibinfo{year}{2014}).
+
+\bibitem[{\citenamefont{Thaler et~al.}(2014)\citenamefont{Thaler, Volk,
+  Lackner, Steurer, Knez, Grogger, Hofer, and Ernst}}]{Tha14}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Thaler}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Volk}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Lackner}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Steurer}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Knez}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Grogger}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Hofer}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{Ernst}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{90}},
+  \bibinfo{pages}{155442} (\bibinfo{year}{2014}).
+
+\bibitem[{\citenamefont{Bewley et~al.}(2008)\citenamefont{Bewley, Paoletti,
+  Sreenivasan, and Lathrop}}]{Bewley2008}
+\bibinfo{author}{\bibfnamefont{G.~P.} \bibnamefont{Bewley}},
+  \bibinfo{author}{\bibfnamefont{M.~S.} \bibnamefont{Paoletti}},
+  \bibinfo{author}{\bibfnamefont{K.~R.} \bibnamefont{Sreenivasan}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{D.~P.}
+  \bibnamefont{Lathrop}}, \bibinfo{journal}{Proceedings of the National Academy
+  of Sciences} \textbf{\bibinfo{volume}{105}}, \bibinfo{pages}{13707}
+  (\bibinfo{year}{2008}), ISSN \bibinfo{issn}{0027-8424},
+  \eprint{http://www.pnas.org/content/105/37/13707.full.pdf},
+  \urlprefix\url{http://www.pnas.org/content/105/37/13707}.
+
+\bibitem[{\citenamefont{Hernando et~al.}(2012)\citenamefont{Hernando, Barranco,
+  Pi, Loginov, Langlet, and Drabbels}}]{Her12a}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hernando}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Loginov}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Langlet}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Drabbels}},
+  \bibinfo{journal}{Phys. Chem. Chem. Phys.} \textbf{\bibinfo{volume}{14}},
+  \bibinfo{pages}{3996} (\bibinfo{year}{2012}).
+
+\bibitem[{\citenamefont{Coppens et~al.}(2016)\citenamefont{Coppens, Leal,
+  Barranco, Halberstadt, and Pi}}]{Cop16}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Coppens}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Leal}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Halberstadt}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}},
+  \bibinfo{journal}{J. Low Temp. Phys.}  (\bibinfo{year}{2016}).
+
+\bibitem[{\citenamefont{Pí et~al.}(2017)\citenamefont{Pí, Ancilotto, Coppens,
+  Halberstadt, Hernando, Leal, Mateo, Mayol, and Barranco}}]{Pi2017}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pí}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Ancilotto}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Coppens}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Halberstadt}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hernando}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Leal}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Mateo}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Mayol}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \emph{\bibinfo{title}{4HeDFT BCN-TLS}} (\bibinfo{year}{2017}),
+  \urlprefix\url{https://github.com/bcntls2016/}.
+
+\bibitem[{\citenamefont{Leal et~al.}(2014{\natexlab{b}})\citenamefont{Leal,
+  Mateo, Hernando, Pi, Barranco, Ponti, Cargnoni, and Drabbels}}]{Lea14b}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Leal}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Mateo}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hernando}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Ponti}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Cargnoni}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Drabbels}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{90}},
+  \bibinfo{pages}{224518} (\bibinfo{year}{2014}{\natexlab{b}}).
+
+\bibitem[{\citenamefont{Pi et~al.}(2007)\citenamefont{Pi, Mayol, Hernando,
+  Barranco, and Ancilotto}}]{Pi07}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Mayol}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hernando}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Ancilotto}},
+  \bibinfo{journal}{J. Chem. Phys.} \textbf{\bibinfo{volume}{126}},
+  \bibinfo{pages}{244502} (\bibinfo{year}{2007}).
+
+\bibitem[{\citenamefont{Dalfovo et~al.}(2000)\citenamefont{Dalfovo, Mayol, Pi,
+  and Barranco}}]{Dal00}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Dalfovo}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Mayol}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{journal}{Phys. Rev. Lett} \textbf{\bibinfo{volume}{85}},
+  \bibinfo{pages}{1028} (\bibinfo{year}{2000}).
+
+\bibitem[{\citenamefont{Ancilotto et~al.}(2005)\citenamefont{Ancilotto,
+  Barranco, Caupin, Mayol, and Pi}}]{Anc05a}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Ancilotto}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Caupin}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Mayol}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}}, \bibinfo{journal}{Phys.
+  Rev. B} \textbf{\bibinfo{volume}{72}}, \bibinfo{pages}{214522}
+  (\bibinfo{year}{2005}).
+
+\bibitem[{\citenamefont{Williams and Packard}(1974)}]{Wil74}
+\bibinfo{author}{\bibfnamefont{G.~A.} \bibnamefont{Williams}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.~E.} \bibnamefont{Packard}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{33}},
+  \bibinfo{pages}{280} (\bibinfo{year}{1974}).
+
+\bibitem[{\citenamefont{Bernando et~al.}(2017)\citenamefont{Bernando, Mayro,
+  Tanyag, Jones, Bacellar, Bucher, Ferguson, Rupp, Ziemkiewicz, Gomez
+  et~al.}}]{Ber17}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Bernando}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Mayro}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Tanyag}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Jones}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Bacellar}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Bucher}},
+  \bibinfo{author}{\bibfnamefont{K.~R.} \bibnamefont{Ferguson}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Rupp}},
+  \bibinfo{author}{\bibfnamefont{M.~P.} \bibnamefont{Ziemkiewicz}},
+  \bibinfo{author}{\bibfnamefont{L.~F.} \bibnamefont{Gomez}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. B}
+  \textbf{\bibinfo{volume}{95}}, \bibinfo{pages}{064510}
+  (\bibinfo{year}{2017}).
+
+\bibitem[{\citenamefont{Pshenichnyuk and Berloff}(2016)}]{Psh16}
+\bibinfo{author}{\bibfnamefont{I.~A.} \bibnamefont{Pshenichnyuk}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{N.~G.}
+  \bibnamefont{Berloff}}, \bibinfo{journal}{Phys. Rev. B}
+  \textbf{\bibinfo{volume}{94}}, \bibinfo{pages}{184505}
+  (\bibinfo{year}{2016}).
 
 \end{thebibliography}
