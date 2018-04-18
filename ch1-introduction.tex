@@ -22,8 +22,8 @@
 
 		\begin{figure}[t]
 			\begin{center}
-				\includegraphics[width=0.495\textwidth]{phonon-roton-landau-first}
-				\includegraphics[width=0.495\textwidth]{phonon-roton-bogoliubov}
+				\includegraphics[width=0.490\textwidth]{phonon-roton-landau-first}\hspace{5pt}
+				\includegraphics[width=0.490\textwidth]{phonon-roton-bogoliubov}
 			\end{center}
 			\caption{Left: Lev Landau's 1941 energy dispersion curve\citep{Landau1941} for the excitations in liquid helium below $T_\lambda$. It exhibits a phonon- and a roton branch. The slope of the linear phonon branch corresponds to the velocity of sound. Right: Lev Landau's 1947 modified dispersion curve. The roton-branch is no longer a separate excitation branch but rather an extension of the phonon-branch. (Illustration courtesy of R.J. Donnelly\citep{Donnelly2009})}
 			\label{fig:phonon-roton}
@@ -113,7 +113,7 @@
 		\subsection{Landau's criterion for superfluidity}
 			\begin{figure}[t]
 				\begin{center}
-					\includegraphics[width=0.9\textwidth]{dispersion-relation}
+					\includegraphics[width=0.75\textwidth]{dispersion-relation}
 					\caption{Dispersion relation for elementary excitations in liquid $^4$He calculated as in  \cite{Mat10a}. `Basic' indicates the OT-DFT without the non-local kinetic energy correlation (KC) nor the back-flow (BF) terms; KC OT-DFT adds  to the basic OT-DFT the KC term; BF OT-DFT adds to the basic OT-DFT the BF term. The dots are the experimental data from \cite{Don81}. The Landau velocity $v_L = E(q)/(\hbar\,q)|_{min}$ obtained for each functional is  60.3 m/s (OT-DFT); 75.1 m/s (BF OT-DFT); 94.4 m/s (KC OT-DFT); 118 m/s (basic OT-DFT); and 57.5 (experiment).}
 					\label{fig:dispersion-relation}
 				\end{center}
@@ -149,8 +149,8 @@
 		\subsection{Rotation and vorticity in superfluids}\label{sec:rot-vort}
 			\begin{figure}[t]
 				\begin{center}
-					\includegraphics[width=0.5\textwidth]{vortex-xy}
-					\caption{Cross section of a $^4$He droplet through a symmetry plane. The droplet is made of 1000 atoms. Superimposed in cyan are the streamlines of the velocity field $\vec{v}_s$ for $s=1$. They are concentric circles, centred around the vortex core along the $z$-axis. The colour scale encodes for the density $\rho(r)$. The radius of the droplet is about 22\,\AA.}
+					\includegraphics[width=0.75\textwidth]{vortex-xy-inverted}
+					\caption{Cross section of a $^4$He droplet through a symmetry plane. The droplet is made of 1000 atoms. Superimposed are the streamlines of the velocity field $\vec{v}_s$ for $s=1$. They are concentric circles, centred around the vortex core along the $z$-axis. The grey scale represents the the number density $\rho(r)$ where darker means a higher value. The radius of the droplet is about 22\,\AA.}
 					\label{fig:vortex-xy}
 				\end{center}
 			\end{figure}
@@ -180,7 +180,7 @@
 			\begin{align}
 				\Psi_s(\vec{r}) = \sqrt{\rho(r)}\unit{e}^{is\varphi}, \label{eq:line-vortex}
 			\end{align}
-			with $s$ an integer. This is an eigenfunction of the angular momentum operator $\hat{L}_z$ with eigenvalue
+			with $s$, the angular momentum, an integer. This is an eigenfunction of the angular momentum operator $\hat{L}_z$ with eigenvalue
 			\begin{align}
 				\hat{L}_z \Psi_s(\vec{r}) &= \frac{\hbar}{i}\frac{\partial}{\partial\varphi}\Psi_s(\vec{r}) = \hbar s\Psi_s(\vec{r})
 			\end{align}
@@ -190,7 +190,7 @@
 					&= \hbar s \braket{\sqrt{N_0}\varphi_0} \\
 					&= N_0\hbar s
 			\end{align}
-			The angular momentum is quantised and proportional to the number of bosons in the BEC fraction/superfluid. We can calculate the velocity field
+			The angular momentum is quantised in units of $\hbar$ and proportional to the number of bosons in the BEC fraction/superfluid. We can calculate the velocity field
 			\begin{align}
 				\vec{v}_s = \frac{\hbar}{m}\grad{S} = \frac{\hbar}{m}\frac{s}{r}\,\vu*{\varphi}
 			\end{align}

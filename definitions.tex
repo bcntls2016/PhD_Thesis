@@ -12,6 +12,12 @@
 \definecolor{lightgray}{gray}{0.8}
 %\definecolor{niceBlue1}{RGB}{0,153,213} %% A nice blue
 \definecolor{niceBlue1}{RGB}{182,32,54} %% Toulouse Red
+\colorlet{activeColor}{niceBlue1}
+
+\captionsetup[table]{labelfont={bf,color=niceBlue1},name=Table}
+\captionsetup[figure]{labelfont={bf,color=niceBlue1},name=Figure}
+
+\setlength\heavyrulewidth{0.25ex}
 
 \newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
 \newcolumntype{R}{p{0.8\textwidth}}
@@ -32,7 +38,12 @@
 	\endgroup
 }
 
-\renewcommand{\contentsname}{Table of Contents}
+\newcommand{\eq}[1]{Eqn.~(\ref{#1})}		% \eq{label}   -->  Eqn. (3)
+\newcommand{\scn}[1]{Section~\ref{#1}}	% \scn{label}  -->  Section 1.2
+\newcommand{\fig}[1]{Fig.~\ref{#1}}		% \fig{label}  -->  Fig. 6
+\newcommand{\rf}[1]{Ref.~\citen{#1}}		% \rf{label}	   -->  Ref. [11]
+\newcommand{\rfs}[1]{Refs.~\citen{#1}}	% \rfs{label}  -->  Refs. [11,15,21-23]
+\newcommand{\tab}[1]{Table~\ref{#1}}		% \tab{label}  -->	Table 2.4
 
 %% Part, Chapter, Section and Subsection doc style definitions
 \titleformat{\part}[display]

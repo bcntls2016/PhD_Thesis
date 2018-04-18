@@ -1,83 +1,55 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
-A level-1 auxiliary file: titlepage.aux
-A level-1 auxiliary file: acks.aux
-A level-1 auxiliary file: abstract_en.aux
-A level-1 auxiliary file: abstract_fr.aux
-A level-1 auxiliary file: toc.aux
-A level-1 auxiliary file: lop/list_of_pubs.aux
 A level-1 auxiliary file: ch1-introduction.aux
-A level-1 auxiliary file: ch2-methods.aux
-A level-1 auxiliary file: ch3-intro-alkalies.aux
-A level-1 auxiliary file: ch4-results-alkalies.aux
-A level-1 auxiliary file: ch5-intro-quant_vort.aux
-A level-1 auxiliary file: ch6-results-head_on.aux
-A level-1 auxiliary file: ch7-results-capture.aux
-A level-1 auxiliary file: ch8-conclusions_outlook.aux
-A level-1 auxiliary file: appendix.aux
 A level-1 auxiliary file: biblography.aux
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: ../references.bib
-Database file #2: ../review_refs.bib
-Warning--I didn't find a database entry for "82"
-Warning--I didn't find a database entry for "Ancilotto1995"
-Warning--I didn't find a database entry for "Martinez2017"
-Warning--I didn't find a database entry for "Lea14"
-Warning--I didn't find a database entry for "ESI"
-Warning--I didn't find a database entry for "Whi98"
-Warning--I didn't find a database entry for "Tan86"
-Warning--I didn't find a database entry for "Vin61"
-Warning--I didn't find a database entry for "Sei94"
-Warning--I didn't find a database entry for "Boh75"
-Warning--I didn't find a database entry for "Rec01"
-Warning--I didn't find a database entry for "Guy15"
-Warning--I didn't find a database entry for "Cam79"
-Warning--I didn't find a database entry for "note"
+Database file #1: ../own_publications.bib
+Database file #2: ../references.bib
+Database file #3: ../review_refs.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--can't use both author and editor fields in Pita2016
-Warning--can't use both author and editor fields in Tan17
-You've used 109 entries,
+You've used 30 entries,
             3411 wiz_defined-function locations,
-            1911 strings with 27822 characters,
-and the built_in function-call counts, 83673 in all, are:
-= -- 4579
-> -- 3154
-< -- 440
-+ -- 2668
-- -- 772
-* -- 11863
-:= -- 8759
-add.period$ -- 109
-call.type$ -- 109
-change.case$ -- 443
-chr.to.int$ -- 105
-cite$ -- 111
-duplicate$ -- 7473
-empty$ -- 6848
-format.name$ -- 1877
-if$ -- 15718
-int.to.chr$ -- 11
-int.to.str$ -- 110
-missing$ -- 1159
-newline$ -- 342
-num.names$ -- 329
-pop$ -- 1951
+            1393 strings with 15312 characters,
+and the built_in function-call counts, 17464 in all, are:
+= -- 1096
+> -- 380
+< -- 75
++ -- 273
+- -- 96
+* -- 2315
+:= -- 2050
+add.period$ -- 30
+call.type$ -- 30
+change.case$ -- 124
+chr.to.int$ -- 33
+cite$ -- 31
+duplicate$ -- 1624
+empty$ -- 1562
+format.name$ -- 258
+if$ -- 3341
+int.to.chr$ -- 4
+int.to.str$ -- 31
+missing$ -- 264
+newline$ -- 105
+num.names$ -- 90
+pop$ -- 370
 preamble$ -- 1
-purify$ -- 436
+purify$ -- 120
 quote$ -- 0
-skip$ -- 2987
+skip$ -- 623
 stack$ -- 0
-substring$ -- 2563
-swap$ -- 6214
-text.length$ -- 391
+substring$ -- 633
+swap$ -- 1234
+text.length$ -- 49
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 648
-warning$ -- 2
-while$ -- 321
+type$ -- 178
+warning$ -- 1
+while$ -- 90
 width$ -- 0
-write$ -- 1180
-(There were 16 warnings)
+write$ -- 353
+(There was 1 warning)
