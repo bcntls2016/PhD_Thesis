@@ -4,7 +4,7 @@
 				One Functional to bring them all
 				and in a droplet bind them.}}{\textit{F.M.G.J. Coppens}}
 
-	\lettrine[lines=4,findent=3pt,nindent=0pt]{\color{niceBlue1}F}{rom} a theoretical point of view, superfluid helium must be considered as a high dimensional quantum system. Quantum Monte Carlo (QMC) \cite{Kro02} and direct quantum mechanical \cite{deL06,deL10,Agu13} calculations are the most accurate methods, but their computational demand quickly exceeds currently available computer resources when the number of helium atoms increases. Furthermore, QMC cannot describe dynamic evolution of superfluid helium in real time. To address these limitations, semi-empirical methods based on  density functional theory (DFT) formalism have been introduced \cite{Str87a,Str87b,Dal95}. DFT can be applied to much larger systems than QMC and allows for time-dependent formulation. As such, it offers a good compromise between accuracy and computational feasibility. The main drawback of DFT is that the exact energy functional is not known and must therefore be constructed in a semi-empirical manner. Moreover, doped helium droplets are limited to a mean-field description of the dopant-helium interaction. Nevertheless, DFT is the only method to date that can successfully reproduce results from a wide range of time-resolved experiments in superfluid helium, for realistic sizes compared to experimental conditions.
+	\lettrine[lines=4,findent=3pt,nindent=0pt]{\color{activeColor}F}{rom} a theoretical point of view, superfluid helium must be considered as a high dimensional quantum system. Quantum Monte Carlo (QMC) \cite{Kro02} and direct quantum mechanical \cite{deL06,deL10,Agu13} calculations are the most accurate methods, but their computational demand quickly exceeds currently available computer resources when the number of helium atoms increases. Furthermore, QMC cannot describe dynamic evolution of superfluid helium in real time. To address these limitations, semi-empirical methods based on  density functional theory (DFT) formalism have been introduced \cite{Str87a,Str87b,Dal95}. DFT can be applied to much larger systems than QMC and allows for time-dependent formulation. As such, it offers a good compromise between accuracy and computational feasibility. The main drawback of DFT is that the exact energy functional is not known and must therefore be constructed in a semi-empirical manner. Moreover, doped helium droplets are limited to a mean-field description of the dopant-helium interaction. Nevertheless, DFT is the only method to date that can successfully reproduce results from a wide range of time-resolved experiments in superfluid helium, for realistic sizes compared to experimental conditions.
 	
 	\section{The Kohn-Sham approach}	\label{sec:kohn-sham}
 		The starting point for the density functional method is the Hohenberg-Kohn (HK) theorem\cite{Hohenberg1964}, which states that the ground-state energy $E_v$ of an \emph{interacting inhomogeneous} system in a static potential $v$ can be written in as a unique functional of the one-body density $\rho$ like
@@ -65,7 +65,7 @@
 		\end{align}
 		The job now is to find an $\mathcal{E}_c$ such that the desired physical properties of helium can be recovered. This is far from trivial but several of these density functionals are available now. The one used in this work is discussed in \scn{sec:otdft}.
 	
-	\subsection{Time-dependent DFT}
+	\subsection{Time-dependent DFT}\label{sec:tddft}
 	To describe the time evolution of the system, the Runge-Gross theorem extends DFT to its time-dependent version TDDFT\citep{Run84}. The functional variation of the associated action (see \eq{eq:action} for an example) leads to the following time-dependent Euler-Lagrange (EL) equation 
 	\begin{align}
 		i\hbar\frac{\partial}{\partial t} \Psi(\vec{r},t) = \left\{-\frac{\hbar^2}{2m}\laplacian + \fdv{\mathcal{E}_c}{\rho}\right\}\Psi(\vec{r},t) \vcentcolon= \mathcal{H}\qty[\rho]\Psi(\vec{r},t) 
@@ -83,7 +83,7 @@
 	\section{The Orsay-Trento Density Functional}\label{sec:otdft}
 		\begin{table}
 			\caption{Model parameters for the OT-DFT and solid functionals.}\label{tab:ot-params}
-			\taburulecolor{niceBlue1}
+			\taburulecolor{activeColor}
 			\begin{tabu} to \textwidth {X[c]X[c]X[c]X[2c]X[2c]X[c]}
 				\toprule
 				$\epsilon_{LJ}$~(K)	& $\sigma$~(\AA) & $h$~(\AA) & $c_2$~(K~\AA$^6$) & $c_3$~(K~\AA$^9$) & $\alpha_s$~(\AA$^3$) \\
@@ -104,7 +104,7 @@
 		\begin{figure}[t]
 			\begin{center}
 				\includegraphics[width=0.75\textwidth]{static-response-function}
-				\caption{Static response $-\chi$ (see \rf{Dalfovo1995}, Eqn.~(11)) per atom of liquid $^4$He at zero pressure. Points: experimental data; dotted line: from the functional of \rfs{Str87a,Str87b}; dashed line: Orsay-Paris (OP) functional\citep{Dupont-Roc1990}; solid line: OT functional.}
+				\caption{Static response $-\chi$ (see\rf{Dalfovo1995}, Eqn.~(11)) per atom of liquid $^4$He at zero pressure. Points: experimental data; dotted line: from the functional of\rfs{Str87a,Str87b}; dashed line: Orsay-Paris (OP) functional\citep{Dupont-Roc1990}; solid line: OT functional.}
 				\label{fig:static-response-function}
 			\end{center}
 		\end{figure}
@@ -146,7 +146,7 @@
 		\end{align}
 		The density $\tilde{\rho}(\vec{r})$ is very close to the normal density $\rho(\vec{r})$ except in very inhomogeneous situations. For helium droplets and free helium surfaces one can safely use $\rho$ instead of $\tilde{\rho}$. In the presence of significant short-range density oscillations, e.g. in the presence of heavy atomic impurities as presented in this thesis or electrons, the helium density needs to be smoothed by the Gaussian kernel $F$.  
 			
-		Finally, the last line in \eq{eq:otf} is called the \emph{back-flow} term and influences the dynamic response of the system. It plays the role of a non-local kinetic energy. Since the back-flow contains the factor $\vec{v}-\vec{v'}$, as defined in \eq{eq:velocity-field} the contribution will only be non-zero whenever the effective wave function $\Psi$ is complex-valued. Consequently, for time-independent case it means that this will only affect the vortex states. The phenomenological effective current-current interaction $V_J(r)$ is calibrated so that it reproduces the experimental phonon-roton spectrum (see Fig. \ref{fig:dispersion-relation}):
+		Finally, the last line in \eq{eq:otf} is called the \emph{back-flow} term and influences the dynamic response of the system. It plays the role of a non-local kinetic energy. Since the back-flow contains the factor $\vec{v}-\vec{v'}$, as defined in \eq{eq:velocity-field} the contribution will only be non-zero whenever the effective wave function $\Psi$ is complex-valued. Consequently, for time-independent case it means that this will only affect the vortex states. The phenomenological effective current-current interaction $V_J(r)$ is calibrated so that it reproduces the experimental phonon-roton spectrum (see \fig{fig:dispersion-relation}):
 		\begin{align}
 			V_J(r) =\,&(\gamma_{11} +\gamma_{12} \, r^2) e^{-\alpha_1 r^2} \nonumber \\
 				+\,&(\gamma_{21} +\gamma_{22} \, r^2) e^{-\alpha_2 r^2}
@@ -221,7 +221,7 @@
 				\caption{Level splitting of the p-orbitals in the presence of helium, that breaks the spherical symmetry. (A)~A double degenerate n'p$_\mathrm{x/y}$-orbital and (B)~a single n'p$_\mathrm{z}$-orbital. (Illustration courtesy of M. Martinez\citep{Martinez2017}.)}
 				\label{fig:p-orbitals}
 			\end{figure}				
-			The situation becomes slightly more complicated for $n$s-states excited to $n'$p-states (effective one-electron excited $^2$P-states). Since the three p-orbitals are no longer spherically symmetric and start mixing due to the interaction with the He droplet, we also need to include a description that accounts for the mixing of these orbitals in a dynamic way. To do this we use the diatomic model\citep{Ellison1963} (DIM). The interaction between a helium atom ($^1$S$_0$-state) and the triple degenerate $L=1$ electronic state of the impurity partially lifts the degeneracy so that the interaction can be decomposed into a $\Sigma$-state and a double degenerate $\Pi$-state (see Fig. \ref{fig:p-orbitals}). In the cylindrical symmetry of the DIM it is customary to use the molecular term symbol $^{2S+1}\Lambda_\Omega$ to label the levels instead of $^{2S+1}L_J$. In the bound region of the potentials $S$ is the electronic spin angular momentum (and $2S+1$ the spin multiplicity), $\Lambda$ is the modulus of the electronic orbital angular momentum and $\Omega$ is the total electronic angular momentum, all projected along the internuclear axis. Or symbolically
+			The situation becomes slightly more complicated for $n$s-states excited to $n'$p-states (effective one-electron excited $^2$P-states). Since the three p-orbitals are no longer spherically symmetric and start mixing due to the interaction with the He droplet, we also need to include a description that accounts for the mixing of these orbitals in a dynamic way. To do this we use the diatomic model\citep{Ellison1963} (DIM). The interaction between a helium atom ($^1$S$_0$-state) and the triple degenerate $L=1$ electronic state of the impurity partially lifts the degeneracy so that the interaction can be decomposed into a $\Sigma$-state and a double degenerate $\Pi$-state (see \fig{fig:p-orbitals}). In the cylindrical symmetry of the DIM it is customary to use the molecular term symbol $^{2S+1}\Lambda_\Omega$ to label the levels instead of $^{2S+1}L_J$. In the bound region of the potentials $S$ is the electronic spin angular momentum (and $2S+1$ the spin multiplicity), $\Lambda$ is the modulus of the electronic orbital angular momentum and $\Omega$ is the total electronic angular momentum, all projected along the internuclear axis. Or symbolically
 			\begin{align}
 				\vec{J}=\vec{L}+\vec{S}\:\longrightarrow\:\vec{\Omega}=\vec{\Lambda}+\vec{S}.
 			\end{align}
@@ -229,7 +229,7 @@
 			\begin{align}
 				 \ket{p_{im}}\in\qty\big{\,\ket{p_{xm}}\!,\ket{p_{ym}}\!,\ket{p_{zm}}} \label{eq:dim-basis}
 			\end{align}
-			of real one-electron p-orbitals oriented along the internuclear axis (see Fig. \ref{fig:dim-axes}). The helium-impurity interaction matrix is given by
+			of real one-electron p-orbitals oriented along the internuclear axis (see \fig{fig:dim-axes}). The helium-impurity interaction matrix is given by
 			\begin{align}
 				\mathcal{V}^{DIM}(r_m) &= V_{\Pi}(r_m)\qty\big(\dyad{p_{xm}}+\dyad{p_{ym}})+V_{\Sigma}(r_m)\dyad{p_{zm}} \nonumber \\
 					&= V_{\Pi}(r_m)\qty\big(\mathbb{1}_3-\dyad{p_{zm}})+V_{\Sigma}(r_m)\dyad{p_{zm}} \nonumber \\
@@ -338,4 +338,4 @@
 				H_{ij} = U^{DIM}_{ij} = \int\!\rho(\vec{r})\,V^{DIM}_{ij}(\vec{r}-\vec{r}_I)\dd{\vec{r}}
 			\end{align}
 			
-			For the technical details about how this method is implemented the interested reader is directed to Ref. \citen{dft-guide}. For the collection of Fortran code that has been used to obtain the results presented here see Ref. \citen{Pi2017}. For the manuel to use the code, with included example calculations see Ref. \citen{Coppens2017}.
+			For the technical details about how this method is implemented the interested reader is directed to\rf{dft-guide}. For the collection of Fortran code that has been used to obtain the results presented here see\rf{Pi2017}. For the manuel to use the code, with included example calculations see\rf{Coppens2017}.

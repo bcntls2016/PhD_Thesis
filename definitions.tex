@@ -1,77 +1,99 @@
+%%% SOME NICE BLUES FROM LIGHT TO DARK
+\definecolor{niceBlue1}{RGB}{0,153,213}
+\definecolor{niceBlue2}{RGB}{16,117,175}
+\definecolor{niceBlue3}{RGB}{75,120,154}
+\definecolor{niceBlue4}{RGB}{59,88,116}
+%%% OFFICIAL TOULOUSE COLORS: http://www.univ-toulouse.fr/sites/default/files/charte_uftmp-2014.pdf
+\definecolor{OcreOrange}{RGB}{241,90,34}
+\definecolor{RougeFonce}{RGB}{184,33,51}
+\definecolor{RougeVif}{RGB}{238,45,36}
+\definecolor{OcreBrun}{RGB}{176,61,24}
+
+\colorlet{activeColor}{RougeFonce}
+
 \hypersetup{
 	colorlinks=true,
-	linkcolor=niceBlue1,
+	linkcolor=activeColor,
 	filecolor=magenta,      
-	urlcolor=niceBlue1,
-	citecolor=niceBlue1,
+	urlcolor=activeColor,
+	citecolor=activeColor,
 }\urlstyle{same}
 
 \setcitestyle{super}
 \graphicspath{{figures/}{lop/}}
 
-\definecolor{lightgray}{gray}{0.8}
-%\definecolor{niceBlue1}{RGB}{0,153,213} %% A nice blue
-\definecolor{niceBlue1}{RGB}{182,32,54} %% Toulouse Red
-\colorlet{activeColor}{niceBlue1}
-
-\captionsetup[table]{labelfont={bf,color=niceBlue1},name=Table}
-\captionsetup[figure]{labelfont={bf,color=niceBlue1},name=Figure}
+\captionsetup[table]{labelfont={bf,color=activeColor},name=Table}
+\captionsetup[figure]{labelfont={bf,color=activeColor},name=Figure}
 
 \setlength\heavyrulewidth{0.25ex}
 
 \newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
 \newcolumntype{R}{p{0.8\textwidth}}
 \newcolumntype{V}{>{\centering\arraybackslash}m{.4\linewidth}}
-\newcommand\VRule{\color{lightgray}\vrule width 1pt}
+\newcommand\VRule{\color{activeColor}\vrule width 1pt}
 
 \renewcommand{\vec}[1]{\bm{\mathrm{#1}}}
 \newcommand{\unit}[1]{\,\mathrm{#1}}
 \newcommand{\diff}[1]{\,\mathrm{d}{\vec{#1}}}
 
-%citen provides the reference number for a citation, not superscripted or bracketed
-\newcommand*{\citen}{}% generate error, if `\citen` is already in use
-\DeclareRobustCommand*{\citen}[1]{%
+\DeclareRobustCommand*{\citen}[1]{
 	\begingroup
-		\romannumeral-`\x % remove space at the beginning of \setcitestyle
-		\setcitestyle{numbers}%
-		\cite{#1}%
+		\romannumeral-`\x
+		\setcitestyle{numbers}
+		\cite{#1}$\!$
 	\endgroup
 }
 
-\newcommand{\eq}[1]{Eqn.~(\ref{#1})}		% \eq{label}   -->  Eqn. (3)
-\newcommand{\scn}[1]{Section~\ref{#1}}	% \scn{label}  -->  Section 1.2
-\newcommand{\fig}[1]{Fig.~\ref{#1}}		% \fig{label}  -->  Fig. 6
-\newcommand{\rf}[1]{Ref.~\citen{#1}}		% \rf{label}	   -->  Ref. [11]
-\newcommand{\rfs}[1]{Refs.~\citen{#1}}	% \rfs{label}  -->  Refs. [11,15,21-23]
-\newcommand{\tab}[1]{Table~\ref{#1}}		% \tab{label}  -->	Table 2.4
+%\DeclareRobustCommand*{\rf}[1]{
+%	\begingroup
+%		\romannumeral-`\x
+%		\setcitestyle{numbers}
+%		Ref.~\cite{#1}
+%	\endgroup
+%}
 
-%% Part, Chapter, Section and Subsection doc style definitions
+%\DeclareRobustCommand*{\rfs}[1]{
+%	\begingroup
+%		\romannumeral-`\x
+%		\setcitestyle{numbers}
+%		Refs.~\cite{#1}
+%	\endgroup
+%}
+
+\newcommand{\eq}[1]{Equation~(\ref{#1})}		% \eq{label}   -->  Equation (3)
+\newcommand{\scn}[1]{Section~\ref{#1}}		% \scn{label}  -->  Section 1.2
+\newcommand{\fig}[1]{Figure~\ref{#1}}		% \fig{label}  -->  Figure 1.3
+\newcommand{\rf}[1]{~Ref.$\!$\citen{#1}}		% \rf{label}	   -->  ~Ref. [11]
+\newcommand{\rfs}[1]{~Refs.$\!$\citen{#1}}	% \rfs{label}  -->  ~Refs. [11,15,21-23]
+\newcommand{\tab}[1]{Table~\ref{#1}}			% \tab{label}  -->	Table 2.4
+
+%%% Part, Chapter, Section and Subsection doc style definitions %%%
 \titleformat{\part}[display]
 	{\filcenter\bfseries}
 	{\fontsize{50}{60}\selectfont\textsc{\partname\nobreakspace\thepart}}
 	{0mm}
-	{\Huge\color{niceBlue1}\textsc}
+	{\Huge\color{activeColor}\textsc}
 
 \titleformat{\chapter}[display]
 	{\filleft}
 	{\fontsize{50}{60}\selectfont \thechapter}
 	{-20pt}
-	{\fontsize{30}{40}\selectfont\color{niceBlue1}\textsc}
+	{\fontsize{30}{40}\selectfont\color{activeColor}\textsc}
 %	\titlespacing{\chapter}{0pt}{0pt}{30pt}
 
 \titleformat{\section}[hang]
 	{\LARGE}
 	{\bfseries\thesection}
 	{12pt}
-	{\color{niceBlue1}\textsc}
+	{\color{activeColor}\textsc}
 
 \titleformat{\subsection}[hang]
 	{\Large}
 	{\bfseries\thesubsection}
 	{12pt}
-	{\color{niceBlue1}\textsc}
+	{\color{activeColor}\textsc}
 	
-%% Part, Chapter, Section and Subsection ToC style definitions
+%%% Part, Chapter, Section and Subsection ToC style definitions %%%
 \titlecontents{part}[0em]
 	{\vspace{2em}\bfseries\Large}
 	{\textsc{\partname\nobreakspace}\hspace{2em}\textcolor{black}{\contentslabel{2em}}\hspace{-0.5em}}

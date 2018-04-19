@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  18 APR 2018 11:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  19 APR 2018 15:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2235,12 +2235,11 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@lastruleclass=\count179
 \@thisrulewidth=\dimen278
 ) (./definitions.tex
-Package hyperref Info: Option `colorlinks' set `true' on input line 7.
+Package hyperref Info: Option `colorlinks' set `true' on input line 20.
 
 
-Package array Warning: Column V is already defined on input line 24.
+Package array Warning: Column V is already defined on input line 32.
 
-LaTeX Info: Redefining \citen on input line 33.
 )
 LaTeX Font Info:    Try loading font information for T1+zpltlf on input line 7.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/newpx/t1zpltlf.fd
@@ -2253,7 +2252,11 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 LaTeX Warning: Unused global option(s):
     [twosides].
 
-(/Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/ch1-introduction.aux) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/biblography.aux))
+(/Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/ch1-introduction.aux) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/ch2-methods.aux
+
+LaTeX Warning: Label `eq:el-static-hi' multiply defined.
+
+) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/ch3-intro-alkalies.aux) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/ch5-intro-quant_vort.aux) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/biblography.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 7.
@@ -2430,7 +2433,7 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 8.8pt on input line 2.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 2.
- <figures/specific-heat.png, id=48, 1019.30812pt x 813.53937pt>
+ <figures/specific-heat.png, id=96, 1019.30812pt x 813.53937pt>
 File: figures/specific-heat.png Graphic file (type png)
  <use figures/specific-heat.png>
 Package pdftex.def Info: figures/specific-heat.png used on input line 6.
@@ -2459,18 +2462,18 @@ Underfull \vbox (badness 8132) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/zpltlf/m/sl' will be
 (Font)              scaled to size 12.0pt on input line 18.
- [2 <./figures/specific-heat.png>] <figures/phonon-roton-landau-first.png, id=113, 1246.6575pt x 840.13875pt>
+ [2 <./figures/specific-heat.png>] <figures/phonon-roton-landau-first.png, id=161, 1246.6575pt x 840.13875pt>
 File: figures/phonon-roton-landau-first.png Graphic file (type png)
  <use figures/phonon-roton-landau-first.png>
 Package pdftex.def Info: figures/phonon-roton-landau-first.png used on input line 25.
 (pdftex.def)             Requested size: 221.95676pt x 149.57756pt.
- <figures/phonon-roton-bogoliubov.png, id=114, 1246.6575pt x 840.13875pt>
+ <figures/phonon-roton-bogoliubov.png, id=162, 1246.6575pt x 840.13875pt>
 File: figures/phonon-roton-bogoliubov.png Graphic file (type png)
  <use figures/phonon-roton-bogoliubov.png>
 Package pdftex.def Info: figures/phonon-roton-bogoliubov.png used on input line 26.
 (pdftex.def)             Requested size: 221.95676pt x 149.57756pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5939) has occurred while \output is active []
 
  [3 <./figures/phonon-roton-landau-first.png> <./figures/phonon-roton-bogoliubov.png>]
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
@@ -2504,61 +2507,122 @@ LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 7.3pt on input line 84.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 5.5pt on input line 84.
- [5]
-
-LaTeX Warning: Reference `sec:dft-method' on page 6 undefined on input line 100.
-
-<figures/dispersion-relation.pdf, id=166, 701.62125pt x 516.93124pt>
+ [5] <figures/dispersion-relation.pdf, id=216, 701.62125pt x 516.93124pt>
 File: figures/dispersion-relation.pdf Graphic file (type pdf)
  <use figures/dispersion-relation.pdf>
 Package pdftex.def Info: figures/dispersion-relation.pdf used on input line 116.
 (pdftex.def)             Requested size: 339.72592pt x 250.30118pt.
- [6]
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
-
- []
-
-[7 <./figures/dispersion-relation.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
-
- []
-
-<figures/vortex-xy-inverted.png, id=201, 240.9pt x 240.9pt>
-File: figures/vortex-xy-inverted.png Graphic file (type png)
- <use figures/vortex-xy-inverted.png>
-Package pdftex.def Info: figures/vortex-xy-inverted.png used on input line 152.
+ [6] [7 <./figures/dispersion-relation.pdf>] <figures/vortex-xy-inverted-color.png, id=252, 240.9pt x 240.9pt>
+File: figures/vortex-xy-inverted-color.png Graphic file (type png)
+ <use figures/vortex-xy-inverted-color.png>
+Package pdftex.def Info: figures/vortex-xy-inverted-color.png used on input line 152.
 (pdftex.def)             Requested size: 339.72592pt x 339.75725pt.
-
-
-LaTeX Warning: Reference `eq:td-el-equation' on page 8 undefined on input line 158.
-
-
-LaTeX Warning: Reference `sec:dft-method' on page 8 undefined on input line 158.
-
-[8]
-
-LaTeX Warning: Reference `sec:vortical-states' on page 9 undefined on input line 179.
-
-[9 <./figures/vortex-xy-inverted.png>]
+ [8] [9 <./figures/vortex-xy-inverted-color.png>]
 LaTeX Font Info:    Try loading font information for U+bbold on input line 203.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/bbold/Ubbold.fd) [10] [11] <figures/silver-filament.pdf, id=246, 123.04329pt x 93.15392pt>
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/bbold/Ubbold.fd) [10] [11] <figures/silver-filament.pdf, id=322, 123.04329pt x 93.15392pt>
 File: figures/silver-filament.pdf Graphic file (type pdf)
  <use figures/silver-filament.pdf>
 Package pdftex.def Info: figures/silver-filament.pdf used on input line 232.
 (pdftex.def)             Requested size: 339.72592pt x 257.22443pt.
-)
-Overfull \hbox (29.41939pt too wide) in paragraph at lines 240--18
-\T1/zpltlf/m/n/12 ested reader is re-ferred to the re-view pa-pers[JLTP.Vol142.Nos.1/2(2006), IRPC.Vol36No4.621-
+) [12 <./figures/silver-filament.pdf>]
+\openout2 = `ch2-methods.aux'.
+
+ (./ch2-methods.tex
+Chapter 2.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 6.1pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
+(Font)              scaled to size 6.1pt on input line 5.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 5.
+[13
+
+
+
+] [14] [15]
+Overfull \hbox (11.76694pt too wide) in paragraph at lines 101--101
+ []$\OML/npxmi/m/it/12 C$ \T1/zpltlf/m/n/12 (Hartree)| 
  []
 
-[12 <./figures/silver-filament.pdf>] [13]
-\openout2 = `biblography.aux'.
+<figures/static-response-function.png, id=434, 981.16562pt x 880.28876pt>
+File: figures/static-response-function.png Graphic file (type png)
+ <use figures/static-response-function.png>
+Package pdftex.def Info: figures/static-response-function.png used on input line 106.
+(pdftex.def)             Requested size: 339.72592pt x 304.78795pt.
+ [16] [17 <./figures/static-response-function.png>] [18] [19]
 
- (./biblography.tex (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.bbl [14
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 199.
+
+<figures/pxy-he.png, id=498, 1439.87938pt x 616.80438pt>
+File: figures/pxy-he.png Graphic file (type png)
+ <use figures/pxy-he.png>
+Package pdftex.def Info: figures/pxy-he.png used on input line 217.
+(pdftex.def)             Requested size: 203.83417pt x 87.31201pt.
+ <figures/pz-he.png, id=499, 1439.87938pt x 616.80438pt>
+File: figures/pz-he.png Graphic file (type png)
+ <use figures/pz-he.png>
+Package pdftex.def Info: figures/pz-he.png used on input line 219.
+(pdftex.def)             Requested size: 203.83417pt x 87.31201pt.
+ [20] [21 <./figures/pxy-he.png> <./figures/pz-he.png>] <figures/dim-axes.png, id=526, 1439.3775pt x 811.03pt>
+File: figures/dim-axes.png Graphic file (type png)
+ <use figures/dim-axes.png>
+Package pdftex.def Info: figures/dim-axes.png used on input line 266.
+(pdftex.def)             Requested size: 339.72592pt x 191.42122pt.
+ [22] [23 <./figures/dim-axes.png>]) [24]
+\openout2 = `ch3-intro-alkalies.aux'.
+
+ (./ch3-intro-alkalies.tex
+Chapter 3.
+[25
+
+
+
+] <figures/droplet-beam.png, id=611, 1360.08125pt x 902.37125pt>
+File: figures/droplet-beam.png Graphic file (type png)
+ <use figures/droplet-beam.png>
+Package pdftex.def Info: figures/droplet-beam.png used on input line 17.
+(pdftex.def)             Requested size: 452.9679pt x 300.52347pt.
+) [26 <./figures/droplet-beam.png>] [27]
+\openout2 = `ch5-intro-quant_vort.aux'.
+
+ (./ch5-intro-quant_vort.tex [28
 
 
 
 ]
+Chapter 4.
+LaTeX Font Info:    Try loading font information for TS1+zpltlf on input line 4.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
+File: ts1zpltlf.fd 2015/01/18 v1.0 fd file for TS1/zpltlf
+)
+LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 4.
+ <figures/vortex-machine.png, id=629, 1433.355pt x 407.5225pt>
+File: figures/vortex-machine.png Graphic file (type png)
+ <use figures/vortex-machine.png>
+Package pdftex.def Info: figures/vortex-machine.png used on input line 7.
+(pdftex.def)             Requested size: 452.9679pt x 128.78067pt.
+ [29] <figures/vortex-array.png, id=638, 442.2924pt x 133.4586pt>
+File: figures/vortex-array.png Graphic file (type png)
+ <use figures/vortex-array.png>
+Package pdftex.def Info: figures/vortex-array.png used on input line 17.
+(pdftex.def)             Requested size: 452.9679pt x 136.6819pt.
+) [30 <./figures/vortex-machine.png> <./figures/vortex-array.png>]
+\openout2 = `biblography.aux'.
+
+ (./biblography.tex (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 82--86
 []\T1/zpltlf/m/n/12 H. Kamer-lingh Onnes, KNAW, Pro-ceed-ings \T1/zpltlf/b/n/12 10\T1/zpltlf/m/n/12 , 744 (1908), URL
  []
@@ -2578,36 +2642,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--92
 [][]$\T1/zpltlf/m/n/12 http : / / www . dwc . knaw . nl / toegangen / digital-[]library-[]knaw / ?pagetype =
  []
 
-[15])) [16]
+[31
 
-Package caption Warning: Unused \captionsetup[table] on input line 17.
-See the caption package documentation for explanation.
 
+
+] [32] [33]
+Underfull \hbox (badness 10000) in paragraph at lines 509--513
+[][]$\T1/zpltlf/m/n/12 https : / / github . com / bcntls2016 / M2Report-[]M _ Martinez / blob / master / report /
+ []
+
+[34] [35])) [36]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
-(/Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/ch1-introduction.aux) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/biblography.aux))
+ (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/ch1-introduction.aux) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/ch2-methods.aux) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/ch3-intro-alkalies.aux) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/ch5-intro-quant_vort.aux) (/Users/fmgjcoppens/Developer/Notes/.texpadtmp/biblography.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21926 strings out of 492995
- 360342 string characters out of 6132704
- 444285 words of memory out of 5000000
- 24996 multiletter control sequences out of 15000+600000
- 131656 words of font info for 187 fonts, out of 8000000 for 9000
+ 22480 strings out of 492995
+ 369950 string characters out of 6132704
+ 456924 words of memory out of 5000000
+ 25361 multiletter control sequences out of 15000+600000
+ 158076 words of font info for 237 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,92p,10421b,496s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newpx/ecsups.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ecth-tlf.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/pxbsys.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/pxfonts/pxmia.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/pxfonts/rpxbmi.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplri.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplx-regular.pfb>
-Output written on /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.pdf (16 pages, 3096886 bytes).
+ 55i,19n,92p,10421b,646s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newpx/ecsups.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ecth-tlf.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/pxbsys.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/pxfonts/pxmia.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/pxfonts/rpxbmi.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplri.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/newpx/zplx-regular.pfb>
+Output written on /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.pdf (36 pages, 9745815 bytes).
 PDF statistics:
- 452 PDF objects out of 1000 (max. 8388607)
- 391 compressed objects within 4 object streams
- 102 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 928 PDF objects out of 1000 (max. 8388607)
+ 827 compressed objects within 9 object streams
+ 254 named destinations out of 1000 (max. 500000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 

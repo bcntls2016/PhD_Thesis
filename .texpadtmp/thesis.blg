@@ -2,6 +2,9 @@ This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
 A level-1 auxiliary file: ch1-introduction.aux
+A level-1 auxiliary file: ch2-methods.aux
+A level-1 auxiliary file: ch3-intro-alkalies.aux
+A level-1 auxiliary file: ch5-intro-quant_vort.aux
 A level-1 auxiliary file: biblography.aux
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -11,45 +14,46 @@ Database file #3: ../review_refs.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--can't use both author and editor fields in Pita2016
-You've used 30 entries,
+Warning--empty note in dft-guide
+You've used 91 entries,
             3411 wiz_defined-function locations,
-            1393 strings with 15312 characters,
-and the built_in function-call counts, 17464 in all, are:
-= -- 1096
-> -- 380
-< -- 75
-+ -- 273
-- -- 96
-* -- 2315
-:= -- 2050
-add.period$ -- 30
-call.type$ -- 30
-change.case$ -- 124
-chr.to.int$ -- 33
-cite$ -- 31
-duplicate$ -- 1624
-empty$ -- 1562
-format.name$ -- 258
-if$ -- 3341
-int.to.chr$ -- 4
-int.to.str$ -- 31
-missing$ -- 264
-newline$ -- 105
-num.names$ -- 90
-pop$ -- 370
+            1810 strings with 26058 characters,
+and the built_in function-call counts, 65242 in all, are:
+= -- 3691
+> -- 2263
+< -- 326
++ -- 1872
+- -- 554
+* -- 9224
+:= -- 7006
+add.period$ -- 91
+call.type$ -- 91
+change.case$ -- 370
+chr.to.int$ -- 87
+cite$ -- 93
+duplicate$ -- 5875
+empty$ -- 5417
+format.name$ -- 1375
+if$ -- 12263
+int.to.chr$ -- 11
+int.to.str$ -- 92
+missing$ -- 912
+newline$ -- 288
+num.names$ -- 275
+pop$ -- 1497
 preamble$ -- 1
-purify$ -- 120
+purify$ -- 364
 quote$ -- 0
-skip$ -- 623
+skip$ -- 2273
 stack$ -- 0
-substring$ -- 633
-swap$ -- 1234
-text.length$ -- 49
+substring$ -- 2012
+swap$ -- 4810
+text.length$ -- 279
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 178
-warning$ -- 1
-while$ -- 90
+type$ -- 542
+warning$ -- 2
+while$ -- 267
 width$ -- 0
-write$ -- 353
-(There was 1 warning)
+write$ -- 1019
+(There were 2 warnings)
