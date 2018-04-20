@@ -1,59 +1,81 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
+A level-1 auxiliary file: titlepage.aux
+A level-1 auxiliary file: acks.aux
+A level-1 auxiliary file: abstract_en.aux
+A level-1 auxiliary file: abstract_fr.aux
+A level-1 auxiliary file: toc.aux
+A level-1 auxiliary file: lop/list_of_pubs.aux
 A level-1 auxiliary file: ch1-introduction.aux
 A level-1 auxiliary file: ch2-methods.aux
 A level-1 auxiliary file: ch3-intro-alkalies.aux
-A level-1 auxiliary file: ch5-intro-quant_vort.aux
+A level-1 auxiliary file: ch4-img-exc-st-dyn.aux
+A level-1 auxiliary file: ch5-desorp-dyn-rbhe.aux
+A level-1 auxiliary file: ch6-potas-doped.aux
+A level-1 auxiliary file: ch7-intro-quant_vort.aux
+A level-1 auxiliary file: ch8-results-head_on.aux
+A level-1 auxiliary file: ch9-results-capture.aux
+A level-1 auxiliary file: ch10-conclusions_outlook.aux
+A level-1 auxiliary file: appendix.aux
 A level-1 auxiliary file: biblography.aux
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../own_publications.bib
 Database file #2: ../references.bib
 Database file #3: ../review_refs.bib
+Warning--I didn't find a database entry for "Tan86"
+Warning--I didn't find a database entry for "Vin61"
+Warning--I didn't find a database entry for "Sei94"
+Warning--I didn't find a database entry for "Boh75"
+Warning--I didn't find a database entry for "Rec01"
+Warning--I didn't find a database entry for "Guy15"
+Warning--I didn't find a database entry for "Cam79"
+Warning--I didn't find a database entry for "note"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--can't use both author and editor fields in Pita2016
 Warning--empty note in dft-guide
-You've used 91 entries,
+Warning--can't use both author and editor fields in Tan17
+You've used 138 entries,
             3411 wiz_defined-function locations,
-            1810 strings with 26058 characters,
-and the built_in function-call counts, 65242 in all, are:
-= -- 3691
-> -- 2263
-< -- 326
-+ -- 1872
-- -- 554
-* -- 9224
-:= -- 7006
-add.period$ -- 91
-call.type$ -- 91
-change.case$ -- 370
-chr.to.int$ -- 87
-cite$ -- 93
-duplicate$ -- 5875
-empty$ -- 5417
-format.name$ -- 1375
-if$ -- 12263
-int.to.chr$ -- 11
-int.to.str$ -- 92
-missing$ -- 912
-newline$ -- 288
-num.names$ -- 275
-pop$ -- 1497
+            2098 strings with 33839 characters,
+and the built_in function-call counts, 106446 in all, are:
+= -- 5801
+> -- 4052
+< -- 563
++ -- 3443
+- -- 992
+* -- 15213
+:= -- 11122
+add.period$ -- 138
+call.type$ -- 138
+change.case$ -- 559
+chr.to.int$ -- 127
+cite$ -- 141
+duplicate$ -- 9505
+empty$ -- 8683
+format.name$ -- 2406
+if$ -- 19948
+int.to.chr$ -- 18
+int.to.str$ -- 139
+missing$ -- 1475
+newline$ -- 429
+num.names$ -- 416
+pop$ -- 2439
 preamble$ -- 1
-purify$ -- 364
+purify$ -- 552
 quote$ -- 0
-skip$ -- 2273
+skip$ -- 3779
 stack$ -- 0
-substring$ -- 2012
-swap$ -- 4810
-text.length$ -- 279
+substring$ -- 3176
+swap$ -- 7950
+text.length$ -- 503
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 542
-warning$ -- 2
-while$ -- 267
+type$ -- 818
+warning$ -- 3
+while$ -- 405
 width$ -- 0
-write$ -- 1019
-(There were 2 warnings)
+write$ -- 1512
+(There were 11 warnings)
