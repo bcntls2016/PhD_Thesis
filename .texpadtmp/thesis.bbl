@@ -498,6 +498,12 @@
   Low Temp. Phys.} \textbf{\bibinfo{volume}{148}}, \bibinfo{pages}{731}
   (\bibinfo{year}{2007}).
 
+\bibitem[{\citenamefont{Martinez}(2017)}]{Martinez2017}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Martinez}}, Master's thesis,
+  \bibinfo{school}{Universit\'{e} Toulouse III Paul Sabatier}
+  (\bibinfo{year}{2017}),
+  \urlprefix\url{https://github.com/bcntls2016/M2Report-M_Martinez/blob/master/report/report.pdf}.
+
 \bibitem[{\citenamefont{Lehtovaara et~al.}(2007)\citenamefont{Lehtovaara,
   Toivanen, and Eloranta}}]{Lehtovaara2007}
 \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Lehtovaara}},
@@ -507,12 +513,6 @@
   \textbf{\bibinfo{volume}{221}}, \bibinfo{pages}{148} (\bibinfo{year}{2007}),
   ISSN \bibinfo{issn}{0021-9991},
   \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0021999106002798}.
-
-\bibitem[{\citenamefont{Martinez}(2017)}]{Martinez2017}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Martinez}}, Master's thesis,
-  \bibinfo{school}{Universit\'{e} Toulouse III Paul Sabatier}
-  (\bibinfo{year}{2017}),
-  \urlprefix\url{https://github.com/bcntls2016/M2Report-M_Martinez/blob/master/report/report.pdf}.
 
 \bibitem[{\citenamefont{Ellison}(1963)}]{Ellison1963}
 \bibinfo{author}{\bibfnamefont{F.~O.} \bibnamefont{Ellison}},

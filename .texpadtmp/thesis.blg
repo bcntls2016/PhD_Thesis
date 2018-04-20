@@ -2,7 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: /Users/fmgjcoppens/Developer/Notes/.texpadtmp/thesis.aux
 A level-1 auxiliary file: titlepage.aux
-A level-1 auxiliary file: acks.aux
 A level-1 auxiliary file: abstract_en.aux
 A level-1 auxiliary file: abstract_fr.aux
 A level-1 auxiliary file: toc.aux
@@ -16,7 +15,6 @@ A level-1 auxiliary file: ch6-potas-doped.aux
 A level-1 auxiliary file: ch7-intro-quant_vort.aux
 A level-1 auxiliary file: ch8-results-head_on.aux
 A level-1 auxiliary file: ch9-results-capture.aux
-A level-1 auxiliary file: ch10-conclusions_outlook.aux
 A level-1 auxiliary file: appendix.aux
 A level-1 auxiliary file: biblography.aux
 The style file: apsrev.bst
@@ -39,7 +37,7 @@ Warning--empty note in dft-guide
 Warning--can't use both author and editor fields in Tan17
 You've used 138 entries,
             3411 wiz_defined-function locations,
-            2098 strings with 33839 characters,
+            2096 strings with 33803 characters,
 and the built_in function-call counts, 106446 in all, are:
 = -- 5801
 > -- 4052

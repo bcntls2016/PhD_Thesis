@@ -144,9 +144,9 @@
 		\begin{align}
 			\tilde{\rho}(\vec{r}) \vcentcolon= \int\!F\qty(\abs{\vec{r}-\vec{r'}})\rho(\vec{r'})\diff{r'}
 		\end{align}
-		The density $\tilde{\rho}(\vec{r})$ is very close to the normal density $\rho(\vec{r})$ except in very inhomogeneous situations. For helium droplets and free helium surfaces one can safely use $\rho$ instead of $\tilde{\rho}$. In the presence of significant short-range density oscillations, e.g. in the presence of heavy atomic impurities as presented in this thesis or electrons, the helium density needs to be smoothed by the Gaussian kernel $F$.  
+		The density $\tilde{\rho}(\vec{r})$ is very close to the normal density $\rho(\vec{r})$ except in very inhomogeneous situations. For pure helium droplets and free helium surfaces one can safely use $\rho$ instead of $\tilde{\rho}$. In the presence of significant short-range density oscillations, e.g. in the presence of heavy atomic impurities as presented in this thesis or electrons, the helium density needs to be smoothed by the Gaussian kernel $F$.  
 			
-		Finally, the last line in \eq{eq:otf} is called the \emph{back-flow} term and influences the dynamic response of the system. It plays the role of a non-local kinetic energy. Since the back-flow contains the factor $\vec{v}-\vec{v'}$, as defined in \eq{eq:velocity-field} the contribution will only be non-zero whenever the effective wave function $\Psi$ is complex-valued. Consequently, for time-independent case it means that this will only affect the vortex states. The phenomenological effective current-current interaction $V_J(r)$ is calibrated so that it reproduces the experimental phonon-roton spectrum (see \fig{fig:dispersion-relation}):
+		Finally, the last line in \eq{eq:otf} is called the \emph{back-flow} term and influences the dynamic response of the system. It plays the role of a non-local kinetic energy. Since the back-flow contains the factor $\vec{v}-\vec{v'}$, with $\vec{v}$ defined in \eq{eq:velocity-field}, the contribution will only be non-zero whenever the effective wave function $\Psi$ is complex-valued. Consequently, for time-independent cases it means that this will only affect the vortex states. The phenomenological effective current-current interaction $V_J(r)$ is calibrated so that it reproduces the experimental phonon-roton spectrum (see \fig{fig:dispersion-relation}):
 		\begin{align}
 			V_J(r) =\,&(\gamma_{11} +\gamma_{12} \, r^2) e^{-\alpha_1 r^2} \nonumber \\
 				+\,&(\gamma_{21} +\gamma_{22} \, r^2) e^{-\alpha_2 r^2}
@@ -158,9 +158,9 @@
 			\begin{align}
 				\mathcal{E}^\mathrm{sol} \vcentcolon= C\rho(\vec{r})\qty{1+\tanh(\beta\qty[\rho(\vec{r})-\rho_\mathrm{m}])}
 			\end{align}
-			where the model parameters $\qty{C,\beta,\rho_\mathrm{m}}$ are specified in \tab{tab:ot-params}. Including this term in the OT-functional prevents excessive density build-up. $\mathcal{E}_\mathrm{sol}$ only starts to deviate from zero whenever the liquid density $\rho$ is comparable to $\rho_\mathrm{m}$ or larger. Therefore, inclusion of this term in the functional does not alter the density distribution. This penalty term was originally developed to account for the liquid-solid phase transition of $^4$He\citep{Anc05a,Cau07}. The functional that has been used to obtain the result presented in this work is refered to as the ``Solid-OT-DFT functional''. It consists of the first three terms of the original OT-functional \eq{eq:otf}, plus $E^\mathrm{sol}$
+			where the model parameters $\qty{C,\beta,\rho_\mathrm{m}}$ are specified in \tab{tab:ot-params}. Including this term in the OT-functional prevents excessive density build-up. $\mathcal{E}^\mathrm{sol}$ only starts to deviate from zero whenever the liquid density $\rho$ is comparable to $\rho_\mathrm{m}$ or larger. Therefore, inclusion of this term in the functional does not alter the density distribution. This penalty term was originally developed to account for the liquid-solid phase transition of $^4$He\citep{Anc05a,Cau07}. The functional that has been used to obtain the result presented in this work is refered to as the ``Solid-OT-DFT functional''. It consists of the first three terms of the original OT-functional \eq{eq:otf}, plus $\mathcal{E}^\mathrm{sol}$
 			\begin{align}
-				\mathcal{E}_c^{sol}[\rho] &=  
+				\mathcal{E}_c^\mathrm{sol}[\rho] &=  
 				\frac{1}{2} \left.\int \! \right\{\rho(\vec{r}) V_{LJ}(\abs{\vec{r}-\vec{r'}}) \rho(\vec{r'}) \nonumber \\
 				&+ \left.\frac{1}{2} c_2\, \rho(\vec{r}) \qty[\bar\rho(\vec{r})]^2 
 				+ \frac{1}{3} c_3 \, \rho(\vec{r}) \qty[\bar\rho(\vec{r})]^3\right\}\diff{r'} \nonumber \\
@@ -168,7 +168,7 @@
 			\end{align}
 
 	\section{Static calculations}
-		In the work presented here all the impurities are heavy compared to the mass of $^4$He, e.g. the mass of Rubidium is about 21 times larger than that of Helium, Xenon roughly 33 times and Argon about 10 times. Therefore we will treat the centre of mass motion of the impurities as classical. In the functional this will be modelled as an external field $V_X$, the impurity-He pair interaction
+		In the work presented here all the impurities are heavy compared to the mass of $^4$He, e.g. the mass of rubidium (Rb) is about 21 times larger than that of helium (He), xenon (Xe) roughly 33 times and argon (Ar) about 10 times. Therefore we are allowed to treat the centre of mass motion of the impurities as classical. It was also checked for potassium (K) which is slightly lighter than Ar\citep{Martinez2017}. In the functional this will be modelled as an external field $V_X$, the impurity-He pair interaction
 		\begin{align}
 			E[\rho] \rightarrow E[\rho] + \!\int\!\rho(\vec{r})\,V_X\qty(\abs{\vec{r}-\vec{r}_I})\diff{r} \label{eq:el-static-hi}
 		\end{align}
@@ -181,9 +181,9 @@
 		\subsection{Producing vortical states}\label{sec:vortical-states}
 			The helium density that minimises the energy of the vortical states $\Psi_s$ (\eq{eq:line-vortex}), introduced in \scn{sec:rot-vort}, can be obtained by solving the same EL-equation as for a vortex-free droplet. This becomes clearer when we write \eq{eq:el-equation} in cylindrical coordinates:
 			\begin{align}
-				\qty{-\frac{\hbar^2}{2m}\qty[\frac{1}{r}\pdv{r}\qty(r\pdv{r})-\frac{s^2}{r^2}]+\fdv{\mathcal{E}_c}{\rho}}\Psi_s(\vec{r}) = \mu\Psi_s(\vec{r}) \label{eq:el-cyl}
+				\qty{-\frac{\hbar^2}{2m_4}\qty[\frac{1}{r}\pdv{r}\qty(r\pdv{r})-\frac{s^2}{r^2}]+\fdv{\mathcal{E}_c}{\rho}}\Psi_s(\vec{r}) = \mu\Psi_s(\vec{r}) \label{eq:el-cyl}
 			\end{align}
-			Written like this it is evident that the ground state $\Psi_0$ is just the special case for $s=0$. Obtaining the solution using the ITM works as long as the solution has overlap with initial guess for the order parameter. Starting with a trial order parameter similar to $\Psi_s$ will guarantee this. To do this we use the ``imprinting'' technique where we use the ground state density of a previously obtained vortex-free droplet and multiply it with a normalised complex factor
+			Written like this it is evident that the ground state $\Psi_0$ is just the special case for $s=0$. Obtaining the solution using the ITM works as long as the solution has overlap with initial guess for the order parameter. Starting with a trial order parameter similar to $\Psi_s$ will guarantee this. To do this we apply the ``imprinting'' technique where we apply the ground state density of a previously obtained vortex-free droplet and multiply it with a normalised complex factor
 			\begin{align}
 				\Psi(\mathbf{r}) = \sqrt{\rho_0(\vec{r})} \,\times \frac{x + iy}{\sqrt{x^2 + y^2}} \label{eq28}
 			\end{align}
@@ -204,14 +204,14 @@
 		\begin{align}
 			E[\rho] \rightarrow E[\rho] + \frac{p^2_I}{2 m_I} + \int \! \rho(\mathbf{r}) \, V_{X^{\!*}}\qty(\abs{\vec{r}-\vec{r}_I})\diff{r} \label{eq33}
 		\end{align}
-		where $p_I$ is the classical momentum of the impurity, $m_I$ is the impurity mass and $V_{X^{\!*}}$ is the impurity-He pair interaction potential for an impurity in the ground-, excited $n'$s- or ionised state. The equations of motion for the time evolution of the effective wave function $\Psi\qty(\vec{r},t)$ and the second time derivative of the impurity location $\ddot{\vec{r}}_I$ are  
+		where $p_I$ is the classical momentum of the impurity (which was not present in the static case, \eq{eq:el-static-hi}), $m_I$ is the impurity mass and $V_{X^{\!*}}$ is the impurity-He pair interaction potential for an impurity in the ground-, excited $n'$s- or ionised state. The equations of motion for the time evolution of the effective wave function $\Psi\qty(\vec{r},t)$ and the second time derivative of the impurity location $\ddot{\vec{r}}_I$ are  
 		\begin{align}
 			i\hbar\frac{\partial}{\partial t} \Psi &= \qty[-\frac{\hbar^2}{2m_4} \laplacian +\frac{\delta {\cal E}_c}{\delta \rho} + V_{X^*}(|\mathbf{r}- \mathbf{r}_I|)]\Psi\nonumber\\
 			m_I \ddot{\mathbf{r}}_I &= - \grad_{\vec{r}_I} \left[  \int \!\rho(\mathbf{r}) V_{X^*}(|\mathbf{r}- \mathbf{r}_I|)\diff{r}  \right] \nonumber \\
 			&= -\int \! V_{X^*}(|\mathbf{r}- \mathbf{r}_I|)  \, \grad \rho(\mathbf{r})\diff{r} \label{eq34}
 		\end{align}
 	
-		\subsection{The Diatomic Model}\label{sec:dim-model}
+		\subsection{Diatomics in Molecules}\label{sec:dim-model}
 			\begin{figure}[t]
 				\begin{center}
 					\includegraphics[width=0.45\textwidth]{pxy-he}
@@ -221,11 +221,11 @@
 				\caption{Level splitting of the p-orbitals in the presence of helium, that breaks the spherical symmetry. (A)~A double degenerate n'p$_\mathrm{x/y}$-orbital and (B)~a single n'p$_\mathrm{z}$-orbital. (Illustration courtesy of M. Martinez\citep{Martinez2017}.)}
 				\label{fig:p-orbitals}
 			\end{figure}				
-			The situation becomes slightly more complicated for $n$s-states excited to $n'$p-states (effective one-electron excited $^2$P-states). Since the three p-orbitals are no longer spherically symmetric and start mixing due to the interaction with the He droplet, we also need to include a description that accounts for the mixing of these orbitals in a dynamic way. To do this we use the diatomic model\citep{Ellison1963} (DIM). The interaction between a helium atom ($^1$S$_0$-state) and the triple degenerate $L=1$ electronic state of the impurity partially lifts the degeneracy so that the interaction can be decomposed into a $\Sigma$-state and a double degenerate $\Pi$-state (see \fig{fig:p-orbitals}). In the cylindrical symmetry of the DIM it is customary to use the molecular term symbol $^{2S+1}\Lambda_\Omega$ to label the levels instead of $^{2S+1}L_J$. In the bound region of the potentials $S$ is the electronic spin angular momentum (and $2S+1$ the spin multiplicity), $\Lambda$ is the modulus of the electronic orbital angular momentum and $\Omega$ is the total electronic angular momentum, all projected along the internuclear axis. Or symbolically
+			The situation becomes slightly more complicated for $n$s-states excited to $n'$p-states (effective one-electron excited $^2$P-states). Since the three p-orbitals are no longer spherically symmetric and start mixing due to the interaction with the He droplet and spin-orbit coupling, we also need to include a description that accounts for the mixing of these orbitals in a dynamic way. To do this we use Diatomics in Molecules\citep{Ellison1963}(DIM). The interaction between a helium atom ($^1$S$_0$-state) and the triply degenerate $L=1$ electronic state of the impurity partially lifts the degeneracy so that the interaction can be decomposed into a $\Sigma$-state and a doubly degenerate $\Pi$-state (see \fig{fig:p-orbitals}). In the cylindrical symmetry it is customary to use the molecular term symbol $^{2S+1}\Lambda_\Omega$ to label the levels. In the bound region of the potentials $S$ is the electronic spin angular momentum (and $2S+1$ the spin multiplicity), $\Lambda$ is the quantum number for the projection of the electronic orbital angular momentum and $\Omega$ is the total electronic angular momentum, along the internuclear axis. Or symbolically
 			\begin{align}
-				\vec{J}=\vec{L}+\vec{S}\:\longrightarrow\:\vec{\Omega}=\vec{\Lambda}+\vec{S}.
+				m_j=m_l+m_s\:\longrightarrow\:\Omega=\Lambda+m_s
 			\end{align}
-			 Following the spectroscopic notation the orbitals corresponding to $\Lambda=0,1,2,3,\ldots$ are labeled $\Sigma,\Pi,\Delta,\Phi,\ldots$. The interaction between a helium atom and the impurity's electronic structure can be expressed in an uncoupled basis
+			 Following the spectroscopic notation the orbitals corresponding to $\Lambda=0,1,2,3,\ldots$ are labeled $\Sigma,\Pi,\Delta,\Phi,\ldots$. The state vector of the impurity interacting with a He atom can be expressed in an uncoupled basis
 			\begin{align}
 				 \ket{p_{im}}\in\qty\big{\,\ket{p_{xm}}\!,\ket{p_{ym}}\!,\ket{p_{zm}}} \label{eq:dim-basis}
 			\end{align}
@@ -255,12 +255,12 @@
 			\begin{align}
 				V^{DIM}_{ij}(r_m) \vcentcolon= V_\Pi(r_m)\delta_{ij}+\qty\Big[V_\Sigma(r_m)-V_\Pi(r_m)]\frac{r_{im}\,r_{jm}}{\norm{\vec{r}_m}^2} \label{eq:vdim}
 			\end{align}
-			are the matrix elements of $\mathcal{V}^{DIM}$ expressed in the common basis. Since we are working with a continuous helium density $\rho(\vec{r})$ and not with discrete atoms the summation over $N$ helium atoms in the previous expression is replaced by an integral over the density $\sum_m\rightarrow\int\!\rho(\vec{r})\diff{r}$. This finally gives for the matrix element $U^{DIM}_{ij}$
+			are the matrix elements of $\mathcal{V}^{DIM}$ expressed in the common basis. Since we are working with a continuous helium density $\rho(\vec{r})$ and not with discrete atoms, the summation over $N$ helium atoms in the previous expression is replaced by an integral over the density $\sum_m\rightarrow\int\!\rho(\vec{r})\diff{r}$. Here we dropped the subscript $m$, representing the $m^\mathrm{th}$ helium atom. This finally gives for the matrix element $U^{DIM}_{ij}$
 			\begin{align}
 				U^{DIM}_{ij}(\vec{r}_I) = \int\! \rho\qty(\vec{r}+\vec{r}_I)\,V^{DIM}_{ij}(r)\diff{r} \label{eq:u-dim}
 			\end{align}
 			
-			The eigenvalues $U^{\mathrm{np}}_k(\vec{r}_I)$ of this real symmetric matrix define the potential energy curves (PECs) without spin-orbit coupling as a function of the distance between the surrounding helium and the impurity.
+			The eigenvalues $U^{\mathrm{np}}_k(\vec{r}_I)$ of this real symmetric matrix define the potential energy curves (PECs) without spin-orbit coupling as a function of the distance between the surrounding helium and the impurity for a given helium density.
 			\begin{figure}[t]
 				\begin{center}
 					\includegraphics[width=0.75\textwidth]{dim-axes}
@@ -280,7 +280,7 @@
 			\begin{align}
 				\mathcal{V}^{SO}=g\vec{L}\vdot\vec{S} = \frac{1}{2}g\qty(\vec{J}^2-\vec{L}^2-\vec{S}^2)
 			\end{align}
-			The coupling constant $A_{\ell s}$ is usually approximated by that of the free atom \cite{Jak97}. We can extend the DIM basis \eq{eq:dim-basis} to include the projection of the electron spin $s=\qty{\uparrow,\downarrow}$ corresponding to the quantum numbers $m_s=\qty{\frac{1}{2},-\frac{1}{2}}$:
+			The coupling constant $g$ is usually approximated by that of the free atom \cite{Jak97}. We can extend the DIM basis \eq{eq:dim-basis} to include the projection of the electron spin $s=\qty{\uparrow,\downarrow}$ corresponding to the quantum numbers $m_s=\qty{\frac{1}{2},-\frac{1}{2}}$:
 			\begin{align}
 				\ket{p_i,s}\in\qty\big{\,\ket{p_x,\uparrow}\!,\ket{p_x,\downarrow}\!,\ket{p_y,\uparrow}\!,\ket{p_y,\downarrow}\!,\ket{p_z,\uparrow}\!,\ket{p_z,\downarrow}}.
 			\end{align}
@@ -288,7 +288,7 @@
 			\begin{align}
 				\mathcal{V}^{SO} = \frac{1}{2}g\mqty*(0&0&-i&0&0&1\\0&0&0&i&-1&0\\i&0&0&0&0&-i\\0&-i&0&0&-i&0\\0&-1&0&i&0&0\\1&0&i&0&0&0)
 			\end{align}
-			Kramers' theorem states that the two-fold degeneracy of the levels originating from total half-integer spin cannot be broken by electrostatic interactions \cite{Nak01}. Therefore all the electronic eigenstates of $\mathcal{H}$ are doubly degenerate. Diagonalising $\mathcal{H}$ yields three doubly degenerate PECs between the impurity and surrounding helium.
+			Kramers' theorem states that the two-fold degeneracy of the levels originating from total half-integer spin cannot be broken by electrostatic interactions \cite{Nak01}. Therefore all the electronic eigenstates of $\mathcal{H}$ are doubly degenerate. Diagonalising $\mathcal{H}$ yields three doubly degenerate potential energies between the impurity and surrounding helium.
 			
 			The dynamic evolution of the electronic excited state of the impurity is described by introducing an additional degree of freedom, a 6-component vector $\ket\lambda$, which describes the coefficients of the electronic state in the $\qty{\ket{p_i,s}}$ basis
 			\begin{align}
