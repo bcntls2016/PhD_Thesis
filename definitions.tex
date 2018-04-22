@@ -1,4 +1,7 @@
-%\setmainfont{Merriweather}
+\setmainfont[Ligatures=TeX]{Guardian Egyptian Text}
+\hyphenpenalty=1000
+\tolerance=500
+\spacing{1.2}
 
 %%% SOME NICE BLUES FROM LIGHT TO DARK
 \definecolor{niceBlue1}{RGB}{0,153,213}
@@ -10,13 +13,11 @@
 \definecolor{RougeFonce}{RGB}{184,33,51}
 \definecolor{RougeVif}{RGB}{238,45,36}
 \definecolor{OcreBrun}{RGB}{176,61,24}
-
-\colorlet{activeColor}{RougeFonce}
+\colorlet{activeColor}{niceBlue2}
 
 \hypersetup{
 	colorlinks=true,
 	linkcolor=activeColor,
-	filecolor=magenta,      
 	urlcolor=activeColor,
 	citecolor=activeColor,
 }\urlstyle{same}
@@ -33,7 +34,6 @@
 \newcolumntype{R}{p{0.8\textwidth}}
 \newcolumntype{V}{>{\centering\arraybackslash}m{.4\linewidth}}
 \newcommand\VRule{\color{activeColor}\vrule width 1pt}
-
 \renewcommand{\vec}[1]{\bm{\mathrm{#1}}}
 \newcommand{\unit}[1]{\,\mathrm{#1}}
 \newcommand{\diff}[1]{\,\mathrm{d}{\vec{#1}}}
@@ -46,80 +46,67 @@
 	\endgroup
 }
 
-%\DeclareRobustCommand*{\rf}[1]{
-%	\begingroup
-%		\romannumeral-`\x
-%		\setcitestyle{numbers}
-%		Ref.~\cite{#1}
-%	\endgroup
-%}
-
-%\DeclareRobustCommand*{\rfs}[1]{
-%	\begingroup
-%		\romannumeral-`\x
-%		\setcitestyle{numbers}
-%		Refs.~\cite{#1}
-%	\endgroup
-%}
-
-\newcommand{\eq}[1]{Equation~(\ref{#1})}		% \eq{label}   -->  Equation (3)
-\newcommand{\scn}[1]{Section~\ref{#1}}		% \scn{label}  -->  Section 1.2
-\newcommand{\fig}[1]{Figure~\ref{#1}}		% \fig{label}  -->  Figure 1.3
-\newcommand{\rf}[1]{~Ref.$\!$\citen{#1}}		% \rf{label}	   -->  ~Ref. [11]
-\newcommand{\rfs}[1]{~Refs.$\!$\citen{#1}}	% \rfs{label}  -->  ~Refs. [11,15,21-23]
-\newcommand{\tab}[1]{Table~\ref{#1}}			% \tab{label}  -->	Table 2.4
+\newcommand{\eq}[1]{Equation~(\ref{#1})}	   % \eq{label}  --> Equation (3)
+\newcommand{\scn}[1]{Section~\ref{#1}}	   % \scn{label} --> Section 1.2
+\newcommand{\fig}[1]{Figure~\ref{#1}}	   % \fig{label} --> Figure 1.3
+\newcommand{\rf}[1]{~Ref.$\!$\citen{#1}}	   % \rf{label}  --> ~Ref. [11]
+\newcommand{\rfs}[1]{~Refs.$\!$\citen{#1}} % \rfs{label} --> ~Refs. [11,15,21-23]
+\newcommand{\tab}[1]{Table~\ref{#1}}		   % \tab{label} --> Table 2.4
 
 %%% Part, Chapter, Section and Subsection doc style definitions %%%
+\newfontfamily\headlinefont{Guardian Weekend Titlepiece}
+\newfontfamily\subsectionfont{Guardian Egyptian Text Medium}
+
 \titleformat{\part}[display]
-	{\filcenter\bfseries}
-	{\fontsize{50}{60}\selectfont\textsc{\partname\nobreakspace\thepart}}
+	{\headlinefont\filcenter}
+	{\fontsize{50}{60}\selectfont\partname\nobreakspace\thepart}
 	{0mm}
-	{\Huge\color{activeColor}\textsc}
+	{\color{activeColor}\Huge}
 
 \titleformat{\chapter}[display]
-	{\filleft}
-	{\fontsize{50}{60}\selectfont \thechapter}
+	{\headlinefont\filleft}
+	{\fontsize{50}{60}\selectfont\thechapter}
 	{-20pt}
-	{\fontsize{30}{40}\selectfont\color{activeColor}\textsc}
+	{\fontsize{30}{40}\selectfont\color{activeColor}}
 %	\titlespacing{\chapter}{0pt}{0pt}{30pt}
 
 \titleformat{\section}[hang]
-	{\LARGE}
-	{\bfseries\thesection}
+	{\headlinefont\LARGE}
+	{\thesection}
 	{12pt}
-	{\color{activeColor}\textsc}
+	{\color{activeColor}}
 
 \titleformat{\subsection}[hang]
-	{\Large}
-	{\bfseries\thesubsection}
+	{\subsectionfont\Large}
+	{\thesubsection}
 	{12pt}
-	{\color{activeColor}\textsc}
+	{\color{activeColor}}
 	
 %%% Part, Chapter, Section and Subsection ToC style definitions %%%
 \titlecontents{part}[0em]
 	{\vspace{2em}\bfseries\Large}
-	{\textsc{\partname\nobreakspace}\hspace{2em}\textcolor{black}{\contentslabel{2em}}\hspace{-0.5em}}
-	{\hspace{2em}}
+	{\textsc{\partname\nobreakspace}\hspace{2em}{\contentslabel{2em}}\hspace{-0.5em}}
+	{\textsc{\partname\nobreakspace}\hspace{2em}{\contentslabel{2em}}\hspace{-0.5em}}
 	{\titlerule*[0.7em]{ }\rmfamily\upshape\contentspage}
 	[]
 
 \titlecontents{chapter}[0em]
-	{\vspace*{1em}\bfseries}
-	{\hspace*{2em}\textcolor{black}{\contentslabel{2em}}}
-	{\hspace*{2em}\textcolor{black}{\contentslabel{2em}}}
+	{\vspace*{1em}\bfseries\color{activeColor}}
+	{\hspace*{1.75em}{\contentslabel{1.75em}}}
+	{\hspace*{1.75em}{\contentslabel{1.75em}}}
 	{\titlerule*[0.7em]{ }\rmfamily\upshape\contentspage}
 	[]
 
-\titlecontents{section}[2em]
+\titlecontents{section}[1.75em]
 	{\rmfamily}
-	{\hspace*{2em}\textcolor{black}{\contentslabel{2em}}}
-	{\hspace*{2em}}
+	{\hspace*{2.55em}{\contentslabel{2.55em}}}
+	{\hspace*{2.55em}{\contentslabel{2.55em}}}
 	{\titlerule*[0.7em]{.}\rmfamily\upshape\contentspage}
 	[]
 
-\titlecontents{subsection}[5em]
+\titlecontents{subsection}[4.3em]
 	{\rmfamily}
-	{\hspace*{2em}\textcolor{black}{\contentslabel{3em}}}
-	{\hspace*{2em}}
+	{\hspace*{3em}{\contentslabel{3em}}}
+	{\hspace*{3em}{\contentslabel{3em}}}
 	{\titlerule*[0.7em]{.}\rmfamily\upshape\contentspage}
 	[]
