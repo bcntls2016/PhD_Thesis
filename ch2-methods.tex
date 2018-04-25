@@ -4,7 +4,7 @@
 				One Functional to bring them all
 				and in a droplet bind them.}}{\textit{F.M.G.J. Coppens}}
 
-	\lettrine[lines=4,findent=3pt,nindent=0pt]{\color{activeColor}F}{rom} a theoretical point of view, superfluid helium must be considered as a high dimensional quantum system. Quantum Monte Carlo (QMC) \citep{Kro02} and direct quantum mechanical \citep{deL06,deL10,Agu13} calculations are the most accurate methods, but their computational demand quickly exceeds currently available computer resources when the number of helium atoms increases. Furthermore, QMC cannot describe dynamic evolution of superfluid helium in real time. To address these limitations, semi-empirical methods based on  density functional theory (DFT) formalism have been introduced\citep{Str87a,Str87b,Dal95}. DFT can be applied to much larger systems than QMC and allows for time-dependent formulation. As such, it offers a good compromise between accuracy and computational feasibility. The main drawback of DFT is that the exact energy functional is not known and must therefore be constructed in a semi-empirical manner. Moreover, doped helium droplets are limited to a mean-field description of the dopant-helium interaction. Nevertheless, DFT is the only method to date that can successfully reproduce results from a wide range of time-resolved experiments in superfluid helium, for realistic sizes compared to experimental conditions.
+	\lettrine[lines=4]{\color{activeColor}F}{rom} a theoretical point of view, superfluid helium must be considered as a high dimensional quantum system. Quantum Monte Carlo\citep{Kro02} (QMC) and direct quantum mechanical \citep{deL06,deL10,Agu13} calculations are the most accurate methods, but their computational demand quickly exceeds currently available computer resources when the number of helium atoms increases. Furthermore, QMC cannot describe dynamic evolution of superfluid helium in real time. To address these limitations, semi-empirical methods based on  density functional theory (DFT) formalism have been introduced\citep{Str87a,Str87b,Dal95}. DFT can be applied to much larger systems than QMC and allows for time-dependent formulation. As such, it offers a good compromise between accuracy and computational feasibility. The main drawback of DFT is that the exact energy functional is not known and must therefore be constructed in a semi-empirical manner. Moreover, doped helium droplets are limited to a mean-field description of the dopant-helium interaction. Nevertheless, DFT is the only method to date that can successfully reproduce results from a wide range of time-resolved experiments in superfluid helium, for realistic sizes compared to experimental conditions.
 	
 	\section{The Kohn-Sham approach}	\label{sec:kohn-sham}
 		The starting point for the density functional method is the Hohenberg-Kohn (HK) theorem\citep{Hohenberg1964}, which states that the ground-state energy $E_v$ of an \emph{interacting inhomogeneous} system in a static potential $v$ can be written in as a unique functional of the one-body density $\rho$ as
@@ -66,7 +66,7 @@
 		The difficult job is to design a functional $\mathcal{E}_c$ such that the desired physical properties of helium can be recovered. This is far from trivial but several of these density functionals are available now. The one used in this work is discussed in \scn{sec:otdft}.
 	
 	\subsection{Time-dependent DFT}\label{sec:tddft}
-	To describe the time evolution of the system, the Runge-Gross theorem extends DFT to its time-dependent version TDDFT\citep{Run84}. The functional variation of the associated action (see \eq{eq:action} for an example) leads to the following time-dependent Euler-Lagrange (EL) equation 
+		To describe the time evolution of the system, the Runge-Gross theorem extends DFT to its time-dependent version TDDFT\citep{Run84}. The functional variation of the associated action (see \eq{eq:action} for an example) leads to the following time-dependent Euler-Lagrange (EL) equation 
 	\begin{align}
 		i\hbar\frac{\partial}{\partial t} \Psi(\vec{r},t) = \left\{-\frac{\hbar^2}{2m_4}\laplacian + \fdv{\mathcal{E}_c}{\rho}\right\}\Psi(\vec{r},t) \vcentcolon= \mathcal{H}\qty[\rho]\Psi(\vec{r},t) 
 		\label{eq:td-el-equation}
@@ -80,7 +80,7 @@
 	\end{align}
 	with $\mu$ the chemical potential. Solving this equation by iteration will result in the ground state density $\abs{\Psi_0}^2$ of the system. Within the HK-framework and the variation principle that was used to obtain these EL-equations, the nature of the minimisation is such that it gives the lowest energy for a given symmetry. This means that as long as the input state does not break the symmetry of the time-independent EL-equation, it minimises the energy of this state even if it does not lead to the ground state. This can be used to obtain a stationary vortex-line solution. With the inclusion of appropriate constraints in the energy functional the same procedure can be used to obtain helium densities with an array of vortex-lines.
 
-	\section{The Orsay-Trento Density Functional}\label{sec:otdft}
+	\section{The Orsay-Trento Density Functional}\label{sec:otdft}	
 		\begin{table}
 			\caption{Model parameters for the OT-DFT and solid functionals.}\label{tab:ot-params}
 			\taburulecolor{activeColor}
@@ -108,7 +108,7 @@
 				\label{fig:static-response-function}
 			\end{center}
 		\end{figure}
-	
+		
 		The functional that is used in the work presented in this thesis is based on the Orsay-Trento (OT) functional\citep{Dalfovo1995}. It uses a finite-range, non-local approach and it is, to date the most accurate model in the sense that its parameters were fitted to reproduce the bulk properties of liquid helium at $T=0=P$. It is written as
 		\begin{align}
 			\mathcal{E}_c[\rho ,\vec{v}] &=  
@@ -118,6 +118,7 @@
 			&- \frac{\hbar^2}{4m_4} \alpha_s \int \! F(|{\bf r}-{\bf r'}|) \left[ 1- \frac{{\tilde \rho}({\bf r})}{\rho_{0s}} \right]\grad{\rho({\bf r})} \cdot \grad{\rho({\bf r'})} \left[ 1- \frac{{\tilde \rho}({\bf r'})}{\rho_{0s}} \right]\diff{r'} \nonumber \\
 			& - \frac{m_4}{4} \int \! V_J(| \mathbf{r} - \mathbf{r}'|)\, \rho(\mathbf{r}) \, \rho(\mathbf{r}')\,  [\mathbf{v}(\mathbf{r})-\mathbf{v}(\mathbf{r}')]^2\diff{r'} \label{eq:otf}
 		\end{align}
+
 		The first term corresponds to a classical Lennard-Jones type two-body interaction between helium atoms. The interaction is screened at short distances where the interaction energy is of the same order as the correlation effects:
 		\begin{align}
 			V_{LJ}(r) = \begin{cases}
@@ -174,18 +175,22 @@
 		\end{align}
 		where ${\vec r}_I$ is the location of the impurity. Varying the modified functional to minimise the energy one now finds a new EL-equation in which the helium--impurity interaction is included:
 		\begin{align}
-			\left\{-\frac{\hbar^2}{2m_4} \laplacian + \fdv{\mathcal{E}_c}{\rho} + V_X(|{\mathbf r} - {\mathbf r_I}|)\right\}\Psi({\mathbf r}) = \mu \Psi({\mathbf r}) \label{eq:el-static-hi}
+			\left\{-\frac{\hbar^2}{2m_4} \laplacian + \fdv{\mathcal{E}_c}{\rho} + V_X(|{\mathbf r} - {\mathbf r_I}|)\right\}\Psi({\mathbf r}) = \mu \Psi({\mathbf r})
 		\end{align}
 		This equation is then solved by iteration in a self-consistent way by the imaginary time propagation method\citep{Lehtovaara2007} (ITM) in cartesian coordinates. The calculations are performed in three dimensions without imposing any symmetries that are present in the external potential. All the quantities are discretised on an evenly spaced Cartesian grid with a step-size that is typically of the order of 0.4~\AA. The differential operators are evaluated using a $k$-point finite difference method where in most applications $k=13$ is sufficiently accurate. The integrals in the density-functional can be expressed as convolutions and can therefore be evaluated in momentum-space by exploiting the convolution theorem, using proprietary highly optimised parallel Fast Fourier Transform algorithms. 
 			
 		\subsection{Producing vortical states}\label{sec:vortical-states}
-			The helium density that minimises the energy of the vortical states $\Psi_s$ (\eq{eq:line-vortex}), introduced in \scn{sec:rot-vort}, can be obtained by solving the same EL-equation as for a vortex-free droplet. This becomes clearer when we write \eq{eq:el-equation} in cylindrical coordinates:
+			The helium density that minimises the energy of the vortical states $\Psi_s$
 			\begin{align}
-				\qty{-\frac{\hbar^2}{2m_4}\qty[\frac{1}{r}\pdv{r}\qty(r\pdv{r})-\frac{s^2}{r^2}]+\fdv{\mathcal{E}_c}{\rho}}\Psi_s(\vec{r}) = \mu\Psi_s(\vec{r}) \label{eq:el-cyl}
+				\Psi_s(\vec{r}) = \sqrt{\rho(r,z)}\unit{e}^{is\varphi}
+			\end{align} 
+			introduced in \scn{sec:rot-vort}, can be obtained by solving the same EL-equation as for a vortex-free droplet. This becomes clearer when we write \eq{eq:el-equation} in cylindrical coordinates:
+			\begin{align}
+				\qty{-\frac{\hbar^2}{2m_4}\qty[\frac{1}{r}\pdv{r}\qty(r\pdv{r})-\frac{s^2}{r^2}+\pdv[2]{z}]+\fdv{\mathcal{E}_c}{\rho}}\Psi_s(\vec{r}) = \mu\Psi_s(\vec{r}) \label{eq:el-cyl}
 			\end{align}
 			Written like this it is evident that the ground state $\Psi_0$ is just the special case for $s=0$. Obtaining the solution using the ITM works as long as the solution has overlap with initial guess for the order parameter. Starting with a trial order parameter similar to $\Psi_s$ will guarantee this. To do this we apply the ``imprinting'' technique where we apply the ground state density of a previously obtained vortex-free droplet and multiply it with a normalised complex factor
 			\begin{align}
-				\Psi(\mathbf{r}) = \sqrt{\rho_0(\vec{r})} \,\times \frac{x + iy}{\sqrt{x^2 + y^2}} \label{eq28}
+				\Psi(\mathbf{r}) = \sqrt{\rho_0(x,y,z)} \,\times \frac{x + iy}{\sqrt{x^2 + y^2}} \label{eq28}
 			\end{align}
 			where $\rho_0$ is the ground state density of the vortex-droplet.  In cylindrical coordinates this factor is equivalent to the one in \eq{eq:line-vortex} for $s=1$. 
 			
@@ -195,16 +200,16 @@
 			\end{align}
 			 such that for a suitable choice of $\Omega$ the vortex-array solution becomes favourable to the ground state and also to excited states with angular momentum $s\geq 2$. Since these states are no longer eigenstates of the original time-dependent Hamiltonian, these states are no longer stationary and will start to rotate with frequency $\Omega$. The initial guess for a droplet with $n_v$ vortices can be produced using the same imprinting method as mentioned before		
 			\begin{align}
-				\Psi(\mathbf{r})=\sqrt{\rho_0(\vec{r})} \times \prod _{j=1}^{n_v}\left[ {(x-x_j)+i(y-y_j) \over \sqrt{(x-x_j)^2+(y-y_j)^2}}  \right] \label{eq32}
+				\Psi(\mathbf{r})=\sqrt{\rho_0(x,y,z)} \times \prod _{j=1}^{n_v}\left[ {(x-x_j)+i(y-y_j) \over \sqrt{(x-x_j)^2+(y-y_j)^2}}  \right] \label{eq32}
 			\end{align}
 			where $\rho_0$ is again the ground state density of the vortex-free droplet and $(x_j,y_j)$ is the initial position of the $j$-th vortex-line parallel to the $z$-axis.
 
 	\section{Dynamic calculations}\label{sec:td-dft}
 		For the dynamic evolution of atomic impurities excited from $n$s-states to $n'$s-states, we do not need to keep track of the evolution of the electronic state of the impurity since it keeps its spherically symmetric orbital. In this case we only need to describe the time evolution of the centre of mass coordinate of the impurity. As in the statics, because of the large atomic mass of the impurity compared to helium, the time evolution of the centre of mass coordinate of the impurity is treated classically. To obtain the correct energy for the whole droplet-impurity system the energy functional needs to be extended to include the impurities centre of mass motion and the impurity-helium interaction
 		\begin{align}
-			E[\rho] \rightarrow E[\rho] + \frac{p^2_I}{2 m_I} + \int \! \rho(\mathbf{r}) \, V_{X^{\!*}}\qty(\abs{\vec{r}-\vec{r}_I})\diff{r} \label{eq33}
+			E[\rho] \rightarrow E[\rho] + \frac{1}{2}m_I\dot{\vec{r}}^2_I + \int \! \rho(\vec{r}) \, V_{X^{\!*}}\qty(\abs{\vec{r}-\vec{r}_I})\diff{r} \label{eq33}
 		\end{align}
-		where $p_I$ is the classical momentum of the impurity (which was not present in the static case, \eq{eq:el-static-hi}), $m_I$ is the impurity mass and $V_{X^{\!*}}$ is the impurity-He pair interaction potential for an impurity in the ground-, excited $n'$s- or ionised state. The equations of motion for the time evolution of the effective wave function $\Psi\qty(\vec{r},t)$ and the second time derivative of the impurity location $\ddot{\vec{r}}_I$ are  
+		where the second term on the right is the classical kinetic energy of the impurity (which was not present in the static case, \eq{eq:el-static-hi}), $\dot{\vec{r}}_I$ is the time derivative of the impurity location, $m_I$ is the impurity mass and $V_{X^{\!*}}$ is the impurity-He pair interaction potential for an impurity in the ground-, excited $n'$s- or ionised state. The equations of motion for the time evolution of the effective wave function $\Psi\qty(\vec{r},t)$ and the second time derivative of the impurity location $\ddot{\vec{r}}_I$ are  
 		\begin{align}
 			i\hbar\frac{\partial}{\partial t} \Psi &= \qty[-\frac{\hbar^2}{2m_4} \laplacian +\frac{\delta {\cal E}_c}{\delta \rho} + V_{X^*}(|\mathbf{r}- \mathbf{r}_I|)]\Psi\nonumber\\
 			m_I \ddot{\mathbf{r}}_I &= - \grad_{\vec{r}_I} \left[  \int \!\rho(\mathbf{r}) V_{X^*}(|\mathbf{r}- \mathbf{r}_I|)\diff{r}  \right] \nonumber \\
@@ -221,7 +226,7 @@
 				\caption{Level splitting of the p-orbitals in the presence of helium, that breaks the spherical symmetry. (A)~A double degenerate n'p$_\mathrm{x/y}$-orbital and (B)~a single n'p$_\mathrm{z}$-orbital. (Illustration courtesy of M. Martinez\citep{Martinez2017}.)}
 				\label{fig:p-orbitals}
 			\end{figure}				
-			The situation becomes slightly more complicated for $n$s-states excited to $n'$p-states (effective one-electron excited $^2$P-states). Since the three p-orbitals are no longer spherically symmetric and start mixing due to the interaction with the He droplet and spin-orbit coupling, we also need to include a description that accounts for the mixing of these orbitals in a dynamic way. To do this we use Diatomics in Molecules\citep{Ellison1963}(DIM). The interaction between a helium atom ($^1$S$_0$-state) and the triply degenerate $L=1$ electronic state of the impurity partially lifts the degeneracy so that the interaction can be decomposed into a $\Sigma$-state and a doubly degenerate $\Pi$-state (see \fig{fig:p-orbitals}). In the cylindrical symmetry it is customary to use the molecular term symbol $^{2S+1}\Lambda_\Omega$ to label the levels. In the bound region of the potentials $S$ is the electronic spin angular momentum (and $2S+1$ the spin multiplicity), $\Lambda$ is the quantum number for the projection of the electronic orbital angular momentum and $\Omega$ is the total electronic angular momentum, along the internuclear axis. Or symbolically
+			The situation becomes more complicated for $n$s-states excited to $n'$p-states (effective one-electron excited $^2$P-states). Since the three p-orbitals are no longer spherically symmetric and start mixing due to the interaction with the He droplet and spin-orbit coupling, we also need to include a description that accounts for the mixing of these orbitals in a dynamic way. To do this we use Diatomics in Molecules\citep{Ellison1963}(DIM). The interaction between a helium atom ($^1$S$_0$-state) and the triply degenerate $L=1$ electronic state of the impurity partially lifts the degeneracy so that the interaction can be decomposed into a $\Sigma$-state and a doubly degenerate $\Pi$-state (see \fig{fig:p-orbitals}). In the cylindrical symmetry it is customary to use the molecular term symbol $^{2S+1}\Lambda_\Omega$ to label the levels. In the bound region of the potentials $S$ is the electronic spin angular momentum (and $2S+1$ the spin multiplicity), $\Lambda$ is the quantum number for the projection of the electronic orbital angular momentum and $\Omega$ is the total electronic angular momentum, along the internuclear axis. Or symbolically
 			\begin{align}
 				m_j=m_l+m_s\:\longrightarrow\:\Omega=\Lambda+m_s
 			\end{align}
@@ -298,11 +303,10 @@
 			system consists of the complex valued effective wave function for helium $\Psi(\mathbf{r}, t)$ with
 			$\rho(\mathbf{r}, t) = |\Psi(\mathbf{r}, t)|^2$, the impurity position $\mathbf{r}_I(t)$, and the 6-dimensional complex vector to determine 
 			its electronic wave function $|\lambda(t)\rangle$. The total energy of the impurity-$^4$He$_N$ complex after excitation to the $^2$P manifold is
-
 			\begin{align}
-				E[\Psi, \vec{r}_I, \lambda] &= \frac{\hbar^2}{2m}\int\!\abs{\grad \Psi}^2\diff{r}
+				E[\Psi, \vec{r}_I, \lambda] &= \frac{\hbar^2}{2m_4}\int\!\abs{\grad \Psi}^2\diff{r}
 				+ \int\!{\cal E}_c[\rho]\diff{r} \nonumber \\
-				&+ \frac{p^2_I}{2 m_I}
+				&+ \frac{1}{2} m_I \dot{\vec{r}}^2_I
 				+ \int\!\rho(\vec{r})\,V_\lambda(\vec{r}-\vec{r}_I)\diff{r}
 				+ \ev**{\mathcal{V}^{SO}}{\lambda}
 			\end{align}
@@ -310,22 +314,22 @@
 			\begin{align}
 				V_\lambda(\vec{r}) \vcentcolon= \ev{\mathcal{V}^{DIM}}{\lambda} = \sum_{ijss'}\lambda^*_{is}V^{DIM}_{ijss'}(\vec{r})\lambda_{js'} 
 			\end{align}
-			and the components of the $6\times6$ matrix ${\mathcal V}^{DIM}$ given by
+			and the components of the 6$\times$6 matrix ${\mathcal V}^{DIM}$ given by
 			\begin{equation}
 				V^{DIM}_{ijss'}(\vec{r})=V^{DIM}_{ij}\delta_{ss'}=\qty{V_\Pi(r)\delta_{ij}+\qty\big[V_\Sigma(r)-V_\Pi(r)]\frac{r_i\,r_j}{\norm{\vec{r}_m}^2}}\delta_{ss'}
 			\end{equation}
 			The time evolution of the system is obtained by minimising the following action
 			\begin{align}
-				A[\Psi,\vec{r}_I,\lambda] = \int\!\bigg\{E[\Psi,\vec{r}_I,\lambda] -&i\hbar\int \!\Psi^*(\vec{r}) \pdv{t}\Psi(\vec{r})\dd{\vec{r}} \nonumber \\
-				-&i\hbar\ev**{\pdv{t}}{\lambda} - \frac{1}{2} m_I \dot{\vec{r}}^2_I\bigg\}\dd{t} \label{eq:action}
+				\mathcal{A}[\Psi,\vec{r}_I,\lambda] = \int\!\bigg\{&i\hbar\int \!\Psi^*(\vec{r}) \pdv{t}\Psi(\vec{r})\dd{\vec{r}} + m_I\dot{\vec{r}}^2_I \nonumber \\
+				+&i\hbar\ev**{\pdv{t}}{\lambda} -E[\Psi,\vec{r}_I,\lambda]\bigg\}\dd{t} \label{eq:action}
 			\end{align}
-			Variation of the action $A$ with respect to $\qty\big{\Psi^*\!,\,\bra\lambda\!,\,\vec{r}_I}$ yields the following three coupled EL-equations
+			Variation of the action $\mathcal{A}$ with respect to $\qty\big{\Psi^*\!,\,\bra\lambda\!,\,\vec{r}_I}$ yields the following three coupled EL-equations
 			\begin{align}
-				i\hbar\pdv{t}\Psi &= \qty[-\frac{\hbar^2}{2m}\laplacian +\fdv{\mathcal{E}_c}{\rho(\mathbf{r})} + V_\lambda(\vec{r}-\vec{r}_I)]\Psi \nonumber \\
+				i\hbar\pdv{t}\Psi &= \qty[-\frac{\hbar^2}{2m_4}\laplacian +\fdv{\mathcal{E}_c}{\rho(\mathbf{r})} + V_\lambda(\vec{r}-\vec{r}_I)]\Psi \nonumber \\
 				i\hbar\pdv{t}\ket\lambda  &= \mathcal{H}\ket\lambda \nonumber \\
 				m_I\ddot{\vec{r}}_I &= - \grad_{\vec{r}_I}\qty[\int\!\rho(\vec{r})\,V_\lambda(\vec{r}-\vec{r}_I)\dd{\vec{r}}] = -\!\int\!V_\lambda(\vec{r}-\vec{r}_I)\,\grad\rho(\vec{r})\dd{\vec{r}} \label{eq:dyn-el}
 			\end{align}
-			where the explicit time dependence of the variables is omitted for clarity. The second line of \eq{eq:dyn-el} is a $6\times 6$ matrix equation with the matrix elements of $\mathcal{H}$ given by
+			where the explicit time dependence of the variables is omitted for clarity. The second line of \eq{eq:dyn-el} is a 6$\times$6 matrix equation with the matrix elements of $\mathcal{H}$ given by
 			\begin{align}
 				H_{ijss'} = U^{DIM}_{ijss'}+V^{SO}_{ijss'} = \int\!\rho(\vec{r})\,V^{DIM}_{ijss'}(\vec{r}-\vec{r}_I)\dd{\vec{r}}+V^{SO}_{ijss'}
 			\end{align}
@@ -333,9 +337,9 @@
 			\begin{align}
 				\ket{\lambda(t)} = \!\sum_{i=\{x,y,z\}} \!\lambda_{i}(t) \ket{p_i}
 			\end{align}
-			and the $6\times6$ matrix $\mathcal{H}$ reduces to the $3\times 3$ matrix of \eq{eq:u-dim} with elements
+			and the 6$\times$6 matrix $\mathcal{H}$ reduces to the 3$\times$3 matrix of \eq{eq:u-dim} with elements
 			\begin{align}
 				H_{ij} = U^{DIM}_{ij} = \int\!\rho(\vec{r})\,V^{DIM}_{ij}(\vec{r}-\vec{r}_I)\dd{\vec{r}}
 			\end{align}
 			
-			For the technical details about how this method is implemented the interested reader is directed to\rf{dft-guide}. For the collection of Fortran code that has been used to obtain the results presented here see\rf{Pi2017}. For the manuel to use the code, with included example calculations see\rf{Coppens2017}.
+			For the technical details about how this method is implemented the interested reader is directed to\rf{dft-guide}. For the collection of Fortran code that has been used to obtain the results presented here see\rf{Pi2017}. For the manual to use the code, with included example calculations see\rf{Coppens2017}.

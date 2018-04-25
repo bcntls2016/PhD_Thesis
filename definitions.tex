@@ -1,7 +1,12 @@
-\setmainfont[Ligatures=TeX]{Guardian Egyptian Text}
+\geometry{top=1in,bottom=1in,left=1in,right=1in}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Guardian Egyptian Text}
+\setsansfont{Guardian Sans Text}
+\newfontfamily\headlinefont{Guardian Weekend Titlepiece}
+\newfontfamily\subsectionfont{Guardian Egyptian Text Medium}
 \hyphenpenalty=1000
 \tolerance=500
-\spacing{1.2}
+\linespread{1.3}
 
 %%% SOME NICE BLUES FROM LIGHT TO DARK
 \definecolor{niceBlue1}{RGB}{0,153,213}
@@ -54,9 +59,6 @@
 \newcommand{\tab}[1]{Table~\ref{#1}}		   % \tab{label} --> Table 2.4
 
 %%% Part, Chapter, Section and Subsection doc style definitions %%%
-\newfontfamily\headlinefont{Guardian Weekend Titlepiece}
-\newfontfamily\subsectionfont{Guardian Egyptian Text Medium}
-
 \titleformat{\part}[display]
 	{\headlinefont\filcenter}
 	{\fontsize{50}{60}\selectfont\partname\nobreakspace\thepart}
@@ -68,19 +70,21 @@
 	{\fontsize{50}{60}\selectfont\thechapter}
 	{-20pt}
 	{\fontsize{30}{40}\selectfont\color{activeColor}}
-%	\titlespacing{\chapter}{0pt}{0pt}{30pt}
+\titlespacing{\chapter}{0pt}{0pt}{30pt}
 
 \titleformat{\section}[hang]
 	{\headlinefont\LARGE}
 	{\thesection}
 	{12pt}
 	{\color{activeColor}}
+\titlespacing{\section}{0em}{\baselineskip}{0ex}
 
 \titleformat{\subsection}[hang]
 	{\subsectionfont\Large}
 	{\thesubsection}
 	{12pt}
 	{\color{activeColor}}
+\titlespacing{\subsection}{0em}{\baselineskip}{0ex}
 	
 %%% Part, Chapter, Section and Subsection ToC style definitions %%%
 \titlecontents{part}[0em]
