@@ -1,0 +1,46 @@
+\nobreakspace {}\hfill \textbf {Page}\par 
+\contentsline {chapter}{Title page}{i}{Doc-Start}
+\contentsline {chapter}{Acknowledgements}{iii}{chapter*.1}
+\contentsline {chapter}{Abstract}{v}{chapter*.2}
+\contentsline {chapter}{Résumé}{vii}{chapter*.3}
+\contentsline {chapter}{Table of Contents}{ix}{chapter*.3}
+\contentsline {chapter}{List of Publications}{xi}{chapter*.5}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}A brief history of superfluidity}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Some key concepts}{3}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Bose-Einstein condensation and long-range order}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Bogolyubov's approximation}{5}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Landau's criterion for superfluidity}{7}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Rotation and vorticity in superfluids}{8}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Helium droplets}{11}{section.1.3}
+\contentsline {chapter}{\numberline {2}The DFT method for heavy impurities}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Kohn-Sham approach}{16}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Time-dependent DFT}{17}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}The Orsay-Trento Density Functional}{18}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The Solid-OT Density Functional}{20}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Static calculations}{21}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Producing vortical states}{22}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Dynamic calculations}{23}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Diatomics in Molecules}{23}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Including spin-orbit coupling}{25}{subsection.2.4.2}
+\nobreakspace {}\hfill \par 
+\contentsline {part}{\numberline {I}Photo-excitation dynamics of alkalis}{29}{part.1}
+\contentsline {chapter}{\numberline {3}Alkali-doped nanodroplets}{31}{chapter.3}
+\contentsline {chapter}{\numberline {4}Imaging Excited-State Dynamics}{35}{chapter.4}
+\contentsline {chapter}{\numberline {5}Desorption dynamics of RbHe exciplexes}{43}{chapter.5}
+\contentsline {chapter}{\numberline {6}Supervised work: potassium-doped nanodroplets}{59}{chapter.6}
+\contentsline {part}{\numberline {II}Capture by quantised vortices}{61}{part.2}
+\contentsline {chapter}{\numberline {7}Quantised vortices in droplets}{63}{chapter.7}
+\contentsline {chapter}{\numberline {8}Head-on collisions of Xe and Cs}{65}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{65}{section.8.1}
+\contentsline {section}{\numberline {8.2}Results}{66}{section.8.2}
+\contentsline {chapter}{\numberline {9}Capture by He droplets hosting quantised vortices}{73}{chapter.9}
+\contentsline {section}{\numberline {9.1}Introduction}{73}{section.9.1}
+\contentsline {section}{\numberline {9.2}Xe capture by vortex-free droplets}{79}{section.9.2}
+\contentsline {section}{\numberline {9.3}Helium droplets hosting vortex lines}{81}{section.9.3}
+\contentsline {section}{\numberline {9.4}Dynamics of Xe and Ar capture by vortex lines}{84}{section.9.4}
+\contentsline {section}{\numberline {9.5}Vortex arrays in $^4$He droplets doped with Ar atoms}{86}{section.9.5}
+\contentsline {chapter}{\numberline {10}To conclude}{99}{chapter.10}
+\contentsline {chapter}{\numberline {A}Angular velocity and angular momentum}{103}{appendix.A}
+\contentsline {chapter}{Bibliography}{107}{equation.A.0.3}
+\contentsfinish 

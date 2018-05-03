@@ -114,3 +114,21 @@
 	{\hspace*{3em}{\contentslabel{3em}}}
 	{\titlerule*[0.7em]{.}\rmfamily\upshape\contentspage}
 	[]
+
+\renewcommand*\footnoterule{%
+    \vspace*{-3pt}%
+    {\color{activeColor}\hrule width 0.5\textwidth height 0.4pt}%
+    \vspace*{2.6pt}%
+}
+
+\pagestyle{fancy}
+	\renewcommand{\chaptermark}[1]{
+		\markboth{\subsectionfont\itshape\thechapter\hspace{0.5em}\color{activeColor}#1}{}}
+	\renewcommand{\sectionmark}[1]{
+		\markright{\subsectionfont\thesection\hspace{0.5em}{\color{activeColor}#1}}}
+	\fancyhead[LE,RO]{\thepage}
+	\fancyhead[RE]{\leftmark}
+	\fancyhead[LO]{\rightmark}
+	\fancyfoot[C]{}
+	\renewcommand{\headrulewidth}{0.4pt}
+	\renewcommand\headrule{\color{activeColor}\hrule height \headrulewidth\hrule}
