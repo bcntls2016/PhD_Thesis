@@ -1,10 +1,8 @@
 \nobreakspace {}\hfill \textbf {Page}\par 
 \contentsline {chapter}{Title page}{i}{Doc-Start}
-\contentsline {chapter}{Acknowledgements}{iii}{chapter*.1}
-\contentsline {chapter}{Abstract}{v}{chapter*.2}
-\contentsline {chapter}{Résumé}{vii}{chapter*.3}
-\contentsline {chapter}{Table of Contents}{ix}{chapter*.3}
-\contentsline {chapter}{List of Publications}{xi}{chapter*.5}
+\contentsline {chapter}{Abstract}{iii}{chapter*.1}
+\contentsline {chapter}{Résumé}{v}{chapter*.2}
+\contentsline {chapter}{List of Publications}{ix}{chapter*.4}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}A brief history of superfluidity}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Some key concepts}{3}{section.1.2}
@@ -23,7 +21,7 @@
 \contentsline {section}{\numberline {2.4}Dynamic calculations}{23}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Diatomics in Molecules}{23}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Including spin-orbit coupling}{25}{subsection.2.4.2}
-\nobreakspace {}\hfill \par 
+\vspace {10ex}
 \contentsline {part}{\numberline {I}Photo-excitation dynamics of alkalis}{29}{part.1}
 \contentsline {chapter}{\numberline {3}Alkali-doped nanodroplets}{31}{chapter.3}
 \contentsline {chapter}{\numberline {4}Imaging Excited-State Dynamics}{35}{chapter.4}
