@@ -5,156 +5,155 @@ A level-1 auxiliary file: biblography.aux
 The style file: apsrev.bst
 A level-1 auxiliary file: summary_fr.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: ../own_publications.bib
+Database file #1: ../publications.bib
 Database file #2: ../references.bib
 Database file #3: ../review_refs.bib
-Database file #4: ../HeDropletPI.bib
-You're missing a field name---line 361 of file ../HeDropletPI.bib
+Database file #4: ../rhbe-exciplexes.bib
+You're missing a field name---line 361 of file ../rhbe-exciplexes.bib
  : 
  : % doi = {10.1063/1.3009279},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 377 of file ../HeDropletPI.bib
+You're missing a field name---line 377 of file ../rhbe-exciplexes.bib
  : 
  : %keywords = {atomic clusters; excited states; helium; Monte Carlo methods; potential energy surfaces; rubidium; superfluid helium-4},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 604 of file ../HeDropletPI.bib
+I was expecting a `,' or a `}'---line 604 of file ../rhbe-exciplexes.bib
  : 
  : % publisher = {Taylor & Francis},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 622 of file ../HeDropletPI.bib
+You're missing a field name---line 622 of file ../rhbe-exciplexes.bib
  : 
  : %doi = {10.1021/jp111157w},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 853 of file ../HeDropletPI.bib
+You're missing a field name---line 853 of file ../rhbe-exciplexes.bib
  : 
  : % month = {May},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1753 of file ../HeDropletPI.bib
+You're missing a field name---line 1753 of file ../rhbe-exciplexes.bib
  : collaboration = {},
  :                    {\tiny }
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1804 of file ../HeDropletPI.bib
+You're missing a field name---line 1804 of file ../rhbe-exciplexes.bib
  : 
  : % month = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1818 of file ../HeDropletPI.bib
+You're missing a field name---line 1818 of file ../rhbe-exciplexes.bib
  : 
  : % month = {Jan},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2192 of file ../HeDropletPI.bib
+You're missing a field name---line 2192 of file ../rhbe-exciplexes.bib
  : 
  : %doi = {10.1021/jp112223k},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2285 of file ../HeDropletPI.bib
+You're missing a field name---line 2285 of file ../rhbe-exciplexes.bib
  : 
  : % doi = {10.1021/jp501285r},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2355 of file ../HeDropletPI.bib
+You're missing a field name---line 2355 of file ../rhbe-exciplexes.bib
  : 
  : %doi = {10.1021/jp312336m},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2794 of file ../HeDropletPI.bib
+You're missing a field name---line 2794 of file ../rhbe-exciplexes.bib
  : 
  : %keywords = {photoionisation; Legendre polynomials; image processing; inverse problems; photoelectron spectroscopy},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3356 of file ../HeDropletPI.bib
+You're missing a field name---line 3356 of file ../rhbe-exciplexes.bib
  : 
  : %doi = {10.1021/jp0716278},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3490 of file ../HeDropletPI.bib
+You're missing a field name---line 3490 of file ../rhbe-exciplexes.bib
  : 
  : %keywords = {atom-molecule collisions; drops; helium; Monte Carlo methods; organic compounds; photodissociation},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3942 of file ../HeDropletPI.bib
+You're missing a field name---line 3942 of file ../rhbe-exciplexes.bib
  : 
  : % doi = {10.1063/1.4960401},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3959 of file ../HeDropletPI.bib
+I was expecting a `,' or a `}'---line 3959 of file ../rhbe-exciplexes.bib
  : 
  : % doi = {10.1021/acs.jpclett.6b02598},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 14606 of file ../HeDropletPI.bib
+I was expecting a `,' or a `}'---line 14606 of file ../rhbe-exciplexes.bib
  :  
  :  % month = {May},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 15185 of file ../HeDropletPI.bib
+I was expecting a `,' or a `}'---line 15185 of file ../rhbe-exciplexes.bib
  : 
  : % doi = {10.1021/acs.jpca.6b05732},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 15410 of file ../HeDropletPI.bib
+I was expecting a `,' or a `}'---line 15410 of file ../rhbe-exciplexes.bib
  : 
  : % month={Nov},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 15616 of file ../HeDropletPI.bib
+You're missing a field name---line 15616 of file ../rhbe-exciplexes.bib
  : 
  : % month = {Sep},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 15666 of file ../HeDropletPI.bib
+I was expecting a `,' or a `}'---line 15666 of file ../rhbe-exciplexes.bib
  :  
  :  YEAR=2017}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--can't use both author and editor fields in Tan17
-You've used 80 entries,
+You've used 37 entries,
             3411 wiz_defined-function locations,
-            1757 strings with 26353 characters,
-and the built_in function-call counts, 65267 in all, are:
-= -- 3492
-> -- 2647
-< -- 350
-+ -- 2281
-- -- 646
-* -- 9444
-:= -- 6695
-add.period$ -- 80
-call.type$ -- 80
-change.case$ -- 324
-chr.to.int$ -- 71
-cite$ -- 83
-duplicate$ -- 5753
-empty$ -- 5231
-format.name$ -- 1553
-if$ -- 12198
-int.to.chr$ -- 10
-int.to.str$ -- 81
-missing$ -- 885
-newline$ -- 255
-num.names$ -- 237
-pop$ -- 1450
+            1479 strings with 18444 characters,
+and the built_in function-call counts, 28663 in all, are:
+= -- 1565
+> -- 1107
+< -- 152
++ -- 939
+- -- 270
+* -- 4084
+:= -- 2988
+add.period$ -- 37
+call.type$ -- 37
+change.case$ -- 149
+chr.to.int$ -- 36
+cite$ -- 39
+duplicate$ -- 2534
+empty$ -- 2323
+format.name$ -- 666
+if$ -- 5369
+int.to.chr$ -- 2
+int.to.str$ -- 38
+missing$ -- 390
+newline$ -- 126
+num.names$ -- 108
+pop$ -- 631
 preamble$ -- 1
-purify$ -- 320
+purify$ -- 148
 quote$ -- 0
-skip$ -- 2365
+skip$ -- 1077
 stack$ -- 0
-substring$ -- 1933
-swap$ -- 4884
-text.length$ -- 326
+substring$ -- 867
+swap$ -- 2108
+text.length$ -- 137
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 474
-warning$ -- 1
-while$ -- 232
+type$ -- 218
+warning$ -- 0
+while$ -- 104
 width$ -- 0
-write$ -- 885
+write$ -- 413
 (There were 21 error messages)
