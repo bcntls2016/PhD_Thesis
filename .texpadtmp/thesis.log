@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.4.21)  18 MAY 2018 13:39
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.4.21)  21 MAY 2018 17:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2056,6 +2056,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 )
 \c@ContinuedFloat=\count287
 Package caption Info: hyperref package is loaded.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
  (/usr/local/texlive/2017/texmf-dist/tex/latex/varwidth/varwidth.sty
@@ -2233,7 +2235,18 @@ Package array Warning: Column V is already defined on input line 40.
 LaTeX Warning: Unused global option(s):
     [twosides].
 
-(/Users/fmgjcoppens/Developer/Thesis/.texpadtmp/thesis.aux (/Users/fmgjcoppens/Developer/Thesis/.texpadtmp/summary_fr.aux))
+(/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.aux (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/titlepage.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/abstract_en.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/abstract_fr.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/acks.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/toc.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/lop/list_of_pubs.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch1-introduction.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch2-methods.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch3-intro-alkalies.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch4-img-exc-st-dyn.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch5-desorp-dyn-rbhe.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch6-potas-doped.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch7-intro-quant_vort.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch8-results-head_on.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch9-results-capture.aux
+
+LaTeX Warning: Label `eq9' multiply defined.
+
+) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch10-conclusions_outlook.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/appendix.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/biblography.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/summary_fr.aux
+
+LaTeX Warning: Label `fig3-headon' multiply defined.
+
+
+LaTeX Warning: Label `fig10-capture' multiply defined.
+
+))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 7.
@@ -2337,39 +2350,23 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
- (/Users/fmgjcoppens/Developer/Thesis/.texpadtmp/thesis.out) (/Users/fmgjcoppens/Developer/Thesis/.texpadtmp/thesis.out)
+ (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.out) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.out)
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\openout2 = `summary_fr.aux'.
+\openout2 = `titlepage.aux'.
 
- (./summary_fr.tex
-Chapter 1.
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+ (./titlepage.tex (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `GuardianWeekendTitlepiece' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Missing character: There is no ́ in font Guardian Weekend Titlepiece/OT:mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Weekend Titlepiece/OT:mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Weekend Titlepiece/OT:mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Weekend Titlepiece/OT:mapping=tex-text;!
-
-
-LaTeX Font Warning: Font shape `TU/GuardianEgyptianText(0)/m/sc' undefined
-(Font)              using `TU/GuardianEgyptianText(0)/m/n' instead on input line 4.
-
-
-Overfull \hbox (4.15392pt too wide) in paragraph at lines 4--5
-\TU/GuardianEgyptianText(0)/m/sc/10.95 atomiques interagissant avec des nanogouttelettes d’hélium superfluide (He),
- []
-
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 13.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 7.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
 File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Modern Roman (RS)
@@ -2378,66 +2375,208 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+npxmia on input line 13.
+LaTeX Font Info:    Try loading font information for U+npxmia on input line 7.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
-LaTeX Font Info:    Try loading font information for U+npxsym on input line 13.
+LaTeX Font Info:    Try loading font information for U+npxsym on input line 7.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 )
-LaTeX Font Info:    Try loading font information for U+npxsyc on input line 13.
+LaTeX Font Info:    Try loading font information for U+npxsyc on input line 7.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+) [1
 
- [1
+
+
+
+] [2
+
+
+])
+\openout2 = `abstract_en.aux'.
+
+ (./abstract_en.tex
+
+LaTeX Font Warning: Font shape `TU/GuardianEgyptianText(0)/m/sc' undefined
+(Font)              using `TU/GuardianEgyptianText(0)/m/n' instead on input line 2.
+
+[3
+
+
+
+]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `GuardianEgyptianTextMedium' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4])
+\openout2 = `abstract_fr.aux'.
+
+ (./abstract_fr.tex [5
+
+
 
 
 
 ]
 
-Package natbib Warning: Citation `Brink1990' on page 2 undefined on input line 15.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6])
+\openout2 = `acks.aux'.
+
+ (./acks.tex [7
 
 
-Package natbib Warning: Citation `Hartmann1995' on page 2 undefined on input line 15.
 
 
-Overfull \hbox (10.21217pt too wide) in paragraph at lines 15--16
-\TU/GuardianEgyptianText(0)/m/sc/10.95 pour explorer l’hydrodynamique quantique dans des superfluides isolés et isolés. L’objectif
+
+] [8
+
+
+])
+\openout2 = `toc.aux'.
+
+ (./toc.tex (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.toc
+
+LaTeX Font Warning: Font shape `TU/GuardianEgyptianText(0)/bx/sc' undefined
+(Font)              using `TU/GuardianEgyptianText(0)/bx/n' instead on input line 26.
+
+
+Overfull \hbox (0.30748pt too wide) detected at line 26
+ \TU/GuardianEgyptianText(0)/bx/n/14.4 29
  []
 
 
-Package natbib Warning: Citation `Hartmann1996' on page 2 undefined on input line 17.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9
 
 
-Package natbib Warning: Citation `Hartmann1996' on page 2 undefined on input line 17.
+
+]
+Overfull \hbox (0.30748pt too wide) detected at line 31
+ \TU/GuardianEgyptianText(0)/bx/sc/14.4 61
+ []
 
 
-Package natbib Warning: Citation `RamaKrishna1990-1' on page 2 undefined on input line 17.
+Overfull \hbox (2.73747pt too wide) detected at line 43
+ \TU/GuardianEgyptianText(0)/bx/n/10.95 103
+ []
 
 
-Package natbib Warning: Citation `Chin1992' on page 2 undefined on input line 17.
+Overfull \hbox (2.73747pt too wide) detected at line 44
+ \TU/GuardianEgyptianText(0)/bx/n/10.95 107
+ []
+
+Missing character: There is no ́ in font Guardian Egyptian Text Regular/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Regular/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Regular/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Regular/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Bold/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Bold/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Bold/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Bold/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+Overfull \hbox (2.73747pt too wide) detected at line 45
+ \TU/GuardianEgyptianText(0)/bx/n/10.95 119
+ []
+
+)
+\tf@toc=\write4
+\openout4 = `thesis.toc'.
 
 
-Package natbib Warning: Citation `Krotscheck2001' on page 2 undefined on input line 19.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10])
+\openout2 = `lop/list_of_pubs.aux'.
+
+ (./lop/list_of_pubs.tex
+Underfull \hbox (badness 1472) in paragraph at lines 6--6
+\TU/GuardianEgyptianText(0)/m/sc/10.95 stadt and Martí Pi. \TU/GuardianEgyptianText(0)/m/it/10.95 J. Low Temp. Phys. \TU/GuardianEgyptianText(0)/bx/n/10.95 187\TU/GuardianEgyptianText(0)/m/sc/10.95 (5)\TU/GuardianEgyptianText(0)/bx/n/10.95 , \TU/GuardianEgyptianText(0)/m/sc/10.95 pp. 439–445;
+ []
+
+File: lop/Coppens2017-1.pdf Graphic file (type pdf)
+<use lop/Coppens2017-1.pdf>
+File: lop/Coppens2017-2.pdf Graphic file (type pdf)
+<use lop/Coppens2017-2.pdf>
+
+Underfull \hbox (badness 1902) in paragraph at lines 8--8
+\TU/GuardianEgyptianText(0)/bx/n/10.95 Time\TU/GuardianEgyptianText(0)/m/sc/10.95 . Johannes von Vangerow, François Coppens, Antonio Leal,
+ []
 
 
-Package natbib Warning: Citation `Gartner2018' on page 2 undefined on input line 19.
+Underfull \hbox (badness 1048) in paragraph at lines 8--8
+\TU/GuardianEgyptianText(0)/m/sc/10.95 and Marcel Mudrich. \TU/GuardianEgyptianText(0)/m/it/10.95 J. Phys. Chem. Lett. \TU/GuardianEgyptianText(0)/bx/n/10.95 8\TU/GuardianEgyptianText(0)/m/sc/10.95 (1)\TU/GuardianEgyptianText(0)/bx/n/10.95 , \TU/GuardianEgyptianText(0)/m/sc/10.95 pp. 307–312;
+ []
 
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `GuardianEgyptianTextMedium' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+File: lop/Vangerow2017.pdf Graphic file (type pdf)
+<use lop/Vangerow2017.pdf>
+
+Underfull \hbox (badness 2103) in paragraph at lines 9--9
+[]|\TU/GuardianEgyptianText(0)/bx/n/10.95 Density functional theory of doped superfluid liquid helium and
+ []
+
+File: lop/Ancilotto2017.pdf Graphic file (type pdf)
+<use lop/Ancilotto2017.pdf>
+
+Underfull \hbox (badness 2277) in paragraph at lines 10--10
+[]|\TU/GuardianEgyptianText(0)/bx/n/10.95 Desorption dynamics of RbHe exciplexes off He nanodroplets in-
+ []
+
+File: lop/Coppens2018.pdf Graphic file (type pdf)
+<use lop/Coppens2018.pdf>
+
+Overfull \hbox (34.38417pt too wide) in paragraph at lines 3--12
+[]  [] 
+ []
+
+[11
+
+
+
+
+
+] [12
+
+
+])
+\openout2 = `ch1-introduction.aux'.
+
+ (./ch1-introduction.tex
+Chapter 1.
+File: figures/specific-heat.png Graphic file (type bmp)
+<figures/specific-heat.png>
+[1
+
+
+
+
+]
+Underfull \vbox (badness 1694) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.39998pt.
@@ -2445,37 +2584,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
+File: figures/phonon-roton-landau-first.png Graphic file (type bmp)
+<figures/phonon-roton-landau-first.png>
+File: figures/phonon-roton-bogoliubov.png Graphic file (type bmp)
+<figures/phonon-roton-bogoliubov.png>
 
-Package natbib Warning: Citation `Anc95' on page 3 undefined on input line 21.
-
-
-Package natbib Warning: Citation `Gre98' on page 3 undefined on input line 23.
-
-
-Package natbib Warning: Citation `Sin89' on page 3 undefined on input line 23.
-
-
-Package natbib Warning: Citation `RamaKrishna1990-2' on page 3 undefined on input line 23.
-
-
-Package natbib Warning: Citation `Hartmann1999' on page 3 undefined on input line 23.
-
-
-Package natbib Warning: Citation `Harms1999' on page 3 undefined on input line 23.
-
-
-Package natbib Warning: Citation `Barranco2006' on page 3 undefined on input line 29.
-
-
-Package natbib Warning: Citation `Ancilotto2017' on page 3 undefined on input line 29.
-
-
-Package natbib Warning: Citation `Mudrich2014' on page 3 undefined on input line 29.
-
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.39998pt.
@@ -2484,32 +2597,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 
-Package natbib Warning: Citation `Hohenberg1964' on page 4 undefined on input line 34.
-
-
-Package natbib Warning: Citation `Kohn1965' on page 4 undefined on input line 36.
-
-
-Overfull \hbox (42.83093pt too wide) in paragraph at lines 36--37
-[]\TU/GuardianEgyptianText(0)/m/sc/10.95 Kohn et Sham (KS) ont ensuite reformulé$[]$ la théorie en introduisant un schéma d’approximation
- []
-
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.39998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [4]
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.39998pt.
@@ -2517,23 +2610,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
-Overfull \hbox (10.24988pt too wide) in paragraph at lines 55--56
-[]\TU/GuardianEgyptianText(0)/m/sc/10.95 Etant donné que les alcalis sont des objets idéaux pour sonder la région limite des nanogout-
- []
-
-
-Overfull \hbox (4.51575pt too wide) in paragraph at lines 60--61
-[]\TU/GuardianEgyptianText(0)/m/sc/10.95 L’article suivant est une étude combinée expérimentale et théorique centrée sur l’imagerie
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.39998pt.
@@ -2541,14 +2617,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-Overfull \hbox (4.20741pt too wide) in paragraph at lines 67--68
-\TU/GuardianEgyptianText(0)/m/sc/10.95 sorbe des gouttelettes surface. En introduisant la relaxation de spin $[] \OML/npxmi/m/it/10.95 Pi[] leftarrow[] Pi[]$
- []
+File: figures/dispersion-relation.pdf Graphic file (type pdf)
+<use figures/dispersion-relation.pdf>
 
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.39998pt.
@@ -2556,26 +2627,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]
-Overfull \hbox (1.64102pt too wide) in paragraph at lines 78--79
-[]\TU/GuardianEgyptianText(0)/m/sc/10.95 Sous la supervision de Nadine Halberstadt et de moi, un master de recherche de recherche
- []
+File: figures/vortex-xy-inverted-color.png Graphic file (type bmp)
+<figures/vortex-xy-inverted-color.png>
 
-
-Package natbib Warning: Citation `Schulz2001' on page 8 undefined on input line 80.
-
-
-Package natbib Warning: Citation `Reho2000-1' on page 8 undefined on input line 80.
-
-
-Package natbib Warning: Citation `Reho2000-2' on page 8 undefined on input line 80.
-
-
-Package natbib Warning: Citation `Martinez2017' on page 8 undefined on input line 80.
-
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.39998pt.
@@ -2584,45 +2638,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8]
 
-Package natbib Warning: Citation `Gom12' on page 9 undefined on input line 89.
-
-
-LaTeX Warning: Reference `fig:vortex-machine' on page 9 undefined on input line 89.
-
-
-Package natbib Warning: Citation `Hartmann1995' on page 9 undefined on input line 89.
-
-
-Package natbib Warning: Citation `Don91' on page 9 undefined on input line 89.
-
-
-Package natbib Warning: Citation `Pit03' on page 9 undefined on input line 89.
-
-
-Package natbib Warning: Citation `Log11d' on page 9 undefined on input line 89.
-
-
-Package natbib Warning: Citation `Log11d' on page 9 undefined on input line 89.
-
-
-LaTeX Warning: Reference `fig: silver-filament' on page 9 undefined on input line 89.
-
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.39998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [9]
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-
+LaTeX Font Info:    Try loading font information for U+bbold on input line 203.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/bbold/Ubbold.fd)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.39998pt.
@@ -2630,7 +2653,1416 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10]
-Overfull \hbox (3.22658pt too wide) in paragraph at lines 105--106
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+File: figures/silver-filament.pdf Graphic file (type pdf)
+<use figures/silver-filament.pdf>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13] [14
+
+
+])
+\openout2 = `ch2-methods.aux'.
+
+ (./ch2-methods.tex
+Chapter 2.
+
+LaTeX Font Warning: Font shape `U/bbold/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 5.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+Overfull \hbox (1.7854pt too wide) in paragraph at lines 101--101
+ []\TU/GuardianEgyptianText(0)/m/sc/10.95 2.190323| 
+ []
+
+
+Overfull \hbox (8.99779pt too wide) in paragraph at lines 101--101
+ []$\OML/npxmi/m/it/10.95 C$ \TU/GuardianEgyptianText(0)/m/sc/10.95 (Hartree)| 
+ []
+
+
+Overfull \hbox (2.54094pt too wide) in paragraph at lines 101--101
+ []$\LMS/npxsy/m/n/10.95 ^^@$\TU/GuardianEgyptianText(0)/m/sc/10.95 19.7544| 
+ []
+
+File: figures/static-response-function.png Graphic file (type bmp)
+<figures/static-response-function.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 204.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22]
+File: figures/pxy-he.png Graphic file (type bmp)
+<figures/pxy-he.png>
+File: figures/pz-he.png Graphic file (type bmp)
+<figures/pz-he.png>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
+File: figures/dim-axes.png Graphic file (type bmp)
+<figures/dim-axes.png>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27] [28
+
+
+]) [29
+
+
+] [30]
+\openout2 = `ch3-intro-alkalies.aux'.
+
+ (./ch3-intro-alkalies.tex
+Chapter 3.
+[31
+
+
+]
+File: figures/droplet-beam.png Graphic file (type bmp)
+<figures/droplet-beam.png>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33] [34
+
+
+])
+\openout2 = `ch4-img-exc-st-dyn.aux'.
+
+ (./ch4-img-exc-st-dyn.tex
+Chapter 4.
+
+Overfull \hbox (1.00565pt too wide) in paragraph at lines 2--3
+[][] \TU/GuardianEgyptianText(0)/m/sc/10.95 following article is a combined experimental and theoretical study focussing
+ []
+
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 1>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 1>
+[35
+
+
+
+]
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 1>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 1>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 1>
+[36]
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 2>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 2>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 2>
+[37]
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 3>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 3>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 3>
+[38]
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 4>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 4>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 4>
+[39]
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 5>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 5>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 5>
+[40]
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 6>
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 6>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: jpcl_vol8_no1_pp307-312.pdf Graphic file (type pdf)
+<use jpcl_vol8_no1_pp307-312.pdf, page 6>
+[41] [42
+
+
+])
+\openout2 = `ch5-desorp-dyn-rbhe.aux'.
+
+ (./ch5-desorp-dyn-rbhe.tex
+Chapter 5.
+[43
+
+
+
+]
+File: figures/potentials.pdf Graphic file (type pdf)
+<use figures/potentials.pdf>
+
+
+LaTeX Warning: Float too large for page by 4.83423pt on input line 16.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46
+
+]
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 1>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 1>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 1>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 1>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 1>
+[47]
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 2>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 2>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 2>
+[48]
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 3>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 3>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 3>
+[49]
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 4>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 4>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 4>
+[50]
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 5>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 5>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 5>
+[51]
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 6>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 6>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 6>
+[52]
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 7>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 7>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 7>
+[53]
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 8>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 8>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 8>
+[54]
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 9>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 9>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 9>
+[55]
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 10>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 10>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 10>
+[56]
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 11>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 11>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 11>
+[57]
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 12>
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 12>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: pccp_vol20_no14_pp9309-9320.pdf Graphic file (type pdf)
+<use pccp_vol20_no14_pp9309-9320.pdf, page 12>
+[58])
+\openout2 = `ch6-potas-doped.aux'.
+
+ (./ch6-potas-doped.tex
+Chapter 6.
+[59
+
+
+
+
+
+] [60
+
+
+]) [61
+
+
+] [62]
+\openout2 = `ch7-intro-quant_vort.aux'.
+
+ (./ch7-intro-quant_vort.tex
+Chapter 7.
+[63
+
+
+]
+File: figures/vortex-machine.png Graphic file (type bmp)
+<figures/vortex-machine.png>
+File: figures/vortex-array.png Graphic file (type bmp)
+<figures/vortex-array.png>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64])
+\openout2 = `ch8-results-head_on.aux'.
+
+ (./ch8-results-head_on.tex
+Chapter 8.
+
+Overfull \hbox (8.54318pt too wide) in paragraph at lines 7--8
+\TU/GuardianEgyptianText(0)/m/sc/10.95 treated fully three dimensionally with the Cs atom described as a classical particle, whereas
+ []
+
+[65
+
+
+
+
+
+]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 11.
+
+File: figures/fig1.pdf Graphic file (type pdf)
+<use figures/fig1.pdf>
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 18.
+
+File: figures/fig2-Cs.pdf Graphic file (type pdf)
+<use figures/fig2-Cs.pdf>
+File: figures/fig2-Xe.pdf Graphic file (type pdf)
+<use figures/fig2-Xe.pdf>
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 23.
+
+File: figures/fig3-Cs-He.pdf Graphic file (type pdf)
+<use figures/fig3-Cs-He.pdf>
+File: figures/fig3-Xe-He.pdf Graphic file (type pdf)
+<use figures/fig3-Xe-He.pdf>
+
+Underfull \vbox (badness 1881) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[66]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[67]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[68]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 55.
+
+File: figures/fig4.pdf Graphic file (type pdf)
+<use figures/fig4.pdf>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[69]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 76.
+
+File: figures/fig5.pdf Graphic file (type pdf)
+<use figures/fig5.pdf>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[70]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71] [72
+
+
+])
+\openout2 = `ch9-results-capture.aux'.
+
+ (./ch9-results-capture.tex
+Chapter 9.
+
+Overfull \hbox (31.42596pt too wide) in paragraph at lines 5--6
+\TU/GuardianEgyptianText(0)/m/sc/10.95 been instrumental for detecting and imaging quantized vortex arrays in helium droplets$[]$.
+ []
+
+
+Overfull \hbox (1.02356pt too wide) in paragraph at lines 9--19
+\TU/GuardianEgyptianText(0)/m/sc/10.95 simulations have been carried out for heliophobic$[]$ (Cs) and heliophilic$[]$ (Ne) atoms.
+ []
+
+[73
+
+
+
+]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 275.
+
+File: figures/fig1-Xe-600mps.jpg Graphic file (type bmp)
+<figures/fig1-Xe-600mps.jpg>
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 285.
+
+File: figures/kinetic-energy.pdf Graphic file (type pdf)
+<use figures/kinetic-energy.pdf>
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 295.
+
+File: figures/phase-Xe-200-vortex.pdf Graphic file (type pdf)
+<use figures/phase-Xe-200-vortex.pdf>
+File: figures/phase-Ar-360-vortex.pdf Graphic file (type pdf)
+<use figures/phase-Ar-360-vortex.pdf>
+
+LaTeX Warning: Float too large for page by 21.09601pt on input line 304.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 308.
+
+File: figures/nparticles.pdf Graphic file (type pdf)
+<use figures/nparticles.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[75]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[76]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[77]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[78]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[79]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[80]
+File: figures/xehe200-b203-composed.pdf Graphic file (type pdf)
+<use figures/xehe200-b203-composed.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: figures/xehe200-b222-composed.pdf Graphic file (type pdf)
+<use figures/xehe200-b222-composed.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[81]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[82]
+File: figures/fig7.pdf Graphic file (type pdf)
+<use figures/fig7.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[83]
+File: figures/fig8.pdf Graphic file (type pdf)
+<use figures/fig8.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[84]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[85]
+File: figures/fig10.pdf Graphic file (type pdf)
+<use figures/fig10.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: figures/fig11.pdf Graphic file (type pdf)
+<use figures/fig11.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: figures/fig12.pdf Graphic file (type pdf)
+<use figures/fig12.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Font Warning: Font shape `U/bbold/m/n' in size <12.5> not available
+(Font)              size <12> substituted on input line 911.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 911.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 911.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 911.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[86]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 945.
+
+File: figures/fig13.pdf Graphic file (type pdf)
+<use figures/fig13.pdf>
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 957.
+
+File: figures/fig14.pdf Graphic file (type pdf)
+<use figures/fig14.pdf>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[87]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[88]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[89]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[90]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[91]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[92]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[93]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[94]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[95]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[96]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[97] [98
+
+
+])
+\openout2 = `ch10-conclusions_outlook.aux'.
+
+ (./ch10-conclusions_outlook.tex
+Chapter 10.
+[99
+
+
+
+]
+Underfull \vbox (badness 1540) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[100]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[101]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[102])
+\openout2 = `appendix.aux'.
+
+ (./appendix.tex
+Appendix A.
+[103
+
+
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[104]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[105] [106
+
+
+])
+\openout2 = `biblography.aux'.
+
+ (./biblography.tex (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.bbl
+Underfull \hbox (badness 1430) in paragraph at lines 61--66
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 P. Lebrun, Cryogenics \TU/GuardianEgyptianText(0)/bx/n/10.95 34\TU/GuardianEgyptianText(0)/m/sc/10.95 , 1 (1994), ISSN 0011-2275, fifteenth International
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--86
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 H. Kamerlingh Onnes, KNAW, Proceedings \TU/GuardianEgyptianText(0)/bx/n/10.95 10\TU/GuardianEgyptianText(0)/m/sc/10.95 , 744 (1908), URL [][]$[][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--86
+[] [] [][][] [] [][][] [] [][][][] [] [][] [] [][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--92
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 H. Kamerlingh Onnes, KNAW, Proceedings \TU/GuardianEgyptianText(0)/bx/n/10.95 11\TU/GuardianEgyptianText(0)/m/sc/10.95 , 168 (1909), URL [][]$[][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--92
+[] [] [][][] [] [][][] [] [][][][] [] [][] [] [][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][][] []
+ []
+
+[107
+
+
+
+
+]
+Underfull \hbox (badness 4765) in paragraph at lines 125--131
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 F. London, Proceedings of the Royal Society of London A: Mathematical,
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 125--131
+\TU/GuardianEgyptianText(0)/m/sc/10.95 Physical and Engineering Sciences \TU/GuardianEgyptianText(0)/bx/n/10.95 153\TU/GuardianEgyptianText(0)/m/sc/10.95 , 576 (1936), ISSN 0080-4630, [][]$[][][][] []
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 159--163
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 L. Landau, Phys. Rev. \TU/GuardianEgyptianText(0)/bx/n/10.95 60\TU/GuardianEgyptianText(0)/m/sc/10.95 , 356 (1941), URL [][]$[][][][][] [] [] [] [][][][] [] [][][] [] [][][] [] [][][] [] [][] [] [][][][] []
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 165--169
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 L. Landau, Phys. Rev. \TU/GuardianEgyptianText(0)/bx/n/10.95 75\TU/GuardianEgyptianText(0)/m/sc/10.95 , 884 (1949), URL [][]$[][][][][] [] [] [] [][][][] [] [][][] [] [][][] [] [][][] [] [][] [] [][][][] []
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 171--176
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 N. N. Bogolyubov, J. Phys. (USSR) \TU/GuardianEgyptianText(0)/bx/n/10.95 11\TU/GuardianEgyptianText(0)/m/sc/10.95 , 23 (1947), [Izv. Akad. Nauk Ser.
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 191--200
+\TU/GuardianEgyptianText(0)/m/sc/10.95 Great Clarendon Street, Oxford, OX2 6DP, United Kingdom, 2016), first edi-
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 191--200
+\TU/GuardianEgyptianText(0)/m/sc/10.95 tion ed., ISBN 978-0-19-875888-4, URL [][]$[][][][] [] [] [] [][] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][][][][] [] [][][] []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[108]
+Underfull \hbox (badness 6220) in paragraph at lines 274--281
+[][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][] [] [][][] [] [][] [] [][][][] [] [] [] [][][][][][][]$[][]\TU/GuardianEgyptianText(0)/m/sc/10.95 , URL [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 360--372
+\TU/GuardianEgyptianText(0)/m/sc/10.95 D. Mateo, and M. Pi, International Reviews in Physical Chemistry \TU/GuardianEgyptianText(0)/bx/n/10.95 36\TU/GuardianEgyptianText(0)/m/sc/10.95 , 621
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[109]
+Underfull \hbox (badness 1237) in paragraph at lines 468--476
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 J. Dupont-Roc, M. Himbert, N. Pavloff, and J. Treiner, Journal of Low Tem-
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 507--511
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 M. Martinez, Master’s thesis, Université Toulouse III Paul Sabatier (2017),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--511
+\TU/GuardianEgyptianText(0)/m/sc/10.95 URL [][]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][][][][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][] [] [][][][][][] []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[110]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[111]
+Underfull \hbox (badness 4872) in paragraph at lines 679--685
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 J. H. Beijersbergen, Q. Hui, and M. Takami, Physics Letters A \TU/GuardianEgyptianText(0)/bx/n/10.95 181\TU/GuardianEgyptianText(0)/m/sc/10.95 , 393
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 725--732
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 F. Lackner, G. Krois, and W. E. Ernst, Molecular Physics \TU/GuardianEgyptianText(0)/bx/n/10.95 111\TU/GuardianEgyptianText(0)/m/sc/10.95 , 2118 (2013),
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 725--732
+[][]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][]$[][]\TU/GuardianEgyptianText(0)/m/sc/10.95 , URL [][]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][] []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[112]
+Underfull \hbox (badness 2359) in paragraph at lines 827--840
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 J. von Vangerow, F. Coppens, A. Leal, M. Pi, M. Barranco, N. Halberstadt,
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 827--840
+\TU/GuardianEgyptianText(0)/m/sc/10.95 F. Stienkemeier, and M. Mudrich, The Journal of Physical Chemistry Letters
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[113]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[114]
+Underfull \hbox (badness 1331) in paragraph at lines 1180--1189
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 G. P. Bewley, M. S. Paoletti, K. R. Sreenivasan, and D. P. Lathrop, Proceed-
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[115]
+Underfull \hbox (badness 10000) in paragraph at lines 1287--1291
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 Proceedings of the Royal Society of London A: Mathematical, Physical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1287--1291
+\TU/GuardianEgyptianText(0)/m/sc/10.95 and Engineering Sciences \TU/GuardianEgyptianText(0)/bx/n/10.95 260\TU/GuardianEgyptianText(0)/m/sc/10.95 , 218 (1961), ISSN 0080-4630, [][]$[][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1287--1291
+[] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][][][] [] [][][] [] [][][][] [] [][][]$[][]\TU/GuardianEgyptianText(0)/m/sc/10.95 , URL
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 1299--1305
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 G. M. Seidel and H. J. Maris, Physica B: Condensed Matter \TU/GuardianEgyptianText(0)/bx/n/10.95 194-196\TU/GuardianEgyptianText(0)/m/sc/10.95 , 577
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1361--1363
+[]\TU/GuardianEgyptianText(0)/m/it/10.95 Electronic Supplementary Information \TU/GuardianEgyptianText(0)/m/sc/10.95 (ESI), URL [][]$[][][][] [] [] [] [][] [] [][][] [] [][][] [] [][] [] [][][][] []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[116])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[117] [118
+
+
+])
+\openout2 = `summary_fr.aux'.
+
+ (./summary_fr.tex
+Missing character: There is no ́ in font Guardian Weekend Titlepiece/OT:mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Weekend Titlepiece/OT:mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Weekend Titlepiece/OT:mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Weekend Titlepiece/OT:mapping=tex-text;!
+
+Overfull \hbox (4.15392pt too wide) in paragraph at lines 6--7
+\TU/GuardianEgyptianText(0)/m/sc/10.95 atomiques interagissant avec des nanogouttelettes d’hélium superfluide (He),
+ []
+
+[119
+
+
+
+]
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[120]
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[121]
+Overfull \hbox (46.19627pt too wide) in paragraph at lines 38--39
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 Kohn et Sham (KS) ont ensuite reformulé$[]$ la théorie en introduisant un schéma d’approximation
+ []
+
+
+Underfull \vbox (badness 1540) has occurred while \output is active []
+
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[122]
+Overfull \hbox (8.50883pt too wide) in paragraph at lines 42--43
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 La difficulté consiste à concevoir une fonction telle que les propriétés physiques souhaitées
+ []
+
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[123]
+Overfull \hbox (10.24988pt too wide) in paragraph at lines 57--58
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 Etant donné que les alcalis sont des objets idéaux pour sonder la région limite des nanogout-
+ []
+
+File: figures/fallback-time.png Graphic file (type bmp)
+<figures/fallback-time.png>
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[124]
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[125]
+File: figures/fig5-pccp.pdf Graphic file (type pdf)
+<use figures/fig5-pccp.pdf>
+
+
+LaTeX Warning: Float too large for page by 33.54504pt on input line 77.
+
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[126]
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[127]
+Underfull \vbox (badness 3989) has occurred while \output is active []
+
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[128]
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[129]
+File: figures/fig3-Cs-He.pdf Graphic file (type pdf)
+<use figures/fig3-Cs-He.pdf>
+File: figures/fig3-Xe-He.pdf Graphic file (type pdf)
+<use figures/fig3-Xe-He.pdf>
+
+Overfull \hbox (4.0449pt too wide) in paragraph at lines 110--111
+\TU/GuardianEgyptianText(0)/m/sc/10.95 namique des atomes de Xe par des gouttelettes hébergeant des vortex ligne et des tableaux
+ []
+
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[130]
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[131]
+Overfull \hbox (3.22658pt too wide) in paragraph at lines 121--122
 \TU/GuardianEgyptianText(0)/m/sc/10.95 Cette méthode, utilisant des atomes Xe, a été instrumentale pour la détection et l’imagerie
  []
 
@@ -2644,26 +4076,52 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]
-Overfull \hbox (2.63957pt too wide) in paragraph at lines 117--118
-[]\TU/GuardianEgyptianText(0)/m/sc/10.95 une collision frontale d’un atome Xe ou Ar en mouvement contre la nanodroplet
+[132]
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[133]
+File: figures/fig10.pdf Graphic file (type pdf)
+<use figures/fig10.pdf>
+
+
+LaTeX Warning: Float too large for page by 17.87794pt on input line 161.
+
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[134]
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[135]
+Overfull \hbox (0.97527pt too wide) in paragraph at lines 192--207
+\TU/GuardianEgyptianText(0)/m/sc/10.95 colonne d’atomes à l’intérieur de chaque noyau de vortex atteint une structure d’équilibre
  []
 
-
-Package natbib Warning: Citation `Gom14' on page 12 undefined on input line 119.
-
-
-LaTeX Warning: Reference `fig1-capture' on page 12 undefined on input line 123.
-
-
-Package natbib Warning: Citation `Gom11' on page 12 undefined on input line 123.
-
-
-Package natbib Warning: Citation `Gom14' on page 12 undefined on input line 123.
-
-
-Package natbib Warning: Citation `Jones2016' on page 12 undefined on input line 123.
-
 Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
@@ -2674,79 +4132,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]
-
-Package natbib Warning: Citation `Pi07' on page 13 undefined on input line 130.
-
-
-Package natbib Warning: Citation `Psh16' on page 13 undefined on input line 146.
-
-
-Package natbib Warning: Citation `Toe04' on page 13 undefined on input line 153.
-
-
-Package natbib Warning: Citation `Gom14' on page 13 undefined on input line 161.
-
-
-Package natbib Warning: Citation `Jones2016' on page 13 undefined on input line 161.
-
-
-Package natbib Warning: Citation `Anc15' on page 13 undefined on input line 164.
-
-
-Package natbib Warning: Citation `Gom14' on page 13 undefined on input line 172.
-
-
-Package natbib Warning: Citation `Jones2016' on page 13 undefined on input line 172.
-
-
-Package natbib Warning: Citation `Ber17' on page 13 undefined on input line 172.
-
-
-Package natbib Warning: Citation `Cam79' on page 13 undefined on input line 174.
-
-
-Package natbib Warning: Citation `Anc14' on page 13 undefined on input line 176.
-
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13]
-
-LaTeX Warning: Reference `fig13-capture' on page 14 undefined on input line 185.
-
-
-LaTeX Warning: Reference `fig7-capture' on page 14 undefined on input line 189.
-
-
-Package natbib Warning: Citation `ESI' on page 14 undefined on input line 198.
-
-
-Package natbib Warning: Citation `Psh16' on page 14 undefined on input line 200.
-
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14]
-Overfull \hbox (18.67043pt too wide) in paragraph at lines 205--206
+[136]
+Overfull \hbox (18.67043pt too wide) in paragraph at lines 217--218
 \TU/GuardianEgyptianText(0)/m/sc/10.95 degrés de liberté de configuration dans de tels complexes excités induits par l’environnement
  []
 
-)
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.39998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[137])
 Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
@@ -2758,51 +4159,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Egyptian Text Medium Italic/OT:script=latn;language=DFLT;mapping=tex-text;!
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16]
-
-Package natbib Warning: There were undefined citations.
-
-
-Package caption Warning: Unused \captionsetup[table] on input line 33.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: Unused \captionsetup[figure] on input line 34.
-See the caption package documentation for explanation.
-
+[138]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
-(/Users/fmgjcoppens/Developer/Thesis/.texpadtmp/thesis.aux (/Users/fmgjcoppens/Developer/Thesis/.texpadtmp/summary_fr.aux))
+ (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.aux (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/titlepage.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/abstract_en.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/abstract_fr.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/acks.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/toc.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/lop/list_of_pubs.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch1-introduction.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch2-methods.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch3-intro-alkalies.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch4-img-exc-st-dyn.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch5-desorp-dyn-rbhe.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch6-potas-doped.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch7-intro-quant_vort.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch8-results-head_on.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch9-results-capture.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch10-conclusions_outlook.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/appendix.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/biblography.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/summary_fr.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 40.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 40.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
- 26985 strings out of 493007
- 487426 string characters out of 6134605
- 627174 words of memory out of 5000000
- 30598 multiletter control sequences out of 15000+600000
- 562899 words of font info for 99 fonts, out of 8000000 for 9000
+ 28362 strings out of 493007
+ 519903 string characters out of 6134605
+ 673155 words of memory out of 5000000
+ 31744 multiletter control sequences out of 15000+600000
+ 676022 words of font info for 275 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 76i,12n,92p,10428b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 81i,19n,92p,10428b,783s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/fmgjcoppens/Developer/Thesis/.texpadtmp/thesis.pdf (16 pages).
+Output written on /Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.pdf (150 pages).

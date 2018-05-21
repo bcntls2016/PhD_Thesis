@@ -1,6 +1,23 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: /Users/fmgjcoppens/Developer/Thesis/.texpadtmp/thesis.aux
+The top-level auxiliary file: /Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.aux
+A level-1 auxiliary file: titlepage.aux
+A level-1 auxiliary file: abstract_en.aux
+A level-1 auxiliary file: abstract_fr.aux
+A level-1 auxiliary file: acks.aux
+A level-1 auxiliary file: toc.aux
+A level-1 auxiliary file: lop/list_of_pubs.aux
+A level-1 auxiliary file: ch1-introduction.aux
+A level-1 auxiliary file: ch2-methods.aux
+A level-1 auxiliary file: ch3-intro-alkalies.aux
+A level-1 auxiliary file: ch4-img-exc-st-dyn.aux
+A level-1 auxiliary file: ch5-desorp-dyn-rbhe.aux
+A level-1 auxiliary file: ch6-potas-doped.aux
+A level-1 auxiliary file: ch7-intro-quant_vort.aux
+A level-1 auxiliary file: ch8-results-head_on.aux
+A level-1 auxiliary file: ch9-results-capture.aux
+A level-1 auxiliary file: ch10-conclusions_outlook.aux
+A level-1 auxiliary file: appendix.aux
 A level-1 auxiliary file: biblography.aux
 The style file: apsrev.bst
 A level-1 auxiliary file: summary_fr.aux
@@ -8,152 +25,168 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../publications.bib
 Database file #2: ../references.bib
 Database file #3: ../review_refs.bib
-Database file #4: ../rhbe-exciplexes.bib
-You're missing a field name---line 361 of file ../rhbe-exciplexes.bib
+Database file #4: ../pccp_vol20_no14_pp9309-9320.bib
+You're missing a field name---line 361 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : % doi = {10.1063/1.3009279},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 377 of file ../rhbe-exciplexes.bib
+You're missing a field name---line 377 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : %keywords = {atomic clusters; excited states; helium; Monte Carlo methods; potential energy surfaces; rubidium; superfluid helium-4},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 604 of file ../rhbe-exciplexes.bib
+I was expecting a `,' or a `}'---line 604 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : % publisher = {Taylor & Francis},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 622 of file ../rhbe-exciplexes.bib
+You're missing a field name---line 622 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : %doi = {10.1021/jp111157w},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 853 of file ../rhbe-exciplexes.bib
+You're missing a field name---line 853 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : % month = {May},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1753 of file ../rhbe-exciplexes.bib
+You're missing a field name---line 1753 of file ../pccp_vol20_no14_pp9309-9320.bib
  : collaboration = {},
  :                    {\tiny }
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1804 of file ../rhbe-exciplexes.bib
+You're missing a field name---line 1804 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : % month = "",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1818 of file ../rhbe-exciplexes.bib
+You're missing a field name---line 1818 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : % month = {Jan},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2192 of file ../rhbe-exciplexes.bib
+You're missing a field name---line 2192 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : %doi = {10.1021/jp112223k},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2285 of file ../rhbe-exciplexes.bib
+You're missing a field name---line 2285 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : % doi = {10.1021/jp501285r},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2355 of file ../rhbe-exciplexes.bib
+You're missing a field name---line 2355 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : %doi = {10.1021/jp312336m},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2794 of file ../rhbe-exciplexes.bib
+You're missing a field name---line 2794 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : %keywords = {photoionisation; Legendre polynomials; image processing; inverse problems; photoelectron spectroscopy},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3356 of file ../rhbe-exciplexes.bib
+You're missing a field name---line 3356 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : %doi = {10.1021/jp0716278},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3490 of file ../rhbe-exciplexes.bib
+You're missing a field name---line 3490 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : %keywords = {atom-molecule collisions; drops; helium; Monte Carlo methods; organic compounds; photodissociation},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3942 of file ../rhbe-exciplexes.bib
+You're missing a field name---line 3942 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : % doi = {10.1063/1.4960401},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3959 of file ../rhbe-exciplexes.bib
+I was expecting a `,' or a `}'---line 3959 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : % doi = {10.1021/acs.jpclett.6b02598},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 14606 of file ../rhbe-exciplexes.bib
+I was expecting a `,' or a `}'---line 14606 of file ../pccp_vol20_no14_pp9309-9320.bib
  :  
  :  % month = {May},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 15185 of file ../rhbe-exciplexes.bib
+I was expecting a `,' or a `}'---line 15185 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : % doi = {10.1021/acs.jpca.6b05732},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 15410 of file ../rhbe-exciplexes.bib
+I was expecting a `,' or a `}'---line 15410 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : % month={Nov},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 15616 of file ../rhbe-exciplexes.bib
+You're missing a field name---line 15616 of file ../pccp_vol20_no14_pp9309-9320.bib
  : 
  : % month = {Sep},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 15666 of file ../rhbe-exciplexes.bib
+I was expecting a `,' or a `}'---line 15666 of file ../pccp_vol20_no14_pp9309-9320.bib
  :  
  :  YEAR=2017}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Name 1 in "E. Guyon, J.-P. Hulin, L. Petit, and C.D. Mitescu" has a comma at the end for entry Guy15
+while executing---line 2283 of file apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 37 entries,
+Warning--can't use both author and editor fields in Pita2016
+Warning--empty note in dft-guide
+Warning--can't use both author and editor fields in Tan17
+Warning--empty author in Vin61
+Warning--can't use both volume and number fields in Boh75
+Warning--missing publisher in Boh75
+Name 1 in "E. Guyon, J.-P. Hulin, L. Petit, and C.D. Mitescu" has a comma at the end for entry Guy15
+while executing---line 2372 of file apsrev.bst
+Name 1 in "E. Guyon, J.-P. Hulin, L. Petit, and C.D. Mitescu" has a comma at the end for entry Guy15
+while executing---line 2372 of file apsrev.bst
+Name 1 in "E. Guyon, J.-P. Hulin, L. Petit, and C.D. Mitescu" has a comma at the end for entry Guy15
+while executing---line 2372 of file apsrev.bst
+Name 1 in "E. Guyon, J.-P. Hulin, L. Petit, and C.D. Mitescu" has a comma at the end for entry Guy15
+while executing---line 2372 of file apsrev.bst
+You've used 155 entries,
             3411 wiz_defined-function locations,
-            1479 strings with 18444 characters,
-and the built_in function-call counts, 28663 in all, are:
-= -- 1565
-> -- 1107
-< -- 152
-+ -- 939
-- -- 270
-* -- 4084
-:= -- 2988
-add.period$ -- 37
-call.type$ -- 37
-change.case$ -- 149
-chr.to.int$ -- 36
-cite$ -- 39
-duplicate$ -- 2534
-empty$ -- 2323
-format.name$ -- 666
-if$ -- 5369
-int.to.chr$ -- 2
-int.to.str$ -- 38
-missing$ -- 390
-newline$ -- 126
-num.names$ -- 108
-pop$ -- 631
+            2242 strings with 37552 characters,
+and the built_in function-call counts, 117824 in all, are:
+= -- 6468
+> -- 4411
+< -- 617
++ -- 3733
+- -- 1078
+* -- 16797
+:= -- 12342
+add.period$ -- 155
+call.type$ -- 155
+change.case$ -- 630
+chr.to.int$ -- 150
+cite$ -- 165
+duplicate$ -- 10527
+empty$ -- 9647
+format.name$ -- 2635
+if$ -- 22108
+int.to.chr$ -- 18
+int.to.str$ -- 156
+missing$ -- 1634
+newline$ -- 480
+num.names$ -- 461
+pop$ -- 2710
 preamble$ -- 1
-purify$ -- 148
+purify$ -- 620
 quote$ -- 0
-skip$ -- 1077
+skip$ -- 4192
 stack$ -- 0
-substring$ -- 867
-swap$ -- 2108
-text.length$ -- 137
+substring$ -- 3554
+swap$ -- 8766
+text.length$ -- 547
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 218
-warning$ -- 0
-while$ -- 104
+type$ -- 916
+warning$ -- 6
+while$ -- 449
 width$ -- 0
-write$ -- 413
-(There were 21 error messages)
+write$ -- 1696
+(There were 26 error messages)
