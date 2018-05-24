@@ -4,9 +4,11 @@ The top-level auxiliary file: /Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp
 A level-1 auxiliary file: titlepage.aux
 A level-1 auxiliary file: abstract_en.aux
 A level-1 auxiliary file: abstract_fr.aux
-A level-1 auxiliary file: acks.aux
 A level-1 auxiliary file: toc.aux
 A level-1 auxiliary file: lop/list_of_pubs.aux
+A level-1 auxiliary file: lof.aux
+A level-1 auxiliary file: lot.aux
+A level-1 auxiliary file: acks.aux
 A level-1 auxiliary file: ch1-introduction.aux
 A level-1 auxiliary file: ch2-methods.aux
 A level-1 auxiliary file: ch3-intro-alkalies.aux
@@ -148,45 +150,45 @@ Name 1 in "E. Guyon, J.-P. Hulin, L. Petit, and C.D. Mitescu" has a comma at the
 while executing---line 2372 of file apsrev.bst
 Name 1 in "E. Guyon, J.-P. Hulin, L. Petit, and C.D. Mitescu" has a comma at the end for entry Guy15
 while executing---line 2372 of file apsrev.bst
-You've used 155 entries,
+You've used 156 entries,
             3411 wiz_defined-function locations,
-            2242 strings with 37552 characters,
-and the built_in function-call counts, 117824 in all, are:
-= -- 6468
-> -- 4411
-< -- 617
-+ -- 3733
-- -- 1078
-* -- 16797
-:= -- 12342
-add.period$ -- 155
-call.type$ -- 155
-change.case$ -- 630
+            2250 strings with 37748 characters,
+and the built_in function-call counts, 118575 in all, are:
+= -- 6512
+> -- 4436
+< -- 620
++ -- 3754
+- -- 1084
+* -- 16906
+:= -- 12422
+add.period$ -- 156
+call.type$ -- 156
+change.case$ -- 634
 chr.to.int$ -- 150
-cite$ -- 165
-duplicate$ -- 10527
-empty$ -- 9647
-format.name$ -- 2635
-if$ -- 22108
-int.to.chr$ -- 18
-int.to.str$ -- 156
-missing$ -- 1634
-newline$ -- 480
-num.names$ -- 461
-pop$ -- 2710
+cite$ -- 166
+duplicate$ -- 10592
+empty$ -- 9709
+format.name$ -- 2650
+if$ -- 22251
+int.to.chr$ -- 19
+int.to.str$ -- 157
+missing$ -- 1644
+newline$ -- 483
+num.names$ -- 464
+pop$ -- 2726
 preamble$ -- 1
-purify$ -- 620
+purify$ -- 624
 quote$ -- 0
-skip$ -- 4192
+skip$ -- 4218
 stack$ -- 0
-substring$ -- 3554
-swap$ -- 8766
-text.length$ -- 547
+substring$ -- 3584
+swap$ -- 8820
+text.length$ -- 550
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 916
+type$ -- 922
 warning$ -- 6
-while$ -- 449
+while$ -- 452
 width$ -- 0
-write$ -- 1696
+write$ -- 1707
 (There were 26 error messages)

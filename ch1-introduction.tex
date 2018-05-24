@@ -126,8 +126,8 @@
 			
 			For an ideal Bose gas $\epsilon(\vec{p})= \frac{p^2}{2m}$. In this case 
 			\begin{align}
-				v_c &= \min_{\vec{p}}\frac{\epsilon(\vec{p})}{p} \\
-					&= \min_{\vec{p}}\frac{p}{2m} \\
+				v_c &= \min_{\vec{p}}\frac{\epsilon(\vec{p})}{p} \nonumber \\
+					&= \min_{\vec{p}}\frac{p}{2m} \nonumber \\
 					&= 0
 			\end{align}
 			Apparently an ideal Bose-gas cannot become superfluid.
@@ -138,8 +138,8 @@
 			\end{align}
 			Bogolyubov's dispersion law for elementary excitations (1947). And thus
 			\begin{align}
-				v_c &=\min_{\vec{p}}\sqrt{\frac{gn}{m}+\frac{p^2}{4m^2}} \\
-					&= \sqrt{\frac{gn}{m}} \\
+				v_c &=\min_{\vec{p}}\sqrt{\frac{gn}{m}+\frac{p^2}{4m^2}} \nonumber \\
+					&= \sqrt{\frac{gn}{m}} \nonumber \\
 					&= c,
 			\end{align}
 			the speed of sound. Here $g=\frac{4\pi\hbar^2a}{m}$, and $a$ the $s$-wave scattering length. The weakly interacting Bose gases can become superfluid.			
@@ -165,7 +165,7 @@
 			\end{align}
 			with
 			\begin{align}
-				\vec{j}(\vec{r},t) \vcentcolon=& -\frac{i\hbar}{2m}\qty\big[\Psi^*(\vec{r},t)\grad{\Psi}(\vec{r},t) - \Psi(\vec{r},t)\grad{\Psi^*}(\vec{r},t)] \\
+				\vec{j}(\vec{r},t) \vcentcolon=& -\frac{i\hbar}{2m}\qty\big[\Psi^*(\vec{r},t)\grad{\Psi}(\vec{r},t) - \Psi(\vec{r},t)\grad{\Psi^*}(\vec{r},t)] \nonumber \\
 					=&\,\rho(\vec{r},t)\frac{\hbar}{m}\grad{S(\vec{r},t)}
 			\end{align}
 			From \eq{eq:continuity-eq} it follows that the atomic number density is a conserved quantity.
@@ -186,8 +186,8 @@
 			\end{align}
 			and with expectation value
 			\begin{align}
-				\expval{\hat{L}_z} &= \expval{\hat{L}_z}{\Psi_s} \\
-					&= \hbar s \braket{\sqrt{N_0}\varphi_0} \\
+				\expval{\hat{L}_z} &= \expval{\hat{L}_z}{\Psi_s} \nonumber \\
+					&= \hbar s \braket{\sqrt{N_0}\varphi_0} \nonumber \\
 					&= N_0\hbar s
 			\end{align}
 			The angular momentum is quantised in units of $\hbar$ and proportional to the number of bosons in the BEC fraction/superfluid. We can calculate the velocity field
@@ -196,15 +196,15 @@
 			\end{align}
 			The streamlines of $\vec{v}_s$ are concentric circles, centred around the z-axis, lying in the $xy$-plane (see \fig{fig:vortex-xy}). Contrary to rigid rotation fields which increase proportional to the distance from the $z$-axis $r$, the superfluid rotation field decreases proportional to the inverse of the distance from the $z$-axis $1/r$ and is singular in the origin. Calculating the circulation of the velocity field $\vec{v}_s$ along a closed contour including the $z$-axis gives
 			\begin{align}
-				\oint_{\partial\Sigma}\!\vec{v}_s\cdot\unit{d}\vec{l} &=
-				\int_{0}^{2\pi}\!\frac{\hbar}{m}\frac{s}{r}\,\vu*{\varphi}\cdot r\unit{d}\varphi\,\vu*{\varphi} \\
-					&= s\frac{h}{m}
+				\oint_{\partial\Sigma}\!\vec{v}_s\vdot\unit{d}\vec{l} &=
+				\int_{0}^{2\pi}\!\frac{\hbar}{m}\frac{s}{r}\,\vu*{\varphi}\vdot r\unit{d}\varphi\,\vu*{\varphi} \nonumber \\
+					&= s\frac{h}{m} \label{eq:circulation}
 			\end{align}
 			where $h=2\pi\hbar$ is Planck's constant. There are two things to note here. Firstly, the circulation around a closed loop that encompasses the $z$-axis is quantised in units of $h/m$ for $s\in\mathbb{N}_{>0}$. Secondly, the value of the circulation of the velocity field does not depend on the chosen contour as long as it includes the location of the vortex. This means that all the vorticity is contained at the location where the velocity field is singular (the ``core'' of the vortex), at $r=0$ along the $z$-axis.
 			
 			Because of the pole in the velocity field, Stokes' theorem will lead to the following contradiction
 			\begin{align}
-				s\frac{h}{m}=\oint_{\partial\Sigma}\!\!\!\vec{v}_s\cdot\unit{d}\vec{l} = \iint_{\Sigma}\!\curl{\vec{v}_s}\cdot\unit{d}\vec{\Sigma} = 0
+				s\frac{h}{m}=\oint_{\partial\Sigma}\!\!\!\vec{v}_s\vdot\unit{d}\vec{l} = \iint_{\Sigma}\!\curl{\vec{v}_s}\vdot\unit{d}\vec{\Sigma} = 0
 			\end{align}
 			and can therefore not be applied. To emphasise that all the vorticity is concentrated around the vortex core one can write formally
 			\begin{align}
