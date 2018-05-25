@@ -8,7 +8,6 @@ A level-1 auxiliary file: toc.aux
 A level-1 auxiliary file: lop/list_of_pubs.aux
 A level-1 auxiliary file: lof.aux
 A level-1 auxiliary file: lot.aux
-A level-1 auxiliary file: acks.aux
 A level-1 auxiliary file: ch1-introduction.aux
 A level-1 auxiliary file: ch2-methods.aux
 A level-1 auxiliary file: ch3-intro-alkalies.aux
@@ -22,6 +21,7 @@ A level-1 auxiliary file: ch10-conclusions_outlook.aux
 A level-1 auxiliary file: appendix.aux
 A level-1 auxiliary file: biblography.aux
 The style file: apsrev.bst
+A level-1 auxiliary file: acks.aux
 A level-1 auxiliary file: summary_fr.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../publications.bib

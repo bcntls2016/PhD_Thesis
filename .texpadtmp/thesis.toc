@@ -5,7 +5,6 @@
 \contentsline {chapter}{List of Publications}{ix}{chapter*.4}
 \contentsline {chapter}{List of Figures}{xi}{chapter*.4}
 \contentsline {chapter}{List of Tables}{xvii}{chapter*.5}
-\contentsline {chapter}{Acknowledgements}{xix}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}A brief history of superfluidity}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Some key concepts}{3}{section.1.2}
@@ -24,6 +23,7 @@
 \contentsline {section}{\numberline {2.4}Dynamic calculations}{23}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Diatomics in Molecules}{23}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Including spin-orbit coupling}{25}{subsection.2.4.2}
+\vspace {10ex}
 \contentsline {part}{\numberline {I}Photo-excitation dynamics of alkalis}{29}{part.1}
 \contentsline {chapter}{\numberline {3}Alkali-doped nanodroplets}{31}{chapter.3}
 \contentsline {chapter}{\numberline {4}Imaging Excited-State Dynamics}{35}{chapter.4}
@@ -43,5 +43,6 @@
 \contentsline {chapter}{\numberline {10}To conclude}{101}{chapter.10}
 \contentsline {chapter}{\numberline {A}Angular velocity and angular momentum}{105}{appendix.A}
 \contentsline {chapter}{Bibliography}{109}{equation.A.0.3}
-\contentsline {chapter}{Résumé étendu en français}{121}{appendix*.41}
+\contentsline {chapter}{Acknowledgements}{121}{appendix*.40}
+\contentsline {chapter}{Résumé étendu en français}{123}{appendix*.41}
 \contentsfinish 
