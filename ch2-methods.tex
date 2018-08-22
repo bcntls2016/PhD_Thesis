@@ -65,7 +65,7 @@
 		\end{align}
 		The difficult job is to design a functional $\mathcal{E}_c$ such that the desired physical properties of helium can be recovered. This is far from trivial but several of these density functionals are available now. The one used in this work is discussed in \scn{sec:otdft}.
 	
-	\subsection{Time-dependent DFT}\label{sec:tddft}
+	\section{Time-dependent DFT}\label{sec:tddft}
 		To describe the time evolution of the system, the Runge-Gross theorem extends DFT to its time-dependent version TDDFT\citep{Run84}. The functional variation of the associated action (see \eq{eq:action} for an example) leads to the following time-dependent Euler-Lagrange (EL) equation 
 	\begin{align}
 		i\hbar\frac{\partial}{\partial t} \Psi(\vec{r},t) = \left\{-\frac{\hbar^2}{2m_4}\laplacian + \fdv{\mathcal{E}_c}{\rho}\right\}\Psi(\vec{r},t) \vcentcolon= \mathcal{H}\qty[\rho]\Psi(\vec{r},t) 
@@ -154,7 +154,7 @@
 		\end{align}
 		All the parameters of the functional are given in \tab{tab:ot-params}.
 
-		\subsection{The Solid-OT Density Functional}\label{sec:solid}
+		\section{The Solid-OT Density Functional}\label{sec:solid}
 			In the presence of highly inhomogeneous liquid densities, e.g. atomic impurities with a very strong He-X interaction, the OT-functional \eq{eq:otf} becomes numerically unstable. To deal with this problem an additional cut-off can be used
 			\begin{align}
 				\mathcal{E}^\mathrm{sol} \vcentcolon= C\rho(\vec{r})\qty{1+\tanh(\beta\qty[\rho(\vec{r})-\rho_\mathrm{m}])}
@@ -175,9 +175,9 @@
 		\end{align}
 		where ${\vec r}_I$ is the location of the impurity. Varying the modified functional to minimise the energy one now finds a new EL-equation in which the helium--impurity interaction is included:
 		\begin{align}
-			\left\{-\frac{\hbar^2}{2m_4} \laplacian + \fdv{\mathcal{E}_c}{\rho} + V_X(|{\mathbf r} - {\mathbf r_I}|)\right\}\Psi({\mathbf r}) = \mu \Psi({\mathbf r})
+				ng bank 
 		\end{align}
-		This equation is then solved by iteration in a self-consistent way by the imaginary time propagation method\citep{Lehtovaara2007} (ITM) in cartesian coordinates. The calculations are performed in three dimensions without imposing any symmetries that are present in the external potential. All the quantities are discretised on an evenly spaced Cartesian grid with a step-size that is typically of the order of 0.4~\AA. The differential operators are evaluated using a $k$-point finite difference method where in most applications $k=13$ is sufficiently accurate. The integrals in the density-functional can be expressed as convolutions and can therefore be evaluated in momentum-space by exploiting the convolution theorem, using proprietary highly optimised parallel Fast Fourier Transform algorithms. 
+		This equation is then solved by iteration in a self-consistent way by the imaginary time propagation method\citep{Lehtovaara2007} (ITM) in cartesian coordinates. The calculations are performed in three dimensions without imposing any symmetries that are present in the external potential. All the quantities are discretised on an evenly spaced Cartesian grid with a step-size that is typically of the order of 0.4~\AA. This value is chosen small enough such that the corresponding maximum momentum in Fourier-space is high enough compared to the helium momenta involved in the dynamics. The differential operators are evaluated using a $k$-point finite difference method where in most applications $k=13$ is sufficiently accurate. The integrals in the density-functional can be expressed as convolutions and can therefore be evaluated in momentum-space by exploiting the convolution theorem, using proprietary highly optimised parallel Fast Fourier Transform algorithms. 
 			
 		\subsection{Producing vortical states}\label{sec:vortical-states}
 			The helium density that minimises the energy of the vortical states $\Psi_s$
@@ -203,9 +203,11 @@
 				\Psi(\mathbf{r})=\sqrt{\rho_0(x,y,z)} \times \prod _{j=1}^{n_v}\left[ {(x-x_j)+i(y-y_j) \over \sqrt{(x-x_j)^2+(y-y_j)^2}}  \right] \label{eq32}
 			\end{align}
 			where $\rho_0$ is again the ground state density of the vortex-free droplet and $(x_j,y_j)$ is the initial position of the $j$-th vortex-line parallel to the $z$-axis.
+	
+	\subsection{Technical details on how the static equations are solved}
 
 	\section{Dynamic calculations}\label{sec:td-dft}
-		For the dynamic evolution of atomic impurities excited from $n$s-states to $n'$s-states, we do not need to keep track of the evolution of the electronic state of the impurity since it keeps its spherically symmetric orbital. In this case we only need to describe the time evolution of the centre of mass coordinate of the impurity. As in the statics, because of the large atomic mass of the impurity compared to helium, the time evolution of the centre of mass coordinate of the impurity is treated classically. To obtain the correct energy for the whole droplet-impurity system the energy functional needs to be extended to include the impurities centre of mass motion and the impurity-helium interaction
+		For the dynamic evolution of atomic impurities excited from $n$s-states to $n'$s-states, we do not need to keep track of the evolution of the electronic state of the impurity since it keeps its spherically symmetric orbital. In this case we only need to describe the time evolution of the centre of mass coordinate of the impurity. As in the statics, because of the large atomic mass of the impurity compared to helium, the time evolution of the centre of mass coordinate of the impurity is treated classically. To obtain the correct energy for the whole droplet-impurity system the energy functional needs to be extended to include the impurity's centre of mass motion and the impurity-helium interaction
 		\begin{align}
 			E[\rho] \rightarrow E[\rho] + \frac{1}{2}m_I\dot{\vec{r}}^2_I + \int \! \rho(\vec{r}) \, V_{X^{\!*}}\qty(\abs{\vec{r}-\vec{r}_I})\diff{r} \label{eq33}
 		\end{align}
@@ -341,8 +343,12 @@
 			\begin{align}
 				H_{ij} = U^{DIM}_{ij} = \int\!\rho(\vec{r})\,V^{DIM}_{ij}(\vec{r}-\vec{r}_I)\dd{\vec{r}}
 			\end{align}
+	
+	\subsection{Absorbing potential at the box boundaries}
 			
-			For the technical details about how this method is implemented the interested reader is directed to\rf{dft-guide}. For the collection of Fortran code that has been used to obtain the results presented here see\rf{Pi2017}. For the manual to use the code, with included example calculations see\rf{Coppens2017}.
+	\subsection{Technical details on how the dynamic equations are solved}
+			
+			For more details about how this method is implemented the interested reader is directed to\rf{dft-guide}. For the collection of Fortran code that has been used to obtain the results presented here see\rf{Pi2017}. For the manual to use the code, with included example calculations see\rf{Coppens2017}.
 
-\addtocontents{toc}{\vspace{10ex}}
+%\addtocontents{toc}{\vspace{10ex}}
 \clearpage{\pagestyle{empty}\cleardoublepage}

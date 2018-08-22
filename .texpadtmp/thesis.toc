@@ -15,15 +15,17 @@
 \contentsline {section}{\numberline {1.3}Helium droplets}{11}{section.1.3}
 \contentsline {chapter}{\numberline {2}The DFT method for heavy impurities}{15}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Kohn-Sham approach}{16}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Time-dependent DFT}{17}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}The Orsay-Trento Density Functional}{18}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}The Solid-OT Density Functional}{20}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Static calculations}{21}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Producing vortical states}{22}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}Dynamic calculations}{23}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Diatomics in Molecules}{23}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Including spin-orbit coupling}{25}{subsection.2.4.2}
-\vspace {10ex}
+\contentsline {section}{\numberline {2.2}Time-dependent DFT}{17}{section.2.2}
+\contentsline {section}{\numberline {2.3}The Orsay-Trento Density Functional}{18}{section.2.3}
+\contentsline {section}{\numberline {2.4}The Solid-OT Density Functional}{20}{section.2.4}
+\contentsline {section}{\numberline {2.5}Static calculations}{21}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Producing vortical states}{22}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Technical details on how the static equations are solved}{23}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Dynamic calculations}{23}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Diatomics in Molecules}{23}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Including spin-orbit coupling}{25}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Absorbing potential at the box boundaries}{27}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}Technical details on how the dynamic equations are solved}{27}{subsection.2.6.4}
 \contentsline {part}{\numberline {I}Photo-excitation dynamics of alkalis}{29}{part.1}
 \contentsline {chapter}{\numberline {3}Alkali-doped nanodroplets}{31}{chapter.3}
 \contentsline {chapter}{\numberline {4}Imaging Excited-State Dynamics}{35}{chapter.4}
@@ -31,10 +33,10 @@
 \contentsline {chapter}{\numberline {6}Supervised work: potassium-doped nanodroplets}{59}{chapter.6}
 \contentsline {part}{\numberline {II}Capture by quantised vortices}{61}{part.2}
 \contentsline {chapter}{\numberline {7}Quantised vortices in droplets}{63}{chapter.7}
-\contentsline {chapter}{\numberline {8}Head-on collisions of Xe and Cs}{67}{chapter.8}
+\contentsline {chapter}{\numberline {8}Head-on collisions of Xe and Cs\FN@sf@gobble@opt {Published work, see: F. Coppens, A. Leal, M. Barranco \emph {et al}, J Low Temp Phys \textbf {187}, 439 (2017).}}{67}{chapter.8}
 \contentsline {section}{\numberline {8.1}Introduction}{67}{section.8.1}
 \contentsline {section}{\numberline {8.2}Results}{68}{section.8.2}
-\contentsline {chapter}{\numberline {9}Capture by He droplets hosting quantised vortices}{75}{chapter.9}
+\contentsline {chapter}{\numberline {9}Capture by He droplets hosting quantised vortices\FN@sf@gobble@opt {Published work, see: F. Coppens, F. Ancilotto, M. Barranco \emph {et al}, Phys. Chem. Chem. Phys. \textbf {19}, 24805--2481 (2017).}}{75}{chapter.9}
 \contentsline {section}{\numberline {9.1}Introduction}{75}{section.9.1}
 \contentsline {section}{\numberline {9.2}Xe capture by vortex-free droplets}{81}{section.9.2}
 \contentsline {section}{\numberline {9.3}Helium droplets hosting vortex lines}{83}{section.9.3}
