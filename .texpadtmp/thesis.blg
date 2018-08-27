@@ -150,45 +150,45 @@ Name 1 in "E. Guyon, J.-P. Hulin, L. Petit, and C.D. Mitescu" has a comma at the
 while executing---line 2372 of file apsrev.bst
 Name 1 in "E. Guyon, J.-P. Hulin, L. Petit, and C.D. Mitescu" has a comma at the end for entry Guy15
 while executing---line 2372 of file apsrev.bst
-You've used 156 entries,
+You've used 161 entries,
             3411 wiz_defined-function locations,
-            2250 strings with 37748 characters,
-and the built_in function-call counts, 118575 in all, are:
-= -- 6512
-> -- 4436
-< -- 620
-+ -- 3754
-- -- 1084
-* -- 16906
-:= -- 12422
-add.period$ -- 156
-call.type$ -- 156
-change.case$ -- 634
-chr.to.int$ -- 150
-cite$ -- 166
-duplicate$ -- 10592
-empty$ -- 9709
-format.name$ -- 2650
-if$ -- 22251
-int.to.chr$ -- 19
-int.to.str$ -- 157
-missing$ -- 1644
-newline$ -- 483
-num.names$ -- 464
-pop$ -- 2726
+            2275 strings with 38149 characters,
+and the built_in function-call counts, 122195 in all, are:
+= -- 6704
+> -- 4569
+< -- 638
++ -- 3863
+- -- 1116
+* -- 17422
+:= -- 12796
+add.period$ -- 161
+call.type$ -- 161
+change.case$ -- 654
+chr.to.int$ -- 154
+cite$ -- 171
+duplicate$ -- 10920
+empty$ -- 10017
+format.name$ -- 2733
+if$ -- 22931
+int.to.chr$ -- 20
+int.to.str$ -- 162
+missing$ -- 1697
+newline$ -- 498
+num.names$ -- 479
+pop$ -- 2829
 preamble$ -- 1
-purify$ -- 624
+purify$ -- 644
 quote$ -- 0
-skip$ -- 4218
+skip$ -- 4340
 stack$ -- 0
-substring$ -- 3584
-swap$ -- 8820
-text.length$ -- 550
+substring$ -- 3687
+swap$ -- 9088
+text.length$ -- 566
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 922
+type$ -- 948
 warning$ -- 6
-while$ -- 452
+while$ -- 465
 width$ -- 0
-write$ -- 1707
+write$ -- 1755
 (There were 26 error messages)

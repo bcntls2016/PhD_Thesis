@@ -1,4 +1,4 @@
-\begin{thebibliography}{156}
+\begin{thebibliography}{161}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -542,15 +542,16 @@
   \bibinfo{pages}{1837} (\bibinfo{year}{1992}),
   \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.69.1837}.
 
-\bibitem[{\citenamefont{Ancilotto et~al.}(2005)\citenamefont{Ancilotto,
-  Barranco, Caupin, Mayol, and Pi}}]{Anc05a}
+\bibitem[{\citenamefont{Ancilotto
+  et~al.}(2005{\natexlab{a}})\citenamefont{Ancilotto, Barranco, Caupin, Mayol,
+  and Pi}}]{Anc05a}
 \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Ancilotto}},
   \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
   \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Caupin}},
   \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Mayol}}, \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}}, \bibinfo{journal}{Phys.
   Rev. B} \textbf{\bibinfo{volume}{72}}, \bibinfo{pages}{214522}
-  (\bibinfo{year}{2005}).
+  (\bibinfo{year}{2005}{\natexlab{a}}).
 
 \bibitem[{\citenamefont{Caupin et~al.}(2007)\citenamefont{Caupin, Ancilotto,
   Barranco, Mayol, and Pi}}]{Cau07}
@@ -571,6 +572,34 @@
   \textbf{\bibinfo{volume}{221}}, \bibinfo{pages}{148} (\bibinfo{year}{2007}),
   ISSN \bibinfo{issn}{0021-9991},
   \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0021999106002798}.
+
+\bibitem[{\citenamefont{Frigo and Johnson}(2005)}]{Fri05}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Frigo}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.~G.} \bibnamefont{Johnson}},
+  \bibinfo{journal}{Proc. IEEE} \textbf{\bibinfo{volume}{93}},
+  \bibinfo{pages}{216} (\bibinfo{year}{2005}).
+
+\bibitem[{\citenamefont{Ancilotto
+  et~al.}(2005{\natexlab{b}})\citenamefont{Ancilotto, Dalfovo, Pitaevskii, and
+  Toigo}}]{Anc05b}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Ancilotto}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Dalfovo}},
+  \bibinfo{author}{\bibfnamefont{L.~P.} \bibnamefont{Pitaevskii}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Toigo}},
+  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{71}},
+  \bibinfo{pages}{104530} (\bibinfo{year}{2005}{\natexlab{b}}).
+
+\bibitem[{\citenamefont{Barranco et~al.}(2017)\citenamefont{Barranco, Coppens,
+  Halberstadt, Hernando, Leal, Mateo, Mayol, and Pi}}]{dft-guide}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Coppens}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Halberstadt}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hernando}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Leal}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Mateo}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Mayol}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}} (\bibinfo{year}{2017}),
+  \urlprefix\url{https://github.com/bcntls2016/DFT-Guide/blob/master/dft-guide.pdf}.
 
 \bibitem[{\citenamefont{Ellison}(1963)}]{Ellison1963}
 \bibinfo{author}{\bibfnamefont{F.~O.} \bibnamefont{Ellison}},
@@ -593,17 +622,31 @@
   \bibinfo{journal}{J. Chem. Phys.} \textbf{\bibinfo{volume}{114}},
   \bibinfo{pages}{780} (\bibinfo{year}{2001}).
 
-\bibitem[{\citenamefont{Barranco et~al.}(2017)\citenamefont{Barranco, Coppens,
-  Halberstadt, Hernando, Leal, Mateo, Mayol, and Pi}}]{dft-guide}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}},
-  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Coppens}},
-  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Halberstadt}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hernando}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Leal}},
-  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Mateo}},
-  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Mayol}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}} (\bibinfo{year}{2017}),
-  \urlprefix\url{https://github.com/bcntls2016/DFT-Guide/blob/master/dft-guide.pdf}.
+\bibitem[{\citenamefont{Ralston and Wilf}(1960)}]{Ral60}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Ralston}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{H.~S.} \bibnamefont{Wilf}},
+  \emph{\bibinfo{title}{Mathematical methods for digital computers}}
+  (\bibinfo{publisher}{John Wiley and Sons}, \bibinfo{address}{New York},
+  \bibinfo{year}{1960}).
+
+\bibitem[{\citenamefont{Press et~al.}(1992)\citenamefont{Press, Teukolsky,
+  Vetterling, and Flannery}}]{Pre92}
+\bibinfo{author}{\bibfnamefont{W.~H.} \bibnamefont{Press}},
+  \bibinfo{author}{\bibfnamefont{S.~A.} \bibnamefont{Teukolsky}},
+  \bibinfo{author}{\bibfnamefont{W.~T.} \bibnamefont{Vetterling}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{B.~P.}
+  \bibnamefont{Flannery}}, \emph{\bibinfo{title}{Numerical Recipes}}
+  (\bibinfo{publisher}{Cambridge University Press},
+  \bibinfo{address}{Cambridge}, \bibinfo{year}{1992}).
+
+\bibitem[{\citenamefont{Mateo et~al.}(2011)\citenamefont{Mateo, Jin, Barranco,
+  and Pi}}]{Mat11a}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Mateo}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Jin}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barranco}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Pi}}, \bibinfo{journal}{J.
+  Chem. Phys.} \textbf{\bibinfo{volume}{134}}, \bibinfo{pages}{044507}
+  (\bibinfo{year}{2011}).
 
 \bibitem[{\citenamefont{Pi et~al.}(2017)\citenamefont{Pi, Ancilotto, Coppens,
   Halberstadt, Hernando, Leal, Mateo, Mayol, and Barranco}}]{Pi2017}

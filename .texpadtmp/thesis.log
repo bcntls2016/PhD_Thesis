@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.8.22)  22 AUG 2018 14:57
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.8.22)  27 AUG 2018 17:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2129,7 +2129,7 @@ Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
 \f@nch@O@erf=\skip74
 \f@nch@O@olf=\skip75
 \f@nch@O@orf=\skip76
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/footmisc/footmisc.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks30
 \footnotemargin=\dimen287
@@ -2140,6 +2140,117 @@ Package footmisc Info: Declaring symbol style wiley on input line 872.
 Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
 Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
+)) (./coverpage.sty
+
+LaTeX Warning: You have requested package `coverpage',
+               but the package provides `tlsflyleaf'.
+
+Package: tlsflyleaf 2013/03/22 Page de Garde de l'Universite de Toulouse
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/npxmi/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Encoding `LMS' has changed to `OMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 24.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  LMS/npxsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Encoding `LMX' has changed to `OMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 25.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  LMX/npxexx/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/b/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/npxmi/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Encoding `LMS' has changed to `OMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LMS/npxsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Encoding `LMX' has changed to `OMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/npxexx/b/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/b/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  TU/lmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  TU/lmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmr/b/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  TU/lmss/b/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/b/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  TU/lmtt/b/n --> OT1/lmtt/m/n on input line 38.
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen288
+\pgfutil@tempdimb=\dimen289
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box56
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks34
+))) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen290
+\pgf@xa=\dimen291
+\pgf@xb=\dimen292
+\pgf@xc=\dimen293
+\pgf@y=\dimen294
+\pgf@ya=\dimen295
+\pgf@yb=\dimen296
+\pgf@yc=\dimen297
+\c@pgf@counta=\count303
+\c@pgf@countb=\count304
+\c@pgf@countc=\count305
+\c@pgf@countd=\count306
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen298
+\pgfmath@count=\count307
+\pgfmath@box=\box57
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count308
+))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen299
+\pgffor@skip=\dimen300
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count309
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/shadowtext/shadowtext.sty
+Package: shadowtext 2012/05/07 v0.3 Shadow Text
+\st@shadowoffsetx=\skip77
+\st@shadowoffsety=\skip78
+\st@temp@width=\skip79
+\st@temp@height=\skip80
+\st@pic@width=\skip81
+\st@pic@height=\skip82
+)
+\RuleWidth=\skip83
+\@pdgMargeSize=\skip84
+\@pdgInnerBoxWidth=\skip85
+\@pdgInnerBoxHeight=\skip86
 ) (./definitions.tex
 .................................................
 . fontspec info: "defining-font"
@@ -2262,18 +2373,7 @@ Package array Warning: Column V is already defined on input line 40.
 LaTeX Warning: Unused global option(s):
     [twosides].
 
-(/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.aux (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/titlepage.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/abstract_en.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/abstract_fr.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/toc.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/lop/list_of_pubs.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/lof.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/lot.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch1-introduction.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch2-methods.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch3-intro-alkalies.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch4-img-exc-st-dyn.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch5-desorp-dyn-rbhe.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch6-potas-doped.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch7-intro-quant_vort.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch8-results-head_on.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch9-results-capture.aux
-
-LaTeX Warning: Label `eq9' multiply defined.
-
-) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch10-conclusions_outlook.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/appendix.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/biblography.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/acks.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/summary_fr.aux
-
-LaTeX Warning: Label `fig3-headon' multiply defined.
-
-
-LaTeX Warning: Label `fig10-capture' multiply defined.
-
-))
+(/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.aux (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/titlepage.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/abstract_en.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/abstract_fr.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/toc.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/lop/list_of_pubs.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/lof.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/lot.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 8.
@@ -2358,7 +2458,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `GuardianEgyptianText' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\AtBeginShipoutBox=\box56
+\AtBeginShipoutBox=\box58
 (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
@@ -2372,7 +2472,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count303
+\c@section@level=\count310
 )
 LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
@@ -2383,47 +2483,70 @@ LaTeX Info: Redefining \nameref on input line 8.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\openout2 = `toc.aux'.
+ ABD: EveryShipout initializing macros
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* vratio: 1:1
+* modes: twoside 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=731.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-47.23828pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=106.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (./toc.tex
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `GuardianWeekendTitlepiece' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.toc
-Overfull \hbox (3.25212pt too wide) detected at line 7
- \TU/GuardianEgyptianText(0)/bx/n/10.95 xvii
- []
 
 
-LaTeX Font Warning: Font shape `TU/GuardianEgyptianText(0)/bx/sc' undefined
-(Font)              using `TU/GuardianEgyptianText(0)/bx/n' instead on input line 29.
+LaTeX Font Warning: Font shape `TU/GuardianEgyptianText(0)/m/sc' undefined
+(Font)              using `TU/GuardianEgyptianText(0)/m/n' instead on input line 11.
 
-
-Overfull \hbox (0.30748pt too wide) detected at line 29
- \TU/GuardianEgyptianText(0)/bx/n/14.4 29
- []
-
-
-Underfull \vbox (badness 1365) has occurred while \output is active []
-
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: coverpage/logo-univ.png Graphic file (type bmp)
+<coverpage/logo-univ.png>
+File: coverpage/filigrammecut.eps Graphic file (type eps)
+<coverpage/filigrammecut.eps>
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-) [7
+) [1
 
 
 
-
+] [2
 
 
 
 ]
-Overfull \hbox (0.30748pt too wide) detected at line 34
- \TU/GuardianEgyptianText(0)/bx/sc/14.4 61
- []
+\openout2 = `titlepage.aux'.
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 44.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
+ (./titlepage.tex
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `GuardianWeekendTitlepiece' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 7.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
 File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Modern Roman (RS)
@@ -2432,702 +2555,258 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+npxmia on input line 44.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 7.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 7.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 7.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 7.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8.8> on input line 7.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6.6> on input line 7.
+LaTeX Font Info:    Try loading font information for U+npxmia on input line 7.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
-LaTeX Font Info:    Try loading font information for U+npxsym on input line 44.
+LaTeX Font Info:    Try loading font information for U+npxsym on input line 7.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 )
-LaTeX Font Info:    Try loading font information for U+npxsyc on input line 44.
+LaTeX Font Info:    Try loading font information for U+npxsyc on input line 7.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-Overfull \hbox (2.73747pt too wide) detected at line 45
- \TU/GuardianEgyptianText(0)/bx/n/10.95 101
+) [1
+
+
+] [2
+
+
+])
+\openout2 = `abstract_en.aux'.
+
+ (./abstract_en.tex
+Package lettrine.sty Info: Targeted height = 58.88742pt
+(lettrine.sty)             (no accent, loversize=0),
+(lettrine.sty)             Lettrine height = 58.88742pt (\color {activeColor}I);
+(lettrine.sty)             reported on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6.1> on input line 6.
+Missing character: There is no ^^9d in font lmsy8!
+Missing character: There is no ^^9d in font lmsy8!
+Missing character: There is no ^^9d in font lmsy8!
+ [3
+
+
+
+]
+LaTeX Font Info:    Font shape `TU/GuardianEgyptianText(0)/m/sl' in size <10.95> not available
+(Font)              Font shape `TU/GuardianEgyptianText(0)/m/it' tried instead on input line 15.
+LaTeX Font Info:    Font shape `TU/GuardianEgyptianTextMedium(0)/m/sl' in size <10.95> not available
+(Font)              Font shape `TU/GuardianEgyptianTextMedium(0)/m/it' tried instead on input line 15.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `GuardianEgyptianTextMedium' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [4])
+\openout2 = `abstract_fr.aux'.
+
+ (./abstract_fr.tex
+Package lettrine.sty Info: Targeted height = 58.88742pt
+(lettrine.sty)             (no accent, loversize=0),
+(lettrine.sty)             Lettrine height = 58.88742pt (\color {activeColor}D);
+(lettrine.sty)             reported on input line 2.
+
+Overfull \hbox (7.2896pt too wide) in paragraph at lines 2--3
+[][]\TU/GuardianEgyptianText(0)/m/sc/10.95 ns cette thÃ¨se, nous Ã©tudions deux aspects de la dynamique d’impuretÃ©s
  []
 
 
-Overfull \hbox (2.73747pt too wide) detected at line 46
- \TU/GuardianEgyptianText(0)/bx/n/10.95 105
+Overfull \hbox (5.55437pt too wide) in paragraph at lines 2--3
+\TU/GuardianEgyptianText(0)/m/sc/10.95 la photo-excitation d’alcalins sur une nanogoutte et le dopage de nanogouttes
+ []
+
+Missing character: There is no ¹ in font Guardian Egyptian Text Regular/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+Overfull \hbox (57.55022pt too wide) in paragraph at lines 4--5
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 Le premier aspect a Ã©tÃ© effectuÃ© dans le cadre d’une collaboration avec des expÃ©rimentateurs
  []
 
 
-Overfull \hbox (2.73747pt too wide) detected at line 47
- \TU/GuardianEgyptianText(0)/bx/n/10.95 109
+Overfull \hbox (1.28064pt too wide) in paragraph at lines 4--5
+\TU/GuardianEgyptianText(0)/m/sc/10.95 sur la photo-excitation du rubidium (Rb). Les alcalins sont une sonde trÃ¨s intÃ©ressante
+ []
+
+Missing character: There is no ^^9d in font lmsy8!
+Missing character: There is no ¹ in font Guardian Egyptian Text Regular/OT:script=latn;language=DFLT;mapping=tex-text;!
+Missing character: There is no ^^9d in font lmsy8!
+Missing character: There is no ^^9d in font lmsy8!
+Missing character: There is no ¹ in font Guardian Egyptian Text Regular/OT:script=latn;language=DFLT;mapping=tex-text;!
+
+Overfull \hbox (30.2716pt too wide) in paragraph at lines 10--11
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 Nous avons d’abord Ã©tudiÃ© des collisions frontales entre un atome de xÃ©non, hÃ©liophile,
+ []
+
+[5
+
+
+
+
+
+]
+Overfull \hbox (13.76118pt too wide) in paragraph at lines 12--13
+\TU/GuardianEgyptianText(0)/m/sc/10.95 perfluides pour diffÃ©rentes vitesses initiales et paramÃ¨tres d’impact afin de dÃ©terminer
  []
 
 
-Overfull \hbox (2.73747pt too wide) detected at line 48
- \TU/GuardianEgyptianText(0)/bx/n/10.95 121
+Overfull \hbox (5.66183pt too wide) in paragraph at lines 14--15
+[]\TU/GuardianEgyptianText(0)/m/sc/10.95 Nos simulations impliquant des nanogouttes d’hÃ©lium comportant des tourbillons quan-
  []
 
-Missing character: There is no ́ in font Guardian Egyptian Text Regular/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Regular/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Regular/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Egyptian Text Regular/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Bold/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Bold/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ́ in font Guardian Egyptian Text Bold/OT:script=latn;language=DFLT;mapping=tex-text;!
-Missing character: There is no ̧ in font Guardian Egyptian Text Bold/OT:script=latn;language=DFLT;mapping=tex-text;!
+[6])
+\openout2 = `toc.aux'.
 
-Overfull \hbox (2.73747pt too wide) detected at line 49
- \TU/GuardianEgyptianText(0)/bx/n/10.95 123
+ (./toc.tex (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.toc
+Overfull \hbox (0.22993pt too wide) detected at line 7
+ \TU/GuardianEgyptianText(0)/bx/n/10.95 xiii
  []
 
 )
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
+ [7
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
 
-[8])
-\openout2 = `ch2-methods.aux'.
 
- (./ch2-methods.tex
-Chapter 2.
 
-LaTeX Font Warning: Font shape `TU/GuardianEgyptianText(0)/m/sc' undefined
-(Font)              using `TU/GuardianEgyptianText(0)/m/n' instead on input line 7.
-
-Package lettrine.sty Info: Targeted height = 58.88742pt
-(lettrine.sty)             (no accent, loversize=0),
-(lettrine.sty)             Lettrine height = 58.88742pt (\color {activeColor}F);
-(lettrine.sty)             reported on input line 7.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15
-
-
-
-
-
-
-
-
-
-
-]
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `GuardianEgyptianTextMedium' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17]
-Overfull \hbox (1.7854pt too wide) in paragraph at lines 101--101
- []\TU/GuardianEgyptianText(0)/m/sc/10.95 2.190323| 
- []
-
-
-Overfull \hbox (8.99779pt too wide) in paragraph at lines 101--101
- []$\OML/npxmi/m/it/10.95 C$ \TU/GuardianEgyptianText(0)/m/sc/10.95 (Hartree)| 
- []
-
-
-Overfull \hbox (2.54094pt too wide) in paragraph at lines 101--101
- []$\LMS/npxsy/m/n/10.95 ^^@$\TU/GuardianEgyptianText(0)/m/sc/10.95 19.7544| 
- []
-
-File: figures/static-response-function.png Graphic file (type bmp)
-<figures/static-response-function.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[19]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[20]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21]
-
-Package amsmath Warning: Foreign command \over;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 204.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[22]
-File: figures/pxy-he.png Graphic file (type bmp)
-<figures/pxy-he.png>
-File: figures/pz-he.png Graphic file (type bmp)
-<figures/pz-he.png>
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[23]
-LaTeX Font Info:    Try loading font information for U+bbold on input line 244.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/bbold/Ubbold.fd)
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[24]
-File: figures/dim-axes.png Graphic file (type bmp)
-<figures/dim-axes.png>
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[26]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[27] [28
-
-
-]) [29
-
-
-] [30] [61
-
-
-
-
-
-] [62]
-\openout2 = `ch7-intro-quant_vort.aux'.
-
- (./ch7-intro-quant_vort.tex
-Chapter 7.
-Package lettrine.sty Info: Targeted height = 58.88742pt
-(lettrine.sty)             (no accent, loversize=0),
-(lettrine.sty)             Lettrine height = 59.86752pt (\color {activeColor}O);
-(lettrine.sty)             reported on input line 2.
-[63
-
-
-]
-File: figures/vortex-machine.png Graphic file (type bmp)
-<figures/vortex-machine.png>
-File: figures/vortex-array.png Graphic file (type bmp)
-<figures/vortex-array.png>
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[64]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[65] [66
+] [8
 
 
 ])
-\openout2 = `ch8-results-head_on.aux'.
+\openout2 = `lop/list_of_pubs.aux'.
 
- (./ch8-results-head_on.tex
-Chapter 8.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 1.
-
-LaTeX Font Info:    Calculating math sizes for size <30> on input line 1.
-
-LaTeX Font Warning: Font shape `U/bbold/m/n' in size <30> not available
-(Font)              size <24.88> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `U/bbold/m/n' in size <21.89987> not available
-(Font)              size <20.74> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `U/bbold/m/n' in size <16.50009> not available
-(Font)              size <17.28> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `U/bbold/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 1.
-
-
-Overfull \hbox (8.54318pt too wide) in paragraph at lines 7--8
-\TU/GuardianEgyptianText(0)/m/sc/10.95 treated fully three dimensionally with the Cs atom described as a classical particle, whereas
+ (./lop/list_of_pubs.tex
+Underfull \hbox (badness 1472) in paragraph at lines 6--6
+\TU/GuardianEgyptianText(0)/m/sc/10.95 stadt and Martí Pi. \TU/GuardianEgyptianText(0)/m/it/10.95 J. Low Temp. Phys. \TU/GuardianEgyptianText(0)/bx/n/10.95 187\TU/GuardianEgyptianText(0)/m/sc/10.95 (5)\TU/GuardianEgyptianText(0)/bx/n/10.95 , \TU/GuardianEgyptianText(0)/m/sc/10.95 pp. 439–445;
  []
 
-[67
+File: lop/Coppens2017-1.pdf Graphic file (type pdf)
+<use lop/Coppens2017-1.pdf>
+File: lop/Coppens2017-2.pdf Graphic file (type pdf)
+<use lop/Coppens2017-2.pdf>
+
+Underfull \hbox (badness 1902) in paragraph at lines 8--8
+\TU/GuardianEgyptianText(0)/bx/n/10.95 Time\TU/GuardianEgyptianText(0)/m/sc/10.95 . Johannes von Vangerow, François Coppens, Antonio Leal,
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 8--8
+\TU/GuardianEgyptianText(0)/m/sc/10.95 and Marcel Mudrich. \TU/GuardianEgyptianText(0)/m/it/10.95 J. Phys. Chem. Lett. \TU/GuardianEgyptianText(0)/bx/n/10.95 8\TU/GuardianEgyptianText(0)/m/sc/10.95 (1)\TU/GuardianEgyptianText(0)/bx/n/10.95 , \TU/GuardianEgyptianText(0)/m/sc/10.95 pp. 307–312;
+ []
+
+File: lop/Vangerow2017.pdf Graphic file (type pdf)
+<use lop/Vangerow2017.pdf>
+
+Underfull \hbox (badness 2103) in paragraph at lines 9--9
+[]|\TU/GuardianEgyptianText(0)/bx/n/10.95 Density functional theory of doped superfluid liquid helium and
+ []
+
+File: lop/Ancilotto2017.pdf Graphic file (type pdf)
+<use lop/Ancilotto2017.pdf>
+
+Underfull \hbox (badness 2277) in paragraph at lines 10--10
+[]|\TU/GuardianEgyptianText(0)/bx/n/10.95 Desorption dynamics of RbHe exciplexes off He nanodroplets in-
+ []
+
+File: lop/Coppens2018.pdf Graphic file (type pdf)
+<use lop/Coppens2018.pdf>
+
+Overfull \hbox (34.38417pt too wide) in paragraph at lines 3--12
+[]  [] 
+ []
+
+[9
 
 
 
-]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 11.
-
-File: figures/fig1.pdf Graphic file (type pdf)
-<use figures/fig1.pdf>
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 18.
-
-File: figures/fig2-Cs.pdf Graphic file (type pdf)
-<use figures/fig2-Cs.pdf>
-File: figures/fig2-Xe.pdf Graphic file (type pdf)
-<use figures/fig2-Xe.pdf>
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 23.
-
-File: figures/fig3-Cs-He.pdf Graphic file (type pdf)
-<use figures/fig3-Cs-He.pdf>
-File: figures/fig3-Xe-He.pdf Graphic file (type pdf)
-<use figures/fig3-Xe-He.pdf>
-
-Underfull \vbox (badness 1881) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[68]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[69]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[70]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 55.
-
-File: figures/fig4.pdf Graphic file (type pdf)
-<use figures/fig4.pdf>
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[71]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 76.
-
-File: figures/fig5.pdf Graphic file (type pdf)
-<use figures/fig5.pdf>
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[72]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[73] [74
+] [10
 
 
 ])
-\openout2 = `ch9-results-capture.aux'.
+\openout2 = `lof.aux'.
 
- (./ch9-results-capture.tex
-Chapter 9.
+ (./lof.tex (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.lof)
+\tf@lof=\write5
+\openout5 = `thesis.lof'.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 1.
+ [11
 
 
-Overfull \hbox (26.62598pt too wide) in paragraph at lines 5--6
-\TU/GuardianEgyptianText(0)/m/sc/10.95 been instrumental for detecting and imaging quantized vortex arrays in helium droplets$[]$.
- []
 
-
-Overfull \hbox (1.02356pt too wide) in paragraph at lines 9--19
-\TU/GuardianEgyptianText(0)/m/sc/10.95 simulations have been carried out for heliophobic$[]$ (Cs) and heliophilic$[]$ (Ne) atoms.
- []
-
-[75
-
-
-
-]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 68.
-
-File: figures/fig1-Xe-600mps.jpg Graphic file (type bmp)
-<figures/fig1-Xe-600mps.jpg>
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 78.
-
-File: figures/kinetic-energy.pdf Graphic file (type pdf)
-<use figures/kinetic-energy.pdf>
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 88.
-
-File: figures/phase-Xe-200-vortex.pdf Graphic file (type pdf)
-<use figures/phase-Xe-200-vortex.pdf>
-File: figures/phase-Ar-360-vortex.pdf Graphic file (type pdf)
-<use figures/phase-Ar-360-vortex.pdf>
-
-LaTeX Warning: Float too large for page by 21.09601pt on input line 97.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 101.
-
-File: figures/nparticles.pdf Graphic file (type pdf)
-<use figures/nparticles.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[76]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[77]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[78]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[79]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[80]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[81]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[82]
-File: figures/xehe200-b203-composed.pdf Graphic file (type pdf)
-<use figures/xehe200-b203-composed.pdf>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figures/xehe200-b222-composed.pdf Graphic file (type pdf)
-<use figures/xehe200-b222-composed.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[83]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[84]
-File: figures/fig7.pdf Graphic file (type pdf)
-<use figures/fig7.pdf>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[85]
-File: figures/fig8.pdf Graphic file (type pdf)
-<use figures/fig8.pdf>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[86]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[87]
-File: figures/fig10.pdf Graphic file (type pdf)
-<use figures/fig10.pdf>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figures/fig11.pdf Graphic file (type pdf)
-<use figures/fig11.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figures/fig12.pdf Graphic file (type pdf)
-<use figures/fig12.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Font Warning: Font shape `U/bbold/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 704.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 704.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 704.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 704.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[88]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 738.
-
-File: figures/fig13.pdf Graphic file (type pdf)
-<use figures/fig13.pdf>
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 750.
-
-File: figures/fig14.pdf Graphic file (type pdf)
-<use figures/fig14.pdf>
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[89]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[90]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[91]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[92]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[93]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[94]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[95]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[96]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[97]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[98]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.39998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[99] [100
+] [12
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
- (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.aux (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/titlepage.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/abstract_en.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/abstract_fr.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/toc.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/lop/list_of_pubs.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/lof.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/lot.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch1-introduction.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch2-methods.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch3-intro-alkalies.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch4-img-exc-st-dyn.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch5-desorp-dyn-rbhe.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch6-potas-doped.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch7-intro-quant_vort.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch8-results-head_on.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch9-results-capture.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/ch10-conclusions_outlook.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/appendix.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/biblography.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/acks.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/summary_fr.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 42.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
+\openout2 = `lot.aux'.
+
+ (./lot.tex (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.lot)
+\tf@lot=\write6
+\openout6 = `thesis.lot'.
+
+ [13
+
+
+
+] [14
+
+
+])
+
+Package caption Warning: Unused \captionsetup[table] on input line 33.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[figure] on input line 34.
+See the caption package documentation for explanation.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
+(/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.aux (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/titlepage.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/abstract_en.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/abstract_fr.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/toc.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/lop/list_of_pubs.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/lof.aux) (/Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/lot.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 44.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: .
 
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 5.12pt have occurred.
-
-
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 29098 strings out of 492962
- 520813 string characters out of 6133575
- 687983 words of memory out of 5000000
- 32562 multiletter control sequences out of 15000+600000
- 678251 words of font info for 272 fonts, out of 8000000 for 9000
+ 33913 strings out of 492962
+ 615662 string characters out of 6133575
+ 738522 words of memory out of 5000000
+ 37340 multiletter control sequences out of 15000+600000
+ 592654 words of font info for 138 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 82i,19n,92p,1375b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,12n,92p,1321b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.pdf (58 pages).
+Output written on /Users/fmgjcoppens/Developer/PhD_Thesis/.texpadtmp/thesis.pdf (16 pages).

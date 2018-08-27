@@ -175,9 +175,9 @@
 		\end{align}
 		where ${\vec r}_I$ is the location of the impurity. Varying the modified functional to minimise the energy one now finds a new EL-equation in which the helium--impurity interaction is included:
 		\begin{align}
-				ng bank 
+			\left\{-\frac{\hbar^2}{2m_4} \laplacian + \fdv{\mathcal{E}_c}{\rho} + V_X(|{\mathbf r} - {\mathbf r_I}|)\right\}\Psi({\mathbf r}) = \mu \Psi({\mathbf r})
 		\end{align}
-		This equation is then solved by iteration in a self-consistent way by the imaginary time propagation method\citep{Lehtovaara2007} (ITM) in cartesian coordinates. The calculations are performed in three dimensions without imposing any symmetries that are present in the external potential. All the quantities are discretised on an evenly spaced Cartesian grid with a step-size that is typically of the order of 0.4~\AA. This value is chosen small enough such that the corresponding maximum momentum in Fourier-space is high enough compared to the helium momenta involved in the dynamics. The differential operators are evaluated using a $k$-point finite difference method where in most applications $k=13$ is sufficiently accurate. The integrals in the density-functional can be expressed as convolutions and can therefore be evaluated in momentum-space by exploiting the convolution theorem, using proprietary highly optimised parallel Fast Fourier Transform algorithms. 
+		This equation is then solved by iteration in a self-consistent way by the imaginary time propagation method (ITM)\citep{Lehtovaara2007} in cartesian coordinates. The calculations are performed in three dimensions without imposing any symmetries that are present in the external potential. All the quantities are discretised on an evenly spaced Cartesian grid with a step-size that is typically of the order of 0.4~\AA. This value is chosen small enough such that the corresponding maximum momentum in Fourier-space is high enough compared to the helium momenta involved in the dynamics. The differential operators are evaluated using a $k$-point finite difference method where in most applications $k=13$ is sufficiently accurate. The integrals in the density-functional can be expressed as convolutions and can therefore be evaluated in momentum-space by exploiting the convolution theorem, using proprietary highly optimised parallel Fast Fourier Transform algorithms. 
 			
 		\subsection{Producing vortical states}\label{sec:vortical-states}
 			The helium density that minimises the energy of the vortical states $\Psi_s$
@@ -188,11 +188,11 @@
 			\begin{align}
 				\qty{-\frac{\hbar^2}{2m_4}\qty[\frac{1}{r}\pdv{r}\qty(r\pdv{r})-\frac{s^2}{r^2}+\pdv[2]{z}]+\fdv{\mathcal{E}_c}{\rho}}\Psi_s(\vec{r}) = \mu\Psi_s(\vec{r}) \label{eq:el-cyl}
 			\end{align}
-			Written like this it is evident that the ground state $\Psi_0$ is just the special case for $s=0$. Obtaining the solution using the ITM works as long as the solution has overlap with initial guess for the order parameter. Starting with a trial order parameter similar to $\Psi_s$ will guarantee this. To do this we apply the ``imprinting'' technique where we apply the ground state density of a previously obtained vortex-free droplet and multiply it with a normalised complex factor
+			Written like this it is evident that the ground state $\Psi_0$ is just the special case for $s=0$. Obtaining the solution using the ITM works as long as the solution has overlap with initial guess for the order parameter. Starting with a trial order parameter similar to $\Psi_s$ will guarantee this. To do this we employ the ``imprinting'' technique where we use the ground state density of a previously obtained vortex-free droplet and multiply it with a normalised complex factor
 			\begin{align}
 				\Psi(\mathbf{r}) = \sqrt{\rho_0(x,y,z)} \,\times \frac{x + iy}{\sqrt{x^2 + y^2}} \label{eq28}
 			\end{align}
-			where $\rho_0$ is the ground state density of the vortex-droplet.  In cylindrical coordinates this factor is equivalent to the one in \eq{eq:line-vortex} for $s=1$. 
+			where $\rho_0$ is the ground state density of the vortex-droplet. In cylindrical coordinates this factor is equivalent to the one in \eq{eq:line-vortex} for $s=1$. After this transformation, the newly obtained trial wave function for the vortical state is relaxed again using ITM to reach the true lowest energy wave function.
 			
 			This changes for droplets with two or more vortices, where the cylindrical symmetry is broken and the solutions are no longer solutions of \eq{eq:el-cyl}, nor eigenfunctions of the angular momentum operator. In this case the time-independent EL-equation has to be modified to include a rotational constraint solution in the co-rotating frame
 			\begin{align}
@@ -202,10 +202,39 @@
 			\begin{align}
 				\Psi(\mathbf{r})=\sqrt{\rho_0(x,y,z)} \times \prod _{j=1}^{n_v}\left[ {(x-x_j)+i(y-y_j) \over \sqrt{(x-x_j)^2+(y-y_j)^2}}  \right] \label{eq32}
 			\end{align}
-			where $\rho_0$ is again the ground state density of the vortex-free droplet and $(x_j,y_j)$ is the initial position of the $j$-th vortex-line parallel to the $z$-axis.
+			where $\rho_0$ is again the ground state density of the vortex-free droplet and $(x_j,y_j)$ is the initial position of the $j$-th vortex-line parallel to the $z$-axis. As before, after imprinting the wave function is again relaxed using ITM to attain the lowest energy configuration for a wave function containing $n$ linear vortices.
 	
-	\subsection{Technical details on how the static equations are solved}
+	\subsection{Technical details on how the static equations are solved}\label{sec:tech-details-static}
+	
+	The static DFT equations are always solved in cartesian coordinates. The calculation is full 3D with no imposed symmetry whatsoever.
+Densities, wave  functions and differential operators are discretised on a 3D cartesian grid (\emph{``calculating box''}). 
 
+The minimum and maximum values of $x$, $y$, and $z$ for the calculating box are inputs to the programs, as well as the 
+number of points in each direction $n_i$.
+
+The limits of the calculating box have to be chosen with care,
+especially if a dynamic calculation follows the (relatively fast) static minimization. 
+One has to make sure that in the course of the dynamics there will be enough room for the droplet and the impurity to wander around without hitting the cell boundaries before obtaining the desired information. 
+The number of points in each direction has to be chosen such that the FFT is efficiently calculated  (see below)
+and that the size step is about the desired value.
+We typically use a size step $h_x = (x_\mathrm{max}-x_\mathrm{min})/n_x $, of the order of 0.4~\AA{}. 
+
+The differential operators (usually first and second derivatives at most)
+are represented by $k$-point formulas. 
+We normally use 13-point formulas, but values  up to $k$=25 are also possible.
+We have found that increasing the number of points for
+the derivatives does not improve the numerics --but it increases the CPU time! 
+Decreasing the spatial step can result in
+a non affordable calculation (too much computing time and too large memory required). 
+
+A key tool for the implementation of the method is the use of F	ast-Fourier techniques\citep{Fri05} to calculate the convolutions needed to
+obtain some of the  contributions  to the total energy of the impurity-droplet complex, as well as the mean field potentials entering the EL equations for the order parameter and 
+the impurity wave function. 
+In order to accelerate the computations, the Fourier transforms of the He-He and He-impurity 
+potentials and of the expressions entering the definition of the coarse-grained  helium density in the functional\citep{Dal95,Anc05b} are computed once and for all at the beginning of the calculation.
+
+	For more technical details about how this method is implemented the interested reader is directed to\rf{dft-guide}.
+	
 	\section{Dynamic calculations}\label{sec:td-dft}
 		For the dynamic evolution of atomic impurities excited from $n$s-states to $n'$s-states, we do not need to keep track of the evolution of the electronic state of the impurity since it keeps its spherically symmetric orbital. In this case we only need to describe the time evolution of the centre of mass coordinate of the impurity. As in the statics, because of the large atomic mass of the impurity compared to helium, the time evolution of the centre of mass coordinate of the impurity is treated classically. To obtain the correct energy for the whole droplet-impurity system the energy functional needs to be extended to include the impurity's centre of mass motion and the impurity-helium interaction
 		\begin{align}
@@ -345,10 +374,53 @@
 			\end{align}
 	
 	\subsection{Absorbing potential at the box boundaries}
-			
-	\subsection{Technical details on how the dynamic equations are solved}
-			
-			For more details about how this method is implemented the interested reader is directed to\rf{dft-guide}. For the collection of Fortran code that has been used to obtain the results presented here see\rf{Pi2017}. For the manual to use the code, with included example calculations see\rf{Coppens2017}.
+	
+\eq{eq34} or \eq{eq:dyn-el} are usually solved 
+within the same box and using the same grid as for the static problem. 
+The time step employed is about 0.5~fs in most applications.
+We use Hamming's  predictor-modifier-corrector method as explained in Chapter~{\color{activeColor}8} of\rf{Ral60}.
+An introductory description of the predictor-corrector and Runge-Kutta methods can be found in\rf{Pre92}. 
+The presentation of both approaches in\rf{Ral60} is particularly clear and useful.
+	
+	During the time evolution of excited impurities in  bulk liquid helium,  
+sound waves are released from the surface of the atomic bubble and eventually reach the cell boundary. 
+If no action is taken, they will bounce back and spoil the simulation.
+In the case of doped droplets, this can also happen when some helium is ejected off the droplet in the course of the dynamics. 
+In this case, particle ---and thus energy--- leaking appears when some helium density gets near the walls of the calculation box. 
+This leaking is physical, it represents helium atoms leaving the droplet and the energy carried away by them. 
+This material also has to be prevented from bouncing back.
+
+A way to prevent this problem is to include some damping (absorption potential)
+into the time-dependent equation governing the helium evolution, as {\it e.g.} \eq{eq34}. We  make  the  replacement, $i\longrightarrow i + \Lambda(\mathbf{r})$, into the dynamic equation of the helium\citep{Mat11a}. This corresponds to a rotation of the time axis in the complex plane by introducing a damping field $\Lambda(\mathbf{r})$. This is equivalent to adding a purely imaginary potential $i\Lambda(\mathbf{r})$ which has the effect of absorbing helium density in the region where it is non zero. $\Lambda(\mathbf{r})$ is taken as 
+\begin{align}
+\Lambda(\mathbf{r})= \Lambda_0 \left[ 1 + {\rm tanh} \left(\frac{s-s_0}{a}\right)\right], \quad s\equiv|\mathbf{r}|
+\label{eq52}
+\end{align}
+We have fixed $\Lambda_0$= 2 and $a$= 2 in ``internal use'' units (see\rf{dft-guide}, Appendix~{\color{activeColor}B}). The evolution is damping-free, $\Lambda(\mathbf{r})\ll1$, in a sphere of radius $s<s_0-2a$.
+
+The region in which the absorption potential acts has to be large enough to accommodate the part of the system under study, and can be geometry-adapted. This means that {absorption can be made to act only} on the cell boundaries that are expected to be hit by the ``evaporated''  helium atoms (top boundary, lateral boundaries, all boundaries, $\ldots$). If for instance we just include absorption in the $z$ direction, \eq{eq52} reduces to 
+\begin{equation}
+\Lambda(z)= \Lambda_0 \left[ 1 + {\rm tanh}
+\left(\frac{|z|-s_0}{a}\right)\right]  \; .
+\label{eq52b}
+\end{equation}
+ The value of $s_0$ is taken to be 2--3~\AA{} less than the maximum $|z|$ value in the calculation box.
+
+The above  prescription works extremely well, as it efficiently dampens the
+excitations of the helium wave function at the cell boundaries in the case of extended systems, or absorbs the helium
+atoms leaving the simulation box in the case of droplets.
+Moreover, it does not require a large buffer region. Actually, we use the same box as the one for static calculations.
+
+If the impurity is treated classically, its motion can be followed irrespective of whether it is inside or outside the simulation box. If the impurity dynamics was described by a wave packet ---which we have not done so far--- one should also take care of the reflection of the wave packet at the cell boundaries. This could be done by the  trick just described, which is commonly used in wave packet propagation where it is called ``optical'' or ``absorbing potential''  or ``absorbing boundary conditions'' method.
+
+Finally, we mention that for the method to work in the bulk liquid, the ---known--- chemical potential of the helium must be included in the TDDFT 
+evolution equation, see Equation~({\color{activeColor}4}) of\rf{Mat11a}.
+
+Again, for more details about how this method is implemented the interested reader is directed to\rf{dft-guide}. For the collection of Fortran code that has been used to obtain the results presented here see\rf{Pi2017}. For the manual to use the code, with included example calculations see\rf{Coppens2017}.
+
+\subsection{Notes on parallelisation}
+In the dynamic code, most of the loops and integrals are parallelised using OpenMP as implemented in Intel Corporation's Fortran Compiler	(ifort), which is part of Intel's \href{https://software.intel.com/parallel-studio-xe}{Parallel Studio XE} development environment. It is optimised to take advantage of Intel's Xeon processor architecture, which forms the base of the '\href{https://www.calmip.univ-toulouse.fr/spip.php?article388&lang=fr}{EOS supercomputer}' at \href{https://www.calmip.univ-toulouse.fr/?lang=fr}{CALMIP}. The convolution integrals, as mentioned in \scn{sec:tech-details-static}, are computed using the discrete Fourier transform routines from the Intel \href{https://software.intel.com/mkl}{Math Kernel Library (MKL)}. The compilation of the code is specifically optimised to run on EOS's architecture.
+	
 
 %\addtocontents{toc}{\vspace{10ex}}
 \clearpage{\pagestyle{empty}\cleardoublepage}
