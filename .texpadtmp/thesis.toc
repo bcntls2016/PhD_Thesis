@@ -1,8 +1,0 @@
-\nobreakspace {}\hfill \textbf {Page}\par 
-\contentsline {chapter}{Title page}{i}{Doc-Start}
-\contentsline {chapter}{Abstract}{iii}{chapter*.1}
-\contentsline {chapter}{RÃ©sumÃ©}{v}{chapter*.2}
-\contentsline {chapter}{List of Publications}{ix}{chapter*.4}
-\contentsline {chapter}{List of Figures}{xi}{chapter*.4}
-\contentsline {chapter}{List of Tables}{xiii}{chapter*.5}
-\contentsfinish 
