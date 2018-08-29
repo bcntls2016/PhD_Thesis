@@ -1,6 +1,37 @@
 \documentclass[11pt,a4paper,twosides]{book}
-\input{coverpage-packages}
-\input{coverpage-definitions}
+\usepackage[xetex]{geometry}
+\usepackage[no-math]{fontspec}
+\usepackage{microtype}
+\usepackage[ED=SDM-PCOR,Ets=UT3]{coverpage}
+
+\geometry{top=1in,bottom=1in,left=1in,right=1in}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Guardian Egyptian Text}
+\setsansfont{Guardian Sans Text}
+\newfontfamily\headlinefont{Guardian Weekend Titlepiece}
+\newfontfamily\subsectionfont{Guardian Egyptian Text Medium}
+\hyphenpenalty=1000
+\tolerance=500
+
+%%% Stuff for the official cover page
+\title{\textbf{\large Ultrafast Quantum Dynamics of Doped Superfluid Helium Nanodroplets}}
+\author{François M.G.J. COPPENS}
+\defencedate{vendredi 15 juin 2018}
+\lab{LCAR-IRSAMC - Laboratoire Collisions Agrégats Réactivité (UMR 5589)}
+
+\nboss{1}
+\nreferee{2}
+\njudge{6}
+
+\makesomeone{boss}{1}{Nadine HALBERSTADT}{Directrice de Recherche}{Directrice de Thèse}
+\makesomeone{referee}{1}{Robert ZILLICH}{}{}
+\makesomeone{referee}{2}{Marcel DRABBELS}{}{}
+\makesomeone{judge}{1}{Nadine HALBERSTADT}{Directrice de Recherche}{Directrice de Thèse}
+\makesomeone{judge}{2}{Robert ZILLICH}{Professeur d'Université}{Rapporteur}
+\makesomeone{judge}{3}{Marcel DRABBELS}{Directeur de Recherche}{Rapporteur}
+\makesomeone{judge}{4}{Phuong Mai SEVE DINH}{Professeur d'Université}{Président du Jury}
+\makesomeone{judge}{5}{Manuel BARRANCO}{Professeur d'Université}{Examinateur}
+\makesomeone{judge}{6}{Lionel POISSON}{Directeur de Recherche}{Examinateur}
 
 \begin{document}
 	\makeflyleaf
