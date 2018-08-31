@@ -169,6 +169,7 @@
 			\end{align}
 
 	\section{Static calculations}
+	\subsection{Droplets with no vorticity}
 		In the work presented here all the impurities are heavy compared to the mass of $^4$He, e.g. the mass of rubidium (Rb) is about 21 times larger than that of helium (He), xenon (Xe) roughly 33 times and argon (Ar) about 10 times. Therefore we are allowed to treat the centre of mass motion of the impurities as classical. It was also checked for potassium (K) which is slightly lighter than Ar\citep{Martinez2017}. In the functional this will be modelled as an external field $V_X$, the impurity-He pair interaction
 		\begin{align}
 			E[\rho] \rightarrow E[\rho] + \!\int\!\rho(\vec{r})\,V_X\qty(\abs{\vec{r}-\vec{r}_I})\diff{r} \label{eq:el-static-hi}
@@ -419,7 +420,7 @@ evolution equation, see Equation~({\color{activeColor}4}) of\rf{Mat11a}.
 Again, for more details about how this method is implemented the interested reader is directed to\rf{dft-guide}. For the collection of Fortran code that has been used to obtain the results presented here see\rf{Pi2017}. For the manual to use the code, with included example calculations see\rf{Coppens2017}.
 
 \subsection{Notes on parallelisation}
-In the dynamic code, most of the loops and integrals are parallelised using OpenMP as implemented in Intel Corporation's Fortran Compiler	(ifort), which is part of Intel's \href{https://software.intel.com/parallel-studio-xe}{Parallel Studio XE} development environment. It is optimised to take advantage of Intel's Xeon processor architecture, which forms the base of the '\href{https://www.calmip.univ-toulouse.fr/spip.php?article388&lang=fr}{EOS supercomputer}' at \href{https://www.calmip.univ-toulouse.fr/?lang=fr}{CALMIP}. The convolution integrals, as mentioned in \scn{sec:tech-details-static}, are computed using the discrete Fourier transform routines from the Intel \href{https://software.intel.com/mkl}{Math Kernel Library (MKL)}. The compilation of the code is specifically optimised to run on EOS's architecture.
+In the dynamic code, most of the loops and integrals are parallelised using OpenMP, as implemented in Intel Corporation's Fortran Compiler suite (ifort), which is part of Intel's \href{https://software.intel.com/parallel-studio-xe}{Parallel Studio XE} development environment. It is optimised to take advantage of Intel's Xeon processor architecture, which forms the base of the `\href{https://www.calmip.univ-toulouse.fr/spip.php?article388&lang=fr}{EOS supercomputer}' at \href{https://www.calmip.univ-toulouse.fr/?lang=fr}{CALMIP}. The convolution integrals, as mentioned in \scn{sec:tech-details-static}, are computed using the discrete Fourier transform routines from the Intel \href{https://software.intel.com/mkl}{Math Kernel Library (MKL)}. The compilation of the code is specifically optimised to run on EOS's architecture.
 	
 
 %\addtocontents{toc}{\vspace{10ex}}
